@@ -1,0 +1,11 @@
+{
+  "directory": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum最终训练工件原件",
+  "archive": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum最终训练工件原件.tar.gz",
+  "archive_sha256": "cfca1e91ce0c180beab2bc914113d9ed569752dc2bb2e1749d2438347c3466c1",
+  "file_count": 257,
+  "bytes": 1596014358,
+  "archive_bytes": 420329782,
+  "all_source_hashes_verified": true,
+  "excluded_count": 19,
+  "scope": "新attempt关闭训练记录和全部终局评价、场景与日志、唯一最终不可变checkpoint；中间权重保留home"
+}

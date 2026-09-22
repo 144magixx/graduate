@@ -1,0 +1,302 @@
+{
+  "evaluation_id": "609811a242f1",
+  "split": "validation",
+  "checkpoint_id": "7fe78dec74604937a630bffb81b9814d",
+  "evaluated_training_counters": {
+    "env_step": 286,
+    "update_step": 148,
+    "episodes": 2
+  },
+  "results": {
+    "policy": [
+      {
+        "n_entities": 145,
+        "n_demand": 145,
+        "empty_demand": false,
+        "mean_satisfaction": 0.0,
+        "fully_satisfied_fraction": 0.0,
+        "served_fraction": 0.0,
+        "skip_fraction": 1.0,
+        "zero_rate_fraction": 1.0,
+        "delivered_bps": 0.0,
+        "raw_throughput_bps": 0.0,
+        "unmet_bps": 83225000000.0,
+        "total_demand_bps": 83225000000.0,
+        "power_used_w": 0.0,
+        "remaining_power_w": 6000.0,
+        "power_budget_w": 6000.0,
+        "pool_occupancy": 0.0,
+        "physical_frequency_coverage": 0.0,
+        "sinr_sample_count": 0,
+        "mean_slot_sinr_db": null,
+        "p05_slot_sinr_db": null,
+        "linear_mean_sinr_to_db": null,
+        "jain_clipped_satisfaction": null,
+        "sgm_mean_positive_demand": 0.0,
+        "sgm_beta_bps": 573965517.2413793,
+        "constraint_violation_count": 0,
+        "constraint_violations": [],
+        "end_to_end_metric_available": false,
+        "j_root": null,
+        "scenario_id": "cover_output_0",
+        "episode_return": 0.0,
+        "inference_seconds": 0.9002716001705267,
+        "policy_decision_seconds": 0.4094670999911614,
+        "rollout_seconds": 3.7268394000129774,
+        "checkpoint_id": "7fe78dec74604937a630bffb81b9814d",
+        "phase": "validation"
+      }
+    ],
+    "paper_fixed": [
+      {
+        "n_entities": 145,
+        "n_demand": 145,
+        "empty_demand": false,
+        "mean_satisfaction": 0.8179497551703208,
+        "fully_satisfied_fraction": 0.593103448275862,
+        "served_fraction": 1.0,
+        "skip_fraction": 0.0,
+        "zero_rate_fraction": 0.0,
+        "delivered_bps": 49304155794.965,
+        "raw_throughput_bps": 71882863687.51837,
+        "unmet_bps": 33920844205.034996,
+        "total_demand_bps": 83225000000.0,
+        "power_used_w": 4350.0,
+        "remaining_power_w": 1650.0,
+        "power_budget_w": 6000.0,
+        "pool_occupancy": 0.90625,
+        "physical_frequency_coverage": 0.95,
+        "sinr_sample_count": 725,
+        "mean_slot_sinr_db": 11.413734011742422,
+        "p05_slot_sinr_db": 1.5978765457693263,
+        "linear_mean_sinr_to_db": 12.527481464842422,
+        "jain_clipped_satisfaction": 0.8992859040615209,
+        "sgm_mean_positive_demand": 0.5856271216598555,
+        "sgm_beta_bps": 573965517.2413793,
+        "constraint_violation_count": 0,
+        "constraint_violations": [],
+        "end_to_end_metric_available": false,
+        "j_root": null,
+        "scenario_id": "cover_output_0",
+        "episode_return": 81.79497551703211,
+        "inference_seconds": 1.0444223001250066,
+        "policy_decision_seconds": 0.2052675001323223,
+        "rollout_seconds": 6.114097000041511,
+        "checkpoint_id": "7fe78dec74604937a630bffb81b9814d",
+        "phase": "validation",
+        "heuristic_spec": {
+          "algorithm": "fixed",
+          "implementation_version": "paper_heuristics_masked.v1",
+          "parameters": {
+            "fixed_length": 5,
+            "fixed_power_w": 30.0,
+            "start_rule": "first_feasible_start_in_source_group"
+          },
+          "action_spec_signature": {
+            "num_slots": 100,
+            "max_block_length": 10,
+            "power_levels_w": [
+              5.0,
+              10.0,
+              15.0,
+              20.0,
+              25.0,
+              30.0,
+              35.0,
+              40.0,
+              45.0,
+              50.0
+            ]
+          },
+          "group_adaptation": "source_group_and_service_order_unchanged",
+          "infeasible_rule": "skip_without_length_or_power_clipping",
+          "comparison_scope": "same_environment_masked_reproduction_not_original_numeric_replication"
+        }
+      }
+    ],
+    "paper_greedy": [
+      {
+        "n_entities": 145,
+        "n_demand": 145,
+        "empty_demand": false,
+        "mean_satisfaction": 0.8151620894257401,
+        "fully_satisfied_fraction": 0.5655172413793104,
+        "served_fraction": 1.0,
+        "skip_fraction": 0.0,
+        "zero_rate_fraction": 0.0,
+        "delivered_bps": 48913429175.25131,
+        "raw_throughput_bps": 69871479351.56723,
+        "unmet_bps": 34311570824.748684,
+        "total_demand_bps": 83225000000.0,
+        "power_used_w": 3610.0,
+        "remaining_power_w": 2390.0,
+        "power_budget_w": 6000.0,
+        "pool_occupancy": 0.90625,
+        "physical_frequency_coverage": 1.0,
+        "sinr_sample_count": 725,
+        "mean_slot_sinr_db": 11.102440751014587,
+        "p05_slot_sinr_db": 1.1029599582270648,
+        "linear_mean_sinr_to_db": 11.939382171973714,
+        "jain_clipped_satisfaction": 0.895941569029276,
+        "sgm_mean_positive_demand": 0.5810940600810834,
+        "sgm_beta_bps": 573965517.2413793,
+        "constraint_violation_count": 0,
+        "constraint_violations": [],
+        "end_to_end_metric_available": false,
+        "j_root": null,
+        "scenario_id": "cover_output_0",
+        "episode_return": 81.51620894257391,
+        "inference_seconds": 0.8331119000213221,
+        "policy_decision_seconds": 0.18951600044965744,
+        "rollout_seconds": 4.740763799985871,
+        "checkpoint_id": "7fe78dec74604937a630bffb81b9814d",
+        "phase": "validation",
+        "heuristic_spec": {
+          "algorithm": "greedy",
+          "implementation_version": "paper_heuristics_masked.v1",
+          "parameters": {
+            "greedy_length": 5,
+            "greedy_power_levels_w": [
+              20.0,
+              25.0,
+              30.0
+            ],
+            "greedy_demand_thresholds_bps": [
+              262500000.0,
+              600000000.0
+            ],
+            "threshold_source": "scenario_positive_demand_tertiles_linear",
+            "threshold_boundary_rule": "d<=q1:20;q1<d<=q2:25;d>q2:30",
+            "slot_score": "sum_of_occupied_beam_slots_across_all_groups",
+            "tie_break": "lowest_action_id"
+          },
+          "action_spec_signature": {
+            "num_slots": 100,
+            "max_block_length": 10,
+            "power_levels_w": [
+              5.0,
+              10.0,
+              15.0,
+              20.0,
+              25.0,
+              30.0,
+              35.0,
+              40.0,
+              45.0,
+              50.0
+            ]
+          },
+          "group_adaptation": "source_group_and_service_order_unchanged",
+          "infeasible_rule": "skip_without_length_or_power_clipping",
+          "comparison_scope": "same_environment_masked_reproduction_not_original_numeric_replication"
+        }
+      }
+    ],
+    "paper_random": [
+      {
+        "n_entities": 145,
+        "n_demand": 145,
+        "empty_demand": false,
+        "mean_satisfaction": 0.7378002072910319,
+        "fully_satisfied_fraction": 0.43448275862068964,
+        "served_fraction": 1.0,
+        "skip_fraction": 0.0,
+        "zero_rate_fraction": 0.0,
+        "delivered_bps": 43841812558.49987,
+        "raw_throughput_bps": 55436864710.73642,
+        "unmet_bps": 39383187441.50014,
+        "total_demand_bps": 83225000000.0,
+        "power_used_w": 3955.0,
+        "remaining_power_w": 2045.0,
+        "power_budget_w": 6000.0,
+        "pool_occupancy": 0.72875,
+        "physical_frequency_coverage": 1.0,
+        "sinr_sample_count": 583,
+        "mean_slot_sinr_db": 10.772548830296811,
+        "p05_slot_sinr_db": 1.7317559604838688,
+        "linear_mean_sinr_to_db": 13.428735470175535,
+        "jain_clipped_satisfaction": 0.8601964069244743,
+        "sgm_mean_positive_demand": 0.6401619731366,
+        "sgm_beta_bps": 573965517.2413793,
+        "constraint_violation_count": 0,
+        "constraint_violations": [],
+        "end_to_end_metric_available": false,
+        "j_root": null,
+        "scenario_id": "cover_output_0",
+        "episode_return": 73.78002072910319,
+        "inference_seconds": 0.8312180996290408,
+        "policy_decision_seconds": 0.16803369985427707,
+        "rollout_seconds": 4.722885700000916,
+        "checkpoint_id": "7fe78dec74604937a630bffb81b9814d",
+        "phase": "validation",
+        "heuristic_spec": {
+          "algorithm": "random",
+          "implementation_version": "paper_heuristics_masked.v1",
+          "parameters": {
+            "sampling": "uniform_joint_legal_allocations",
+            "include_skip_when_alloc_feasible": false,
+            "seed": 42
+          },
+          "action_spec_signature": {
+            "num_slots": 100,
+            "max_block_length": 10,
+            "power_levels_w": [
+              5.0,
+              10.0,
+              15.0,
+              20.0,
+              25.0,
+              30.0,
+              35.0,
+              40.0,
+              45.0,
+              50.0
+            ]
+          },
+          "group_adaptation": "source_group_and_service_order_unchanged",
+          "infeasible_rule": "skip_without_length_or_power_clipping",
+          "comparison_scope": "same_environment_masked_reproduction_not_original_numeric_replication"
+        }
+      }
+    ]
+  },
+  "summary": {
+    "policy": {
+      "scenarios": 1,
+      "mean_U": 0.0,
+      "micro_U": 0.0,
+      "inference_p50_seconds": 0.9002716001705267,
+      "inference_p95_seconds": 0.9002716001705267,
+      "constraint_violations": 0
+    },
+    "paper_fixed": {
+      "scenarios": 1,
+      "mean_U": 0.8179497551703208,
+      "micro_U": 0.8179497551703208,
+      "inference_p50_seconds": 1.0444223001250066,
+      "inference_p95_seconds": 1.0444223001250066,
+      "constraint_violations": 0
+    },
+    "paper_greedy": {
+      "scenarios": 1,
+      "mean_U": 0.8151620894257401,
+      "micro_U": 0.8151620894257401,
+      "inference_p50_seconds": 0.8331119000213221,
+      "inference_p95_seconds": 0.8331119000213221,
+      "constraint_violations": 0
+    },
+    "paper_random": {
+      "scenarios": 1,
+      "mean_U": 0.7378002072910319,
+      "micro_U": 0.7378002072910319,
+      "inference_p50_seconds": 0.8312180996290408,
+      "inference_p95_seconds": 0.8312180996290408,
+      "constraint_violations": 0
+    }
+  },
+  "paired": null,
+  "greedy_candidate_rule": "包含SKIP的合法候选ID等间距至多16个，最大即时全局U；非上界",
+  "status": "short_validation_only",
+  "formal_multiseed_complete": false,
+  "output_dir": "outputs\\horizon_tsac_20260920\\20260920T191020_7dc7866b532a\\独立评估\\609811a242f1"
+}

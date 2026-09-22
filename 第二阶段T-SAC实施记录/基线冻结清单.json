@@ -1,0 +1,1753 @@
+{
+  "schema_version": "baseline_freeze.v1",
+  "created_at": "2026-09-20T11:20:09.928797+00:00",
+  "inventory": [
+    {
+      "path": "implementations/sac_fyh_io/__init__.py",
+      "bytes": 63,
+      "sha256": "105f3dce249dfc2483a187282a632aed20b5e9927b2deaaaec079988e37f67b8"
+    },
+    {
+      "path": "implementations/sac_fyh_io/Environment_fyh_IO.py",
+      "bytes": 52052,
+      "sha256": "5b1cd4131463147429a194bd7ec83814b9684f280ec819094b8be6fa6f540307"
+    },
+    {
+      "path": "implementations/sac_fyh_io/sac_fyh_IO.py",
+      "bytes": 20450,
+      "sha256": "58b0be8efa43f5f17e0eb4e75afa9a1dfee92d5249ad9d55527d078346767b74"
+    },
+    {
+      "path": "implementations/sac_fyh_io/sac_train_fyh_IO.py",
+      "bytes": 10034,
+      "sha256": "4ab10ed147c2f4ebd40195b07c478d2fb7ca1c4f236b13a883c943a43fb220f2"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_0.csv",
+      "bytes": 8335,
+      "sha256": "3799e5f2ebda449ae2cf36b62c11d31aa3682a76ce9afff483e9cba2b9bcf853"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_1.csv",
+      "bytes": 8109,
+      "sha256": "7bdbde3b2d7a2ddad9532034afa0d2c2595de9a5c18e3d1b74ec0b176409f879"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_10.csv",
+      "bytes": 7996,
+      "sha256": "dcfcbc63c5002fdd36813b0fa67884e902746b7fc6279c944b7a0e296db4cbdc"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_11.csv",
+      "bytes": 8407,
+      "sha256": "3f68eaadfbe135e447acadb4385120d7f41fea6e6e86885fc8d5dc9645ef9d34"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_12.csv",
+      "bytes": 8345,
+      "sha256": "3611d2aec35511f756190378f0d3a02f156c84600c16ebce80df920f22390803"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_13.csv",
+      "bytes": 8294,
+      "sha256": "7b2043f4fa39815825a81d74898e45031f7be84093f8935af4aa6332d4ef5c12"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_14.csv",
+      "bytes": 8296,
+      "sha256": "81155dd3a08a3cadb508d3aefcb4e391c91b72dee98aaa8b6dc0a6ab64a82ebc"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_15.csv",
+      "bytes": 7685,
+      "sha256": "a16a6c430079d83548f8cc578d5f29928847cee155f229ce380fa4167cc9aa58"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_16.csv",
+      "bytes": 8387,
+      "sha256": "43d46da8af341afac51b70f005d53c27073ac5679fada85319268b45c771f5c5"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_17.csv",
+      "bytes": 8904,
+      "sha256": "595dea98f2c9647461accec04ae3355de1074e892c182c5980007cd557b96e42"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_18.csv",
+      "bytes": 8540,
+      "sha256": "e06fb60c96d2c8687cd7dea79ca3fea138f7bf822823b16fa014d7b8aac98d57"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_19.csv",
+      "bytes": 9113,
+      "sha256": "3618ef2c7a9b746acc439f823ba6dc2a106e50fed970cfbfced232237dcaa166"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_2.csv",
+      "bytes": 8292,
+      "sha256": "7f7a18381c0af426bd048b12cdab997cb3fd59d2d5bc504252521c02f06cf449"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_20.csv",
+      "bytes": 8210,
+      "sha256": "3c850daabd1fc29086ea656464511bcfc5d425ba394459b3b8bf6f773677c22c"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_21.csv",
+      "bytes": 8221,
+      "sha256": "1267fd3ed5d23d6789a5df1776931f2df2734e0bfbb5ec0013019d8fe8acc64b"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_22.csv",
+      "bytes": 9082,
+      "sha256": "25ded1b2b2716fc6bcc46149150e81eb929f10b9a7f4d08c14d9ed271ea23dd0"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_23.csv",
+      "bytes": 7864,
+      "sha256": "3561b79b11f942e4cc42d0ba901fe2e868501cdb11489ec75edd743ca4632706"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_24.csv",
+      "bytes": 8119,
+      "sha256": "8be0824f759f3d3fe5b2ccd5383aeb05e123008032d5872f6382fd9d7f32a588"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_25.csv",
+      "bytes": 8391,
+      "sha256": "096cfec3e635b191fbc2ccd6407ed47f115c1d7a7beab5a976a3839cd2f2de50"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_26.csv",
+      "bytes": 8782,
+      "sha256": "99cede42a587e54e6ab5065e47c4cb2f87176a94571d4e7ec21e91b0db4e94cd"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_27.csv",
+      "bytes": 8134,
+      "sha256": "d545e81b0a1c4e4c63a0d976c44528ae3658ce394fb437bc989bc2cfcf5cda8b"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_28.csv",
+      "bytes": 8298,
+      "sha256": "b4211c51753597722e633998e58dcd3c580f02d8fb1abb11fc7a9c44468c2b23"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_29.csv",
+      "bytes": 8109,
+      "sha256": "bddf3708922ff00a7c6d9ee07f313f0a07fbae9e0bcbeefc04c73d7b9fd8e4db"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_3.csv",
+      "bytes": 7833,
+      "sha256": "37798758f635dfe35415dbc0fae5cd9f011be65669a092a3ca333c91ff607cb3"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_30.csv",
+      "bytes": 8432,
+      "sha256": "a3e4707e815a585aadb7a0c0e320963e3ddf09dac056e8a86144e72108854839"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_31.csv",
+      "bytes": 8698,
+      "sha256": "736b1b05a136f4db7029fb5514e4e3709012f0bcdbbd13b98ef534c1acac4d0c"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_32.csv",
+      "bytes": 8477,
+      "sha256": "76569afab61c6afebd7588c8dda8e00943cd79c1204941b56452567837b50385"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_33.csv",
+      "bytes": 8160,
+      "sha256": "e0e5ce83eb8ba915798b40d9b4afa77838b5f319e6779f11d5af065d3da69db7"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_34.csv",
+      "bytes": 8193,
+      "sha256": "4627636d84a7c5a3e1a2f20418cfed50d779e0514f9ec20783de5d431f8d1f77"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_35.csv",
+      "bytes": 8137,
+      "sha256": "ecb21f950228e85c8f1e62382f2f8f66e4c249625c19c16337a3b1688a769fbe"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_36.csv",
+      "bytes": 8421,
+      "sha256": "a575b2d3eb4de41fb987b9436bb523b8513551e7a3c8bc9f4e9e8fbfb2e5947a"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_37.csv",
+      "bytes": 8199,
+      "sha256": "59049281bcc9a398d2f6cff2fb91bf1aff7c739d44500f32898145b4376b3110"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_38.csv",
+      "bytes": 8490,
+      "sha256": "ac5bb77ae795e50f3a5a4388f4d85931f6c91b9c1aedb2da6ff552a6a460cc42"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_39.csv",
+      "bytes": 9102,
+      "sha256": "c1b07e41f83258155cccc46dd1bb916ff359dc75ce735b1e58190a817432fe5e"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_4.csv",
+      "bytes": 7969,
+      "sha256": "93ec39fe6e910fdb526d5152d63aac0558348756e6843e3844ff7b75818ca191"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_40.csv",
+      "bytes": 8497,
+      "sha256": "e44a3eb1e656646aa302320a578913aedb157d903d9a4f12724a0282eea68649"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_41.csv",
+      "bytes": 8310,
+      "sha256": "54a729a96e46e3d00847557595c3675a29c45b326ebccf9ef0ea8f43edc7d108"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_42.csv",
+      "bytes": 8240,
+      "sha256": "0a476833b96d3f78a347c25f5bc08ff23403ffdd8cc7b577eeb7cb733b82e522"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_43.csv",
+      "bytes": 8323,
+      "sha256": "9cb62478c392fb1b8f0d689abd7a0bc74082aeb99b03576e744d2f70b968d55b"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_44.csv",
+      "bytes": 8631,
+      "sha256": "1d9053227113405dd03a8517d3af1423b975457c8fe8ec3d5387e5c53511e696"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_45.csv",
+      "bytes": 8245,
+      "sha256": "809696c3b80475950ba52ff16c1aac0769ad17fdd56947ac9c25a42b91f7f43d"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_46.csv",
+      "bytes": 8623,
+      "sha256": "93e9d3f5a41b4ba07cb13b43066d2881cf571d7b930eeefc6961a4a90f70b37a"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_47.csv",
+      "bytes": 8358,
+      "sha256": "1bce74ac3f985b44b584bcba457d3f8b9a13300b33a02d53addb5c8458663d18"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_48.csv",
+      "bytes": 8400,
+      "sha256": "f57e0b558d55b84c397334e3f7fd7ffce4c45bfdeb61d683faaa4a5c2b9de395"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_49.csv",
+      "bytes": 8418,
+      "sha256": "05aa20e5e4f2a312f6eb5b4cc1d850ff149f58ac43d331083f6621f65d74ee80"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_5.csv",
+      "bytes": 8301,
+      "sha256": "363f95956ea3287e19f77e7a6fd2a09b7c961b41c45a4712a4aba3e9f6e37d04"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_50.csv",
+      "bytes": 8312,
+      "sha256": "2fc16cac3c56209e28759c2dae621ce7e54870df78f9c1e15df26248e8a106aa"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_51.csv",
+      "bytes": 8582,
+      "sha256": "8b987cffc07c75e7a6a4c64bcb465d97fb39dcca3e9842c5d31de9ed97d5984c"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_52.csv",
+      "bytes": 8199,
+      "sha256": "9d44057c94c929b9502c91edae295cb3b4c3c3455238a223e0963c8d10f6e03a"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_53.csv",
+      "bytes": 7964,
+      "sha256": "4035a2d10d66cabd4bea44fb9a3f2cdbc91209a22b62f4d11e4166bb8dbedde4"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_54.csv",
+      "bytes": 8685,
+      "sha256": "050cb2847f433dee89998cdbfcdd203c3d9f237d65e447e2360de7ebfafed517"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_55.csv",
+      "bytes": 8322,
+      "sha256": "b4258754401b37389d1a827b735a68670ceb303120c74ed81d97accceb2bccc0"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_56.csv",
+      "bytes": 8349,
+      "sha256": "b4aea205b321f64be4dd60a359c3d3ba55a20860bb266cde626df84beab02e38"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_57.csv",
+      "bytes": 8175,
+      "sha256": "199383de49fb9e1289e5fd71796cc5b5848cac8d29c8bf62bb1214154738d7b1"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_58.csv",
+      "bytes": 8461,
+      "sha256": "81fae6af58a7d717769f6e9f477c0ba04921b7418e8f49fc4318730672a8f07e"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_59.csv",
+      "bytes": 8323,
+      "sha256": "bea64f3c9f6a532b61ba896e2aa9317e3a6af6418b202cdc6329aafcf655a467"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_6.csv",
+      "bytes": 7995,
+      "sha256": "202e5f416b235f57350bed9e88b45f121ff706eb54a5140c56d9d8f073eee167"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_60.csv",
+      "bytes": 8392,
+      "sha256": "e30f3b9a0347081c162ed9e96ee5cbdabaf114c8d17c21e376474e2f5048b6ce"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_61.csv",
+      "bytes": 8487,
+      "sha256": "5872ce159c784b9505b9846a1b5497620ebf545a9fadda34ef8e966952e32d6a"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_62.csv",
+      "bytes": 8586,
+      "sha256": "121fa53953b9a3ed96214daf3f25925cfb557bbdc2ae2e671392142e86390201"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_63.csv",
+      "bytes": 7859,
+      "sha256": "4d243cfa6097fa2186026122cde32e62291eb8712edb40ca3fd72c1830128f97"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_64.csv",
+      "bytes": 8354,
+      "sha256": "8bb8ba47ce71d6b47e905eb91ed2d4bd8e91b60faf69705165be5b713e2059ef"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_65.csv",
+      "bytes": 7572,
+      "sha256": "9e14ba8ab6ba269006df508413d7829d34330be98343594bfa6dc34f87a7ce37"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_66.csv",
+      "bytes": 7935,
+      "sha256": "e0740643d507915488aa9a9308536ca103b9d25abbe263732a96f93c16a07b67"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_67.csv",
+      "bytes": 8347,
+      "sha256": "cebdd61d9c5e20241cf9a94f615f85f36cd430484d51bfb5feea56ec547e5f9b"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_68.csv",
+      "bytes": 8121,
+      "sha256": "4a5ddc6ada1d09afbc3a8ae7bc064b142847bcae046407a1fe4500b99a2bd8a9"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_69.csv",
+      "bytes": 8398,
+      "sha256": "0a7d910da58ce5d4cf8acbe3586954d4c261ffea24a2a1fb1926976ad10d93b3"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_7.csv",
+      "bytes": 8410,
+      "sha256": "fd66b166366b2986a28212935ff60f7c53e62df20439be02eeb84fc7140a188d"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_70.csv",
+      "bytes": 8225,
+      "sha256": "0de0190c9878e309947071164c1f42b6b43f05eaa498f18cb434a2bc2b7b0186"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_71.csv",
+      "bytes": 8368,
+      "sha256": "3f83fd59917393cc3fa329fb5738bb5d7840a26c28bae965a0dc8d494d43edda"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_72.csv",
+      "bytes": 8236,
+      "sha256": "59e277c102eb9120f3170bc378f4724fd731a42086d992fffc846f94a8c7b435"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_73.csv",
+      "bytes": 8449,
+      "sha256": "48ad906c7a59f24af45de3808be9aec6e195e158e2125d4bdaac16eba1fa6381"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_74.csv",
+      "bytes": 8350,
+      "sha256": "08c8133addb5aa88c9d43086f2925010ba9b2c37928212ab6fc5eb09ecbedef7"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_75.csv",
+      "bytes": 7620,
+      "sha256": "5abd6e1918a216ab6aafab2196bd4bc77cc689daf155b3a10708a9a54ac0780d"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_76.csv",
+      "bytes": 8030,
+      "sha256": "a1f437950c873ed64069108334d97f62757c2410116eeb7d59dbf4a1ae864234"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_77.csv",
+      "bytes": 8429,
+      "sha256": "a812ea1bad878e6339e0a04fa62af09d79363cb3054d653d97d3b71b27bbc2a9"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_78.csv",
+      "bytes": 8631,
+      "sha256": "669dc76b1282b4146214ea0881068e4bbd4b04ae96952877ed9c0e69cd514228"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_79.csv",
+      "bytes": 8134,
+      "sha256": "8be2a961ad9239c0598655c771287bb0ff28b2726b73cd8d8c1172ba44968e72"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_8.csv",
+      "bytes": 8576,
+      "sha256": "3c0f70d85f407fc198192a7a4fe47522bb6e3e37ad40ca039e495894191ee8fa"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_80.csv",
+      "bytes": 7734,
+      "sha256": "1e0c14d4bf8027113b7f345df589efc42200ce32e7163fce1e5ea66080bded9a"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_81.csv",
+      "bytes": 7708,
+      "sha256": "3a2591855fe932fe21b82389e9e39fd73217c8338a2b04711352c4714f5a0351"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_82.csv",
+      "bytes": 8599,
+      "sha256": "9f024f5ecaa1412ac4c016fc26bd581a10bc5486c0698814f6e37ee19da54ecd"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_83.csv",
+      "bytes": 8537,
+      "sha256": "d86044b0c6aa88ddf683d873952c2a54f18a5952c50277b742b3c94f14df5469"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_84.csv",
+      "bytes": 8468,
+      "sha256": "a173b96af74fed977b985d26e35cfcfaff5630f28303811e6f65125aa5a930f1"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_85.csv",
+      "bytes": 8484,
+      "sha256": "78a40f60a5b68cfd6d1517aaf6105e5faaf35a2c415b2ee13a472b3f2b4d8ee5"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_86.csv",
+      "bytes": 8185,
+      "sha256": "18cdbaa0ab8da3bd43bbf11faa985b37d436a4e350074507975752b3f2391187"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_87.csv",
+      "bytes": 8329,
+      "sha256": "6a18b335b55bdd668c5602eb9cbc2c4a3cbf3af7f5862a068a900f28bb0dd3c6"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_88.csv",
+      "bytes": 8651,
+      "sha256": "50e5b4c7325166d11dbe4f6c63bb88d8b30544ade83ac024641feea429a9fd54"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_89.csv",
+      "bytes": 8300,
+      "sha256": "9725cb11ce0f2296aec38edbb617ba30e962cd37ba896fdd14fefcde68c5a4fb"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_9.csv",
+      "bytes": 8112,
+      "sha256": "030d1806b17d6360cd0828e94d18a354eac16d256e39713515a55d8cf46fbde8"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_90.csv",
+      "bytes": 8410,
+      "sha256": "1dee762d8182be2c8cec839c4616de61f2960bef090ed8a35f70d16a37f1cedc"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_91.csv",
+      "bytes": 8585,
+      "sha256": "05e95959bf5f6dbee3fa0fbde03baa896fb73789ef3af8f8f53e143aed085005"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_92.csv",
+      "bytes": 8251,
+      "sha256": "5ff4663b35d92a041f46c32a48c924050222c8f84eea5344992f06b234c86c9e"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_93.csv",
+      "bytes": 8182,
+      "sha256": "ccf286c7be4ac096d46d52d69a7198d1927b415b70e9191867c73c66b379bd57"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_94.csv",
+      "bytes": 7767,
+      "sha256": "93fc7c50858c690d1ea80103bd206a6e35b45ed83ca4295c7deaf422bd3651ea"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_95.csv",
+      "bytes": 8538,
+      "sha256": "8731f4a9ff9b00a54c7978e0881ed04e010fe3b6f908c035fba7acabef4cb6c5"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_96.csv",
+      "bytes": 8436,
+      "sha256": "69c050add73e5aa2bf6543255b9d5e8502937ce22c47d49c8221db9a7cb89113"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_97.csv",
+      "bytes": 7820,
+      "sha256": "62b71bc2fbe2e22e93f2d0571927ef15ae43904523fc801427f34b63c8e2d598"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_98.csv",
+      "bytes": 8500,
+      "sha256": "6c4f6be3484ad65d3e07cf42b9a4248e445ed8d8a66b953207f6d3089922a40a"
+    },
+    {
+      "path": "data/cover_outputs/cover_output_99.csv",
+      "bytes": 5848,
+      "sha256": "3fdc06f7b3f453d59819c1a27e0ae050db1df4822b2c700e3afc438d6f97a983"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/figures/reward_group_202507150301.png",
+      "bytes": 380115,
+      "sha256": "de585e40e7b441cd3efc2ca25477d31763cbcf659cb060c040310a9d10cb967b"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/figures/reward_group_202507150308.png",
+      "bytes": 391688,
+      "sha256": "698167bea354a463ca6364be3d2187bb8adf4deeb1ddcffe9e644fe0a8c8ecef"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/figures/satisfaction_group_202507150301.png",
+      "bytes": 435853,
+      "sha256": "643dc0259d1a8f9df3964460373b05b71a99a457dd599cba5715dead4d9d2253"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/figures/satisfaction_group_202507150308.png",
+      "bytes": 431724,
+      "sha256": "ebe02e9900fea1bc00d85bbfbb8eefc215963e7431466784d087711405f3eb2f"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/models/sac_transformer_actor_202507150301.pth",
+      "bytes": 1634938,
+      "sha256": "ebf0c5f70f7e64a4960c0b4c7feb2744fcb2650b21f216919785c5148720db05"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/models/sac_transformer_actor_202507150308.pth",
+      "bytes": 1634938,
+      "sha256": "523a6dec7d99e2e609a7d06a5eb1fc1463aa8e082693a7537d1b4d3d35c27d83"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/models/sac_transformer_critic_1_202507150301.pth",
+      "bytes": 1635061,
+      "sha256": "e27b5c9e9ca025435714eaa36d1b48078742c054897569e9820967581ec7da90"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/models/sac_transformer_critic_1_202507150308.pth",
+      "bytes": 1635061,
+      "sha256": "98ac04933c33ea2498024fec0d8595b8eb8e60c76e5306e95c90b400d4c8c28a"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/models/sac_transformer_full_model_202507150301.pth",
+      "bytes": 8174304,
+      "sha256": "6d279630f3d18def8a755a5f522f9821e351729c2ead4414458091884ee2cb9a"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/models/sac_transformer_full_model_202507150308.pth",
+      "bytes": 8174304,
+      "sha256": "04178fdb1fc6bbc8a4c088a6517ab7e65dde4f32ea636d7acc792a39ce36f0b6"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/models/sac_transformer_target_critic_1_202507150301.pth",
+      "bytes": 1635348,
+      "sha256": "62218a4766232679eb7df518097e4c1e6ee9feed1771c5c6a7e273caf004ac94"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/models/sac_transformer_target_critic_1_202507150308.pth",
+      "bytes": 1635348,
+      "sha256": "49d37e9c8fa39a7d70210b3b17dde64c6bad6c7acc9a4352f0e752bad8f962e5"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/models/sac_transformer_target_critic_2_202507150301.pth",
+      "bytes": 1635348,
+      "sha256": "6fe7da36399105f47757747534ffe245a127cdb8cdb51391664e3bdd269a706b"
+    },
+    {
+      "path": "outputs/historical_runs/city_sac_202507/models/sac_transformer_target_critic_2_202507150308.pth",
+      "bytes": 1635348,
+      "sha256": "a142147d3bbee362b4d5218bbc2ce25ae9490ad6410146c4dc40dd815188d40f"
+    },
+    {
+      "path": "outputs/sac_fyh_io/figures/reward_group_202512120428.png",
+      "bytes": 376676,
+      "sha256": "dbc3b539a0649a861bcc9ae57fb0ed2fb345adbed30e4af669d2eb5131a21d15"
+    },
+    {
+      "path": "outputs/sac_fyh_io/figures/satisfaction_group_202512120428.png",
+      "bytes": 410092,
+      "sha256": "d845132b1edadf28838bef7593484ce0d3cd9d4146eb48ed5d434bc595d6d141"
+    },
+    {
+      "path": "outputs/sac_fyh_io/metrics/metrics_202512120428.npz",
+      "bytes": 64526,
+      "sha256": "b1b7c5df2352065259188874f1b69747ed3115447d96c46ae2b599e93a12d77a"
+    },
+    {
+      "path": "outputs/sac_fyh_io/models/sac_transformer_actor_202512120428.pth",
+      "bytes": 1686298,
+      "sha256": "ef8279d3ad02f7796020b4b221d33ca77475b64b79f9c9ca3e9444b3b8805c31"
+    },
+    {
+      "path": "outputs/sac_fyh_io/models/sac_transformer_critic_1_202512120428.pth",
+      "bytes": 1686433,
+      "sha256": "c9ad8eb57fddc30cfdd0ab492a3e17aa2dcd19951784a23a073541648b5c12bb"
+    },
+    {
+      "path": "outputs/sac_fyh_io/models/sac_transformer_full_model_202512120428.pth",
+      "bytes": 8431224,
+      "sha256": "2649269ce8910d562145ac142dbadd5f5513eda74a8c4515a26578fd0f8141b3"
+    },
+    {
+      "path": "outputs/sac_fyh_io/models/sac_transformer_target_critic_1_202512120428.pth",
+      "bytes": 1686748,
+      "sha256": "6c70ab6f5ad1a622cc64c36f0af13ea07963a9200c404dc7a07c852d2efaa364"
+    },
+    {
+      "path": "outputs/sac_fyh_io/models/sac_transformer_target_critic_2_202512120428.pth",
+      "bytes": 1686748,
+      "sha256": "0118a9132c5b2bbafed6b001050c4ce603db0e6ec5b8ecca3120456c56ef12f9"
+    }
+  ],
+  "scenarios": [
+    {
+      "file": "cover_output_0.csv",
+      "source_hash": "3799e5f2ebda449ae2cf36b62c11d31aa3682a76ce9afff483e9cba2b9bcf853",
+      "rows": 200,
+      "n_demand": 145,
+      "padding": 55,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_1.csv",
+      "source_hash": "7bdbde3b2d7a2ddad9532034afa0d2c2595de9a5c18e3d1b74ec0b176409f879",
+      "rows": 200,
+      "n_demand": 138,
+      "padding": 62,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_10.csv",
+      "source_hash": "dcfcbc63c5002fdd36813b0fa67884e902746b7fc6279c944b7a0e296db4cbdc",
+      "rows": 200,
+      "n_demand": 135,
+      "padding": 65,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_11.csv",
+      "source_hash": "3f68eaadfbe135e447acadb4385120d7f41fea6e6e86885fc8d5dc9645ef9d34",
+      "rows": 200,
+      "n_demand": 143,
+      "padding": 57,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_12.csv",
+      "source_hash": "3611d2aec35511f756190378f0d3a02f156c84600c16ebce80df920f22390803",
+      "rows": 200,
+      "n_demand": 141,
+      "padding": 59,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_13.csv",
+      "source_hash": "7b2043f4fa39815825a81d74898e45031f7be84093f8935af4aa6332d4ef5c12",
+      "rows": 200,
+      "n_demand": 140,
+      "padding": 60,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_14.csv",
+      "source_hash": "81155dd3a08a3cadb508d3aefcb4e391c91b72dee98aaa8b6dc0a6ab64a82ebc",
+      "rows": 200,
+      "n_demand": 141,
+      "padding": 59,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_15.csv",
+      "source_hash": "a16a6c430079d83548f8cc578d5f29928847cee155f229ce380fa4167cc9aa58",
+      "rows": 200,
+      "n_demand": 124,
+      "padding": 76,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_16.csv",
+      "source_hash": "43d46da8af341afac51b70f005d53c27073ac5679fada85319268b45c771f5c5",
+      "rows": 200,
+      "n_demand": 143,
+      "padding": 57,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_17.csv",
+      "source_hash": "595dea98f2c9647461accec04ae3355de1074e892c182c5980007cd557b96e42",
+      "rows": 200,
+      "n_demand": 159,
+      "padding": 41,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_18.csv",
+      "source_hash": "e06fb60c96d2c8687cd7dea79ca3fea138f7bf822823b16fa014d7b8aac98d57",
+      "rows": 200,
+      "n_demand": 147,
+      "padding": 53,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_19.csv",
+      "source_hash": "3618ef2c7a9b746acc439f823ba6dc2a106e50fed970cfbfced232237dcaa166",
+      "rows": 200,
+      "n_demand": 168,
+      "padding": 32,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_2.csv",
+      "source_hash": "7f7a18381c0af426bd048b12cdab997cb3fd59d2d5bc504252521c02f06cf449",
+      "rows": 200,
+      "n_demand": 137,
+      "padding": 63,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_20.csv",
+      "source_hash": "3c850daabd1fc29086ea656464511bcfc5d425ba394459b3b8bf6f773677c22c",
+      "rows": 200,
+      "n_demand": 138,
+      "padding": 62,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_21.csv",
+      "source_hash": "1267fd3ed5d23d6789a5df1776931f2df2734e0bfbb5ec0013019d8fe8acc64b",
+      "rows": 200,
+      "n_demand": 138,
+      "padding": 62,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_22.csv",
+      "source_hash": "25ded1b2b2716fc6bcc46149150e81eb929f10b9a7f4d08c14d9ed271ea23dd0",
+      "rows": 200,
+      "n_demand": 161,
+      "padding": 39,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_23.csv",
+      "source_hash": "3561b79b11f942e4cc42d0ba901fe2e868501cdb11489ec75edd743ca4632706",
+      "rows": 200,
+      "n_demand": 131,
+      "padding": 69,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_24.csv",
+      "source_hash": "8be0824f759f3d3fe5b2ccd5383aeb05e123008032d5872f6382fd9d7f32a588",
+      "rows": 200,
+      "n_demand": 136,
+      "padding": 64,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_25.csv",
+      "source_hash": "096cfec3e635b191fbc2ccd6407ed47f115c1d7a7beab5a976a3839cd2f2de50",
+      "rows": 200,
+      "n_demand": 145,
+      "padding": 55,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_26.csv",
+      "source_hash": "99cede42a587e54e6ab5065e47c4cb2f87176a94571d4e7ec21e91b0db4e94cd",
+      "rows": 200,
+      "n_demand": 155,
+      "padding": 45,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_27.csv",
+      "source_hash": "d545e81b0a1c4e4c63a0d976c44528ae3658ce394fb437bc989bc2cfcf5cda8b",
+      "rows": 200,
+      "n_demand": 136,
+      "padding": 64,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_28.csv",
+      "source_hash": "b4211c51753597722e633998e58dcd3c580f02d8fb1abb11fc7a9c44468c2b23",
+      "rows": 200,
+      "n_demand": 140,
+      "padding": 60,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_29.csv",
+      "source_hash": "bddf3708922ff00a7c6d9ee07f313f0a07fbae9e0bcbeefc04c73d7b9fd8e4db",
+      "rows": 200,
+      "n_demand": 138,
+      "padding": 62,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_3.csv",
+      "source_hash": "37798758f635dfe35415dbc0fae5cd9f011be65669a092a3ca333c91ff607cb3",
+      "rows": 200,
+      "n_demand": 127,
+      "padding": 73,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_30.csv",
+      "source_hash": "a3e4707e815a585aadb7a0c0e320963e3ddf09dac056e8a86144e72108854839",
+      "rows": 200,
+      "n_demand": 149,
+      "padding": 51,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_31.csv",
+      "source_hash": "736b1b05a136f4db7029fb5514e4e3709012f0bcdbbd13b98ef534c1acac4d0c",
+      "rows": 200,
+      "n_demand": 157,
+      "padding": 43,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_32.csv",
+      "source_hash": "76569afab61c6afebd7588c8dda8e00943cd79c1204941b56452567837b50385",
+      "rows": 200,
+      "n_demand": 148,
+      "padding": 52,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_33.csv",
+      "source_hash": "e0e5ce83eb8ba915798b40d9b4afa77838b5f319e6779f11d5af065d3da69db7",
+      "rows": 200,
+      "n_demand": 139,
+      "padding": 61,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_34.csv",
+      "source_hash": "4627636d84a7c5a3e1a2f20418cfed50d779e0514f9ec20783de5d431f8d1f77",
+      "rows": 200,
+      "n_demand": 138,
+      "padding": 62,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_35.csv",
+      "source_hash": "ecb21f950228e85c8f1e62382f2f8f66e4c249625c19c16337a3b1688a769fbe",
+      "rows": 200,
+      "n_demand": 136,
+      "padding": 64,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_36.csv",
+      "source_hash": "a575b2d3eb4de41fb987b9436bb523b8513551e7a3c8bc9f4e9e8fbfb2e5947a",
+      "rows": 200,
+      "n_demand": 147,
+      "padding": 53,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_37.csv",
+      "source_hash": "59049281bcc9a398d2f6cff2fb91bf1aff7c739d44500f32898145b4376b3110",
+      "rows": 200,
+      "n_demand": 136,
+      "padding": 64,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_38.csv",
+      "source_hash": "ac5bb77ae795e50f3a5a4388f4d85931f6c91b9c1aedb2da6ff552a6a460cc42",
+      "rows": 200,
+      "n_demand": 150,
+      "padding": 50,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_39.csv",
+      "source_hash": "c1b07e41f83258155cccc46dd1bb916ff359dc75ce735b1e58190a817432fe5e",
+      "rows": 200,
+      "n_demand": 165,
+      "padding": 35,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_4.csv",
+      "source_hash": "93ec39fe6e910fdb526d5152d63aac0558348756e6843e3844ff7b75818ca191",
+      "rows": 200,
+      "n_demand": 135,
+      "padding": 65,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_40.csv",
+      "source_hash": "e44a3eb1e656646aa302320a578913aedb157d903d9a4f12724a0282eea68649",
+      "rows": 200,
+      "n_demand": 149,
+      "padding": 51,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_41.csv",
+      "source_hash": "54a729a96e46e3d00847557595c3675a29c45b326ebccf9ef0ea8f43edc7d108",
+      "rows": 200,
+      "n_demand": 141,
+      "padding": 59,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_42.csv",
+      "source_hash": "0a476833b96d3f78a347c25f5bc08ff23403ffdd8cc7b577eeb7cb733b82e522",
+      "rows": 200,
+      "n_demand": 145,
+      "padding": 55,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_43.csv",
+      "source_hash": "9cb62478c392fb1b8f0d689abd7a0bc74082aeb99b03576e744d2f70b968d55b",
+      "rows": 200,
+      "n_demand": 144,
+      "padding": 56,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_44.csv",
+      "source_hash": "1d9053227113405dd03a8517d3af1423b975457c8fe8ec3d5387e5c53511e696",
+      "rows": 200,
+      "n_demand": 150,
+      "padding": 50,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_45.csv",
+      "source_hash": "809696c3b80475950ba52ff16c1aac0769ad17fdd56947ac9c25a42b91f7f43d",
+      "rows": 200,
+      "n_demand": 140,
+      "padding": 60,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_46.csv",
+      "source_hash": "93e9d3f5a41b4ba07cb13b43066d2881cf571d7b930eeefc6961a4a90f70b37a",
+      "rows": 200,
+      "n_demand": 148,
+      "padding": 52,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_47.csv",
+      "source_hash": "1bce74ac3f985b44b584bcba457d3f8b9a13300b33a02d53addb5c8458663d18",
+      "rows": 200,
+      "n_demand": 142,
+      "padding": 58,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_48.csv",
+      "source_hash": "f57e0b558d55b84c397334e3f7fd7ffce4c45bfdeb61d683faaa4a5c2b9de395",
+      "rows": 200,
+      "n_demand": 144,
+      "padding": 56,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_49.csv",
+      "source_hash": "05aa20e5e4f2a312f6eb5b4cc1d850ff149f58ac43d331083f6621f65d74ee80",
+      "rows": 200,
+      "n_demand": 143,
+      "padding": 57,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_5.csv",
+      "source_hash": "363f95956ea3287e19f77e7a6fd2a09b7c961b41c45a4712a4aba3e9f6e37d04",
+      "rows": 200,
+      "n_demand": 143,
+      "padding": 57,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_50.csv",
+      "source_hash": "2fc16cac3c56209e28759c2dae621ce7e54870df78f9c1e15df26248e8a106aa",
+      "rows": 200,
+      "n_demand": 145,
+      "padding": 55,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_51.csv",
+      "source_hash": "8b987cffc07c75e7a6a4c64bcb465d97fb39dcca3e9842c5d31de9ed97d5984c",
+      "rows": 200,
+      "n_demand": 151,
+      "padding": 49,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_52.csv",
+      "source_hash": "9d44057c94c929b9502c91edae295cb3b4c3c3455238a223e0963c8d10f6e03a",
+      "rows": 200,
+      "n_demand": 139,
+      "padding": 61,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_53.csv",
+      "source_hash": "4035a2d10d66cabd4bea44fb9a3f2cdbc91209a22b62f4d11e4166bb8dbedde4",
+      "rows": 200,
+      "n_demand": 133,
+      "padding": 67,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_54.csv",
+      "source_hash": "050cb2847f433dee89998cdbfcdd203c3d9f237d65e447e2360de7ebfafed517",
+      "rows": 200,
+      "n_demand": 151,
+      "padding": 49,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_55.csv",
+      "source_hash": "b4258754401b37389d1a827b735a68670ceb303120c74ed81d97accceb2bccc0",
+      "rows": 200,
+      "n_demand": 141,
+      "padding": 59,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_56.csv",
+      "source_hash": "b4aea205b321f64be4dd60a359c3d3ba55a20860bb266cde626df84beab02e38",
+      "rows": 200,
+      "n_demand": 140,
+      "padding": 60,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_57.csv",
+      "source_hash": "199383de49fb9e1289e5fd71796cc5b5848cac8d29c8bf62bb1214154738d7b1",
+      "rows": 200,
+      "n_demand": 136,
+      "padding": 64,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_58.csv",
+      "source_hash": "81fae6af58a7d717769f6e9f477c0ba04921b7418e8f49fc4318730672a8f07e",
+      "rows": 200,
+      "n_demand": 144,
+      "padding": 56,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_59.csv",
+      "source_hash": "bea64f3c9f6a532b61ba896e2aa9317e3a6af6418b202cdc6329aafcf655a467",
+      "rows": 200,
+      "n_demand": 145,
+      "padding": 55,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_6.csv",
+      "source_hash": "202e5f416b235f57350bed9e88b45f121ff706eb54a5140c56d9d8f073eee167",
+      "rows": 200,
+      "n_demand": 129,
+      "padding": 71,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_60.csv",
+      "source_hash": "e30f3b9a0347081c162ed9e96ee5cbdabaf114c8d17c21e376474e2f5048b6ce",
+      "rows": 200,
+      "n_demand": 138,
+      "padding": 62,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_61.csv",
+      "source_hash": "5872ce159c784b9505b9846a1b5497620ebf545a9fadda34ef8e966952e32d6a",
+      "rows": 200,
+      "n_demand": 151,
+      "padding": 49,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_62.csv",
+      "source_hash": "121fa53953b9a3ed96214daf3f25925cfb557bbdc2ae2e671392142e86390201",
+      "rows": 200,
+      "n_demand": 152,
+      "padding": 48,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_63.csv",
+      "source_hash": "4d243cfa6097fa2186026122cde32e62291eb8712edb40ca3fd72c1830128f97",
+      "rows": 200,
+      "n_demand": 130,
+      "padding": 70,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_64.csv",
+      "source_hash": "8bb8ba47ce71d6b47e905eb91ed2d4bd8e91b60faf69705165be5b713e2059ef",
+      "rows": 200,
+      "n_demand": 147,
+      "padding": 53,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_65.csv",
+      "source_hash": "9e14ba8ab6ba269006df508413d7829d34330be98343594bfa6dc34f87a7ce37",
+      "rows": 200,
+      "n_demand": 126,
+      "padding": 74,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_66.csv",
+      "source_hash": "e0740643d507915488aa9a9308536ca103b9d25abbe263732a96f93c16a07b67",
+      "rows": 200,
+      "n_demand": 133,
+      "padding": 67,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_67.csv",
+      "source_hash": "cebdd61d9c5e20241cf9a94f615f85f36cd430484d51bfb5feea56ec547e5f9b",
+      "rows": 200,
+      "n_demand": 143,
+      "padding": 57,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_68.csv",
+      "source_hash": "4a5ddc6ada1d09afbc3a8ae7bc064b142847bcae046407a1fe4500b99a2bd8a9",
+      "rows": 200,
+      "n_demand": 139,
+      "padding": 61,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_69.csv",
+      "source_hash": "0a7d910da58ce5d4cf8acbe3586954d4c261ffea24a2a1fb1926976ad10d93b3",
+      "rows": 200,
+      "n_demand": 139,
+      "padding": 61,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_7.csv",
+      "source_hash": "fd66b166366b2986a28212935ff60f7c53e62df20439be02eeb84fc7140a188d",
+      "rows": 200,
+      "n_demand": 145,
+      "padding": 55,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_70.csv",
+      "source_hash": "0de0190c9878e309947071164c1f42b6b43f05eaa498f18cb434a2bc2b7b0186",
+      "rows": 200,
+      "n_demand": 139,
+      "padding": 61,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_71.csv",
+      "source_hash": "3f83fd59917393cc3fa329fb5738bb5d7840a26c28bae965a0dc8d494d43edda",
+      "rows": 200,
+      "n_demand": 145,
+      "padding": 55,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_72.csv",
+      "source_hash": "59e277c102eb9120f3170bc378f4724fd731a42086d992fffc846f94a8c7b435",
+      "rows": 200,
+      "n_demand": 137,
+      "padding": 63,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_73.csv",
+      "source_hash": "48ad906c7a59f24af45de3808be9aec6e195e158e2125d4bdaac16eba1fa6381",
+      "rows": 200,
+      "n_demand": 142,
+      "padding": 58,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_74.csv",
+      "source_hash": "08c8133addb5aa88c9d43086f2925010ba9b2c37928212ab6fc5eb09ecbedef7",
+      "rows": 200,
+      "n_demand": 142,
+      "padding": 58,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_75.csv",
+      "source_hash": "5abd6e1918a216ab6aafab2196bd4bc77cc689daf155b3a10708a9a54ac0780d",
+      "rows": 200,
+      "n_demand": 124,
+      "padding": 76,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_76.csv",
+      "source_hash": "a1f437950c873ed64069108334d97f62757c2410116eeb7d59dbf4a1ae864234",
+      "rows": 200,
+      "n_demand": 134,
+      "padding": 66,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_77.csv",
+      "source_hash": "a812ea1bad878e6339e0a04fa62af09d79363cb3054d653d97d3b71b27bbc2a9",
+      "rows": 200,
+      "n_demand": 143,
+      "padding": 57,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_78.csv",
+      "source_hash": "669dc76b1282b4146214ea0881068e4bbd4b04ae96952877ed9c0e69cd514228",
+      "rows": 200,
+      "n_demand": 152,
+      "padding": 48,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_79.csv",
+      "source_hash": "8be2a961ad9239c0598655c771287bb0ff28b2726b73cd8d8c1172ba44968e72",
+      "rows": 200,
+      "n_demand": 138,
+      "padding": 62,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_8.csv",
+      "source_hash": "3c0f70d85f407fc198192a7a4fe47522bb6e3e37ad40ca039e495894191ee8fa",
+      "rows": 200,
+      "n_demand": 154,
+      "padding": 46,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_80.csv",
+      "source_hash": "1e0c14d4bf8027113b7f345df589efc42200ce32e7163fce1e5ea66080bded9a",
+      "rows": 200,
+      "n_demand": 127,
+      "padding": 73,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_81.csv",
+      "source_hash": "3a2591855fe932fe21b82389e9e39fd73217c8338a2b04711352c4714f5a0351",
+      "rows": 200,
+      "n_demand": 126,
+      "padding": 74,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_82.csv",
+      "source_hash": "9f024f5ecaa1412ac4c016fc26bd581a10bc5486c0698814f6e37ee19da54ecd",
+      "rows": 200,
+      "n_demand": 154,
+      "padding": 46,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_83.csv",
+      "source_hash": "d86044b0c6aa88ddf683d873952c2a54f18a5952c50277b742b3c94f14df5469",
+      "rows": 200,
+      "n_demand": 146,
+      "padding": 54,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_84.csv",
+      "source_hash": "a173b96af74fed977b985d26e35cfcfaff5630f28303811e6f65125aa5a930f1",
+      "rows": 200,
+      "n_demand": 146,
+      "padding": 54,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_85.csv",
+      "source_hash": "78a40f60a5b68cfd6d1517aaf6105e5faaf35a2c415b2ee13a472b3f2b4d8ee5",
+      "rows": 200,
+      "n_demand": 147,
+      "padding": 53,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_86.csv",
+      "source_hash": "18cdbaa0ab8da3bd43bbf11faa985b37d436a4e350074507975752b3f2391187",
+      "rows": 200,
+      "n_demand": 137,
+      "padding": 63,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_87.csv",
+      "source_hash": "6a18b335b55bdd668c5602eb9cbc2c4a3cbf3af7f5862a068a900f28bb0dd3c6",
+      "rows": 200,
+      "n_demand": 146,
+      "padding": 54,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_88.csv",
+      "source_hash": "50e5b4c7325166d11dbe4f6c63bb88d8b30544ade83ac024641feea429a9fd54",
+      "rows": 200,
+      "n_demand": 155,
+      "padding": 45,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_89.csv",
+      "source_hash": "9725cb11ce0f2296aec38edbb617ba30e962cd37ba896fdd14fefcde68c5a4fb",
+      "rows": 200,
+      "n_demand": 134,
+      "padding": 66,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_9.csv",
+      "source_hash": "030d1806b17d6360cd0828e94d18a354eac16d256e39713515a55d8cf46fbde8",
+      "rows": 200,
+      "n_demand": 140,
+      "padding": 60,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_90.csv",
+      "source_hash": "1dee762d8182be2c8cec839c4616de61f2960bef090ed8a35f70d16a37f1cedc",
+      "rows": 200,
+      "n_demand": 146,
+      "padding": 54,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_91.csv",
+      "source_hash": "05e95959bf5f6dbee3fa0fbde03baa896fb73789ef3af8f8f53e143aed085005",
+      "rows": 200,
+      "n_demand": 151,
+      "padding": 49,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_92.csv",
+      "source_hash": "5ff4663b35d92a041f46c32a48c924050222c8f84eea5344992f06b234c86c9e",
+      "rows": 200,
+      "n_demand": 143,
+      "padding": 57,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_93.csv",
+      "source_hash": "ccf286c7be4ac096d46d52d69a7198d1927b415b70e9191867c73c66b379bd57",
+      "rows": 200,
+      "n_demand": 143,
+      "padding": 57,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_94.csv",
+      "source_hash": "93fc7c50858c690d1ea80103bd206a6e35b45ed83ca4295c7deaf422bd3651ea",
+      "rows": 200,
+      "n_demand": 125,
+      "padding": 75,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_95.csv",
+      "source_hash": "8731f4a9ff9b00a54c7978e0881ed04e010fe3b6f908c035fba7acabef4cb6c5",
+      "rows": 200,
+      "n_demand": 145,
+      "padding": 55,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_96.csv",
+      "source_hash": "69c050add73e5aa2bf6543255b9d5e8502937ce22c47d49c8221db9a7cb89113",
+      "rows": 200,
+      "n_demand": 146,
+      "padding": 54,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_97.csv",
+      "source_hash": "62b71bc2fbe2e22e93f2d0571927ef15ae43904523fc801427f34b63c8e2d598",
+      "rows": 200,
+      "n_demand": 131,
+      "padding": 69,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_98.csv",
+      "source_hash": "6c4f6be3484ad65d3e07cf42b9a4248e445ed8d8a66b953207f6d3089922a40a",
+      "rows": 200,
+      "n_demand": 148,
+      "padding": 52,
+      "maximum_width_deg": 2.8,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    },
+    {
+      "file": "cover_output_99.csv",
+      "source_hash": "3fdc06f7b3f453d59819c1a27e0ae050db1df4822b2c700e3afc438d6f97a983",
+      "rows": 200,
+      "n_demand": 52,
+      "padding": 148,
+      "maximum_width_deg": 2.4994444847106934,
+      "root_scene_id": null,
+      "split_group_id": null,
+      "provenance_status": "unknown_legacy_aggregate"
+    }
+  ],
+  "statistics": {
+    "files": 100,
+    "rows": 20000,
+    "positive_demand_rows": 14130,
+    "padding_rows": 5870,
+    "n_demand_min": 52,
+    "n_demand_max": 168,
+    "n_demand_mean": 141.3
+  },
+  "upstream": {
+    "generator_available": false,
+    "root_business_available": false,
+    "assignment_available": false,
+    "evidence": "当前工作区只有聚合覆盖CSV及第二阶段/历史资源分配代码；未发现第一阶段生成器或原始业务归属。"
+  }
+}

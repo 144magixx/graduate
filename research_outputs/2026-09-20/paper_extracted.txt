@@ -1,0 +1,962 @@
+=== PAGE 1 ===
+Transformer-Enhanced SAC for Joint
+Power–Frequency Allocation in HTS Systems
+Abstract—In future space–air–ground integrated networks
+(SAGIN), multi-beam high-throughput satellite (HTS) systems
+require efficient joint allocation of power and frequency resources
+under time-varying scenario to accommodate growing demand
+and enhance overall system capacity. To address the challenges
+of high-dimensional dynamic resource management, this paper
+proposes a Transformer-enhanced Soft Actor–Critic (T-SAC)
+algorithm. The resource allocation problem is formulated as
+a Satellite-Centric Markov Decision Process (SC-MDP), and a
+multi-head self-attention Transformer encoder is incorporated
+into the SAC framework as a global feature extractor to ef-
+fectively capture cross-beam spatio-temporal dependencies and
+alleviate severe co-channel interference. The proposed method
+achieves superior higher sample efficiency, training stability, and
+stronger generalization in high-dimensional mixed action spaces.
+Simulation results show that T-SAC achieves significant improve-
+ments over baseline algorithms in average signal-to-interference-
+plus-noise ratio (SINR), satisfaction-gap–based fairness (SGM),
+and overall user satisfaction, demonstrating its robustness and
+efficiency in dynamic multi-beam environments.
+Index Terms —High-throughput satellite, dynamic resource
+allocation, deep reinforcement learning, Soft Actor–Critic, trans-
+former
+I. I NTRODUCTION
+Multi-beam high-throughput satellite (HTS) systems have
+become a key enabler of future space–air–ground integrated
+networks (SAGIN). Through frequency reuse and flexible
+payload architectures, HTS systems can significantly enhance
+spectral efficiency and overall system capacity [1]–[3]. How-
+ever, as the number of beams and user demand continue
+to grow, the joint allocation of power and frequency under
+time-varying scenarios has evolved into a complex NP-hard
+problem [4]. Geographically heterogeneous traffic distribu-
+tions and severe co-channel interference further increase this
+complexity and jointly determine system throughput and user
+satisfaction. Consequently, intelligent, scalable, and adaptive
+resource allocation has become a central research challenge
+for next-generation satellite communication systems.
+Early research primarily relied on convex optimization and
+mathematical programming approaches. Typical works formu-
+lated convex optimization models and employed sequential
+convex approximation (SCA) to maximize system through-
+put or minimize total power consumption under signal-to-
+interference-plus-noise ratio (SINR) and bandwidth constraints
+[3]. Although these methods can yield theoretically optimal
+or near-optimal solutions in small-scale geostationary orbit
+(GEO) systems, they depend heavily on accurate channel
+information and centralized computation. As the number
+of beams increases, their computational complexity grows
+rapidly, limiting scalability and making them unsuitable for
+real-time HTS operations [2]. To alleviate the burden imposed
+by large beam counts, meta-heuristic algorithms—such as
+genetic algorithms (GA) [5], simulated annealing (SA) [6], and
+particle swarm optimization (PSO) [7]—have been introduced
+for joint resource allocation. However, these methods often
+suffer from slow convergence, sensitivity to initialization, and
+limited adaptability to time-varying environments.
+In recent years, deep reinforcement learning (DRL) has
+emerged as a promising tool for tackling complex, dynamic
+satellite environments. Unlike model-driven methods, DRL
+does not require an explicit system model; instead, it learns
+resource allocation policies through interactions with the envi-
+ronment [1], [6], [8]–[11], and has demonstrated performance
+superior to convex optimization and heuristic algorithm in
+dynamic multi-beam scenarios. However, when these classical
+DRL algorithms are applied directly to HTS systems with
+hundreds of beams, the mixed power–frequency action space
+grows exponentially. This results in severely reduced explo-
+ration efficiency, sparse rewards, and unstable training, causing
+slow convergence or entrapment in suboptimal solutions. To
+enhance scalability, multi-agent DRL (MADRL) frameworks
+have been introduced to perform distributed joint decision-
+making [2], [12], [13]. Nonetheless, under constrained on-
+board computation and non-stationary multi-agent interactions,
+MADRL still suffers from heavy communication and training
+overhead, and limited convergence stability.Against the above
+limitations of traditional DRL methods, the Soft Actor–Critic
+(SAC) algorithm [14] offers higher sample efficiency and
+superior training stability, making it naturally well-suited for
+constructing a high-dimensional mixed-action resource alloca-
+tion framework for multi-beam HTS systems.
+On the other hand, existing DRL-based satellite resource al-
+location frameworks also face architectural limitations. Main-
+stream network architecture such as multilayer perceptron
+(MLP) and convolutional neural network (CNN) primarily
+extract local features and struggle to model global correlations
+among beams. As a result, their collaboration and generaliza-
+tion capability deteriorate significantly when traffic distribu-
+tion or beam counts change. Transformer has recently emerged
+as a promising alternative [15]. By exploiting multi-head self-
+attention, Transformers can explicitly capture global and long-
+range spatio-temporal dependencies. As demonstrated in [16],
+Transformer-based models exhibit superior policy stability,
+exploration efficiency, and generalization in large action spaces
+compared with conventional deep neural networks.
+This paper proposes a Transformer-enhanced Soft Actor-
+
+=== PAGE 2 ===
+Critic algorithm (T-SAC) for multi-beam HTS systems, de-
+signed for joint power-frequency resource allocation. The
+resource management problem is modeled as a Satellite-
+Centric Markov Decision Process (SCMDP). The proposed
+method builds upon the SAC framework to address power
+control and frequency planning in high-dimensional action
+spaces. A Transformer encoder with multi-head self-attention
+is integrated into the SAC architecture as a feature extraction
+module. Simulation results demonstrate that compared to
+baseline algorithms, the proposed T-SAC achieves significant
+performance gains in key metrics including average SINR,
+allocation fairness, and user satisfaction. This validates its ef-
+fectiveness in achieving efficient and stable resource allocation
+within dynamic multi-beam HTS systems.
+II. S YSTEM MODEL AND PROBLEM FORMULATION
+A. System Model
+Consider the downlink of a time-slotted, multi-beam, HTS
+communication system with a single GEO satellite. Let T =
+{1, 2, . . . , T} denote the set of time slot indices. The on-board
+beam-coverage schedule [17] is updated every ∆t time units,
+so each time slot spans exactly one update interval. As shown
+in Fig.1, the multi-beam satellite can generate Nb beams,
+which are denoted as B = {1, 2, . . . , Nb} with the beamwidths
+of bw◦. To reduce modeling complexity and highlight the
+core mechanism of the dynamic resource allocation strategy,
+we assume that within each cell determined by the beam-
+coverage schedule, the traffic demand of all users is rep-
+resented by a superuser located at the beam-pointing cen-
+ter. Consequently, Nb cells are illuminated by these beams.
+Therefore, the traffic demand of the cell can be expressed
+as D(t) = {td1(t), td2(t), . . . , tdNb(t)} in which tdb(t) is the
+aggregated traffic demand of cell b at time t. Correspondingly,
+the actual traffic allocated by the satellite communication
+system is denoted as A(t) = {tp1(t), tp2(t), . . . , tpNb(t)} in
+which tpb(t) denotes the actual traffic allocated to cell b at
+time t.
+The allocation and management of satellite resources is
+essential to enhance satellite system throughput and reduce
+HTS satellite Gateway station Superuser
+Illuminated cell Feeder link
+ RL agent
+Allocation decisions
+Fig. 1: System Model
+FS
+FG
+Gateway
+Station
+LHCP
+RHCP
+Fig. 2: Frequency resource pool
+inter-beam co-channel interference. The satellite resource pool
+(SRP) is a centralized resource management framework on
+multi-beam satellite, which can be further subdivided into
+frequency resource pool (FRP) as shown in Fig.2 and power
+resource pool (PRP). The reuse mechanism of FRP and
+the concept of frequency group (FG) and frequency slot
+(FS) have been introduced in [9]. The multi-beam satellite
+operates in the Ka-band, spanning the downlink frequency
+range from fstart to fend, which provides a total multiplexing
+bandwidth of Btot = fend − fstart. The FRP contains Ng FGs,
+denoted as G = {1, 2, . . . , Ng}, where Ng is determined
+by the number of gateway stations. Odd- and even-indexed
+FGs belong to two mutually orthogonal polarization modes,
+defined as polarization ∈ { LHCP, RHCP }. Each FG is
+equally divided into Ns FSs, whose set can be presented
+as S = {1, 2, . . . , Ns}, where the bandwidth of each FS is
+Bslot = Btot
+Ns
+. Each beam can only transmit one carrier, and
+the occupied bandwidth must be continuous and no more than
+Bmax to prevent any single beam from monopolising excessive
+spectrum and keep the RF front-end within its practical linear
+operating range. The PRP distributes a suitable output power to
+each beam while respecting to limits. 1) A total power budget
+Ptot imposed by the satellite’s overall energy balance. 2) A
+per-beam ceiling Pmax, determined by the saturation rating of
+each traveling-wave tube amplifier (TWTA).
+Considering that beam coverage scheme periodically
+changes the service beam, the satellite downlink will be
+modeled according to channel time-varying characteristics.
+∀t ∈ T , ∀b ∈ B , ∀s ∈ S , the total path loss between satellite
+and cell b in FS s is Ls
+b(t) = Ls,f
+b (t)Ls,r
+b (t)Ls,c
+b (t) with free
+space path loss
+Ls,f
+b (t) =
+4πdb(t)f s
+c
+−2
+, (1)
+where db(t) is the distance between the satellite and cell b
+at time t, f s is the center frequency of FS s, and c is the
+speed of light. Rain and cloud attenuation, Ls,r
+b (t) and Ls,c
+b (t)
+are evaluated using [18] and [19], respectively. The satellite
+transmit antenna gain GT x
+b
+ 
+θb,i(t)
+
+is based on [20] with a
+boresight gain of GT x
+b , where θb,i(t) is the off-axis angle
+between the boresight of beam b and the line-of-sight direction
+to cell i at time t. Because the main axis of cell b’s receiving
+
+=== PAGE 3 ===
+antenna is adapted to coincide with the satellite–user line-of-
+sight, cell b experiences the antenna’s boresight gain, denoted
+by GRx
+b . The signal power transmitted from beam b to cell i
+on FS s at time t is:
+δs
+b,i(t) = P T x
+b (t)GT x
+b
+ 
+θb,i(t)
+
+GRx
+i Ls
+i (t) (2)
+where P T x
+b (t) is transmit power of beam b allocated by PRP
+at time t.
+Then the signal-to-interference-plus-noise ratio (SINR) of
+FS s occupied by beam b pointing to cell b at time t can be
+expressed as:
+Γs
+b(t) =
+δs
+b,b(t)
+NbP
+i=1,i̸=b
+xs
+i,bδs
+i,b(t) + kBTbBslot
+, (3)
+where xs
+i,j is a binary indicator, xs
+i,j = 1 when the following
+three conditions are met simultaneously. 1) Beam i occupies
+FS s. 2) Beam i and j have the same polarization mode. 3)
+Beam i and j are in different FGs. Otherwise, xs
+i,j = 0. kB
+denotes the Boltzmann constant. Tb refers to the receiving
+noise temperature of cell b. Thus, the traffic of cell b provided
+by beam b at time t is:
+tpb(t) =
+NsX
+k=1
+Bslot log2(1 + Γk
+b ) (4)
+B. Problem F ormulation
+The main goal of this paper is to maximize the service
+satisfaction of all cells by matching the allocated traffic to
+their demand traffic as closely as possible. To quantitatively
+evaluate the effectiveness and fairness of the resource alloca-
+tion strategy, the satisfaction-gap measure (SGM) proposed in
+[13] is adopted as an important performance metric, which can
+be expressed as:
+Λb(t) = 1 −
+
+1 − e−|λb(t)|
+3
+(5)
+where
+λb(t) =
+( 
+χb(t) − 1
+
++ j ∆b(t)
+β , χ b(t) ≥ 1 
+1 − 1
+χb
+(t)
+
++ j ∆b(t)
+β , 0 < χ b(t) < 1 (6)
+Specifically, the composite metric composed of the satisfaction
+index χb(t) = tpb(t)
+tdb(t) and the gap ∆b(t) = tpb(t) − tdb(t)
+imposes a heavier penalty on under-served allocation, prompt-
+ing the algorithm to prioritize filling service deficits, while
+applying a milder penalty to over-served users to curb resource
+wastage.
+Define X = [xs
+b(t)]T ×Nb×Ns, Y = [yg
+b (t)]T ×Nb×Ng, where
+xs
+b(t) = 1 when beam b occupies FS s, otherwise xs
+b(t) =
+0,ys
+b(t) = 1, when beam b belongs to FG g, otherwise yg
+b (t) =
+0, and P = [P T x
+b (t)]T ×B. Therefore, the optimization problem
+is formulated as:
+P1: max
+X,Y,P
+X
+t∈T
+X
+b∈B
+ϵ1Λb(t) + ϵ2χb(t) (7)
+s.t.
+X
+b∈B
+yg
+b (t)xs
+b(t) ≤ 1, ∀t ∈ T , ∀g ∈ G , ∀s ∈ S (7a)
+X
+g∈G
+yg
+b (t) = 1, ∀t ∈ T , ∀b ∈ B , ∀s ∈ S (7b)
+0 <
+Ns−1X
+s=1
+|xs+1
+b (t) − xs
+b(t)| ≤ 2, ∀t ∈ T , ∀b ∈ B (7c)
+X
+s∈S
+xs
+b(t) · Bslot ≤ Bmax, ∀t ∈ T , ∀b ∈ B (7d)
+P T x
+b (t) ≤ Pmax, ∀t ∈ T , ∀b ∈ B (7e)X
+b∈B
+P T x
+b (t) ≤ Ptot (7f)
+where ϵ1 and ϵ2 are tunable factors that can be adjusted to
+accommodate different service scenarios. (7a) restricts each
+FS to be occupied by at most one single beam. (7b) restricts
+each beam can occupy one single FG. (7c) ensures continuity
+in frequency allocation. (7d) limits the bandwidth allocated
+to each beam to no more than Bmax. (7e) limits the transmit
+power allocated to each beam to at most Pmax. (7f) guarantees
+that the total allocated does not exceed overall power budget
+Ptot.
+The problem P1 is a large-scale, time-coupled and non-
+convex optimization problem that is challenging for the clas-
+sical deterministic optimization algorithm. To cope with this
+complexity, P1 can be further modeled as a satellite-centric
+Markov decision process (SC-MDP) and solved by proposed
+Transformer-enhanced Soft Actor-Critic (T-SAC) algorithm.
+III. D YNAMIC RESOURCE ALLOCATION BASED ON T-SAC
+ALGORITHM
+The RL agent is first trained at the ground gateway until
+convergence and then deployed on the satellite, where it
+operates in real time to make resource allocation decisions.
+Updated models can be transmitted from the gateway period-
+ically as new training data arrive.
+A. SC-MDP
+Resource allocation decisions are modeled as a Markov
+decision process (MDP): each time slot is regarded as an
+episode containing Nb timesteps, at every timestep the agent
+allocates resource to the beam that is currently illuminated.
+1) State Space: The satellite communication constitutes the
+RL environment; therefore, the agent is assumed to have full
+observation of the global state required to make decisions. The
+beam state consists of the beam traffic demand tdb(t), the
+beam position Φb(t). The PRP state includes the remaining
+available power ξb(t) = Ptot −
+b−1P
+i=1
+P T x
+i (t). The FRP state
+includes the FS occupancy status Ob(t) = Y⊤
+b (t) · Xb(t). The
+channel state includes the interfere power of each FS Ib(t) =
+{ζ1
+b (t), ζ2
+b (t), . . . , ζNs
+b (t)}, where ζ s
+b (t) =
+b−1P
+i=1
+xs
+i δs
+i,b(t). Then
+the state space can be formulated as:
+Sb(t) =
+ 
+tdb(t), Φb(t), ξb(t), Ob(t), Ib(t)
+
+. (8)
+
+=== PAGE 4 ===
+2) Action Space: The action space A includes frequency
+assignment and power allocation. To improve training stability,
+two tricks aiming to reduce the dimensionality are applied
+to the proposed algorithm: 1) FGs are assigned cyclically,
+that is y(b mod Ng)
+b (t) = 1 , which allows beam to be evenly
+distributed across different FGs, and because the FG index
+is statically set by the environment. The agent dose not need
+to make decisions along the dimension, reducing the action
+space by a factor of Ng. 2) Continuous power is quantized
+evenly into ω discrete levels, thereby avoiding the unnecessary
+complexity of a hybrid continuous-discrete action space. The
+action space can be formulated as:
+Ab(t) =
+ 
+γb(t), κb(t), P T x
+b (t)
+
+, (9)
+where nmax = Bmax
+Bslot
+is the maximum number of FSs available
+per single beam, γb(t) ∈
+
+1, 2, . . . , Ns
+	
+is the assigned index
+of the starting FS, κb(t) ∈
+
+1, 2, . . . , nmax
+	
+is the assigned
+FSs number, P T x
+b (t) ∈
+ Pmax
+ω , 2·Pmax
+ω , . . . , Pmax
+	
+. The action
+space shrinks from Ng × Ns × nmax × ω to Ns × nmax × ω.
+3) Reward: According to problem P1, the reward is defined
+as:
+rb(t) = Λb(t) + χb(t) + Ψb(t), (10)
+where Ψb(t) is the penalty, defined as:
+Ψb(t) =
+(
+−R1, (7a) is violated
+−R2, (7f) is violated , (11)
+R1 and R2 are two constants.
+B. The Design of T-SAC
+The overall architecture of the T-SAC algorithm is shown
+in Fig.3. In the T-SAC architecture, a Transformer encoder in
+[15] serves as the feature extractor. The raw state is semanti-
+cally decomposed into several sub-features: scalar attributes
+{tdb(t), Φb(t), ξb(t)} and vector attributes {Ob(t), Ib(t)}.
+Each sub-feature is projected to a common hidden size dmodel
+SAC Agent
+Actor
+
+Soft Update
+
+Replay Buffer
+Entropy Temperature
+1
+Q
+Critic 1
+1
+Q
+Target Critic 1
+2
+Q Target Critic 2
+2
+Q
+Critic 2
+Policy Improvement
+12
+min( , )log QQ   −
+State Tokens
+Tokenize
+Transformer 
+Encoder
+State
+Action
+Interact Reward
+Feature 
+Extractor
+HTS System
+Environment
+
+Fig. 3: The overall architecture of T-SAC
+by separate linear layers and treated as an independent token,
+while sequential tokens [tdb(t), Φb(t), ξb(t), Ob(t), Ib(t)] re-
+ceive learnable positional embeddings. The resulting token se-
+quence is fed into the Transformer encoder, where multi-head
+self-attention jointly models scalar-vector and inter-vector
+interactions, capturing long-range cross-band interference pat-
+terns and fusing global power constraints with local beam
+details. It can be described as:
+Attention(Q, K, V) = softmax
+ QK⊤
+√dk
+
+V, (12)
+where Q, K and V represent the query, key and value,
+respectively, all derived from the same input token embeddings
+by three independent learnable projections WQ, WK and WV.
+Shared encoder parameters allow the model to adapt to dif-
+ferent beam number and interference levels without structural
+changes, endowing the algorithm with strong generalization
+capability.
+SAC proposed in [14] is served as the decision-making
+core, using the maximum-entropy principle to learn an optimal
+policy over the discrete action space A. By augmenting the
+reward with the policy entropy
+H(π) = Ea∼π
+
+− log π(a | s)
+
+, (13)
+Algorithm 1 Transformer-enhanced Soft Actor–Critic
+(T-SAC) Training
+Input: Replay-buffer capacity C, learning rates (ηθ, ηψi , ηα),
+discount γ, target-update rate τ, target entropy ¯H
+Output: Trained actor πθ and two critics Qψ1 , Qψ2
+1: Initialize actor πθ, critics Qψ1 , Qψ2 and target critics
+¯Qψi ← Qψi
+2: Initialize log-temperature parameter log αinit
+3: Initialize empty replay buffer D with capacity C
+4: for t = 1 to T do
+5: Reset environment and obtain initial state s1(t)
+6: for beam index b = 1 to Nb do
+7: Execute ab(t), get reward rb(t), next state sb+1(t)
+and flag done
+8: Store transition (sb(t), ab(t), rb(t), sb+1(t), done) in
+D
+9: if |D| > min size then
+10: Sample a mini-batch B from D
+11: Compute TD target µb(t) with Eq. (18)
+12: Update critics by minimizing Eq. (15) using ηψi
+13: Update actor by minimizing Eq. (16) using ηθ
+14: Update temperature α via Eq. (17) using ηα
+15: Soft-update targets: ¯Qψi ← (1 − τ) ¯Qψi + τ Qψi
+16: end if
+17: if done then
+18: break
+19: end if
+20: end for
+21: end for
+22: return πθ, Qψ1, Qψ2
+
+=== PAGE 5 ===
+/uni00000013 /uni00000018/uni00000013/uni00000013 /uni00000014/uni00000013/uni00000013/uni00000013 /uni00000014/uni00000018/uni00000013/uni00000013 /uni00000015/uni00000013/uni00000013/uni00000013 /uni00000015/uni00000018/uni00000013/uni00000013 /uni00000016/uni00000013/uni00000013/uni00000013 /uni00000016/uni00000018/uni00000013/uni00000013
+/uni00000028/uni00000053/uni0000004c/uni00000056/uni00000052/uni00000047/uni00000048
+/uni00000010/uni00000014/uni00000013/uni00000013
+/uni00000010/uni00000018/uni00000013
+/uni00000013
+/uni00000018/uni00000013
+/uni00000014/uni00000013/uni00000013
+/uni00000014/uni00000018/uni00000013
+/uni00000028/uni00000053/uni0000004c/uni00000056/uni00000052/uni00000047/uni00000048/uni00000003/uni00000035/uni00000048/uni00000057/uni00000058/uni00000055/uni00000051
+/uni00000033/uni00000055/uni00000052/uni00000053/uni00000052/uni00000056/uni00000048/uni00000047/uni00000003 /uni00000037 /uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000026/uni00000031/uni00000031/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000027/uni00000034/uni00000031
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000033/uni00000033/uni00000032
+Fig. 4: Training convergence curves of various algorithms
+SAC explicitly encourages policy stochasticity via a
+maximum-entropy objective. In large action spaces it ex-
+plores a more diverse set of actions than conventional meth-
+ods, thereby reducing the risk of prematurely converging to
+sub-optimal solutions. The objective function is
+J(π) = Eτ ∼π
+h NbX
+b=1
+γb−1 
+rb(t) + α H
+ 
+π(· | sb(t))
+i
+, (14)
+where γ is the discount factor, α is a learnable temperature
+used to make the actual entropy approach the target entropy.
+SAC consists of three learnable core components: the actor
+πθ(at,b | st,b), the critic Qψ1 , Qψ2 which are designed to
+suppress overestimation, and the temperature parameter α. The
+update process of parameters ψi, θ and α are
+ψi ← arg min
+ψi
+ 
+Qψi(sb(t), ab(t)) − µb(t)
+2
+, i ∈ {1, 2}, (15)
+θ ← arg min
+θ
+
+α log πθ
+ 
+ab(t) | sb(t)
+
+− min
+i
+Qψi
+ 
+sb(t), ab(t)
+
+, (16)
+α ← arg min
+α
+
+−α
+ 
+log πθ(ab(t) | sb(t)) + ¯H
+
+, (17)
+where
+µb(t) = rb(t) + γ
+ 
+min
+i
+¯Qψi
+ 
+sb(t), a′
+b(t)
+
+− α log πθ
+ 
+ab(t) | sb(t)
+
+, (18)
+a′
+b+1(t) ∼ πθ
+ 
+· | sb+1(t)
+
+. (19)
+IV. S IMULATION RESULTS AND DISCUSSION
+In this section, several simulation experiments are carried
+out to verify the effectiveness of the proposed algorithm.
+First, a multi-beam High Throughput Satellite (HTS) commu-
+nication system simulation environment is established using
+Python, and a reinforcement learning framework is imple-
+mented in PyTorch, where an agent interacts with the environ-
+ment to generate joint power–frequency allocation strategies.
+In the simulation setup, the HTS beams cover 100 major cities
+across China. The traffic demand for each beam is randomly
+generated, and the beams are indexed in descending order
+according to their traffic demands to simulate the uneven load
+distribution across regions. The main simulation parameters
+and the main T-SAC parameters are summarized in Table 1
+and Table 2, respectively.
+To ensure the fairness and comprehensiveness of the evalu-
+ation, this paper implements seven typical baseline algorithms
+under the same simulation conditions, as follows:
+1) Fixed Scheme: Each beam is assigned a fixed number
+of FS and a constant transmit power, with the starting FS and
+FG selected sequentially.
+2) Greedy Scheme: In each allocation, the algorithm selects
+the FS with the least occupied beam based on the current FS
+occupancy status. The transmit power is adaptively selected
+from three levels P T x
+b (t) ∈ { 20W, 25W, 30W } based on
+traffic demand.
+3) Random Scheme: By uniformly sampling frequency and
+power combinations in the legal action space, serving as a
+reference for the lower limit of performance.
+4) MLP-SAC: SAC based on multilayer perception (MLP).
+5) CNN-SAC: SAC based on convolutional neural networks
+(CNN).
+6) MLP-DQN: Deep Q-Network (DQN) based on MLP. It
+employs a factorized three-head design to separately estimate
+Q-values for the discrete action spaces of frequency, time-
+slot, and power. Each branch independently predicts the action-
+value function of its respective dimension, and the overall joint
+Q-value is obtained as the sum of the three components.
+7) MLP-PPO: Proximal Policy Optimization (PPO) based
+on MLP. MLP-PPO adopts an Actor–Critic architecture. An
+Actor network outputs three independent discrete action dis-
+tributions corresponding to frequency, time-slot, and power,
+while a Critic network estimates the state value.
+Fig.5 shows the mean and variance of the SINR for each al-
+gorithm in 10 random scenarios. The proposed T-SAC achieves
+the highest average SINR and the smallest variance in all
+scenarios, indicating its optimal performance in interference
+TABLE I: Main Simulation Parameters
+System Parameters
+Frequency Band Ka-band 17.7-20.2 GHz
+Number of FGs Ng 8
+Number of FSs Ns 100
+GEO Satellite
+Orbit Longitude 122.2° East
+Orbit Altitude 35786 km
+Number of Beams Nb 100
+Beamwidth 0.5°
+Total Power Budget Ptot 3000 W
+Transmitting Antenna Gain GT x 50 dBi
+Number of Power levels 10
+User Equipment
+Receiving Antenna Gain GRx 40 dBi
+Noise Temperature T 290 K
+TABLE II: Main T-SAC Parameters
+Parameter Value
+Training Episodes 4000
+Minimum Sampling Steps 2000 steps
+Replay-Buffer Capacity C 20000 steps
+Batch Size B 256
+Discount Factor γ 0.99
+Target-update Rate τ 0.005
+Target Entropy ¯H -6.9
+Learning Rate [ηθ, ηψi , ηα] [10 −5, 10−4, 10−4]
+
+=== PAGE 6 ===
+suppression and link stability. MLP-SAC and greedy scheme
+have average SINR of approximately 14–15 dB, significantly
+lower than T-SAC. Fixed scheme has a slightly lower average
+SINR of approximately 12–14 dB due to the lack of flexibility.
+CNN-SAC has an average SINR of approximately 12 dB and
+a large variance, indicating that CNN struggles to capture the
+intrinsic dependence of the system and dynamic features of
+the beam. DQN suffers from low learning efficiency in high-
+dimensional spaces due to its limited exploration capabilities,
+resulting in poor performance in interference suppression. PPO
+and the Random scheme have similar performance and are
+the worst, indicating that PPO struggles to effectively explore
+and learn optimal strategies in high-dimensional action space
+scenarios, failing to demonstrate the learning capabilities of
+reinforcement learning algorithms and only approaching the
+level of random exploration. Overall, T-SAC improves the
+average CINR by about 2–3 dB and reduces the variance by
+more than 70% compared to the optimal baseline (MLP-SAC),
+validating its global coordination capability.
+Fig.6 shows T-SAC, in particular, exhibits an average SGM
+exceeding 0.9 and a variance below 0.05, demonstrating
+optimal resource utilization efficiency and strong robustness.
+The average SGM of MLP-SAC is approximately 0.7–0.8,
+while the average SGM of CNN-SAC, MLP-DQN, and the
+Greedy scheme is approximately 0.6–0.7. The fixed and
+random schemes have an average SGM of only about 0.5.
+Experimental results demonstrate that learning algorithms can
+learn the intrinsic mechanisms for improving resource allo-
+cation fairness through policy optimization, thus significantly
+outperforming non-learning algorithms in this dimension. Par-
+ticularly, this indicates that T-SAC, through a self-attention
+mechanism, achieves information modeling based on global
+context, thereby realizing more efficient and fairer allocation
+of spectrum resources and power.
+Fig.7 shows the T-SAC algorithm maintains a high satis-
+faction score close to 1.0 across all scenarios, with a variance
+below 0.05, indicating its ability to stably meet the service
+requirements of different beams under dynamic environment,
+demonstrating excellent robustness and generalization ability.
+The average satisfaction scores of MLP-SAC, greedy and
+fixed scheme range from 0.85 to 0.9, while the average
+satisfaction score of the CNN-SAC is approximately 0.8,
+which can meet user needs to a certain extent. However, due
+to the lack of global dependency modeling, it is difficult to
+guarantee allocation fairness. The satisfaction scores of DQN,
+PPO, and random scheme are all significantly low, reflecting
+their difficulty in achieving effective resource coordination in
+complex dynamic environments.
+V. C ONCLUSION
+This paper proposes a T-SAC algorithm for multi-beam HTS
+systems to achieve joint power-frequency resource allocation.
+By modeling the dynamic satellite resource allocation problem
+as an SC-MDP, T-SAC introduces a Transformer encoder to
+capture long-range cross-band interference patterns and fusing
+global power constraints with local beam details. Simulation
+/uni00000013 /uni00000015 /uni00000017 /uni00000019 /uni0000001b
+/uni00000036/uni00000046/uni00000048/uni00000051/uni00000044/uni00000055/uni0000004c/uni00000052/uni00000003/uni0000002c/uni00000051/uni00000047/uni00000048/uni0000005b
+/uni00000014/uni00000013
+/uni00000014/uni00000015
+/uni00000014/uni00000017
+/uni00000014/uni00000019
+/uni00000036/uni0000002c/uni00000031/uni00000035/uni00000003/uni0000000b/uni00000047/uni00000025/uni0000000c/uni00000003/uni00000030/uni00000048/uni00000044/uni00000051
+/uni00000033/uni00000055/uni00000052/uni00000053/uni00000052/uni00000056/uni00000048/uni00000047/uni00000003 /uni00000037 /uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000026/uni00000031/uni00000031/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000027/uni00000034/uni00000031
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000033/uni00000033/uni00000032
+/uni0000002a/uni00000055/uni00000048/uni00000048/uni00000047/uni0000005c
+/uni00000029/uni0000004c/uni0000005b/uni00000048/uni00000047/uni00000003/uni00000036/uni00000046/uni0000004b/uni00000048/uni00000050/uni00000048
+/uni00000035/uni00000044/uni00000051/uni00000047/uni00000052/uni00000050
+(a) SINR mean
+/uni00000013 /uni00000015 /uni00000017 /uni00000019 /uni0000001b
+/uni00000036/uni00000046/uni00000048/uni00000051/uni00000044/uni00000055/uni0000004c/uni00000052/uni00000003/uni0000002c/uni00000051/uni00000047/uni00000048/uni0000005b
+/uni00000015/uni00000018
+/uni00000018/uni00000013
+/uni0000001a/uni00000018
+/uni00000014/uni00000013/uni00000013
+/uni00000014/uni00000015/uni00000018
+/uni00000014/uni00000018/uni00000013
+/uni00000014/uni0000001a/uni00000018
+/uni00000036/uni0000002c/uni00000031/uni00000035/uni00000003/uni0000000b/uni00000047/uni00000025/uni0000000c/uni00000003 /uni00000039 /uni00000044/uni00000055
+/uni00000033/uni00000055/uni00000052/uni00000053/uni00000052/uni00000056/uni00000048/uni00000047/uni00000003 /uni00000037 /uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000026/uni00000031/uni00000031/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000027/uni00000034/uni00000031
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000033/uni00000033/uni00000032
+/uni0000002a/uni00000055/uni00000048/uni00000048/uni00000047/uni0000005c
+/uni00000029/uni0000004c/uni0000005b/uni00000048/uni00000047/uni00000003/uni00000036/uni00000046/uni0000004b/uni00000048/uni00000050/uni00000048
+/uni00000035/uni00000044/uni00000051/uni00000047/uni00000052/uni00000050 (b) SINR variance
+Fig. 5: Comparison of SINR mean and variance of various
+algorithms
+/uni00000013 /uni00000015 /uni00000017 /uni00000019 /uni0000001b
+/uni00000036/uni00000046/uni00000048/uni00000051/uni00000044/uni00000055/uni0000004c/uni00000052/uni00000003/uni0000002c/uni00000051/uni00000047/uni00000048/uni0000005b
+/uni00000013/uni00000011/uni00000017
+/uni00000013/uni00000011/uni00000018
+/uni00000013/uni00000011/uni00000019
+/uni00000013/uni00000011/uni0000001a
+/uni00000013/uni00000011/uni0000001b
+/uni00000013/uni00000011/uni0000001c
+/uni00000036/uni0000002a/uni00000030/uni00000003/uni00000030/uni00000048/uni00000044/uni00000051
+/uni00000033/uni00000055/uni00000052/uni00000053/uni00000052/uni00000056/uni00000048/uni00000047/uni00000003 /uni00000037 /uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000026/uni00000031/uni00000031/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000027/uni00000034/uni00000031
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000033/uni00000033/uni00000032
+/uni0000002a/uni00000055/uni00000048/uni00000048/uni00000047/uni0000005c
+/uni00000029/uni0000004c/uni0000005b/uni00000048/uni00000047/uni00000003/uni00000036/uni00000046/uni0000004b/uni00000048/uni00000050/uni00000048
+/uni00000035/uni00000044/uni00000051/uni00000047/uni00000052/uni00000050
+(a) SGM mean
+/uni00000013 /uni00000015 /uni00000017 /uni00000019 /uni0000001b
+/uni00000036/uni00000046/uni00000048/uni00000051/uni00000044/uni00000055/uni0000004c/uni00000052/uni00000003/uni0000002c/uni00000051/uni00000047/uni00000048/uni0000005b
+/uni00000013/uni00000011/uni00000013/uni00000015/uni00000018
+/uni00000013/uni00000011/uni00000013/uni00000018/uni00000013
+/uni00000013/uni00000011/uni00000013/uni0000001a/uni00000018
+/uni00000013/uni00000011/uni00000014/uni00000013/uni00000013
+/uni00000013/uni00000011/uni00000014/uni00000015/uni00000018
+/uni00000013/uni00000011/uni00000014/uni00000018/uni00000013
+/uni00000013/uni00000011/uni00000014/uni0000001a/uni00000018
+/uni00000036/uni0000002a/uni00000030/uni00000003 /uni00000039 /uni00000044/uni00000055
+/uni00000033/uni00000055/uni00000052/uni00000053/uni00000052/uni00000056/uni00000048/uni00000047/uni00000003 /uni00000037 /uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000026/uni00000031/uni00000031/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000027/uni00000034/uni00000031
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000033/uni00000033/uni00000032
+/uni0000002a/uni00000055/uni00000048/uni00000048/uni00000047/uni0000005c
+/uni00000029/uni0000004c/uni0000005b/uni00000048/uni00000047/uni00000003/uni00000036/uni00000046/uni0000004b/uni00000048/uni00000050/uni00000048
+/uni00000035/uni00000044/uni00000051/uni00000047/uni00000052/uni00000050 (b) SGM variance
+Fig. 6: Comparison of SGM mean and variance of various
+algorithms
+/uni00000013 /uni00000015 /uni00000017 /uni00000019 /uni0000001b
+/uni00000036/uni00000046/uni00000048/uni00000051/uni00000044/uni00000055/uni0000004c/uni00000052/uni00000003/uni0000002c/uni00000051/uni00000047/uni00000048/uni0000005b
+/uni00000013/uni00000011/uni00000019
+/uni00000013/uni00000011/uni0000001a
+/uni00000013/uni00000011/uni0000001b
+/uni00000013/uni00000011/uni0000001c
+/uni00000036/uni00000044/uni00000057/uni0000004c/uni00000056/uni00000049/uni00000044/uni00000046/uni00000057/uni0000004c/uni00000052/uni00000051/uni00000003/uni00000030/uni00000048/uni00000044/uni00000051
+/uni00000033/uni00000055/uni00000052/uni00000053/uni00000052/uni00000056/uni00000048/uni00000047/uni00000003 /uni00000037 /uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000026/uni00000031/uni00000031/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000027/uni00000034/uni00000031
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000033/uni00000033/uni00000032
+/uni0000002a/uni00000055/uni00000048/uni00000048/uni00000047/uni0000005c
+/uni00000029/uni0000004c/uni0000005b/uni00000048/uni00000047/uni00000003/uni00000036/uni00000046/uni0000004b/uni00000048/uni00000050/uni00000048
+/uni00000035/uni00000044/uni00000051/uni00000047/uni00000052/uni00000050
+(a) Satisfaction mean
+/uni00000013 /uni00000015 /uni00000017 /uni00000019 /uni0000001b
+/uni00000036/uni00000046/uni00000048/uni00000051/uni00000044/uni00000055/uni0000004c/uni00000052/uni00000003/uni0000002c/uni00000051/uni00000047/uni00000048/uni0000005b
+/uni00000013/uni00000011/uni00000013/uni00000013/uni00000013
+/uni00000013/uni00000011/uni00000013/uni00000015/uni00000018
+/uni00000013/uni00000011/uni00000013/uni00000018/uni00000013
+/uni00000013/uni00000011/uni00000013/uni0000001a/uni00000018
+/uni00000013/uni00000011/uni00000014/uni00000013/uni00000013
+/uni00000013/uni00000011/uni00000014/uni00000015/uni00000018
+/uni00000013/uni00000011/uni00000014/uni00000018/uni00000013
+/uni00000013/uni00000011/uni00000014/uni0000001a/uni00000018
+/uni00000013/uni00000011/uni00000015/uni00000013/uni00000013
+/uni00000036/uni00000044/uni00000057/uni0000004c/uni00000056/uni00000049/uni00000044/uni00000046/uni00000057/uni0000004c/uni00000052/uni00000051/uni00000003 /uni00000039 /uni00000044/uni00000055
+/uni00000033/uni00000055/uni00000052/uni00000053/uni00000052/uni00000056/uni00000048/uni00000047/uni00000003 /uni00000037 /uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000026/uni00000031/uni00000031/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000036/uni00000024/uni00000026
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000027/uni00000034/uni00000031
+/uni00000030/uni0000002f/uni00000033/uni00000010/uni00000033/uni00000033/uni00000032
+/uni0000002a/uni00000055/uni00000048/uni00000048/uni00000047/uni0000005c
+/uni00000029/uni0000004c/uni0000005b/uni00000048/uni00000047/uni00000003/uni00000036/uni00000046/uni0000004b/uni00000048/uni00000050/uni00000048
+/uni00000035/uni00000044/uni00000051/uni00000047/uni00000052/uni00000050 (b) Satisfaction variance
+Fig. 7: Comparison of satisfaction mean and variance of
+various algorithms
+results show that T-SAC significantly outperforms traditional
+heuristic methods and existing reinforcement learning base-
+lines under various stochastic scenarios. The algorithm ex-
+hibits strong robustness in both resource utilization efficiency
+and interference suppression. In summary, the proposed T-SAC
+framework, through self-attention representation learning, ef-
+fectively uncovers the intrinsic mechanisms of global spectrum
+coordination and dynamic interference management, providing
+a feasible and efficient solution for intelligent satellite re-
+source scheduling in next-generation space-ground integrated
+networks.
+
+=== PAGE 7 ===
+REFERENCES
+[1] X. Hu, S. Liu, R. Chen, W. Wang, and C. Wang, “A deep reinforcement
+learning-based framework for dynamic resource allocation in multi-
+beam satellite systems,” IEEE Communications Letters , vol. 22, no. 8,
+pp. 1612–1615, 2018.
+[2] L. Feng, C. Zhang, Q. Zhang, L. Zeng, P. Qin, and Y . Wang, “Double-
+timescale multi-agent deep reinforcement learning for flexible payload
+in vhts systems,” Electronics, vol. 13, no. 14, p. 2764, 2024. Open
+Access under CC BY 4.0 license.
+[3] S. F. Hika, L. Zhu, T. Ji, H. Du, M. Chen, J. Liu, and S. Jin,
+“Joint allocation of downlink power, bandwidth and timeslots based on
+maximizing energy efficiency for geo satellite communication systems,”
+in 2024 IEEE 99th V ehicular Technology Conference (VTC2024-Spring),
+pp. 1–6, 2024.
+[4] A. I. Aravanis, B. Shankar M. R., P.-D. Arapoglou, G. Danoy, P. G.
+Cottis, and B. Ottersten, “Power allocation in multibeam satellite sys-
+tems: A two-stage multi-objective optimization,” IEEE Transactions on
+Wireless Communications, vol. 14, no. 6, pp. 3171–3182, 2015.
+[5] A. Paris, I. Del Portillo, B. Cameron, and E. Crawley, “A genetic algo-
+rithm for joint power and bandwidth allocation in multibeam satellite
+systems,” in 2019 IEEE Aerospace Conference , pp. 1–15, 2019.
+[6] X. Hu, Y . Wang, Z. Liu, X. Du, W. Wang, and F. M. Ghannouchi,
+“Dynamic power allocation in high throughput satellite communications:
+A two-stage advanced heuristic learning approach,” IEEE Transactions
+on V ehicular Technology, vol. 72, no. 3, pp. 3502–3516, 2023.
+[7] W. Gao, L. Wang, and L. Qu, “Research on joint resource allocation for
+multibeam satellite based on metaheuristic algorithms,” Entropy, vol. 24,
+no. 11, p. 1536, 2022. Open Access under CC BY 4.0 license.
+[8] H. Meng, N. Xin, H. Qin, and D. Zhao, “A recursive drl-based resource
+allocation method for multibeam satellite communication systems,”
+Chinese Journal of Electronics , vol. 33, no. 5, pp. 1286–1295, 2024.
+[9] J. J. G. Luis, E. Crawley, and B. Cameron, “Applicability and challenges
+of deep reinforcement learning for satellite frequency plan design,” in
+2021 IEEE Aerospace Conference (50100) , pp. 1–11, 2021.
+[10] J. Huang, Y . Yang, J. Lee, D. He, and Y . Li, “Deep reinforcement
+learning-based resource allocation for rsma in leo satellite-terrestrial
+networks,” IEEE Transactions on Communications , vol. 72, no. 3,
+pp. 1341–1354, 2024.
+[11] S. Wang, T. Lv, W. Ni, N. C. Beaulieu, and Y . J. Guo, “Joint
+resource management for mc-noma: A deep reinforcement learning
+approach,” IEEE Transactions on Wireless Communications , vol. 20,
+no. 9, pp. 5672–5688, 2021.
+[12] X. Liao, X. Hu, Z. Liu, S. Ma, L. Xu, X. Li, W. Wang, and F. M.
+Ghannouchi, “Distributed intelligence: A verification for multi-agent drl-
+based multibeam satellite resource allocation,” IEEE Communications
+Letters, vol. 24, no. 12, pp. 2785–2789, 2020.
+[13] Y . Li, D. Yang, H. Yang, and J. Kuang, “Joint frequency assignment and
+power allocation based on multi-agent deep reinforcement learning for
+multi-beam satellite systems,” in 2023 IEEE 97th V ehicular Technology
+Conference (VTC2023-Spring), pp. 1–6, 2023.
+[14] T. Haarnoja, A. Zhou, P. Abbeel, and S. Levine, “Soft actor-critic: Off-
+policy maximum entropy deep reinforcement learning with a stochastic
+actor,” in Proceedings of the 35th International Conference on Machine
+Learning, 2018. arXiv:1801.01290.
+[15] A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez,
+L. u. Kaiser, and I. Polosukhin, “Attention is all you need,” in Advances
+in Neural Information Processing Systems (I. Guyon, U. V . Luxburg,
+S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett,
+eds.), vol. 30, Curran Associates, Inc., 2017.
+[16] L. L. Dong, “Transformer-driven resource allocation for enhanced multi-
+carrier noma downlink,” in 2024 IEEE Wireless Communications and
+Networking Conference (WCNC) , pp. 1–6, 2024.
+[17] P. Angeletti and J. Lizarraga Cubillos, “Traffic balancing multibeam
+antennas for communication satellites,” IEEE Transactions on Antennas
+and Propagation, vol. 69, no. 12, pp. 8291–8303, 2021.
+[18] International Telecommunication Union, Radiocommunication Sector
+(ITU-R), “Specific Attenuation Model for Rain for Use in Prediction
+Methods.” Recommendation ITU-R P.838-3, Mar. 2005. Rec. ITU-R
+P.838-3 (03/2005), accessed 14 Jul 2025.
+[19] International Telecommunication Union, Radiocommunication Sector
+(ITU-R), “Attenuation Due to Clouds and Fog.” Recommendation ITU-
+R P.840-8, Aug. 2019. Rec. ITU-R P.840-8 (08/2019), accessed
+14 Jul 2025.
+[20] International Telecommunication Union, Radiocommunication Bureau
+— Space Services Department, “Calculation of Probability of Harmful
+Interference Between Space Networks (C/I Ratios).” World Radiocom-
+munication Seminar 2020 (WRS-20), Document WRS20/13-E, October
+2020. Accessed: 14 Jul 2025.

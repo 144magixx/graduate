@@ -1,0 +1,62 @@
+{
+  "checked_at_local": "2026-09-22",
+  "scope": "只读有界恢复核查；未执行真实CSV rollout、训练、性能实验、旧checkpoint迁移、SSH或自动化启动",
+  "fingerprints": {
+    "paused_state_file_count": 57,
+    "paused_state_diff_count": 0,
+    "paused_state_diffs": [],
+    "protected_frozen_file_count": 116,
+    "protected_frozen_diff_count": 0,
+    "protected_frozen_diffs": []
+  },
+  "cli": [
+    {
+      "name": "默认 preflight",
+      "command": "D:\\graduate\\PPO4090\\.venv-horizon\\Scripts\\python.exe -X utf8 -m implementations.anchor_tsac_20260921.train",
+      "return_code": 0,
+      "result": "preflight_ok；experiment_started=false；未启动实验"
+    },
+    {
+      "name": "新环境旧尺度纯Transformer配置 preflight",
+      "command": "D:\\graduate\\PPO4090\\.venv-horizon\\Scripts\\python.exe -X utf8 -m implementations.anchor_tsac_20260921.train --config implementations/anchor_tsac_20260921/configs/新环境旧尺度纯Transformer配置.json --mode preflight",
+      "return_code": 0,
+      "result": "preflight_ok；experiment_started=false；未启动实验"
+    },
+    {
+      "name": "新环境现代205纯Transformer配置 preflight",
+      "command": "D:\\graduate\\PPO4090\\.venv-horizon\\Scripts\\python.exe -X utf8 -m implementations.anchor_tsac_20260921.train --config implementations/anchor_tsac_20260921/configs/新环境现代205纯Transformer配置.json --mode preflight",
+      "return_code": 0,
+      "result": "preflight_ok；experiment_started=false；未启动实验"
+    },
+    {
+      "name": "未授权 train + 不存在 dataset",
+      "command": "D:\\graduate\\PPO4090\\.venv-horizon\\Scripts\\python.exe -X utf8 -m implementations.anchor_tsac_20260921.train --mode train --dataset __不存在的dataset_manifest__.json",
+      "return_code": 1,
+      "rejection": "先拒绝真实CSV rollout/训练未授权（需要显式 allow_experiment/--allow-experiment），未读取 dataset"
+    },
+    {
+      "name": "未授权 evaluate + 不存在 manifest",
+      "command": "D:\\graduate\\PPO4090\\.venv-horizon\\Scripts\\python.exe -X utf8 -m implementations.anchor_tsac_20260921.evaluate --manifest __不存在的manifest__.json",
+      "return_code": 1,
+      "rejection": "先拒绝真实CSV rollout/评价未授权（需要显式 allow_experiment/--allow-experiment），未读取 manifest"
+    },
+    {
+      "name": "未授权 export + 不存在 manifest",
+      "command": "D:\\graduate\\PPO4090\\.venv-horizon\\Scripts\\python.exe -X utf8 -m implementations.anchor_tsac_20260921.export --manifest __不存在的manifest__.json",
+      "return_code": 1,
+      "rejection": "先拒绝导出前真实CSV rollout未授权（需要 --allow-experiment），未读取 manifest"
+    }
+  ],
+  "post_check": {
+    "anchor_output_dir": "PPO4090/outputs/anchor_tsac_20260921",
+    "anchor_data_dir": "PPO4090/data/anchor_tsac_20260921",
+    "output_exists": false,
+    "data_exists": false,
+    "automation": {
+      "id": "gpu4-t-sac",
+      "status": "PAUSED",
+      "must_remain_paused": true
+    }
+  },
+  "pytest": "恢复后重新执行：34 passed，21条预期警告，24.78秒；JUnit为Anchor合并工程测试.xml"
+}

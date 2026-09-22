@@ -1,0 +1,35 @@
+{
+  "schema_version": "coverage.v2",
+  "algorithm_id": "anchor_tsac",
+  "data": {
+    "augment": false,
+    "width_augmentation": false,
+    "dataset_version": "legacy_aggregate.v1"
+  },
+  "env": {
+    "observation_adapter": "modern205",
+    "observation_version": "anchor205.v1",
+    "action_version": "contiguous_total_power_skip0.v1"
+  },
+  "model": {
+    "model_version": "anchor_pure_transformer14.v1",
+    "encoder": "pure_transformer_14",
+    "actor": "independent",
+    "critic": "additive",
+    "d_model": 128,
+    "attention_heads": 8,
+    "encoder_layers": 2,
+    "dropout": 0.1,
+    "activation": "relu",
+    "feedforward_multiplier": 4,
+    "norm_first": false,
+    "position_initialization": "zeros"
+  },
+  "train": {
+    "episodes": 0,
+    "max_env_steps": 0,
+    "gamma": 0.99,
+    "warmup_steps": 2000,
+    "update_schedule": "env_step"
+  }
+}

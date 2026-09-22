@@ -1,0 +1,983 @@
+{
+  "archive": "HorizonT-SAC-20260921论文基线运行包.tar.gz",
+  "sha256": "9e0f43744b3b6b8b212b395247e4572a50fdbe7f92e28c0ec7447d7eedb1996a",
+  "files": [
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_0.csv",
+      "bytes": 8335,
+      "sha256": "3799e5f2ebda449ae2cf36b62c11d31aa3682a76ce9afff483e9cba2b9bcf853"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_1.csv",
+      "bytes": 8109,
+      "sha256": "7bdbde3b2d7a2ddad9532034afa0d2c2595de9a5c18e3d1b74ec0b176409f879"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_10.csv",
+      "bytes": 7996,
+      "sha256": "dcfcbc63c5002fdd36813b0fa67884e902746b7fc6279c944b7a0e296db4cbdc"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_11.csv",
+      "bytes": 8407,
+      "sha256": "3f68eaadfbe135e447acadb4385120d7f41fea6e6e86885fc8d5dc9645ef9d34"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_12.csv",
+      "bytes": 8345,
+      "sha256": "3611d2aec35511f756190378f0d3a02f156c84600c16ebce80df920f22390803"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_13.csv",
+      "bytes": 8294,
+      "sha256": "7b2043f4fa39815825a81d74898e45031f7be84093f8935af4aa6332d4ef5c12"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_14.csv",
+      "bytes": 8296,
+      "sha256": "81155dd3a08a3cadb508d3aefcb4e391c91b72dee98aaa8b6dc0a6ab64a82ebc"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_15.csv",
+      "bytes": 7685,
+      "sha256": "a16a6c430079d83548f8cc578d5f29928847cee155f229ce380fa4167cc9aa58"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_16.csv",
+      "bytes": 8387,
+      "sha256": "43d46da8af341afac51b70f005d53c27073ac5679fada85319268b45c771f5c5"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_17.csv",
+      "bytes": 8904,
+      "sha256": "595dea98f2c9647461accec04ae3355de1074e892c182c5980007cd557b96e42"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_18.csv",
+      "bytes": 8540,
+      "sha256": "e06fb60c96d2c8687cd7dea79ca3fea138f7bf822823b16fa014d7b8aac98d57"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_19.csv",
+      "bytes": 9113,
+      "sha256": "3618ef2c7a9b746acc439f823ba6dc2a106e50fed970cfbfced232237dcaa166"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_2.csv",
+      "bytes": 8292,
+      "sha256": "7f7a18381c0af426bd048b12cdab997cb3fd59d2d5bc504252521c02f06cf449"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_20.csv",
+      "bytes": 8210,
+      "sha256": "3c850daabd1fc29086ea656464511bcfc5d425ba394459b3b8bf6f773677c22c"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_21.csv",
+      "bytes": 8221,
+      "sha256": "1267fd3ed5d23d6789a5df1776931f2df2734e0bfbb5ec0013019d8fe8acc64b"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_22.csv",
+      "bytes": 9082,
+      "sha256": "25ded1b2b2716fc6bcc46149150e81eb929f10b9a7f4d08c14d9ed271ea23dd0"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_23.csv",
+      "bytes": 7864,
+      "sha256": "3561b79b11f942e4cc42d0ba901fe2e868501cdb11489ec75edd743ca4632706"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_24.csv",
+      "bytes": 8119,
+      "sha256": "8be0824f759f3d3fe5b2ccd5383aeb05e123008032d5872f6382fd9d7f32a588"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_25.csv",
+      "bytes": 8391,
+      "sha256": "096cfec3e635b191fbc2ccd6407ed47f115c1d7a7beab5a976a3839cd2f2de50"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_26.csv",
+      "bytes": 8782,
+      "sha256": "99cede42a587e54e6ab5065e47c4cb2f87176a94571d4e7ec21e91b0db4e94cd"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_27.csv",
+      "bytes": 8134,
+      "sha256": "d545e81b0a1c4e4c63a0d976c44528ae3658ce394fb437bc989bc2cfcf5cda8b"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_28.csv",
+      "bytes": 8298,
+      "sha256": "b4211c51753597722e633998e58dcd3c580f02d8fb1abb11fc7a9c44468c2b23"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_29.csv",
+      "bytes": 8109,
+      "sha256": "bddf3708922ff00a7c6d9ee07f313f0a07fbae9e0bcbeefc04c73d7b9fd8e4db"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_3.csv",
+      "bytes": 7833,
+      "sha256": "37798758f635dfe35415dbc0fae5cd9f011be65669a092a3ca333c91ff607cb3"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_30.csv",
+      "bytes": 8432,
+      "sha256": "a3e4707e815a585aadb7a0c0e320963e3ddf09dac056e8a86144e72108854839"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_31.csv",
+      "bytes": 8698,
+      "sha256": "736b1b05a136f4db7029fb5514e4e3709012f0bcdbbd13b98ef534c1acac4d0c"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_32.csv",
+      "bytes": 8477,
+      "sha256": "76569afab61c6afebd7588c8dda8e00943cd79c1204941b56452567837b50385"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_33.csv",
+      "bytes": 8160,
+      "sha256": "e0e5ce83eb8ba915798b40d9b4afa77838b5f319e6779f11d5af065d3da69db7"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_34.csv",
+      "bytes": 8193,
+      "sha256": "4627636d84a7c5a3e1a2f20418cfed50d779e0514f9ec20783de5d431f8d1f77"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_35.csv",
+      "bytes": 8137,
+      "sha256": "ecb21f950228e85c8f1e62382f2f8f66e4c249625c19c16337a3b1688a769fbe"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_36.csv",
+      "bytes": 8421,
+      "sha256": "a575b2d3eb4de41fb987b9436bb523b8513551e7a3c8bc9f4e9e8fbfb2e5947a"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_37.csv",
+      "bytes": 8199,
+      "sha256": "59049281bcc9a398d2f6cff2fb91bf1aff7c739d44500f32898145b4376b3110"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_38.csv",
+      "bytes": 8490,
+      "sha256": "ac5bb77ae795e50f3a5a4388f4d85931f6c91b9c1aedb2da6ff552a6a460cc42"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_39.csv",
+      "bytes": 9102,
+      "sha256": "c1b07e41f83258155cccc46dd1bb916ff359dc75ce735b1e58190a817432fe5e"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_4.csv",
+      "bytes": 7969,
+      "sha256": "93ec39fe6e910fdb526d5152d63aac0558348756e6843e3844ff7b75818ca191"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_40.csv",
+      "bytes": 8497,
+      "sha256": "e44a3eb1e656646aa302320a578913aedb157d903d9a4f12724a0282eea68649"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_41.csv",
+      "bytes": 8310,
+      "sha256": "54a729a96e46e3d00847557595c3675a29c45b326ebccf9ef0ea8f43edc7d108"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_42.csv",
+      "bytes": 8240,
+      "sha256": "0a476833b96d3f78a347c25f5bc08ff23403ffdd8cc7b577eeb7cb733b82e522"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_43.csv",
+      "bytes": 8323,
+      "sha256": "9cb62478c392fb1b8f0d689abd7a0bc74082aeb99b03576e744d2f70b968d55b"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_44.csv",
+      "bytes": 8631,
+      "sha256": "1d9053227113405dd03a8517d3af1423b975457c8fe8ec3d5387e5c53511e696"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_45.csv",
+      "bytes": 8245,
+      "sha256": "809696c3b80475950ba52ff16c1aac0769ad17fdd56947ac9c25a42b91f7f43d"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_46.csv",
+      "bytes": 8623,
+      "sha256": "93e9d3f5a41b4ba07cb13b43066d2881cf571d7b930eeefc6961a4a90f70b37a"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_47.csv",
+      "bytes": 8358,
+      "sha256": "1bce74ac3f985b44b584bcba457d3f8b9a13300b33a02d53addb5c8458663d18"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_48.csv",
+      "bytes": 8400,
+      "sha256": "f57e0b558d55b84c397334e3f7fd7ffce4c45bfdeb61d683faaa4a5c2b9de395"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_49.csv",
+      "bytes": 8418,
+      "sha256": "05aa20e5e4f2a312f6eb5b4cc1d850ff149f58ac43d331083f6621f65d74ee80"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_5.csv",
+      "bytes": 8301,
+      "sha256": "363f95956ea3287e19f77e7a6fd2a09b7c961b41c45a4712a4aba3e9f6e37d04"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_50.csv",
+      "bytes": 8312,
+      "sha256": "2fc16cac3c56209e28759c2dae621ce7e54870df78f9c1e15df26248e8a106aa"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_51.csv",
+      "bytes": 8582,
+      "sha256": "8b987cffc07c75e7a6a4c64bcb465d97fb39dcca3e9842c5d31de9ed97d5984c"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_52.csv",
+      "bytes": 8199,
+      "sha256": "9d44057c94c929b9502c91edae295cb3b4c3c3455238a223e0963c8d10f6e03a"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_53.csv",
+      "bytes": 7964,
+      "sha256": "4035a2d10d66cabd4bea44fb9a3f2cdbc91209a22b62f4d11e4166bb8dbedde4"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_54.csv",
+      "bytes": 8685,
+      "sha256": "050cb2847f433dee89998cdbfcdd203c3d9f237d65e447e2360de7ebfafed517"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_55.csv",
+      "bytes": 8322,
+      "sha256": "b4258754401b37389d1a827b735a68670ceb303120c74ed81d97accceb2bccc0"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_56.csv",
+      "bytes": 8349,
+      "sha256": "b4aea205b321f64be4dd60a359c3d3ba55a20860bb266cde626df84beab02e38"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_57.csv",
+      "bytes": 8175,
+      "sha256": "199383de49fb9e1289e5fd71796cc5b5848cac8d29c8bf62bb1214154738d7b1"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_58.csv",
+      "bytes": 8461,
+      "sha256": "81fae6af58a7d717769f6e9f477c0ba04921b7418e8f49fc4318730672a8f07e"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_59.csv",
+      "bytes": 8323,
+      "sha256": "bea64f3c9f6a532b61ba896e2aa9317e3a6af6418b202cdc6329aafcf655a467"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_6.csv",
+      "bytes": 7995,
+      "sha256": "202e5f416b235f57350bed9e88b45f121ff706eb54a5140c56d9d8f073eee167"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_60.csv",
+      "bytes": 8392,
+      "sha256": "e30f3b9a0347081c162ed9e96ee5cbdabaf114c8d17c21e376474e2f5048b6ce"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_61.csv",
+      "bytes": 8487,
+      "sha256": "5872ce159c784b9505b9846a1b5497620ebf545a9fadda34ef8e966952e32d6a"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_62.csv",
+      "bytes": 8586,
+      "sha256": "121fa53953b9a3ed96214daf3f25925cfb557bbdc2ae2e671392142e86390201"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_63.csv",
+      "bytes": 7859,
+      "sha256": "4d243cfa6097fa2186026122cde32e62291eb8712edb40ca3fd72c1830128f97"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_64.csv",
+      "bytes": 8354,
+      "sha256": "8bb8ba47ce71d6b47e905eb91ed2d4bd8e91b60faf69705165be5b713e2059ef"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_65.csv",
+      "bytes": 7572,
+      "sha256": "9e14ba8ab6ba269006df508413d7829d34330be98343594bfa6dc34f87a7ce37"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_66.csv",
+      "bytes": 7935,
+      "sha256": "e0740643d507915488aa9a9308536ca103b9d25abbe263732a96f93c16a07b67"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_67.csv",
+      "bytes": 8347,
+      "sha256": "cebdd61d9c5e20241cf9a94f615f85f36cd430484d51bfb5feea56ec547e5f9b"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_68.csv",
+      "bytes": 8121,
+      "sha256": "4a5ddc6ada1d09afbc3a8ae7bc064b142847bcae046407a1fe4500b99a2bd8a9"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_69.csv",
+      "bytes": 8398,
+      "sha256": "0a7d910da58ce5d4cf8acbe3586954d4c261ffea24a2a1fb1926976ad10d93b3"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_7.csv",
+      "bytes": 8410,
+      "sha256": "fd66b166366b2986a28212935ff60f7c53e62df20439be02eeb84fc7140a188d"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_70.csv",
+      "bytes": 8225,
+      "sha256": "0de0190c9878e309947071164c1f42b6b43f05eaa498f18cb434a2bc2b7b0186"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_71.csv",
+      "bytes": 8368,
+      "sha256": "3f83fd59917393cc3fa329fb5738bb5d7840a26c28bae965a0dc8d494d43edda"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_72.csv",
+      "bytes": 8236,
+      "sha256": "59e277c102eb9120f3170bc378f4724fd731a42086d992fffc846f94a8c7b435"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_73.csv",
+      "bytes": 8449,
+      "sha256": "48ad906c7a59f24af45de3808be9aec6e195e158e2125d4bdaac16eba1fa6381"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_74.csv",
+      "bytes": 8350,
+      "sha256": "08c8133addb5aa88c9d43086f2925010ba9b2c37928212ab6fc5eb09ecbedef7"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_75.csv",
+      "bytes": 7620,
+      "sha256": "5abd6e1918a216ab6aafab2196bd4bc77cc689daf155b3a10708a9a54ac0780d"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_76.csv",
+      "bytes": 8030,
+      "sha256": "a1f437950c873ed64069108334d97f62757c2410116eeb7d59dbf4a1ae864234"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_77.csv",
+      "bytes": 8429,
+      "sha256": "a812ea1bad878e6339e0a04fa62af09d79363cb3054d653d97d3b71b27bbc2a9"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_78.csv",
+      "bytes": 8631,
+      "sha256": "669dc76b1282b4146214ea0881068e4bbd4b04ae96952877ed9c0e69cd514228"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_79.csv",
+      "bytes": 8134,
+      "sha256": "8be2a961ad9239c0598655c771287bb0ff28b2726b73cd8d8c1172ba44968e72"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_8.csv",
+      "bytes": 8576,
+      "sha256": "3c0f70d85f407fc198192a7a4fe47522bb6e3e37ad40ca039e495894191ee8fa"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_80.csv",
+      "bytes": 7734,
+      "sha256": "1e0c14d4bf8027113b7f345df589efc42200ce32e7163fce1e5ea66080bded9a"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_81.csv",
+      "bytes": 7708,
+      "sha256": "3a2591855fe932fe21b82389e9e39fd73217c8338a2b04711352c4714f5a0351"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_82.csv",
+      "bytes": 8599,
+      "sha256": "9f024f5ecaa1412ac4c016fc26bd581a10bc5486c0698814f6e37ee19da54ecd"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_83.csv",
+      "bytes": 8537,
+      "sha256": "d86044b0c6aa88ddf683d873952c2a54f18a5952c50277b742b3c94f14df5469"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_84.csv",
+      "bytes": 8468,
+      "sha256": "a173b96af74fed977b985d26e35cfcfaff5630f28303811e6f65125aa5a930f1"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_85.csv",
+      "bytes": 8484,
+      "sha256": "78a40f60a5b68cfd6d1517aaf6105e5faaf35a2c415b2ee13a472b3f2b4d8ee5"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_86.csv",
+      "bytes": 8185,
+      "sha256": "18cdbaa0ab8da3bd43bbf11faa985b37d436a4e350074507975752b3f2391187"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_87.csv",
+      "bytes": 8329,
+      "sha256": "6a18b335b55bdd668c5602eb9cbc2c4a3cbf3af7f5862a068a900f28bb0dd3c6"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_88.csv",
+      "bytes": 8651,
+      "sha256": "50e5b4c7325166d11dbe4f6c63bb88d8b30544ade83ac024641feea429a9fd54"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_89.csv",
+      "bytes": 8300,
+      "sha256": "9725cb11ce0f2296aec38edbb617ba30e962cd37ba896fdd14fefcde68c5a4fb"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_9.csv",
+      "bytes": 8112,
+      "sha256": "030d1806b17d6360cd0828e94d18a354eac16d256e39713515a55d8cf46fbde8"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_90.csv",
+      "bytes": 8410,
+      "sha256": "1dee762d8182be2c8cec839c4616de61f2960bef090ed8a35f70d16a37f1cedc"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_91.csv",
+      "bytes": 8585,
+      "sha256": "05e95959bf5f6dbee3fa0fbde03baa896fb73789ef3af8f8f53e143aed085005"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_92.csv",
+      "bytes": 8251,
+      "sha256": "5ff4663b35d92a041f46c32a48c924050222c8f84eea5344992f06b234c86c9e"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_93.csv",
+      "bytes": 8182,
+      "sha256": "ccf286c7be4ac096d46d52d69a7198d1927b415b70e9191867c73c66b379bd57"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_94.csv",
+      "bytes": 7767,
+      "sha256": "93fc7c50858c690d1ea80103bd206a6e35b45ed83ca4295c7deaf422bd3651ea"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_95.csv",
+      "bytes": 8538,
+      "sha256": "8731f4a9ff9b00a54c7978e0881ed04e010fe3b6f908c035fba7acabef4cb6c5"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_96.csv",
+      "bytes": 8436,
+      "sha256": "69c050add73e5aa2bf6543255b9d5e8502937ce22c47d49c8221db9a7cb89113"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_97.csv",
+      "bytes": 7820,
+      "sha256": "62b71bc2fbe2e22e93f2d0571927ef15ae43904523fc801427f34b63c8e2d598"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_98.csv",
+      "bytes": 8500,
+      "sha256": "6c4f6be3484ad65d3e07cf42b9a4248e445ed8d8a66b953207f6d3089922a40a"
+    },
+    {
+      "path": "PPO4090/data/cover_outputs/cover_output_99.csv",
+      "bytes": 5848,
+      "sha256": "3fdc06f7b3f453d59819c1a27e0ae050db1df4822b2c700e3afc438d6f97a983"
+    },
+    {
+      "path": "PPO4090/data/horizon_tsac_20260920/场景缺口与补样清单.json",
+      "bytes": 18421,
+      "sha256": "e5eff6532c1d992cc7ccce51df87786ab399a0555efe91b692c1209c2db00b53"
+    },
+    {
+      "path": "PPO4090/data/horizon_tsac_20260920/训练场景清单.json",
+      "bytes": 58708,
+      "sha256": "d97afe125d31f60449df61e4ba43ad1e1a22ff482b58aa66d00328072c33a540"
+    },
+    {
+      "path": "PPO4090/data/horizon_tsac_20260920/训练场景覆盖审计.json",
+      "bytes": 19568,
+      "sha256": "638aaf0340339eff559b584d181da16b63b7d088dda251566ace4424aaf08b32"
+    },
+    {
+      "path": "PPO4090/data/horizon_tsac_20260920/训练场景覆盖规格.yaml",
+      "bytes": 6080,
+      "sha256": "fdfd98b101651737017f327d7a35942bb984a70411d6282a8b72ea72e14cd09f"
+    },
+    {
+      "path": "PPO4090/frontend/horizon_tsac_20260920/dist/assets/index-p7ScqQ_B.css",
+      "bytes": 10611,
+      "sha256": "ff247c508aa77bb9172a715f29ea23d6fd236bc3d851d7586c18cfdc5e2cee27"
+    },
+    {
+      "path": "PPO4090/frontend/horizon_tsac_20260920/dist/assets/index-uw7ELlgS.js",
+      "bytes": 176039,
+      "sha256": "c717d7b0077175ab74c0e7f90eb347e98b43bec66d0712e51e26855ba2b4808d"
+    },
+    {
+      "path": "PPO4090/frontend/horizon_tsac_20260920/dist/index.html",
+      "bytes": 421,
+      "sha256": "e7e7ec2a7fcf115784ad7d7a63314ddf505e0f2261b4511ed2856929d7383366"
+    },
+    {
+      "path": "PPO4090/frontend/horizon_tsac_20260920/index.html",
+      "bytes": 322,
+      "sha256": "ea33f1f69becf1d8bc5a21384495b63be7952def9d1d2ec26eb487fcbb3b70c9"
+    },
+    {
+      "path": "PPO4090/frontend/horizon_tsac_20260920/package-lock.json",
+      "bytes": 34713,
+      "sha256": "f53a62843f2ce3db22981c952c7462871fa3ebd14454552cd48aaff1f956372a"
+    },
+    {
+      "path": "PPO4090/frontend/horizon_tsac_20260920/package.json",
+      "bytes": 469,
+      "sha256": "3659e7b460c60f49747bf5aee3e68c15236e195802883813073b4ffa95f68344"
+    },
+    {
+      "path": "PPO4090/frontend/horizon_tsac_20260920/src/main.tsx",
+      "bytes": 34622,
+      "sha256": "5223603cb88eb8ab29b5d216f5905fa674fbfe5dee55c9ad1c1c183d5e86baa9"
+    },
+    {
+      "path": "PPO4090/frontend/horizon_tsac_20260920/src/style.css",
+      "bytes": 10612,
+      "sha256": "6e4242b6c7c3bcb88612ce52d92f4cd4fb34373f9836af373895c2ee9d8fb056"
+    },
+    {
+      "path": "PPO4090/frontend/horizon_tsac_20260920/tsconfig.json",
+      "bytes": 232,
+      "sha256": "7e8bc9a2ccfde7a893b6c581ba57dac50b585bf36b8b6abe97a39a7c74fc9ca8"
+    },
+    {
+      "path": "PPO4090/implementations/__init__.py",
+      "bytes": 39,
+      "sha256": "e7cf1e25750b9dc0e24d82e8df41e2e187f925cd6a8f8970d22ede137c57dd39"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/__init__.py",
+      "bytes": 184,
+      "sha256": "5a22afa3909e98e8fce14927ce853d85e99ccc43055f7604a2702ad057dac966"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/artifacts.py",
+      "bytes": 8172,
+      "sha256": "3c303236bca07b1d396f90233845c4b2fef501cc3bca038fadf91262e77ed887"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/audit.py",
+      "bytes": 5984,
+      "sha256": "8f2c2cd2cef25a2ff724efcc69043817b2626132ff8c704702fd29cc09c772d8"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/config.py",
+      "bytes": 11422,
+      "sha256": "6f7d76a330a184ecac2444f104db5ddb0c285d2bc17b3969e86c0353af16fdf9"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/configs/主研究配置.json",
+      "bytes": 2858,
+      "sha256": "5e41bebd714d46468cdb885bceb049a5ba4b23267afe5fc0187ed41d5210d764"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/configs/全局摘要消融配置.json",
+      "bytes": 2866,
+      "sha256": "3f433f9ee0a5466b9258ab846adb56e8198b7309fa67e3e3400cb03e7454122b"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/configs/合法兼容基线配置.json",
+      "bytes": 2860,
+      "sha256": "4c23aec0ad780d478f14f999e067a905fee90644da666069c4429cdb07691f08"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/configs/完整观察-条件策略-可加价值配置.json",
+      "bytes": 2861,
+      "sha256": "17d020b49e2a900b7befe3e30cc5d6ac0600b45ec7cb302baf01828a4ac3630f"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/configs/完整观察-条件策略-联合价值配置.json",
+      "bytes": 2858,
+      "sha256": "5e41bebd714d46468cdb885bceb049a5ba4b23267afe5fc0187ed41d5210d764"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/configs/完整观察-独立策略-可加价值配置.json",
+      "bytes": 2861,
+      "sha256": "cde9b6c2c75eeb337fe8e2252b2129f710c9369ce40188ddf975f3b9bbef74f6"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/configs/完整观察-独立策略-联合价值配置.json",
+      "bytes": 2858,
+      "sha256": "01499392a8363f7ef2bd3e6f3962f1ee47eef49156f65e2f1a91f9fa09f36fe4"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/dashboard/__init__.py",
+      "bytes": 78,
+      "sha256": "53eac7ebec9c466c046679fd9741249466b2e72ed0f15dd6e803282873eeb940"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/dashboard/__main__.py",
+      "bytes": 710,
+      "sha256": "336e18cec44c7e84ed22f479f20488571e1ca3e6aaef4842ac3b3d53ce5551d0"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/dashboard/api.py",
+      "bytes": 22305,
+      "sha256": "3cdcae2a470140a0e32bd43a3499a44b3a29ae5a3cf7f23f40665ff28b8b53a3"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/data/augment.py",
+      "bytes": 1566,
+      "sha256": "039e45a96464680959ce9b1af6505065d39c99be26988780e823d46d5e6061aa"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/data/domain.py",
+      "bytes": 25297,
+      "sha256": "ee57e7e5f195007cc4da1055041067d3012d6d57ea3d2770fdb4854c15f6ed8b"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/data/loader.py",
+      "bytes": 4356,
+      "sha256": "e102d770192abdc92e7115f9c5bd1db89ab98e3846cba4af45973554dd761ac9"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/data/schema.py",
+      "bytes": 4368,
+      "sha256": "5ce5eeb7b807051c73b712e7a1bcdcaee96155b45002ee8d2c751d8f5d6656ce"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/data/split.py",
+      "bytes": 3795,
+      "sha256": "4260176e826e162ba7e905a5104d2907d7509aa866a92d6b49f19f4a71e41ffb"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/env/action.py",
+      "bytes": 3214,
+      "sha256": "b0a17ea8ce01727f414cb05afbd9633243f246ce319c077276e7387720d2581e"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/env/environment.py",
+      "bytes": 13448,
+      "sha256": "a26030f4c82abe5414e4f170af65138de27daea27de054c2dd3c17956cc45f23"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/env/metrics.py",
+      "bytes": 3471,
+      "sha256": "e397be30498e3ba5eebb4b160289c702e09f4abcde6bfc1b3dc00c0bde6bd1a0"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/env/physics.py",
+      "bytes": 8871,
+      "sha256": "2ec406f17ea1fd116c3b84e7a11a8a588e3b3319dc1abb2a822487f25e6cd4a8"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/env/reward.py",
+      "bytes": 597,
+      "sha256": "e7dfed21f9db1b6d03a95cb97f9d173ebd28cbb9754ea9edacbe2b39711b1669"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/env/state.py",
+      "bytes": 461,
+      "sha256": "ac2a48c45a1a4748843e26adfa29b304990dc78b03771213de0eb2c8fce25687"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/evaluate.py",
+      "bytes": 15207,
+      "sha256": "fd06ed24c06ad67efbb3d0f07cc4b07b72522cf03b695e877c2c01e36a969cc6"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/export.py",
+      "bytes": 7643,
+      "sha256": "6fbf82e05f903657504546ccbd66479567a5229725eb888f51ef9ba924c616b9"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/legacy_reference.py",
+      "bytes": 1213,
+      "sha256": "c9b57e224c8d61f27881a60342f351d35be76504dd1ae4e2afcb117cc7cc630a"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/models/__init__.py",
+      "bytes": 272,
+      "sha256": "1eff30c2f5319c85d67e0159587ed3cb365a1fe3bbca58c36c6b0d01c680fe6d"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/models/networks.py",
+      "bytes": 14768,
+      "sha256": "3fced331c5f7859bde1029b5cc43e786fa5550fca6d2a70d08d717def4e3a40f"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/overnight.py",
+      "bytes": 30868,
+      "sha256": "89ab26ef3cc168566595ba1999b053eb6ef3039e85495d7bf85db8080ce46d6d"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/package.py",
+      "bytes": 2984,
+      "sha256": "130c77cdc39d4c87919feda7055d8d21ad2d4af88749c30af8101b569117e1ef"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/paper_baselines/__init__.py",
+      "bytes": 96,
+      "sha256": "10ddd714098c84b0ca923ac51e4f974c82c4c71fec2c1b7491817635a2a75bdd"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/paper_baselines/dqn.py",
+      "bytes": 14594,
+      "sha256": "fdfc57c3f6a91cb45f7876aa3679f31d569720a66a7099dc91a866f1fc46393e"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/paper_baselines/heuristics.py",
+      "bytes": 10073,
+      "sha256": "7924daf9cc6bd637b8b6817c5f91b0b46f68d14b17723bafcaea1fa22a493467"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/paper_baselines/ppo.py",
+      "bytes": 21685,
+      "sha256": "a3a4ab2d7de96e14a27c19181e6735cc39ecf2623cc4ba8a881b926284fd5dba"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/paper_baselines/specs.py",
+      "bytes": 3425,
+      "sha256": "12fdfeb4d1128aee4c43c49e2e215cf425a00bf08431affd08dc35a38a3c6758"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/paper_baselines/suite.py",
+      "bytes": 37952,
+      "sha256": "e3f933b66252c2472a6d47604e5067dc05e0d23e53f7d4a5c5d12fd558ac7f73"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/paper_baselines/train.py",
+      "bytes": 14086,
+      "sha256": "8adce1a5cb2c80646c323e1971feb7b534c652c6f833ca822bb64abf2af57c98"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/research_stats.py",
+      "bytes": 20782,
+      "sha256": "ade234fec793d21d51249297eaab53ed40cc99cdb39071ad6eaf1cfee554061b"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/rl/__init__.py",
+      "bytes": 179,
+      "sha256": "11dd3f7fccf68ebb7bfb0a412fc94d0393f0cb6e193b00a7b82d195fe55c2b92"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/rl/benchmark.py",
+      "bytes": 10872,
+      "sha256": "312f45615d4fe58f9f3e16e33c163847bcf876f53885a38782ee572aca01cd71"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/rl/overnight_probe.py",
+      "bytes": 7444,
+      "sha256": "298c9ad1af1fe18cb0d0fdc687d47d749f51510e74d6e8336a2f3f5efdef27c4"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/rl/replay.py",
+      "bytes": 10943,
+      "sha256": "5d739ceeb5767427cbb8b4c6b70bec2aa5a36e75e5f38fc3bd861807bb6cf074"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/rl/sac.py",
+      "bytes": 14724,
+      "sha256": "03d7567b7e8f495121f17c8139a45070ccf2c7a38103f8859111180600dee78e"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/rl/validation.py",
+      "bytes": 7503,
+      "sha256": "05c0e9b6ff0aac8901b7f296ac11bbc15e3342f94dec9421d834fba8128559cf"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/telemetry/__init__.py",
+      "bytes": 171,
+      "sha256": "13cc63fdb4a765fa5f8baa0fd9ac93943a5af4a4c60baa580127b916ef30aae0"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/telemetry/legacy.py",
+      "bytes": 1163,
+      "sha256": "4180e30455503fb68a176d8ece3d03459aea5c7cf97f76a9dff4170b9f9f5a0c"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/telemetry/recorder.py",
+      "bytes": 25870,
+      "sha256": "fc7434f39ebb3654beaca80aa24aabde494dcf64b9ec0a263d2c43e6e3f8641e"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/telemetry/storage.py",
+      "bytes": 8854,
+      "sha256": "83066e401cbf5e1f7a3bd6f34ac6cc5e2d2d60bb0a5c5dcdea3b6a0f8900776a"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/train.py",
+      "bytes": 17594,
+      "sha256": "84f74ed56d7f99dad828e11b87db80ff91d056f99c4c2d56bb8b717872cfa061"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/verify.py",
+      "bytes": 2365,
+      "sha256": "a3f898d5b3c1cdb602278d7ec621442fc595aeecfcd36578ad36e1b684ac5c39"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/运行依赖.txt",
+      "bytes": 310,
+      "sha256": "b25eb5a6d3c468f4bc9a181a83400029ff080fda12092ce9fa5bcac458da0d5b"
+    },
+    {
+      "path": "PPO4090/implementations/sac_fyh_io/__init__.py",
+      "bytes": 63,
+      "sha256": "105f3dce249dfc2483a187282a632aed20b5e9927b2deaaaec079988e37f67b8"
+    },
+    {
+      "path": "PPO4090/implementations/sac_fyh_io/Environment_fyh_IO.py",
+      "bytes": 52052,
+      "sha256": "5b1cd4131463147429a194bd7ec83814b9684f280ec819094b8be6fa6f540307"
+    },
+    {
+      "path": "PPO4090/implementations/sac_fyh_io/sac_fyh_IO.py",
+      "bytes": 20450,
+      "sha256": "58b0be8efa43f5f17e0eb4e75afa9a1dfee92d5249ad9d55527d078346767b74"
+    },
+    {
+      "path": "PPO4090/implementations/sac_fyh_io/sac_train_fyh_IO.py",
+      "bytes": 10034,
+      "sha256": "4ab10ed147c2f4ebd40195b07c478d2fb7ca1c4f236b13a883c943a43fb220f2"
+    },
+    {
+      "path": "PPO4090/project_paths.py",
+      "bytes": 1071,
+      "sha256": "e32adc370337c8fda825baec03e8cb7f1963a0f54a757933005cc103b76b8968"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_data.py",
+      "bytes": 5584,
+      "sha256": "0c41b0d4c5b59b204303781464e6065c34d8055bf974d853d72eac750dd0fc5b"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_dataset_training.py",
+      "bytes": 10613,
+      "sha256": "a5b3c100a3c26ceb812282acbffcc025a50ed4707b32cf8c6af85af8bd83968a"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_delivery_review.py",
+      "bytes": 4268,
+      "sha256": "7636f8d521ed4236de1d20e58adb737c739ee6432949ba2c0824a915a016617e"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_device_restore.py",
+      "bytes": 3035,
+      "sha256": "36762334c268641418888cb40afd02a2608fb97617aa312c93db293541d51c24"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_domain.py",
+      "bytes": 4667,
+      "sha256": "1b24548c95030ed9106ab1917cc0168969d3ddb9639713cc9f780bc15c03de52"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_environment.py",
+      "bytes": 13645,
+      "sha256": "82bf640e72c3b48c4aaa49b82087ccb14eed57a621f8fc605b0ec09c0a9bafe9"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_integration.py",
+      "bytes": 4936,
+      "sha256": "3e10161b47d507a754ff467d0594da881d69234f836997d6edb766b6edbe2de1"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_longrun_controls.py",
+      "bytes": 2470,
+      "sha256": "5e19985aa3abe4dc0e44e5874fd4c868b1554bfa8d7b6a790ffbf6dc60da7db1"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_overnight.py",
+      "bytes": 14802,
+      "sha256": "c1ca6cab5002597672045232d829f14edc04e2f8de20dbcdf6c6fe503eae3716"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_paper_dqn.py",
+      "bytes": 14148,
+      "sha256": "7a41ccff8d4ffa563369c7d29dcba2c8b4989d128df040b93c809eaae460b35b"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_paper_heuristics.py",
+      "bytes": 11141,
+      "sha256": "24a820f9d504b81b16c5bce08cf140c7640e63762775a5249fe0bf4797f7cecc"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_paper_ppo.py",
+      "bytes": 15689,
+      "sha256": "5787825c2d911f0072174df4b4cd64de11ca136c95afd0c7d4b141be065df334"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_paper_sac.py",
+      "bytes": 2716,
+      "sha256": "41f434e94d3a95303cefda4b682a6d71945094cc3b760069a1cda8e955846708"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_paper_suite.py",
+      "bytes": 21964,
+      "sha256": "2143fd0c317c24f5b46bbf962da3546edee2c95f8fe1d12374f8860b17b3f982"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_paper_training.py",
+      "bytes": 4955,
+      "sha256": "4238dba725f5306ca8a31d9312bac5ed5f2a4c0468f5e1cbe84baf6f65e61952"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_research_stats.py",
+      "bytes": 12171,
+      "sha256": "57be566cb637bfde7a2023e71d4b3640c8ed3a61e6af17921b0c24dfb02c5d66"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_review_regressions.py",
+      "bytes": 4371,
+      "sha256": "28a60142a136825d4c2df09e99d9148c8286400e81291d9b2be035579a9c493a"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_sac.py",
+      "bytes": 19362,
+      "sha256": "93030e1c661be8a834ccce4590516d928d18ff226a89778d6ab5ec0c9d32e448"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_schedule.py",
+      "bytes": 7955,
+      "sha256": "8f3d12facfa4dc4d5f385cb59db4efe17e20dbcfc611ddee0d1ef2cc141020c0"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_schedule_review.py",
+      "bytes": 6890,
+      "sha256": "fcd168d00762e480fee631440d2b00b8b65a85cfa52b4e383ba477ee5bf41ee0"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_telemetry.py",
+      "bytes": 13195,
+      "sha256": "392cf8d55bbd0e036d09ebed56780bdfbabfe9213406546bed28888495bc3456"
+    },
+    {
+      "path": "PPO4090/tests/horizon_tsac_20260920/test_telemetry_review.py",
+      "bytes": 19908,
+      "sha256": "6173699d3f92d21cfc0bcdd1ece51598b7505243b792747678d52ff29700f72a"
+    },
+    {
+      "path": "PPO4090/项目说明.md",
+      "bytes": 9398,
+      "sha256": "542945087b2fc0ac800dfd99889603e2f9854434a89c48248dfb69be4ad62fba"
+    }
+  ],
+  "file_count": 195,
+  "note": "从未修改的归档字节重建具名清单，修复此前清单文件名被index.html循环变量遮蔽的元数据问题"
+}

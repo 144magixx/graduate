@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-09-20T22:10:14.881660+00:00",
+  "files": 300,
+  "arrays": 4500,
+  "allow_pickle": false,
+  "object_arrays": 0,
+  "fields": [
+    "X",
+    "beam_id",
+    "demand_bps",
+    "demand_mask",
+    "entity_mask",
+    "frequency_hz",
+    "ground_diameter_deg",
+    "group_id",
+    "noise_temperature_k",
+    "p_slot_w",
+    "p_total_w",
+    "polarization_id",
+    "rate_bps",
+    "sinr_linear",
+    "status"
+  ],
+  "scope": "结构与无pickle可读取核验；原件字节SHA另见回传校验清单，不宣称再次独立重算全部物理"
+}

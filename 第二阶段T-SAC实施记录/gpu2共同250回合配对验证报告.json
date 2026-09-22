@@ -1,0 +1,383 @@
+{
+  "schema_version": "paired_validation_audit.v1",
+  "evidence_directory": "D:\\graduate\\第二阶段T-SAC实施记录\\gpu2共同预算评价证据-053733",
+  "source_progress_sha256": "94a281950a6cbd56f4f1627512c281f8005007a00e4e7373345b01f7c7f2a533",
+  "source_progress_updated_utc": "2026-09-21T05:37:12.308970+00:00",
+  "retrieval_audit_file": "gpu2评价工件取回校验.json",
+  "comparison_scope": "one shared-parent continuation seed42; common additional budget; existing validation only",
+  "budget": {
+    "episodes": 250,
+    "env_step": 35619,
+    "update_step": 34620
+  },
+  "source_pretraining_budget": {
+    "env_step": 14281,
+    "update_step": 13282,
+    "episodes": 100
+  },
+  "source_checkpoint_id": "5180a86491a046a98b39f0004e1e4210",
+  "source_checkpoint_sha256": "a2fcab6465cfe18bc0afd701ac6c73f671ea8d3fdbf88423414d03a739a7fba8",
+  "data_manifest_hash": "154326a45c9dbde33ae6b0613283a1367c09267ff3dde4bb73b19d6752bfb1a5",
+  "checks": {
+    "data_manifest_hash": true,
+    "data_manifest": true,
+    "action_spec_signature": true,
+    "physics_version": true,
+    "reward_version": true,
+    "metric_version": true,
+    "dataset_version": true,
+    "evaluated_training_counters": true,
+    "data_config": true,
+    "physics_config": true,
+    "env_config": true,
+    "train_config": true,
+    "telemetry_config": true,
+    "source_parent_sha": true,
+    "source_parent_counters": true,
+    "all_rows_same_scenarios_demand_budget_phase": true,
+    "all_rows_zero_violations": true
+  },
+  "methods": {
+    "CNN-seed42-250": {
+      "checkpoint_id": "2dbbe6f5d1be4b80b840e3f1a922414a",
+      "evaluation_id": "e3f80b1876c9",
+      "manifest_file": "D:\\graduate\\第二阶段T-SAC实施记录\\gpu2共同预算评价证据-053733\\共同预算评价\\CNN-seed42-250\\policy\\运行清单.json",
+      "encoder": "cnn_local",
+      "seed": 42,
+      "mean_U_recomputed": 0.8044431724263821,
+      "mean_U_reported": 0.8044431724263821,
+      "constraint_violations": 0
+    },
+    "Spectrum-seed42-250": {
+      "checkpoint_id": "0982a14d555d42ffa83e8fad740e543c",
+      "evaluation_id": "f887f7443798",
+      "manifest_file": "D:\\graduate\\第二阶段T-SAC实施记录\\gpu2共同预算评价证据-053733\\共同预算评价\\Spectrum-seed42-250\\policy\\运行清单.json",
+      "encoder": "cnn_attention_residual",
+      "seed": 42,
+      "mean_U_recomputed": 0.8195970375045613,
+      "mean_U_reported": 0.8195970375045613,
+      "constraint_violations": 0
+    }
+  },
+  "paired_difference": {
+    "direction": "Spectrum minus CNN",
+    "n_pairs": 15,
+    "mean_difference": 0.015153865078179063,
+    "percentage_points": 1.5153865078179063,
+    "ci95": [
+      0.004377519719252296,
+      0.027360819700159467
+    ],
+    "method": "paired_scene_percentile_bootstrap",
+    "resamples": 2000,
+    "random_seed": 0,
+    "rng": "numpy.default_rng(0), PCG64",
+    "numpy_version": "1.26.4",
+    "scene_order": "lexicographically sorted scenario_id",
+    "statistic": "arithmetic mean of 15 paired U differences; sample 15 paired rows with replacement per draw",
+    "quantile_method": "linear",
+    "wins": 12,
+    "ties": 0,
+    "losses": 3,
+    "tie_absolute_tolerance": 1e-12,
+    "training_seed_interval_available": false
+  },
+  "pairs": [
+    {
+      "scenario_id": "cover_output_0",
+      "source_hash": "3799e5f2ebda449ae2cf36b62c11d31aa3682a76ce9afff483e9cba2b9bcf853",
+      "phase": "validation",
+      "n_demand": 145,
+      "n_entities": 145,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.8127218670691138,
+      "spectrum_U": 0.8175053348118452,
+      "difference": 0.004783467742731418,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_29",
+      "source_hash": "bddf3708922ff00a7c6d9ee07f313f0a07fbae9e0bcbeefc04c73d7b9fd8e4db",
+      "phase": "validation",
+      "n_demand": 138,
+      "n_entities": 138,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.8034542969770985,
+      "spectrum_U": 0.8108438586443588,
+      "difference": 0.007389561667260347,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_31",
+      "source_hash": "736b1b05a136f4db7029fb5514e4e3709012f0bcdbbd13b98ef534c1acac4d0c",
+      "phase": "validation",
+      "n_demand": 157,
+      "n_entities": 157,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.7569246650692877,
+      "spectrum_U": 0.7996719483977733,
+      "difference": 0.04274728332848565,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_33",
+      "source_hash": "e0e5ce83eb8ba915798b40d9b4afa77838b5f319e6779f11d5af065d3da69db7",
+      "phase": "validation",
+      "n_demand": 139,
+      "n_entities": 139,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.8035015417575749,
+      "spectrum_U": 0.8257965127312289,
+      "difference": 0.02229497097365396,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_34",
+      "source_hash": "4627636d84a7c5a3e1a2f20418cfed50d779e0514f9ec20783de5d431f8d1f77",
+      "phase": "validation",
+      "n_demand": 138,
+      "n_entities": 138,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.8219260666317442,
+      "spectrum_U": 0.7928908911034976,
+      "difference": -0.029035175528246526,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_35",
+      "source_hash": "ecb21f950228e85c8f1e62382f2f8f66e4c249625c19c16337a3b1688a769fbe",
+      "phase": "validation",
+      "n_demand": 136,
+      "n_entities": 136,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.8295810842828959,
+      "spectrum_U": 0.8207655323891573,
+      "difference": -0.008815551893738616,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_54",
+      "source_hash": "050cb2847f433dee89998cdbfcdd203c3d9f237d65e447e2360de7ebfafed517",
+      "phase": "validation",
+      "n_demand": 151,
+      "n_entities": 151,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.7801698662007219,
+      "spectrum_U": 0.827174433581751,
+      "difference": 0.047004567381029094,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_56",
+      "source_hash": "b4aea205b321f64be4dd60a359c3d3ba55a20860bb266cde626df84beab02e38",
+      "phase": "validation",
+      "n_demand": 140,
+      "n_entities": 140,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.8342880568502117,
+      "spectrum_U": 0.8372104003060833,
+      "difference": 0.002922343455871612,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_6",
+      "source_hash": "202e5f416b235f57350bed9e88b45f121ff706eb54a5140c56d9d8f073eee167",
+      "phase": "validation",
+      "n_demand": 129,
+      "n_entities": 129,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.7544019462718892,
+      "spectrum_U": 0.8161028303992397,
+      "difference": 0.06170088412735053,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_62",
+      "source_hash": "121fa53953b9a3ed96214daf3f25925cfb557bbdc2ae2e671392142e86390201",
+      "phase": "validation",
+      "n_demand": 152,
+      "n_entities": 152,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.7943866025671034,
+      "spectrum_U": 0.8123476687879179,
+      "difference": 0.017961066220814503,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_76",
+      "source_hash": "a1f437950c873ed64069108334d97f62757c2410116eeb7d59dbf4a1ae864234",
+      "phase": "validation",
+      "n_demand": 134,
+      "n_entities": 134,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.814096718037754,
+      "spectrum_U": 0.8380300931554863,
+      "difference": 0.023933375117732303,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_79",
+      "source_hash": "8be2a961ad9239c0598655c771287bb0ff28b2726b73cd8d8c1172ba44968e72",
+      "phase": "validation",
+      "n_demand": 138,
+      "n_entities": 138,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.8402176314495592,
+      "spectrum_U": 0.8432836096544613,
+      "difference": 0.0030659782049020645,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_81",
+      "source_hash": "3a2591855fe932fe21b82389e9e39fd73217c8338a2b04711352c4714f5a0351",
+      "phase": "validation",
+      "n_demand": 126,
+      "n_entities": 126,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.8023437453400902,
+      "spectrum_U": 0.8221503172894405,
+      "difference": 0.019806571949350316,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_87",
+      "source_hash": "6a18b335b55bdd668c5602eb9cbc2c4a3cbf3af7f5862a068a900f28bb0dd3c6",
+      "phase": "validation",
+      "n_demand": 146,
+      "n_entities": 146,
+      "total_demand_bps": 83225000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.8205236555495562,
+      "spectrum_U": 0.8195640934089208,
+      "difference": -0.0009595621406354171,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    },
+    {
+      "scenario_id": "cover_output_99",
+      "source_hash": "3fdc06f7b3f453d59819c1a27e0ae050db1df4822b2c700e3afc438d6f97a983",
+      "phase": "validation",
+      "n_demand": 52,
+      "n_entities": 52,
+      "total_demand_bps": 35150000000.0,
+      "power_budget_w": 6000.0,
+      "cnn_U": 0.7981098423411317,
+      "spectrum_U": 0.8106180379072564,
+      "difference": 0.012508195566124702,
+      "cnn_constraints": 0,
+      "spectrum_constraints": 0
+    }
+  ],
+  "auxiliary_scene_equal_weight_means": {
+    "sgm_mean_positive_demand": {
+      "CNN-seed42-250": 0.5325897434449998,
+      "Spectrum-seed42-250": 0.6828379556993238
+    },
+    "delivered_bps": {
+      "CNN-seed42-250": 44488587339.303345,
+      "Spectrum-seed42-250": 46466612796.17461
+    },
+    "raw_throughput_bps": {
+      "CNN-seed42-250": 68066581929.89612,
+      "Spectrum-seed42-250": 57427639310.89671
+    },
+    "power_used_w": {
+      "CNN-seed42-250": 5474.666666666667,
+      "Spectrum-seed42-250": 5371.333333333333
+    },
+    "skip_fraction": {
+      "CNN-seed42-250": 0.008646772475965719,
+      "Spectrum-seed42-250": 0.0030061444580363043
+    },
+    "mean_slot_sinr_db": {
+      "CNN-seed42-250": 13.08057506007337,
+      "Spectrum-seed42-250": 14.915476850000072
+    },
+    "p05_slot_sinr_db": {
+      "CNN-seed42-250": 2.71859081031945,
+      "Spectrum-seed42-250": 7.245798956785958
+    },
+    "policy_decision_seconds": {
+      "CNN-seed42-250": 0.27480913462738193,
+      "Spectrum-seed42-250": 0.771831632219255
+    },
+    "inference_seconds": {
+      "CNN-seed42-250": 0.697030229245623,
+      "Spectrum-seed42-250": 1.2040145993853608
+    }
+  },
+  "limitations": [
+    "A single continuation seed42 with a shared pretrained parent; no independent multi-seed advantage claim.",
+    "Unknown upstream root lineage prevents strict root-level/generalization inference; the interval resamples the 15 validation scenarios only.",
+    "CNN100 parent validation U approximately .8903744222 exceeds both current means, but it is a different training budget, not this controlled pair.",
+    "The resumed seed43 trial is still running; no final seed43 or combined-seed conclusion.",
+    "No test-set evaluation, training, remote commands or existing status updates were performed by this audit."
+  ],
+  "artifact_integrity_review": {
+    "status": "passed",
+    "independent_reviewer": "supervisor_audit",
+    "retrieved_files": 109,
+    "retrieved_file_sha256_and_bytes_all_match": true,
+    "tar_sha256_match": true,
+    "sqlite_integrity_check": [
+      "ok",
+      "ok"
+    ],
+    "sqlite_sha256_unchanged_after_read": true,
+    "runs_completed": 2,
+    "completed_validation_episodes": 30,
+    "error_events": 0,
+    "published_artifacts_per_method": 47,
+    "published_artifact_sha256_all_match": true,
+    "npz_load_allow_pickle": false,
+    "npz_independent_physical_recomputations_passed": 30,
+    "recomputed_U_matches_reports": true,
+    "recomputed_constraint_violations": 0,
+    "scenario_source_hash_matches_frozen_validation_manifest_all": true,
+    "both_methods_full_scenario_objects_equal": true,
+    "checkpoint_budget_identity_consistent_across_manifest_report_db_progress_plan": true
+  },
+  "deployment_recovery_context": {
+    "old_gpu4_step": "206178.4",
+    "old_step_status": "CANCELLED",
+    "already_completed_runs_not_retrained": [
+      "CNN-seed42-300",
+      "CNN-seed43-300",
+      "Spectrum-seed42-271-wall-limit"
+    ],
+    "seed43_full_state_resume_checkpoint": "180cc4eb1a4d44768287ec6201bedfeb",
+    "resume_from_episodes": 150,
+    "remaining_wall_seconds": 5940,
+    "checkpoint_every_after_resume": 10,
+    "gpu2_allocation": "206357",
+    "seed43_still_running": true,
+    "initial_submission_transport_failure": "remote Python stdin encoding rejected before script execution; ASCII wrapper and duplicate-start lock used on resubmission, no duplicated training reported",
+    "test_set_used": false
+  }
+}

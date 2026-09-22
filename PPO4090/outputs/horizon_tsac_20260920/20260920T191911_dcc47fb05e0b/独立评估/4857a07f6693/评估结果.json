@@ -1,0 +1,66 @@
+{
+  "evaluation_id": "4857a07f6693",
+  "split": "validation",
+  "checkpoint_id": "e9f5a4ac1631482b8c7c9254cefe62f2",
+  "evaluated_training_counters": {
+    "env_step": 286,
+    "update_step": 148,
+    "episodes": 2
+  },
+  "results": {
+    "policy": [
+      {
+        "n_entities": 145,
+        "n_demand": 145,
+        "empty_demand": false,
+        "mean_satisfaction": 0.6204146843655188,
+        "fully_satisfied_fraction": 0.31724137931034485,
+        "served_fraction": 0.8758620689655172,
+        "skip_fraction": 0.12413793103448276,
+        "zero_rate_fraction": 0.12413793103448276,
+        "delivered_bps": 46605620353.93267,
+        "raw_throughput_bps": 53812005131.3156,
+        "unmet_bps": 36619379646.06733,
+        "total_demand_bps": 83225000000.0,
+        "power_used_w": 6000.0,
+        "remaining_power_w": 0.0,
+        "power_budget_w": 6000.0,
+        "pool_occupancy": 0.5475,
+        "physical_frequency_coverage": 0.84,
+        "sinr_sample_count": 438,
+        "mean_slot_sinr_db": 14.496180487878474,
+        "p05_slot_sinr_db": 6.774344936291379,
+        "linear_mean_sinr_to_db": 16.40564155356307,
+        "jain_clipped_satisfaction": 0.7516358903545766,
+        "sgm_mean_positive_demand": 0.5976054186691101,
+        "sgm_beta_bps": 573965517.2413793,
+        "constraint_violation_count": 0,
+        "constraint_violations": [],
+        "end_to_end_metric_available": false,
+        "j_root": null,
+        "scenario_id": "cover_output_0",
+        "episode_return": 62.0414684365519,
+        "inference_seconds": 1.0287660001777112,
+        "policy_decision_seconds": 0.34092879988020286,
+        "rollout_seconds": 4.948093999992125,
+        "checkpoint_id": "e9f5a4ac1631482b8c7c9254cefe62f2",
+        "phase": "validation"
+      }
+    ]
+  },
+  "summary": {
+    "policy": {
+      "scenarios": 1,
+      "mean_U": 0.6204146843655188,
+      "micro_U": 0.6204146843655188,
+      "inference_p50_seconds": 1.0287660001777112,
+      "inference_p95_seconds": 1.0287660001777112,
+      "constraint_violations": 0
+    }
+  },
+  "paired": null,
+  "greedy_candidate_rule": "包含SKIP的合法候选ID等间距至多16个，最大即时全局U；非上界",
+  "status": "short_validation_only",
+  "formal_multiseed_complete": false,
+  "output_dir": "outputs\\horizon_tsac_20260920\\20260920T191911_dcc47fb05e0b\\独立评估\\4857a07f6693"
+}

@@ -1,0 +1,4 @@
+{
+  "attempt1": "登录节点Python3.9的tarfile流压缩模式不接受compresslevel；在打包前报错，没有更改远端训练或产物。",
+  "retry": "使用gzip.GzipFile压缩层包裹tar流后重试只读取回。"
+}

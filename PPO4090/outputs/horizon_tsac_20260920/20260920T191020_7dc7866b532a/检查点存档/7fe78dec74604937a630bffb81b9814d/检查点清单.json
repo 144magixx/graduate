@@ -1,0 +1,16 @@
+{
+  "format": "horizon_checkpoint.v1",
+  "checkpoint_id": "7fe78dec74604937a630bffb81b9814d",
+  "compression": "gzip",
+  "file": "检查点.pt",
+  "sha256": "25871f483696ae6847617a1a446b2c5377ce84b0200203e3e656cfcfe3b1722a",
+  "durable_event_seq": 303,
+  "counters": {
+    "env_step": 286,
+    "update_step": 148,
+    "episodes": 2
+  },
+  "run_id": "20260920T191020_7dc7866b532a",
+  "trial_id": "1a975e6d90f6447b8a9e72e96f8033d0",
+  "boundary": "episode"
+}

@@ -1,0 +1,298 @@
+{
+  "compute_host": "gpu2",
+  "slurm_allocation": "206357",
+  "durable_release": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1",
+  "durable_project": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090",
+  "node_local_root": "/tmp/SpectrumT-SAC-gpu2-20260921-8ux3lqqh",
+  "node_local_project": "/tmp/SpectrumT-SAC-gpu2-20260921-8ux3lqqh/PPO4090",
+  "python": "/tmp/SpectrumT-SAC-gpu2-20260921-8ux3lqqh/.venv-spectrum/bin/python",
+  "source_package_sha256": "ee3d84b6dc621134ba141a3a9b737946824328d8b2eb7cc89a3a53c7529c78e1",
+  "status": "completed",
+  "login_host": "10.160.16.3",
+  "port": 22854,
+  "username": "u2024110224",
+  "identity_file": "C:/Users/minyu/.ssh/HorizonT-SAC",
+  "old_durable_project": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090",
+  "old_campaign_dir": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/夜间实验/SpectrumT-SAC-20260921同源修复对照",
+  "old_node_local_project": "/dev/shm/SpectrumT-SAC-20260921-ah2j5yfv/PPO4090",
+  "old_slurm_allocation": "206178",
+  "old_slurm_step": "206178.4",
+  "automation_id": "gpu4-t-sac",
+  "automation_status": "PAUSED",
+  "test_set_allowed": false,
+  "recovery_plan_path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/恢复监督/gpu2恢复计划.json",
+  "control_dir": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/恢复监督",
+  "resume_checkpoint": "/tmp/SpectrumT-SAC-gpu2-20260921-8ux3lqqh/PPO4090/恢复输入/seed43-150/检查点.pt",
+  "remaining_episodes": 150,
+  "remaining_wall_seconds": 5940,
+  "preflight_report_local": "D:\\graduate\\第二阶段T-SAC实施记录\\gpu2恢复兼容检查结果.json",
+  "preflight_tests": {
+    "passed": 44,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 8.97
+  },
+  "srun_pid": 2732926,
+  "submitted_at_utc": "2026-09-21T05:33:18.642254+00:00",
+  "recovery_supervisor_sha256": "188580c025089ef963218b5b4318b1911dfa977f5f0f1aba36b1cf25f0d66955",
+  "supervisor_tests": {
+    "passed": 16,
+    "failed": 0,
+    "seconds": 22.37
+  },
+  "deployment_transport_note": "首次提交在远端Python解析stdin时编码失败，脚本未执行；改用ASCII传输封装后再次经重复启动锁检查提交，未启动重复训练。",
+  "run_id": "20260921T053400_b66b2ea983ba",
+  "trial_id": "1184e3c111924c619a74252587b30f53",
+  "parent_run_id": "20260921T031515_931ec8ab244a",
+  "parent_checkpoint_id": "180cc4eb1a4d44768287ec6201bedfeb",
+  "supervisor_pid": 2912387,
+  "training_pid": 2912424,
+  "run_dir": "/tmp/SpectrumT-SAC-gpu2-20260921-8ux3lqqh/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba",
+  "slurm_step": "206357.1",
+  "last_checked_at_utc": "2026-09-21T07:02:21.320766+00:00",
+  "latest_progress": {
+    "run_id": "20260921T053400_b66b2ea983ba",
+    "status": "completed",
+    "episodes": 150,
+    "env_step": 42632,
+    "update_step": 41633,
+    "last_U": 0.8520502678627978,
+    "errors": [],
+    "event_seq": 23104,
+    "last_episode": {
+      "n_entities": 147,
+      "n_demand": 147,
+      "empty_demand": false,
+      "mean_satisfaction": 0.8520502678627978,
+      "fully_satisfied_fraction": 0.5510204081632653,
+      "served_fraction": 1.0,
+      "skip_fraction": 0.0,
+      "zero_rate_fraction": 0.0,
+      "delivered_bps": 49913628183.422195,
+      "raw_throughput_bps": 59658279488.095184,
+      "unmet_bps": 29959695459.01632,
+      "total_demand_bps": 79873323642.43852,
+      "power_used_w": 5365.0,
+      "remaining_power_w": 635.0,
+      "power_budget_w": 6000.0,
+      "pool_occupancy": 0.59,
+      "physical_frequency_coverage": 0.99,
+      "sinr_sample_count": 472,
+      "mean_slot_sinr_db": 15.01290088067822,
+      "p05_slot_sinr_db": 12.205645046310243,
+      "linear_mean_sinr_to_db": 15.896003903393567,
+      "jain_clipped_satisfaction": 0.92441608799225,
+      "sgm_mean_positive_demand": 0.7206875833687045,
+      "sgm_beta_bps": 543355943.1458403,
+      "constraint_violation_count": 0,
+      "constraint_violations": [],
+      "end_to_end_metric_available": false,
+      "j_root": null,
+      "episode_return": 85.20502678627977,
+      "episode_seconds": 28.166349331848323,
+      "env_step": 42632,
+      "update_step": 41633,
+      "episode_id": "a64cd36c5fbc49e98f572e1b6d31d0e3",
+      "scenario_id": "cover_output_64",
+      "truncated": false
+    }
+  },
+  "progress_counter_note": "read_progress.episodes是本次attempt完成回合数；总回合需加150。checkpoint/训练结果计数才是全trial累计值。",
+  "latest_durable_checkpoint": {
+    "format": "horizon_checkpoint.v1",
+    "checkpoint_id": "e0502c91fec540a4a09225cbc221aa9d",
+    "compression": "gzip",
+    "file": "检查点.pt",
+    "sha256": "f7ec4a54d0f77a505e982daacbc19f9fcdff1605ace46d96e37e380354a77a0d",
+    "durable_event_seq": 4626,
+    "counters": {
+      "env_step": 25567,
+      "update_step": 24568,
+      "episodes": 180
+    },
+    "run_id": "20260921T053400_b66b2ea983ba",
+    "trial_id": "1184e3c111924c619a74252587b30f53",
+    "boundary": "episode",
+    "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/e0502c91fec540a4a09225cbc221aa9d/检查点.pt"
+  },
+  "latest_evaluations": [
+    {
+      "name": "CNN-seed42-250",
+      "status": "completed",
+      "checkpoint_counters": {
+        "env_step": 35619,
+        "update_step": 34620,
+        "episodes": 250
+      },
+      "summary": {
+        "policy": {
+          "scenarios": 15,
+          "mean_U": 0.8044431724263821,
+          "micro_U": 0.8043528640683979,
+          "inference_p50_seconds": 0.7159688053652644,
+          "inference_p95_seconds": 0.8228979448787868,
+          "constraint_violations": 0
+        }
+      },
+      "durable_eval_dir": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/恢复监督/共同预算评价/CNN-seed42-250"
+    },
+    {
+      "name": "Spectrum-seed42-250",
+      "status": "completed",
+      "checkpoint_counters": {
+        "env_step": 35619,
+        "update_step": 34620,
+        "episodes": 250
+      },
+      "summary": {
+        "policy": {
+          "scenarios": 15,
+          "mean_U": 0.8195970375045613,
+          "micro_U": 0.8197662073623951,
+          "inference_p50_seconds": 1.2328023817390203,
+          "inference_p95_seconds": 1.4038760140538216,
+          "constraint_violations": 0
+        }
+      },
+      "durable_eval_dir": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/恢复监督/共同预算评价/Spectrum-seed42-250"
+    }
+  ],
+  "latest_resources": {
+    "disk_free_bytes": 56623267840,
+    "gpu": "NVIDIA A800-SXM4-80GB, 1183 MiB, 22 %\n",
+    "memory": [
+      "MemFree:        133540264 kB",
+      "MemAvailable:   921302352 kB"
+    ]
+  },
+  "last_notified_event": "final_paired_results_and_delivery_completed",
+  "last_notified_checkpoint_ids": [
+    "2dbbe6f5d1be4b80b840e3f1a922414a",
+    "0982a14d555d42ffa83e8fad740e543c",
+    "8c0ac11408ba47faa271c402dc94cdec",
+    "3854cff91ec246e385adf014316e2c10"
+  ],
+  "latest_stage_report": "D:/graduate/第二阶段T-SAC实施记录/Spectrum最终配对验证报告.md",
+  "pending": [],
+  "failure_archive_guide": "D:/graduate/第二阶段T-SAC实施记录/gpu2中断工件补救说明.md",
+  "known_review_findings": [
+    {
+      "priority": "P2",
+      "status": "open_in_frozen_supervisor",
+      "issue": "强杀后的SQLite逻辑running标记可能阻挡最终整run归档",
+      "mitigation": "仅明确故障后按补救说明核实自有writer退出，分别归档成功部分与失败证据；当前无故障不操作",
+      "triggered_this_batch": false
+    }
+  ],
+  "durable_document_archive": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/恢复监督/恢复文档/20260921T054938",
+  "document_sync_file_count": 17,
+  "training_curve_export": {
+    "directory": "D:\\graduate\\第二阶段T-SAC实施记录\\训练收敛曲线PNG",
+    "png_count": 15,
+    "snapshot_at_utc": "2026-09-21T06:18:56.505760+00:00",
+    "seed43_snapshot_episodes": 244,
+    "final_snapshot_pending": false,
+    "instruction": "最终版已完成；244回合快照及原ZIP保留；本批不再训练或自动更新。",
+    "remote_archive": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/恢复监督/曲线归档/训练收敛曲线PNG与数据-20260921T063040.zip",
+    "archive_sha256": "9e5d56a97cd761bd34fb523cb28979a6cab4200d1a53e6eff7342ef42aba21a4",
+    "final_directory": "D:\\graduate\\第二阶段T-SAC实施记录\\训练收敛曲线PNG-最终版",
+    "final_archive": "D:\\graduate\\第二阶段T-SAC实施记录\\训练收敛曲线PNG-最终版.zip",
+    "final_archive_sha256": "e85b5b17041c8757834bd845059f0ebfc58980e8143e4e7d42c24249c819c364",
+    "final_png_count": 15,
+    "final_point_count": 1971,
+    "final_trial_episodes": 300,
+    "previous_snapshot_preserved": true,
+    "final_remote_archive": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/恢复监督/最终交付/20260921T071605/训练收敛曲线PNG-最终版.zip"
+  },
+  "training_completed": true,
+  "training_exit_code": 0,
+  "slurm_step_state": "COMPLETED",
+  "slurm_step_exit_code": "0:0",
+  "slurm_step_end_local": "2026-09-21T14:46:55+08:00",
+  "completed_counters": {
+    "env_step": 42632,
+    "update_step": 41633,
+    "episodes": 300
+  },
+  "final_checkpoint": {
+    "format": "horizon_checkpoint.v1",
+    "checkpoint_id": "8c0ac11408ba47faa271c402dc94cdec",
+    "compression": "gzip",
+    "file": "检查点.pt",
+    "sha256": "15f1b9ab7b15af270023270e58eeef2825f5a2b0fddba1cdf78cba439f83d883",
+    "durable_event_seq": 23101,
+    "counters": {
+      "env_step": 42632,
+      "update_step": 41633,
+      "episodes": 300
+    },
+    "run_id": "20260921T053400_b66b2ea983ba",
+    "trial_id": "1184e3c111924c619a74252587b30f53",
+    "boundary": "episode"
+  },
+  "closed_run_local": "D:/graduate/第二阶段T-SAC实施记录/Spectrum最终训练工件原件/关闭运行",
+  "closed_run_durable": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba",
+  "no_restart": true,
+  "budget_settlement": {
+    "prior_charged_seconds": 4860,
+    "recovery_training_seconds": 4250.802101232111,
+    "total_charged_seconds": 9110.802101232111,
+    "original_limit_seconds": 10800,
+    "episode_cap_reached": true,
+    "recovery_completed_episodes": 150,
+    "retained_trial_episodes": 300,
+    "note": "旧丢失尾部耗时已计，剩余时间不用于增加300回合上限或补seed42；原交互分配保留，未取消任何作业。"
+  },
+  "artifact_independent_audit_passed": true,
+  "artifact_independent_audit_file": "D:/graduate/第二阶段T-SAC实施记录/Spectrum最终工件独立核验.json",
+  "final_report": "D:/graduate/第二阶段T-SAC实施记录/Spectrum最终配对验证报告.md",
+  "final_validation": {
+    "seed42": {
+      "episodes": 250,
+      "env_step": 35619,
+      "update_step": 34620,
+      "cnn_U": 0.8044431724263821,
+      "spectrum_U": 0.8195970375045613
+    },
+    "seed43": {
+      "episodes": 300,
+      "env_step": 42632,
+      "update_step": 41633,
+      "cnn_U": 0.7759684907897919,
+      "spectrum_U": 0.8373774648846326
+    }
+  },
+  "last_resources": {
+    "host": "gpu2",
+    "tracked_processes": {
+      "2912387": false,
+      "2912424": false
+    },
+    "disk_free_bytes": 53684592640,
+    "memory": [
+      "MemFree:        149014148 kB",
+      "MemAvailable:   945566924 kB"
+    ],
+    "gpu": "NVIDIA A800-SXM4-80GB, 0 MiB, 0 %\n"
+  },
+  "local_result_sync": {
+    "metadata_file": "Spectrum最终工件取回校验.json",
+    "file_count": 257,
+    "new_training_sqlite_episodes": 150,
+    "full_trial_training_sqlite_available": false,
+    "final_checkpoint_local": true,
+    "intermediate_checkpoint_policy": "home保留，路径及sidecar在取回范围清单"
+  },
+  "automation_pause_reason": "本批训练、配对验证、工件取回、最终PNG及验收/code review同步全部完成",
+  "completed_and_synced_at_utc": "2026-09-21T07:22:15.064486+00:00",
+  "final_delivery": {
+    "directory": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/恢复监督/最终交付/20260921T071605",
+    "archive": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/恢复监督/最终交付/20260921T071605/Spectrum最终结果与验收交付.zip",
+    "sha256": "ca67c9cb2fff3fb7adb1eb2615b708a60b5db5e023c3fdacb87ff90bcba7e32a",
+    "bytes": 8370046,
+    "file_count": 16,
+    "all_files_verified": true
+  },
+  "agent_work_paused": false,
+  "research_performance_claim": "两个共享父权重续训流在各自同预算下U较配对CNN高；未证明从零独立多seed优势，也未超过不同预算CNN父模型。"
+}

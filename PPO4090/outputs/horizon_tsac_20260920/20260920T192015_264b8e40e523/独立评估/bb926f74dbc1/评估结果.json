@@ -1,0 +1,66 @@
+{
+  "evaluation_id": "bb926f74dbc1",
+  "split": "validation",
+  "checkpoint_id": "cf32faf9c79f49a79d635199e7ef687c",
+  "evaluated_training_counters": {
+    "env_step": 286,
+    "update_step": 60,
+    "episodes": 2
+  },
+  "results": {
+    "policy": [
+      {
+        "n_entities": 145,
+        "n_demand": 145,
+        "empty_demand": false,
+        "mean_satisfaction": 0.0,
+        "fully_satisfied_fraction": 0.0,
+        "served_fraction": 0.0,
+        "skip_fraction": 1.0,
+        "zero_rate_fraction": 1.0,
+        "delivered_bps": 0.0,
+        "raw_throughput_bps": 0.0,
+        "unmet_bps": 83225000000.0,
+        "total_demand_bps": 83225000000.0,
+        "power_used_w": 0.0,
+        "remaining_power_w": 6000.0,
+        "power_budget_w": 6000.0,
+        "pool_occupancy": 0.0,
+        "physical_frequency_coverage": 0.0,
+        "sinr_sample_count": 0,
+        "mean_slot_sinr_db": null,
+        "p05_slot_sinr_db": null,
+        "linear_mean_sinr_to_db": null,
+        "jain_clipped_satisfaction": null,
+        "sgm_mean_positive_demand": 0.0,
+        "sgm_beta_bps": 573965517.2413793,
+        "constraint_violation_count": 0,
+        "constraint_violations": [],
+        "end_to_end_metric_available": false,
+        "j_root": null,
+        "scenario_id": "cover_output_0",
+        "episode_return": 0.0,
+        "inference_seconds": 0.816544599540066,
+        "policy_decision_seconds": 0.38584159984020516,
+        "rollout_seconds": 3.8859025000128895,
+        "checkpoint_id": "cf32faf9c79f49a79d635199e7ef687c",
+        "phase": "validation"
+      }
+    ]
+  },
+  "summary": {
+    "policy": {
+      "scenarios": 1,
+      "mean_U": 0.0,
+      "micro_U": 0.0,
+      "inference_p50_seconds": 0.816544599540066,
+      "inference_p95_seconds": 0.816544599540066,
+      "constraint_violations": 0
+    }
+  },
+  "paired": null,
+  "greedy_candidate_rule": "包含SKIP的合法候选ID等间距至多16个，最大即时全局U；非上界",
+  "status": "short_validation_only",
+  "formal_multiseed_complete": false,
+  "output_dir": "outputs\\horizon_tsac_20260920\\20260920T192015_264b8e40e523\\独立评估\\bb926f74dbc1"
+}

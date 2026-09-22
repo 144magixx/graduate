@@ -1,0 +1,5 @@
+{
+  "software": "{\"python\": \"3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]\", \"executable\": \"/home/u2024110224/.conda/envs/DRL/bin/python\", \"torch\": \"2.6.0+cu124\", \"numpy\": \"2.2.4\", \"packages\": {\"scipy\": null, \"pytest\": null, \"fastapi\": null, \"uvicorn\": null, \"httpx\": null, \"PyYAML\": null, \"pandas\": \"2.2.3\"}, \"cuda_available\": true, \"cudnn\": 90100}\n",
+  "stderr": "",
+  "exit_code": 0
+}

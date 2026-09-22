@@ -1,0 +1,855 @@
+{
+  "missing_cells": [
+    {
+      "id": "scale_48_80",
+      "conditions": {
+        "n_demand": [
+          48,
+          80
+        ]
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 1,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 1,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [
+          52
+        ],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_81_120",
+      "conditions": {
+        "n_demand": [
+          81,
+          120
+        ]
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_121_168",
+      "conditions": {
+        "n_demand": [
+          121,
+          168
+        ]
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 99,
+      "candidates_by_split": {
+        "train": 70,
+        "validation": 14,
+        "test": 15
+      },
+      "observed_n_demand_by_split": {
+        "train": [
+          124,
+          125,
+          127,
+          130,
+          131,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          150,
+          151,
+          152,
+          154,
+          155,
+          159,
+          161,
+          165
+        ],
+        "validation": [
+          126,
+          129,
+          134,
+          136,
+          138,
+          139,
+          140,
+          145,
+          146,
+          151,
+          152,
+          157
+        ],
+        "test": [
+          126,
+          138,
+          139,
+          141,
+          143,
+          144,
+          145,
+          147,
+          148,
+          149,
+          151,
+          155,
+          168
+        ]
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_169_220",
+      "conditions": {
+        "n_demand": [
+          169,
+          220
+        ]
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_221_256",
+      "conditions": {
+        "n_demand": [
+          221,
+          256
+        ]
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "spatial_uniform",
+      "conditions": {
+        "spatial_shape": "uniform"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "spatial_single_hotspot",
+      "conditions": {
+        "spatial_shape": "single_hotspot"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "spatial_multiple_hotspots",
+      "conditions": {
+        "spatial_shape": "multiple_hotspots"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "spatial_long_tail",
+      "conditions": {
+        "spatial_shape": "long_tail"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_48_80_load_low",
+      "conditions": {
+        "n_demand": [
+          48,
+          80
+        ],
+        "load_band": "low"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_48_80_load_medium",
+      "conditions": {
+        "n_demand": [
+          48,
+          80
+        ],
+        "load_band": "medium"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_48_80_load_high",
+      "conditions": {
+        "n_demand": [
+          48,
+          80
+        ],
+        "load_band": "high"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_81_120_load_low",
+      "conditions": {
+        "n_demand": [
+          81,
+          120
+        ],
+        "load_band": "low"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_81_120_load_medium",
+      "conditions": {
+        "n_demand": [
+          81,
+          120
+        ],
+        "load_band": "medium"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_81_120_load_high",
+      "conditions": {
+        "n_demand": [
+          81,
+          120
+        ],
+        "load_band": "high"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_121_168_load_low",
+      "conditions": {
+        "n_demand": [
+          121,
+          168
+        ],
+        "load_band": "low"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_121_168_load_medium",
+      "conditions": {
+        "n_demand": [
+          121,
+          168
+        ],
+        "load_band": "medium"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_121_168_load_high",
+      "conditions": {
+        "n_demand": [
+          121,
+          168
+        ],
+        "load_band": "high"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_169_220_load_low",
+      "conditions": {
+        "n_demand": [
+          169,
+          220
+        ],
+        "load_band": "low"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_169_220_load_medium",
+      "conditions": {
+        "n_demand": [
+          169,
+          220
+        ],
+        "load_band": "medium"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_169_220_load_high",
+      "conditions": {
+        "n_demand": [
+          169,
+          220
+        ],
+        "load_band": "high"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_221_256_load_low",
+      "conditions": {
+        "n_demand": [
+          221,
+          256
+        ],
+        "load_band": "low"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_221_256_load_medium",
+      "conditions": {
+        "n_demand": [
+          221,
+          256
+        ],
+        "load_band": "medium"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "scale_221_256_load_high",
+      "conditions": {
+        "n_demand": [
+          221,
+          256
+        ],
+        "load_band": "high"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "large_high_tight",
+      "conditions": {
+        "n_demand": [
+          169,
+          256
+        ],
+        "load_band": "high",
+        "pressure_tag": "tight"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "dense_reuse_weak",
+      "conditions": {
+        "overlap_band": "dense",
+        "reuse_band": "same_polarization",
+        "link_band": "weak"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    },
+    {
+      "id": "longtail_wide_spectrum",
+      "conditions": {
+        "spatial_shape": "long_tail",
+        "width_band": "heterogeneous",
+        "spectrum_pressure": "tight"
+      },
+      "independent_roots": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "candidate_count": 0,
+      "candidates_by_split": {
+        "train": 0,
+        "validation": 0,
+        "test": 0
+      },
+      "observed_n_demand_by_split": {
+        "train": [],
+        "validation": [],
+        "test": []
+      },
+      "passed": false,
+      "missing_reasons": [
+        "独立root配额不足或来源未知"
+      ]
+    }
+  ],
+  "required_inputs": [
+    "第一阶段覆盖生成器及可行域规格",
+    "原始业务RootScene",
+    "业务到波束assignment及漏覆盖量",
+    "真实root/split_group生成谱系"
+  ]
+}

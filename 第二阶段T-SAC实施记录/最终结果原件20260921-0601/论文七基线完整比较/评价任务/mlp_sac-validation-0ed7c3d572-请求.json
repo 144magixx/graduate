@@ -1,0 +1,27 @@
+{
+  "method_id": "mlp_sac",
+  "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3",
+  "split": "validation",
+  "policies": [
+    "policy"
+  ],
+  "checkpoint": {
+    "path": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/检查点存档/02ee3bbc94b74de8a39df3e98ddfbb56/检查点.pt",
+    "checkpoint_id": "02ee3bbc94b74de8a39df3e98ddfbb56",
+    "sha256": "e6e6b860f6a9cdadbb6081c0e958daaf605e8d5adde2674996b33495c4397019",
+    "counters": {
+      "env_step": 14281,
+      "update_step": 13282,
+      "episodes": 100
+    },
+    "durable_path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/检查点存档/02ee3bbc94b74de8a39df3e98ddfbb56/检查点.pt"
+  },
+  "heuristic_settings": {
+    "fixed_length": 5,
+    "fixed_power_w": 30.0,
+    "greedy_length": 5,
+    "greedy_demand_thresholds_bps": null,
+    "random_include_skip": false
+  },
+  "result_path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价任务/mlp_sac-validation-0ed7c3d572-结果.json"
+}

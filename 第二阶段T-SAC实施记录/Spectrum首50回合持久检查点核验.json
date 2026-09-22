@@ -1,0 +1,41 @@
+{
+  "verified_at_utc": "2026-09-21T01:40:01.627281+00:00",
+  "checkpoints": [
+    {
+      "name": "CNN继续训练对照-seed42",
+      "checkpoint_id": "2a816914f348424dac5bab5d94d03efe",
+      "sha256": "34010768602f655b6d5fdfa1cb5583edb98187029850fac349076582c1fa24d6",
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_cf74dbeb8d38/检查点存档/2a816914f348424dac5bab5d94d03efe/检查点.pt",
+      "counters": {
+        "env_step": 7128,
+        "update_step": 6129,
+        "episodes": 50
+      },
+      "bytes": 96504670
+    },
+    {
+      "name": "Spectrum残差模型-seed42",
+      "checkpoint_id": "485e328a754e49bfb89e0e2748f2519f",
+      "sha256": "c92feaeec0bbee7ceaa013a75b9b8e1f7f0bfd1de429d530a543936202c8a5b9",
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_7256a95e074e/检查点存档/485e328a754e49bfb89e0e2748f2519f/检查点.pt",
+      "counters": {
+        "env_step": 7128,
+        "update_step": 6129,
+        "episodes": 50
+      },
+      "bytes": 112156021
+    },
+    {
+      "name": "CNN继续训练对照-seed43",
+      "checkpoint_id": "0f565de2087641af946565e7853d65af",
+      "sha256": "ff0286a7c8b3e4cb6d19a436a4f30235e67293d168cf4cbc548721c356d2ef22",
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_09fde58b812f/检查点存档/0f565de2087641af946565e7853d65af/检查点.pt",
+      "counters": {
+        "env_step": 7006,
+        "update_step": 6007,
+        "episodes": 50
+      },
+      "bytes": 94037913
+    }
+  ]
+}

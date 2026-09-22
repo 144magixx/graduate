@@ -1,0 +1,327 @@
+{
+  "dataset_version": "coverage_domain.v1",
+  "spec_status": "provisional_pending_upstream_feasibility",
+  "root_definition": "upstream_business_instance",
+  "support_domain": {
+    "positive_beam_count": [
+      48,
+      256
+    ],
+    "geometry_profile_ids": [],
+    "main_power_budget_w": 6000,
+    "deployment_confirmed": false
+  },
+  "axes_and_bins": {
+    "n_demand": [
+      [
+        48,
+        80
+      ],
+      [
+        81,
+        120
+      ],
+      [
+        121,
+        168
+      ],
+      [
+        169,
+        220
+      ],
+      [
+        221,
+        256
+      ]
+    ],
+    "spatial_shape": [
+      "uniform",
+      "single_hotspot",
+      "multiple_hotspots",
+      "long_tail"
+    ],
+    "load_band": {
+      "values": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "threshold_status": "pending_business_spec_or_train_only_fit"
+    }
+  },
+  "feasible_combination_rules": [],
+  "mandatory_cells": [
+    {
+      "id": "scale_48_80",
+      "conditions": {
+        "n_demand": [
+          48,
+          80
+        ]
+      }
+    },
+    {
+      "id": "scale_81_120",
+      "conditions": {
+        "n_demand": [
+          81,
+          120
+        ]
+      }
+    },
+    {
+      "id": "scale_121_168",
+      "conditions": {
+        "n_demand": [
+          121,
+          168
+        ]
+      }
+    },
+    {
+      "id": "scale_169_220",
+      "conditions": {
+        "n_demand": [
+          169,
+          220
+        ]
+      }
+    },
+    {
+      "id": "scale_221_256",
+      "conditions": {
+        "n_demand": [
+          221,
+          256
+        ]
+      }
+    },
+    {
+      "id": "spatial_uniform",
+      "conditions": {
+        "spatial_shape": "uniform"
+      }
+    },
+    {
+      "id": "spatial_single_hotspot",
+      "conditions": {
+        "spatial_shape": "single_hotspot"
+      }
+    },
+    {
+      "id": "spatial_multiple_hotspots",
+      "conditions": {
+        "spatial_shape": "multiple_hotspots"
+      }
+    },
+    {
+      "id": "spatial_long_tail",
+      "conditions": {
+        "spatial_shape": "long_tail"
+      }
+    },
+    {
+      "id": "scale_48_80_load_low",
+      "conditions": {
+        "n_demand": [
+          48,
+          80
+        ],
+        "load_band": "low"
+      }
+    },
+    {
+      "id": "scale_48_80_load_medium",
+      "conditions": {
+        "n_demand": [
+          48,
+          80
+        ],
+        "load_band": "medium"
+      }
+    },
+    {
+      "id": "scale_48_80_load_high",
+      "conditions": {
+        "n_demand": [
+          48,
+          80
+        ],
+        "load_band": "high"
+      }
+    },
+    {
+      "id": "scale_81_120_load_low",
+      "conditions": {
+        "n_demand": [
+          81,
+          120
+        ],
+        "load_band": "low"
+      }
+    },
+    {
+      "id": "scale_81_120_load_medium",
+      "conditions": {
+        "n_demand": [
+          81,
+          120
+        ],
+        "load_band": "medium"
+      }
+    },
+    {
+      "id": "scale_81_120_load_high",
+      "conditions": {
+        "n_demand": [
+          81,
+          120
+        ],
+        "load_band": "high"
+      }
+    },
+    {
+      "id": "scale_121_168_load_low",
+      "conditions": {
+        "n_demand": [
+          121,
+          168
+        ],
+        "load_band": "low"
+      }
+    },
+    {
+      "id": "scale_121_168_load_medium",
+      "conditions": {
+        "n_demand": [
+          121,
+          168
+        ],
+        "load_band": "medium"
+      }
+    },
+    {
+      "id": "scale_121_168_load_high",
+      "conditions": {
+        "n_demand": [
+          121,
+          168
+        ],
+        "load_band": "high"
+      }
+    },
+    {
+      "id": "scale_169_220_load_low",
+      "conditions": {
+        "n_demand": [
+          169,
+          220
+        ],
+        "load_band": "low"
+      }
+    },
+    {
+      "id": "scale_169_220_load_medium",
+      "conditions": {
+        "n_demand": [
+          169,
+          220
+        ],
+        "load_band": "medium"
+      }
+    },
+    {
+      "id": "scale_169_220_load_high",
+      "conditions": {
+        "n_demand": [
+          169,
+          220
+        ],
+        "load_band": "high"
+      }
+    },
+    {
+      "id": "scale_221_256_load_low",
+      "conditions": {
+        "n_demand": [
+          221,
+          256
+        ],
+        "load_band": "low"
+      }
+    },
+    {
+      "id": "scale_221_256_load_medium",
+      "conditions": {
+        "n_demand": [
+          221,
+          256
+        ],
+        "load_band": "medium"
+      }
+    },
+    {
+      "id": "scale_221_256_load_high",
+      "conditions": {
+        "n_demand": [
+          221,
+          256
+        ],
+        "load_band": "high"
+      }
+    },
+    {
+      "id": "large_high_tight",
+      "conditions": {
+        "n_demand": [
+          169,
+          256
+        ],
+        "load_band": "high",
+        "pressure_tag": "tight"
+      }
+    },
+    {
+      "id": "dense_reuse_weak",
+      "conditions": {
+        "overlap_band": "dense",
+        "reuse_band": "same_polarization",
+        "link_band": "weak"
+      }
+    },
+    {
+      "id": "longtail_wide_spectrum",
+      "conditions": {
+        "spatial_shape": "long_tail",
+        "width_band": "heterogeneous",
+        "spectrum_pressure": "tight"
+      }
+    }
+  ],
+  "independent_roots_min": {
+    "train": 20,
+    "validation": 10,
+    "test": 10
+  },
+  "required_cell_coverage": 1.0,
+  "split_unit": "split_group_id",
+  "sampling_protocol_version": "root_mixture.v1",
+  "mixture": [
+    0.7,
+    0.2,
+    0.1
+  ],
+  "holdout_sizes_provisional": {
+    "validation_unseen": [
+      104,
+      184,
+      240
+    ],
+    "test_unseen": [
+      120,
+      170,
+      220
+    ]
+  },
+  "rule": "不能使用验证/测试拟合负荷阈值；额外未见尺寸与范围内共同锚点评估分别统计"
+}

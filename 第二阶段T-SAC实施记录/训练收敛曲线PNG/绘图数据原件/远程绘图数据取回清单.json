@@ -1,0 +1,30 @@
+{
+  "captured_at_utc": "2026-09-21T06:18:56.505760+00:00",
+  "scope": "已关闭Spectrum42结果、持久home日志快照及监督状态；不读取或复制活跃SQLite",
+  "files": [
+    {
+      "file": "Spectrum-seed43-gpu4训练日志.txt",
+      "sha256": "92729d798969aba289454923bd8da8fbc89460e874f8c8ff3746dc4d36b8d444"
+    },
+    {
+      "file": "Spectrum-seed42-运行清单.json",
+      "sha256": "f0af7079ccae469c07f702f5e2f51ec9cdb51ecef4c65e427335ea1565bd82e0"
+    },
+    {
+      "file": "Spectrum-seed42-配置快照.json",
+      "sha256": "b2db31ddd9af63912225d5eafe0f95b35173a72d154d08052e3e9a1085a25511"
+    },
+    {
+      "file": "Spectrum-seed42-训练结果.json",
+      "sha256": "fb04b66c9fe9bd03c4ffda689a6b35d281d5520d8541d5c66fbb34c274f5d0f0"
+    },
+    {
+      "file": "gpu2-seed43恢复训练日志.txt",
+      "sha256": "1dc995ed9ca82cc966412f883223264036e965414486c221c2d77e90ae61aa24"
+    },
+    {
+      "file": "gpu2-恢复进度.json",
+      "sha256": "1fabc7d57ec6012a85f9891f83aedec08b6f4b1cedeb786eedf2a3842531cb06"
+    }
+  ]
+}

@@ -1,0 +1,2233 @@
+{
+  "audit_version": "spectrum_final_artifacts_independent.v1",
+  "checked_at_utc": "2026-09-21T07:15:53.911290+00:00",
+  "passed": true,
+  "scope": "本次gpu2新attempt关闭训练SQLite150回合、最终validation SQLite15景、可及发布工件、唯一最终pt字节SHA、15NPZ源场景及独立物理复算；未SSH/训练/模型推理",
+  "retrieval_marker": {
+    "path": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum最终工件取回校验.json",
+    "sha256": "e7b18e46b30959efe19de22b71f995b90251ed96f07ac87eebb9f1fc1030d574",
+    "declared_source_files": 257,
+    "declared_source_bytes": 1596014358,
+    "parent_verified_all_source_hashes": true,
+    "index_sha256": "98d15391861a05090882bf9408ae91ebfc9b0ee12b056f96051dbdef0b6b5d11"
+  },
+  "lineage": {
+    "run_id": "20260921T053400_b66b2ea983ba",
+    "trial_id": "1184e3c111924c619a74252587b30f53",
+    "attempt_id": "7f2266e9fd5e465780d2dc761f8bf5fb",
+    "parent_run_id": "20260921T031515_931ec8ab244a",
+    "parent_checkpoint_id": "180cc4eb1a4d44768287ec6201bedfeb",
+    "resume_env_step": 21294,
+    "resume_update_step": 20295,
+    "warmup_collection": "initialized_policy",
+    "data_manifest_hash": "154326a45c9dbde33ae6b0613283a1367c09267ff3dde4bb73b19d6752bfb1a5"
+  },
+  "initialization_equal_in_source_manifest_training_report": true,
+  "source_counters": {
+    "env_step": 21294,
+    "update_step": 20295,
+    "episodes": 150
+  },
+  "final_counters": {
+    "env_step": 42632,
+    "update_step": 41633,
+    "episodes": 300
+  },
+  "new_attempt_episodes": 150,
+  "new_attempt_env_steps": 21338,
+  "new_attempt_updates": 21338,
+  "time_budget": {
+    "new_training_seconds": 4250.802101232111,
+    "resume_limit_seconds": 5940,
+    "charged_prior_seconds": 4860,
+    "charged_prior_is_conservative_estimate": true,
+    "combined_charged_training_seconds": 9110.802101232111,
+    "original_limit_seconds": 10800,
+    "within_both_limits": true
+  },
+  "supervision": {
+    "status": "completed",
+    "training_exit_code": 0,
+    "errors": [],
+    "warnings": [],
+    "test_set_used": false,
+    "slurm_accounting_evidence": "206357.1|COMPLETED|0:0|2026-09-21T13:33:18|2026-09-21T14:46:55|4417\n",
+    "p2_copy_failure_triggered": false
+  },
+  "final_checkpoint": {
+    "path": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum最终训练工件原件\\关闭运行\\检查点存档\\8c0ac11408ba47faa271c402dc94cdec\\检查点.pt",
+    "checkpoint_id": "8c0ac11408ba47faa271c402dc94cdec",
+    "sha256": "15f1b9ab7b15af270023270e58eeef2825f5a2b0fddba1cdf78cba439f83d883",
+    "bytes": 115129075,
+    "boundary": "episode",
+    "only_one_pt_retrieved": true
+  },
+  "databases": [
+    {
+      "file": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\运行记录.sqlite",
+      "integrity": [
+        "ok"
+      ],
+      "runs": [
+        {
+          "run_id": "20260921T053400_b66b2ea983ba_eval_bfa6b64bb571_policy",
+          "status": "completed"
+        }
+      ],
+      "error_events": 0,
+      "episode_groups": [
+        {
+          "phase": "validation",
+          "status": "completed",
+          "count": 15
+        }
+      ],
+      "event_sequence": {
+        "count": 2100,
+        "first": 1,
+        "last": 2100
+      },
+      "published_artifact_rows": 47
+    },
+    {
+      "file": "关闭运行\\运行记录.sqlite",
+      "integrity": [
+        "ok"
+      ],
+      "runs": [
+        {
+          "run_id": "20260921T053400_b66b2ea983ba",
+          "status": "completed"
+        }
+      ],
+      "error_events": 0,
+      "episode_groups": [
+        {
+          "phase": "train",
+          "status": "completed",
+          "count": 150
+        }
+      ],
+      "event_sequence": {
+        "count": 23104,
+        "first": 1,
+        "last": 23104
+      },
+      "published_artifact_rows": 184,
+      "transition_environment_steps": {
+        "count": 21338,
+        "first": 21295,
+        "last": 42632
+      },
+      "checkpoint_durable_event_seq": 23101
+    }
+  ],
+  "published_artifacts": {
+    "verified_rows": 217,
+    "verified_unique_files": 217,
+    "accessible_verified": [
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/训练场景覆盖规格.yaml",
+        "sha256": "ae3bff6272286fed9448e7454f330357bebf29b4bb547beb8c3120cf815ffbe4",
+        "kind": "coverage_snapshot"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/训练场景覆盖审计.json",
+        "sha256": "328ea5a886bcdf0395cc9575886acaa96849b1cabae8628881266f559df5bdec",
+        "kind": "coverage_snapshot"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-67db72352a867b26/第二阶段分配结果.npz",
+        "sha256": "a7ba4c17b4e5247a8093fcda1d27b37b8edfa77ebc979f6195c0caff0027301d",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-67db72352a867b26/第三阶段交接清单.json",
+        "sha256": "dc0afdf0b3456d59b74408b00acdd600bd160945081f2c3e010ed92ca7b1f321",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-67db72352a867b26/导出复算验收.json",
+        "sha256": "cd4d5aaf9ef12f488649a4a5550c1d6eb11b756a3766cc96df0190aa072e859e",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a4bc9f309ade38d8/第二阶段分配结果.npz",
+        "sha256": "a077c89598df52ef1ce877cd9c71a164161b37d92ffbc4aa36d25ddce5ce6c4b",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a4bc9f309ade38d8/第三阶段交接清单.json",
+        "sha256": "bfd4b8c7991fa0c27d9d8b1e548598b48032f8d20642fc9e2afa330c04ff3d96",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a4bc9f309ade38d8/导出复算验收.json",
+        "sha256": "37ae0650b4ecd76aded01c70c089e0811f8168d81e3f784ec8b07a484a286559",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-21a9a9c0aca1cf62/第二阶段分配结果.npz",
+        "sha256": "835342adec5f235ab82d449927b806251dc2855dc9167f0d3178804995ef4f91",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-21a9a9c0aca1cf62/第三阶段交接清单.json",
+        "sha256": "50c146d80bd48c583a4f7dcc84d227bb4389bfddbf824a53ccab87168123df82",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-21a9a9c0aca1cf62/导出复算验收.json",
+        "sha256": "8f44a3338af82cd9cff3a38b3c65c73b79424e7c88ab6db82d68a59c73b425cc",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-4c60ac4eb53c2cd7/第二阶段分配结果.npz",
+        "sha256": "cfd68b342492b2a0060f4c03c9a166610825fe8b31721f889c30a73ce2d1c302",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-4c60ac4eb53c2cd7/第三阶段交接清单.json",
+        "sha256": "e2129ac4d4dbad4fbbeb257c6eee2ea0adeff3e8b85f3728aaa06fe25e9883da",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-4c60ac4eb53c2cd7/导出复算验收.json",
+        "sha256": "f6ad330108798d428c0a50c356d832946bd9ca175264e8a25ee3bc4498e87f21",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-88bff13580d11b2e/第二阶段分配结果.npz",
+        "sha256": "f5a28f156b939d2b7edc098bdb8c7e57bee885afea8e98f262748b8075adf552",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-88bff13580d11b2e/第三阶段交接清单.json",
+        "sha256": "9c5147b6bfc9396f41c2ba2d4a27abecd4be4efc02f232f9eb82b8333bec8b6b",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-88bff13580d11b2e/导出复算验收.json",
+        "sha256": "cc32a40cb84a57cc7d0c29e938be1541a2c1efd8549c55061a23f41d4d738a69",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-cbd4952f443a01a7/第二阶段分配结果.npz",
+        "sha256": "2c5341a4be5d3e99732dce190bb36974a35abaed245500d63f572eb58998a581",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-cbd4952f443a01a7/第三阶段交接清单.json",
+        "sha256": "89b96238e64d9c9712ce458cbf0b7523f35b730402ba917ea6bfe01968390a3b",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-cbd4952f443a01a7/导出复算验收.json",
+        "sha256": "7b1400cc832a0c616727360d4ab49523e3464e77f3ff82bd5da50c4b947b333a",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-09ebf81256165a53/第二阶段分配结果.npz",
+        "sha256": "ac95605f08ae5c42a081307c3ba302c18c82813775c8d6d69578cb14528f95a5",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-09ebf81256165a53/第三阶段交接清单.json",
+        "sha256": "d6da83d408f88e397fd21ed1a204297237fbacc7a98ef352cc808a02eec59335",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-09ebf81256165a53/导出复算验收.json",
+        "sha256": "a736d3624f997605ed0590750efe0a325f83d6e292ff17f6d804faee373317a4",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-44554ba2cdd1b0af/第二阶段分配结果.npz",
+        "sha256": "52e7733b07e9938fa6e2c14d6a17d8189ae3db6d8d284565cbc40230ceaa34e5",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-44554ba2cdd1b0af/第三阶段交接清单.json",
+        "sha256": "d2e654394484b2f33e0ccb6bddada4e7751679ca6909044bcc14d694a7d43974",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-44554ba2cdd1b0af/导出复算验收.json",
+        "sha256": "8cc631c96528f8811690de0070fbc15e7ff83d3f8ea8e6105a3577289bcdae73",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-57310e75589e7f4f/第二阶段分配结果.npz",
+        "sha256": "bc0df679239d3785e73d94f44b4568bad29b9cc9a055d83ef2c31918f0d24adf",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-57310e75589e7f4f/第三阶段交接清单.json",
+        "sha256": "2bc04cfacadf3c5cd9218869d87e090da4f04c15a59ce3ebf8bce9cf7a4ad450",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-57310e75589e7f4f/导出复算验收.json",
+        "sha256": "5c97e8b884588f2ccfc45061a7b4c3392b80e58edf562fbb5f5a1a4a673239d7",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-b0df46b6166ead2f/第二阶段分配结果.npz",
+        "sha256": "fc99acf1364e24666004ca8a572e0b27655912ea7ebb54c27f44aea51f93f1aa",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-b0df46b6166ead2f/第三阶段交接清单.json",
+        "sha256": "e77cfae3d98d37f85947ec7683e89aac27e57d858c84d0f87ef5dba1f6c9cb33",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-b0df46b6166ead2f/导出复算验收.json",
+        "sha256": "87f99fc2dd209fcdf2f2c64cb4b8069a6fb57ff88d39ab6f8ded8f991f3f4bd5",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-972d7b35d5179c0e/第二阶段分配结果.npz",
+        "sha256": "5d98fd95874c14523434fbb6ea9c08f29c40371acb86251c9e93c95697504eb0",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-972d7b35d5179c0e/第三阶段交接清单.json",
+        "sha256": "6f5a52623b9e25401b3b828e01f9b0b59591a06714bb04d6778c6df10393ae9d",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-972d7b35d5179c0e/导出复算验收.json",
+        "sha256": "204636a9452fabe491e03bbe7d7e0f1d018be2159dddecd1963ac307345e640a",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-71527de25919ca7e/第二阶段分配结果.npz",
+        "sha256": "7d62e2566f104224af8c1f4ec241610c486f5d9281a6a2be70b2f57ab519caef",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-71527de25919ca7e/第三阶段交接清单.json",
+        "sha256": "1fca4029b5f7ce4b65b0d86bfa692af3945f244d3a6611c58d00ab7a055fea04",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-71527de25919ca7e/导出复算验收.json",
+        "sha256": "8d767a405cda2fb0d3a60dd86865bffab08f1944c65a9f89dde1bfa0839c6052",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-0c9015cfeb360ec4/第二阶段分配结果.npz",
+        "sha256": "ffbb0283908169cc6f6fbe5c7a92247a965a0079c354dd8e67bc35f45f4873f9",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-0c9015cfeb360ec4/第三阶段交接清单.json",
+        "sha256": "73f0c48bda3dc9a50e60195da7155c75d646cbb667c0e08ec5c6a0932f39170c",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-0c9015cfeb360ec4/导出复算验收.json",
+        "sha256": "6a40403c4b7ebbe55a27829a8691bd5b3c022b576064a04ebba90344105c7447",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-9586d567ba78e1fa/第二阶段分配结果.npz",
+        "sha256": "48c50426257072674575b0c8383aeb93bb5457fe8fb102ac9b2fd1346e9d6c09",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-9586d567ba78e1fa/第三阶段交接清单.json",
+        "sha256": "7b77c386c10d1d9a945ea2eefea97a09b36d11eac2fe68c35491f23b4ef27b1d",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-9586d567ba78e1fa/导出复算验收.json",
+        "sha256": "f77ba8f887d7a79489a82f5a79057c0ef46214567bdbd80c04e6d4e39f0fd69b",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a50e9b070a7cc346/第二阶段分配结果.npz",
+        "sha256": "c2e63c4af6b663d24c6c1119affce59efbbf86bbfdad9410c79840708d93995a",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a50e9b070a7cc346/第三阶段交接清单.json",
+        "sha256": "20a2ccc9da6d285ab302ff63bb0c3353845524ca1dba1de3c38093be12e59cd4",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a50e9b070a7cc346/导出复算验收.json",
+        "sha256": "ecba41b0b03ce4cc4844b229f3eb112cd47b106dcd1bf86780501c3a8a0a8e5a",
+        "kind": "allocation_export"
+      },
+      {
+        "file": "关闭运行/配置快照.json",
+        "sha256": "fdfe6b63da743fbba07eb69e94b3352665bbe132baf90728cc2f7ea1e1ff6789",
+        "kind": "configuration"
+      },
+      {
+        "file": "关闭运行/数据划分.json",
+        "sha256": "62574aa50d4df0926f0dca642daa2f42643f4cbde82a7af47a44e0b3ced3b8c2",
+        "kind": "dataset_split"
+      },
+      {
+        "file": "关闭运行/训练场景覆盖规格.yaml",
+        "sha256": "ae3bff6272286fed9448e7454f330357bebf29b4bb547beb8c3120cf815ffbe4",
+        "kind": "coverage_spec"
+      },
+      {
+        "file": "关闭运行/训练场景覆盖审计.json",
+        "sha256": "328ea5a886bcdf0395cc9575886acaa96849b1cabae8628881266f559df5bdec",
+        "kind": "coverage_audit"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-642ee9d3c9c84e86876988231b2d52bc.json",
+        "sha256": "757f55b2cc429d79ef216fda12ab5590a1d66e98f252a2d259aa7b232158d762",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-3158f4ee9fcd47cda9a930f3e378f446.json",
+        "sha256": "0d0eaf3144050214f62760ca3e755c98179fea3e3356fc0f8846beff8a500536",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-30731ded0a96417bafcc65c0072a7e74.json",
+        "sha256": "fdfc0a8ea25e6642a7dd4775c07d505438a71c35489d349b1946e2503fb55db8",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-ad6f868f91ab4f5da96863f1cc8587a5.json",
+        "sha256": "a8ceb549eb636ee55508b845b31d8e744f40df5184051270e4edb0861f41aca8",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-10a30ad476294c9fbe0bf67f78a1af19.json",
+        "sha256": "6c78e23fa871a008e7441e63f97acfdb4c10676178e898e71518bf78847636ad",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-5feff05694c54db285bddb60d6ca3af5.json",
+        "sha256": "93f179faa1be906af8a3bc2f1c06f7ce862210307840383e4b7d7821a48de001",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-fe98272997dc47eb9de20e55f34e0b9e.json",
+        "sha256": "341976a8ed6bd2cca9a194285c072c1d2db0f3ed20c2d8fb66901073af34d448",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-86e47593e0d741d7bffaa2f1d2c82827.json",
+        "sha256": "11e167a83b071033c21b2aa489f4503883c847d10781fb45e125047404eb924c",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-fceb6a893cf84e22992bf15887f5379e.json",
+        "sha256": "eecbc8b2b1a740b39b46fe32ec40ed09d23fc437b02a6c4407f5224a7e27abcf",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e214c2414f81426e876992160a0811a6.json",
+        "sha256": "99abadcce8288ca3b24c44d5b89835177362629411a59778baebc5329b232d37",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/f7b0e3c6d2ff4b7294fc97006504d28f/检查点清单.json",
+        "sha256": "64f6ca82457a38384fe5678d8380b21858e6560298ed615dfbe94ae78e047fec",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-3bbc74999c154593b3053dcf35656650.json",
+        "sha256": "221605c55fd3d47009916debbfa958c60d50fcf5643fbe705e6bb43ac614d751",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-ab79459f5b434c2687efd51f94f76c16.json",
+        "sha256": "0c13a378c78cf8d1b7fda817b8d1fd7895f5f1ec8f2070c4491d6bff0c240ecb",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-4c087dae9ae049908347f16cf112aee1.json",
+        "sha256": "00e9739e034a07230df8114950c400114dbd7707f8565d6d4a3c4e5df5c71601",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-66cd92ba223946258dcb6a82c6c082a2.json",
+        "sha256": "abeb63a6d370a918b9316132605937b98f3b2b61b037163405d07cae95b96ee1",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-1a7464f15d0e4a15b2101a40b152be50.json",
+        "sha256": "82183bc12aeb4cfce8dbf6b755dda59bfabe9d29b7da891cb4acd4346549a59c",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-a2f677a016eb4533b5adf6fe6f48e9d8.json",
+        "sha256": "ff1b5d6b4106944d6f3e01b2c32469568ad04a8c4efc2a945e2ae9dd747b5b85",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-dd73497a9c124ac0b317f5032a45ad72.json",
+        "sha256": "ef543b94f8487a665c9e68096d9516abcc8b1580d36146359c1a620973a50d5c",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-bfe5de668d1a44858671696b43710d32.json",
+        "sha256": "9fcfa040e8c908a8a1019c05a2c3b0afa4f100966b76b5de40ae9455ec7c1510",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-2e819f4ae9064d7b83b53c5ea5e2b9d8.json",
+        "sha256": "f46e30f89149a6699005f51e2b06ab0c4ddc34ddb1016d1e1d6b6253aff256ef",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e82d9b49af564af9b46e3dd97211e421.json",
+        "sha256": "8190f80e4b13e5238ff0fbe4a8aef6f2fe5069572963cdac8ef426c76017c4cd",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/39059cbe27ff45dcabcdee9b9bf7c5a9/检查点清单.json",
+        "sha256": "cc6105aafbd760d26e75ccc43e70ca8d5401eaf7ff99303bb6dba6a2ff82cc34",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-873cbae398874261a5a9e45dbe95b65d.json",
+        "sha256": "22db662db725a22fddd01acf88e51a6b153fee078d024ed45708c84fe310e32c",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-c042ac58878b4bfaa8a3d5a772dcb810.json",
+        "sha256": "e30dad1d0c88691060de8843d274019ee44e3209a484574fd2f803ddbb616c14",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-b47bd2d8de824f809d0e43ab4ec41a3c.json",
+        "sha256": "378d60507b99d6467ca85d379f0c3f6429746d6cd81a80a1944a99784f0c4f85",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-1f0079749c5d420d9d7ba72437ca3f49.json",
+        "sha256": "c9b93feaf2352957f5ca0c0561cd946c29556fe0766550a946e01b3dac0df4f9",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-ee82cb4c205f4ae3b696e5b2f4e5b567.json",
+        "sha256": "330d05bf08a6825c6140d7d807ccc30b37081c185cee844b7855578edad8cf74",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-07955b70a6ef47c7bedbb4cb9c06f9d3.json",
+        "sha256": "bae3ff2238c78759ac170ba304b3ebcba3a0053cf1b18c2052461c43e7cef422",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-89d29fd0eb27425d90f320f936837739.json",
+        "sha256": "1008572ce89b55cda2897544acf357495dd140df068905d59e5d1d31973f1eed",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-477c6ad69ea545419ac5ced05eb7f47f.json",
+        "sha256": "5932de59c77616b27155681c29072c74b66f76198c6c6f440c812e8b4e9af230",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-7609dccab3264b53a82e7262f917c16f.json",
+        "sha256": "cea3f0429bedc039fc67bb8314216535459e316d1ed4cb00c9387f6d1699a653",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-519037a63c804ea4bcc0612a65d795f0.json",
+        "sha256": "1dd6f29912fe5a66527c79db69619d5a29fa0df4557b716ab86a70d60f67dcc1",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/e0502c91fec540a4a09225cbc221aa9d/检查点清单.json",
+        "sha256": "754ab6f2f1532c47f7541604caba10eba0d27aa9b99a61e361c360c40f898ed4",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e964c3ce4de34b9ab025db1f8dee756a.json",
+        "sha256": "1aae78d439ff0463cb907706f7f85f5d7202f9f453738ded1ffb6417e328efc9",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-5b12e7c32f8a4536895da517339e0c9a.json",
+        "sha256": "df73a0a62403f106f2db23d5780029fda1c663a59b267cb79835f617bb4acc30",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-2d255f7ef30d467dbaa1e4c6b3390b0e.json",
+        "sha256": "69211c654ec0a750056fab7547141b2ef72b7463acb1f8d2b6f0c98b16e48fe5",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-625f117e00284f6792621277da57519a.json",
+        "sha256": "a73c7062426b193f2c031ed77e9f2d60247bcd2f5b8965beeccaa2178f07c623",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-45876197a9d64e879c7bbbf0d80b8b17.json",
+        "sha256": "6dc9dac8023c669afd4d68b2eaf01b43bbd00633b3f353cd19c79c413aa81b60",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-174d024ff80042509fb68512001c82a7.json",
+        "sha256": "8b84873f1ac582c34982a8653260c0d4f37351181bd4b20c5bf7cb8c95428ccb",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-dd3c7c0ca7834e8885f9d42ca6301a12.json",
+        "sha256": "205f766757c1dd1128c42eae1f8a9c8fc405abe7940b7f6b8bf9ae4724d605a9",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-c3ce30f1510542dd851f370175051b65.json",
+        "sha256": "57818af05458ba2e4b8a663f2f0319fbeff230359285856980ce379e3513a870",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-086f98f5779148179a0b762c132386ba.json",
+        "sha256": "fdd25d6dc444e363973143bbbf882da3184c3657c7363e2439b87dadad9c933c",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-6c4e8480ccb14bc6b4ddfe448ce2408f.json",
+        "sha256": "f9bfb6cbfc8475c22e9a314991d9e68a263f48f709b7a53f76c18b3e53490e0a",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/d6edf07b02df46f89c07a2af59bb87e1/检查点清单.json",
+        "sha256": "38ebfd2992e272c1eba71d1e4c42da7115cab6deeb4dc9e51109b693932018f7",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-0da8792e18984231a7100fc6e956d371.json",
+        "sha256": "d1ec03d5f45a4b583b92310a5de366a72434c5e44a6846c1eceb5e172d213b9b",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-c4ec1b5388984aeea47a524b5e3ccf2f.json",
+        "sha256": "3e2f854c9ab2f9635a074e0c770024bd40a715a051a11e0e78f8de57b6fc52ff",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-616b8c270f0a4bf9bf4a28a299c268ff.json",
+        "sha256": "83b2d6046872b63a8741af70c75132acb9bbe831c869ec3f8ae545c532541e7f",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-ef20ec34c373476f8cad488e0bcd06fe.json",
+        "sha256": "b282bf1676e1fe021d7d1e0e4360bc0ce3acd7a3a974c06887769cee20153627",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-458dd92098f54fae8560fec10de522b3.json",
+        "sha256": "c9aedd375d0efb410746dd88a1ffaa48604530bf80f52375fbb7aec83535e048",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-8416ac072b214f5c9d9ddad97e5375ee.json",
+        "sha256": "abf64555408c6b51aaabed6352aa894a185bdaef2a43bcd541e4c378eaea992a",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-b03c99ee452f48b6af4506a21b089cf1.json",
+        "sha256": "d24b0afb9160e95b69bdd6199be8e235523f58e52b3c0f17034a04923db82d77",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-40020acbac7847a5a8e3502f55ea50d2.json",
+        "sha256": "05f0e1319c9642ecad8fa178db6644606d8fdb793d51256d02d966137da62142",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-719aa7f431e84dff9ceeb39eb1f20167.json",
+        "sha256": "ddfc952337e4ae0ba0142d3c6f3ba7ad7fa04e4f70a1b502958270e32264d3cd",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-dfc6ae66eaf34139be9d79565b9b67d1.json",
+        "sha256": "fb243073fc7c7f08c4a32bae272b8523105e2b87c7ea6b0ea85912afc7c9cead",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/5fab876b5183439c9f22a9ddbdaac49d/检查点清单.json",
+        "sha256": "886a28dcdb055890b911cb0e3ce94c6805f55830b352ddfd372bf5ae51592b1c",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-f1b0ae4c4d5e4704abdf414caf884934.json",
+        "sha256": "98165c7851ae75523856a955730188c67a3796a0fe2cfa9cf01cb534c4415fff",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-153faef3ed8b4dd18cf3293153b9e91f.json",
+        "sha256": "bfc19658274ce2f294f83191375e8955fd1913393c61c477f08dd0668fc4791c",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-5f76e71c93394690b79fa40d7530b135.json",
+        "sha256": "20b693f5a3feca9ca976c389a7cd8ec2d92207cfe312e2935f4c23e76b335d05",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-2c5a351ebb11450c8008d127b9367eb1.json",
+        "sha256": "a31bd75ab7b3d6fd63253cc4d5a8f76a025f209c1f3db3bcd3c07ec2134c2035",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-a82d2257ef664d7cac768809441a4fed.json",
+        "sha256": "9fa224b263eb588b9a4066288d737b2243b928edd017574162e2a309c6c96b1e",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-9aa6807f6eda4f819e82bb4cc6d16343.json",
+        "sha256": "5d608bc32b1c6a2bac2d99f54588256ad34d63d87a28f079c258754e9d29087b",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-989cc9dc07b64d46a0783d0ed8524d5b.json",
+        "sha256": "49b961285e7dafb61319c16ebc00b824db4be61dc922b9c3a56079756993cf6f",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-630e9973422a4871bf53dd3f08ad073b.json",
+        "sha256": "973e67b808c3089d51ac644852726b2dee8b193a3eac92e9c914371a67fac6d1",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-5e89111244204af5a9d893e191c0ce09.json",
+        "sha256": "c5374b9493f7d39419f535db4c48486bcb05f015e664f4d363cea5d30bf7a22f",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-890ade5ad1db4dc88498970b155ab268.json",
+        "sha256": "6f58617bc93e1d7c321c07a7836a6c90d76318ebd3ab830819d38a3c1a1927af",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/2c70adf7ae4744f598804eb82e3c944f/检查点清单.json",
+        "sha256": "64ae20ab1f261cf087bf7ad85553e1436f5741fed19c3fbd6d146318be0c6a6b",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-d44aa7ae487942ec833909e193b916e8.json",
+        "sha256": "80b22a913d438d907be3a94f479a49bcadff9daadd5adfaacb6e596c7695107d",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-1ad282ad220e4ad785a9dae34c9e0d11.json",
+        "sha256": "76dd563606ab3bfd4fa6b83ca9daf4f3bbc2e2cc33a38ee95f39708dfa023d29",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-18b695ce472a4a2ea7ac05b3bd182b53.json",
+        "sha256": "6d29d760f1f8dbeed2c27ef5ab5b95e732eebb7f6850ca211cd4a9bf5f362642",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-05a7ed673d5a4b44bc9196fb00b77cac.json",
+        "sha256": "d231be21db35b685a2577234e13f66b2a7f4cabd1f2e7c3a1c9b7bac7b027e9a",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-806aeab5a45a4163ac01d069dd67d3a1.json",
+        "sha256": "b89f1505a12d1b750381187526fb82f587a3781a375b8dcd669e698c8eb2c57a",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-63186945df5a4727ad3dcecbc921e769.json",
+        "sha256": "8fe095a2a3e5403a619fcc0ead37b4231cc4a869b60b68522a1e83fa9eb3be39",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-7c0c6015d09a40c6a9b2f83f48f9ac7a.json",
+        "sha256": "f6a90ba65fb6dc8dd79fa3e74f414a30abdb0505bc1f17f97576bc5c0f92ef6e",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-638fbd24d8ea4cf08367a3fb5f37dfe8.json",
+        "sha256": "73204d84ec2550de9beef9f7599d0f9c46b991edaa674d9cec11da5fbfec1253",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-75e580273f9444858f359aca1fa394b1.json",
+        "sha256": "9f9df367d84ec9fd2d50791b092f97572b6b0e70611aa8f1ba90dd19eec1df47",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-c64da0a4fb6848dcac9c4a81d9a21790.json",
+        "sha256": "cd2178e2c8bb5773b7e0e6129c249fa1e8e902723fb90ac0c65a509a2d683a9b",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/e64b93fefb44423b97fdf57aeb5c3271/检查点清单.json",
+        "sha256": "4107899d2113cfef2224a47b4512a109c5b525b65ff59b10c75de0c545d1f726",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-9d97d76f77724d4e871fd18ad4e37f2b.json",
+        "sha256": "ed82fd6b3eeeaf392f8ffbc8bfaaff4c9858e42614122305aa4f99ebb9dc0907",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e69af536aecb436a88d3d1f255f37c46.json",
+        "sha256": "87f39c7d019d2dedcb5852b5520a1938a09b478d90c7410e0912c607c5ce5763",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-8c3205d5c17a45ce8ea90bee4a4c7775.json",
+        "sha256": "94c3ed7c863d1d809c58d4b62e2931357b5822c2d4f5bd2ede974c872b1e0557",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-1cfc5c32c0ec4e47a455096c9be96960.json",
+        "sha256": "6aa3c8ab9ce793f5cf6b095bd2b6c24b0d5db768b90d7e4d96b608eb69bc22d2",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-1dc3827ae6ff40009e78d1b3aaeff60a.json",
+        "sha256": "10e3123f2fc658cf5163b643df23e9350bd0980b018d923c706a51e5808123b0",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-cff6a06c96da42cd981dc66d1af6180a.json",
+        "sha256": "73ffc1df818bd59f33039f5ebae93266a08a8ec5d9ecf2c00f6ee929dfd4071f",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-859eabf9bba944bba2cec9ff9d2dbc8b.json",
+        "sha256": "c5148b2777323803bcf099d64774e895350d0d86030b36102ac268103e548c1d",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-20da7f125f6e4b7c9babef0bebb77342.json",
+        "sha256": "2a9712249ebfc7051789c4da3dd36b0353dd1df2ba2cb6ad424460a0b03405b4",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-78df6cc38cb44a81a095a6d5e838b8c0.json",
+        "sha256": "9bfc11fe15ebd37a7d31ee4ff7a59e9b4992116f8de43e72bb33b706b9455ed0",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e6df56599ab847d2b114b7e7bb23647b.json",
+        "sha256": "f5f65339b0604ca3b7f2745a51a39b725b62fbfdbfec15b937eb136f3dfeb9d8",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/dcefabaf6356432e8e2a88fa5219fb02/检查点清单.json",
+        "sha256": "68b82ad7df224a6e647d48a0110427434fa1beb84ec8f52165c2cb6737cc97fe",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-9558556c97b44c43a8da212ff59cb2b5.json",
+        "sha256": "1051eeca88e2f13e554b514b01a4f3076abd309bb7377ef78681891d171bcffa",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-3782ab2ca921499fa5b8cfb915eacde6.json",
+        "sha256": "a31475c1cca7e285ae9304a1aad15487fdfa70fd7b3d4aca38e74a5db12d79de",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-60e2b871af214e36894ce5c283eb376a.json",
+        "sha256": "bd5675de778e35db402c83baeac44e6c881effd87554ef3dd8b7ce11d1f4f191",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e7452dcfb487478ea8f0dbf887225d88.json",
+        "sha256": "7d6c5b3b65e9670791e4c8af79447e96a37b1d0a1003b8207173af2c39c45e14",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-a680216c1ae744fc90f360ac1b06d42a.json",
+        "sha256": "a91df58ffe2c5ed6b6079633836f17f59c33959d284bfb61c9780dfc60b5e676",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-100060e572524226bc3fa03f7aed92e9.json",
+        "sha256": "b15b327cc2b3f72364f178e63ad30e298a6e320e853e11e54b88237efac16039",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-6956d2c99b7a4460b423b8fe0a6864c1.json",
+        "sha256": "2753a167896d80987531a6a772a19a5198d30bddce082ef95aea95a17f80998a",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-2b5f52a4688841b5b226beec2de3a6de.json",
+        "sha256": "bdc08cd683cf364479c2ae82f26156c75325d931c53b23613ba555f3774ed293",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-0590bf3f72aa4a909ee7f54c8a20e130.json",
+        "sha256": "9306fcfea2a19a7379ce7b5697a005aeb5a9596c222276932dcdab45bbe6eeef",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-eeb5d83f1a36417380fc4b82b845dc92.json",
+        "sha256": "3b29b1224604bd18ca04196fbf79ac96f2364c759fa986d8f30e53f2eab9cad0",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/68e45e3416584b318e0ad43d02628785/检查点清单.json",
+        "sha256": "1b15a9cb7902afb7e4f1bef86746ff8e93627c940422ce19e719832d105b4105",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-c72c4ea8977248efae98f822af3a85a7.json",
+        "sha256": "179073d716024ff89adfeff3f3e085965acba7274becc3aa10837fcba9e776d8",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-3422a8a96f044ba9a1f661ae0c1edae5.json",
+        "sha256": "4e722aebf8f9f67fea5388680d26bb4e6333268d02f694c643a9a08d1ec210db",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-0cb6966170fd44fc92fa396a3b93afa2.json",
+        "sha256": "6a74cff82d3a002101260089832a54eb0c1c1657259bc83d55dcf04bcb7a93b3",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-53badaac05f44a8d887b2d8331d23a84.json",
+        "sha256": "fb1577e187088b9df730d91480ec4c8eb3729a825aa1e6523e82f042b1575eb1",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-451c811186c64dfbb5013d1f7a349374.json",
+        "sha256": "021190c4d21f4273aa15f46641f00c2e78224e9171ba713a6d343eef3839affe",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-c8601c445d4c42439e110738010f70de.json",
+        "sha256": "d5e1b66ce20f0c20a0e8fa40cc111f1be7887740253f8c66c380e16857e2bec9",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-a6b5aadfdef1409bbc42650920bf032a.json",
+        "sha256": "e43e8a9af769765bee0a3d63e3b5a14c4126da7d76ce38bbf4e845de45afd99b",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-38b23d7c4da044f89a3eb0a10b3729a1.json",
+        "sha256": "71a7a4afb9be1c7b2d9993f64e08f7384c3d660887941be336048308f092b61e",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-916548cd2e7d49f89635633f388cca33.json",
+        "sha256": "cf3adc497c79e035b7d3085adcc6454dd3e5b81d6cebc726621e76e294449b40",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e8b912c524d24b9fa509a53810e87361.json",
+        "sha256": "e581185170c40d38cb91d618c45a11ffa6be06dffbf5b692570cd966eb4314b5",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/cfce74e05ea8442ab6e0c3c390156b38/检查点清单.json",
+        "sha256": "002fec2f331cfcaead9d5877cc676fcd0c2e1475e09a734726c9d71242d020c8",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-efcfcc7286d5419eb77ddd48b03cab93.json",
+        "sha256": "be316450073cf7a3e5ad49ef472f07a5005d638ce25a3a17da8d66cfdd5914a9",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-53d4a6a7d7ec41e19da1877ad2cbe820.json",
+        "sha256": "40c6d56d0622d3f98a8e644fb08bfe74f09baadd2c23d8f0f21580daa55d0e47",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-cdd2bc5b6e2348aa9fff45547481ac5d.json",
+        "sha256": "35458f19cee5b8a0a6a808bae77f9a95eb4b075518569836e34cfe46ad3101fc",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-80cc884798044021b608eff6790516f7.json",
+        "sha256": "9ff1d4e5872d13c558dd3650c2f7c48f909572354bbe9e74f4acd437bfa8c948",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-7d6c6120b84845bc91877021d3cef3a8.json",
+        "sha256": "904fc9fb2ebccb19df654a0d8af7669dad00b645e87ff4ce10d1cb35896c2c47",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e44d7893af3847adb0da0d202780f944.json",
+        "sha256": "57f9ef6ea651cb05e7b0bd73a0de821daafd62b12cb422e61d2384e3e9d6aa33",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-3e34d624c69541b88e2f43c0f3abce02.json",
+        "sha256": "d58d334312398820168596868bcbef427ef0310b8d0acfec67447b78f57838e9",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-6479af28f2334586989fb1fc7132397f.json",
+        "sha256": "b448af1d3eb1f173e571ce9e90be580457c408f25d229fc2290b6458d309acfc",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-6ffda122110c4687abe0bfe6b27cd1d5.json",
+        "sha256": "0c13ae143533186eb2fafa0d72359780d600c6c36dee9bd1bb6b21620b6b5366",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-91e5c35a05484056a8d86fb73d21cee9.json",
+        "sha256": "4e0a879cd4db5467f607d04eba965ab5d762492e3bac7e9954c919a40266c7fa",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/7cd6c3916b4147a596ff595b0b47bedb/检查点清单.json",
+        "sha256": "a6dba275c3fdd83c38b8c0f4c0b448e7a77336acb9a5089b8dab4d88fb4bade5",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-9779091642bb4617b7417ac964dc5596.json",
+        "sha256": "5f1cadb736eaef4b1416e6f7f4bbac77c79f64ec15c1a010e398cb61d3395bf7",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-6d8c0d0f914e480e8964fafb81e507a1.json",
+        "sha256": "e68354c68dedb85542004212156b4b7be5709c8d1880315f9f2cb7b91dace1a5",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-7f372f0ca832408895b8db63dc4a6ae8.json",
+        "sha256": "d583fa484de6d05cce93710bf0bb56a25894cf78d8bdb2bdb0bc725a8ac56aa1",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-71e4779673a44d3ebac4f6c718323f0a.json",
+        "sha256": "0c0a7967058d0afea2a39ad58f6a3fa14b9ef6d3d125f154af2f8e190d44e34d",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-990527ef092445c2ba220336ec006d8e.json",
+        "sha256": "3dde234169a958251f3c19225b69f8286aef73db72b838a837e1d69131ea38a3",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-417e2cf78a0a4cd4ac6402fe6f0252f6.json",
+        "sha256": "bd094d31864c846022225c9f4ffc4e318e27fc493e017498582f9e57a136f4d7",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-8992a7a4471d4beeabf824891c0dcc02.json",
+        "sha256": "942ce5d612cd97fd9a3b5d256eda198ab6e64d6cfde706fd611b333adcc94de2",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-47a07d16ee4c42a089b8bae867e21e02.json",
+        "sha256": "8665f594b7df02c89b915d63760d2a57748fb239c8ec07e5750c0734d25c7069",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e42c6e9c47b54783b886551b9552574a.json",
+        "sha256": "5839424d9ea02f698c0933b35d48a3d69dd92a607d5afc072012d9f0c8320534",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e8d4b0761e834bc9bc115e1d53a3dddc.json",
+        "sha256": "935f53b8dbb86d5030cbfdb0ac9ff5df23f5663f88f07b269410d5bee0465b35",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/9316953fdce945f7961d0c21e16edd5b/检查点清单.json",
+        "sha256": "4466c1f303b06e9a06ddf94556e905ab45b32775947a1189fdac495d1ea60f86",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-fa03f23ed9764052b800d1b4d5acfe03.json",
+        "sha256": "a92ad76c5caab95880df5a41955e8ac858597b36f3ff8c8be2a674e2e2e06a8f",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-954ad729d6a84ff1a72348ce22203a11.json",
+        "sha256": "d26e2e20979f292dff51f30b64ecf82202c2c9fa0e042502af0e2592d94ce4bb",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e2145318afd148fda8b042a05fcc41c2.json",
+        "sha256": "342039cac5701f9beec4e8a49779f5e14a4f9151eeade73c9791fcf933655a9e",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-8f34a2e0654c44a183d95bb250b80410.json",
+        "sha256": "15ef9ee907fda30b9b77d77b31f86d9074ea702d2cb68edce6a970e75e8eae25",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-899a53d0ed39400eb19571af709bf113.json",
+        "sha256": "691299b16266cc71aa04565a3a66091ae60327d2c76e085696353293f8cde4d5",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-d900b904e3884fe9b692cbea8f5c8fc3.json",
+        "sha256": "be54b82b8dea77f5f8bd4bb5263a2d68c871c7af49ac8604e0d40f49c435cc1c",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-45fe14c299ec43ef930cf6fed2a80894.json",
+        "sha256": "5e3441caaca1fe0def8ce23114097f58c4ba3bd1454bbdfacc52402654bc5318",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-2ad56cd848b04b3c80fe4cf9af70a16b.json",
+        "sha256": "27193d2a6077d4bec9ecf781f97f0814aa0f3dcf4a42ac23e271f076bacf4b4e",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-0a0ee3d784954788b19b1e7f184ecfac.json",
+        "sha256": "5d11b2510cb63b3014d8caf7c14ad7055a2d4cf2eaf79a429c93308932b121a7",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-25426278d5d047aea0a4ddb06afb7bfc.json",
+        "sha256": "44739ef58b91a92fe35a3697cde05d154fcba2bc025a137789f7a89026c2a4ac",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/2024827b215f49eeac690bb529f32503/检查点清单.json",
+        "sha256": "b2e24b8cc2b3336310c9cdac04639a679a57a969d5087d767a6a116723a574e9",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-58f73210bf394429b060686e19ca9a17.json",
+        "sha256": "a2d195c12873b905b9dd91be5c649fb4da8357e88cffc63509e24cc0eeb9c545",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-88dc96a7d4f746509e416c4d6ade7383.json",
+        "sha256": "54dadd50d668b3d0fcbba0eaf0b6cdfc6851c5e97cae5b0dd899ca1d5e359307",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-1c8804bdcddb4177aa91efef0ca8b222.json",
+        "sha256": "c95cee1434e0598d03a2f89f6a747cac9199b7c7060ad0a4bd25595957e39437",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-6054a8465f5943028f60f9209bd8758f.json",
+        "sha256": "9fcaf9b7d55556184ade330777e16f978ea31ac2010d237ebfbdd01c872f16a8",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-c81a9219d10f4b86a2a51e219035b8f8.json",
+        "sha256": "c6012a5abfa293d9862580da536836f62f0e40d66adb54ec41f8162af8a96441",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-4ac7c6f1df8c4d9f8d46bb5d919f1747.json",
+        "sha256": "950b02ae511c268e6d6913055b346b256212ff7b4244afcdf921b0685c8ac2e0",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-05d86d6ee6184b6981cbde1ee18bb7f9.json",
+        "sha256": "2ef51cbde83579e7cf44d0815eb560a92377186dbbf1596915d4bab6a54782bb",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-1396d5395a7c4a30b007809b5f714b12.json",
+        "sha256": "7edf6ca3437c0573e9e6a0671e534c873ef384cc0bb055dfcc1e8c3b0e803010",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-2bf19d5df2f54f97978c004ee3f25458.json",
+        "sha256": "417532ed79b7b88be565be71cf9f3ee2053dc2df73c0fb5a3b30496ea9b29265",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-c3e60aa723084dfda72d32c049a17766.json",
+        "sha256": "efb634508826062175e78fe216b31aa614d0e5b7309b9cc9c34600aa97afde1d",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/00501c2397324797a4e0718fe22c405c/检查点清单.json",
+        "sha256": "8bb071227104ce2b8c1da209c273f0a7ef09971bf31dec30cfb92d62d32309b1",
+        "kind": "checkpoint_manifest"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-92a0b04aae314b49ab07e0ce8d27ee7d.json",
+        "sha256": "aec7ecfd42470b4d5eb21e80bf72675a1b9934e7a73eb3e389cb68a92c5d7ae9",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-e1f1034437024a059ae4d88828845e82.json",
+        "sha256": "4585fa53b1abff5399382ad5638c49141c2897303ac35fae5e9a49c8f3c86384",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-5f282736d9f54000aa4c781281af22b9.json",
+        "sha256": "fa4682d85d764e2674c9259effa77cf7bab0da5283c491e1184e2d2268a48d63",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-84c423399e4041e4915e81d0ef8076f5.json",
+        "sha256": "55f9c3bffa1b9900b6ff2988142428b1f7b7a47b63a6745b6e916ccf49393eac",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-1d9ae42d08c3442fba1db4dca7ae5d29.json",
+        "sha256": "7719c6ffe1538161e32e7f3361b15c2a0907f3b1d275c3233a7f6d7a65a37257",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-4cd64a0bb0e040089f827a55dbc48348.json",
+        "sha256": "2d4d9e5b13fe1845209992195ee90ec95d7a51e303786a777277831f205d1dcc",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-1470927ff1d5468596d9c94e6b3f0851.json",
+        "sha256": "e18dd43a9d479279d49964c05645b6b7af46e9ff9f55100be63047aaef65d238",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-fecbb13c9f914e0a97ee657a0c237ea1.json",
+        "sha256": "072f8192f60a4fe709ce63cde000b9bbafdc77438caec28aa07a83682cd35b5a",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-c268ac6cd30f403d82a6fe692d46ed45.json",
+        "sha256": "603415e41bb1df9f539db512f39de9e94e8d8b264e5eea997fe8e6795161b178",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/场景快照/场景-a64cd36c5fbc49e98f572e1b6d31d0e3.json",
+        "sha256": "71f9e571130601004e9994a969f9a86193681a59b20ded0d79118b7020076a5e",
+        "kind": "scenario"
+      },
+      {
+        "file": "关闭运行/检查点存档/8c0ac11408ba47faa271c402dc94cdec/检查点.pt",
+        "sha256": "15f1b9ab7b15af270023270e58eeef2825f5a2b0fddba1cdf78cba439f83d883",
+        "kind": "checkpoint"
+      },
+      {
+        "file": "关闭运行/检查点存档/8c0ac11408ba47faa271c402dc94cdec/检查点清单.json",
+        "sha256": "e3e64d7fd425cc8a8760048dd81394c02c412d2f0bc09a4684729924d4377bb9",
+        "kind": "checkpoint_manifest"
+      }
+    ],
+    "intentionally_unretrieved_rows": 14,
+    "intentionally_unretrieved": [
+      {
+        "file": "关闭运行/检查点存档/f7b0e3c6d2ff4b7294fc97006504d28f/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/f7b0e3c6d2ff4b7294fc97006504d28f/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/39059cbe27ff45dcabcdee9b9bf7c5a9/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/39059cbe27ff45dcabcdee9b9bf7c5a9/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/e0502c91fec540a4a09225cbc221aa9d/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/e0502c91fec540a4a09225cbc221aa9d/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/d6edf07b02df46f89c07a2af59bb87e1/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/d6edf07b02df46f89c07a2af59bb87e1/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/5fab876b5183439c9f22a9ddbdaac49d/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/5fab876b5183439c9f22a9ddbdaac49d/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/2c70adf7ae4744f598804eb82e3c944f/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/2c70adf7ae4744f598804eb82e3c944f/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/e64b93fefb44423b97fdf57aeb5c3271/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/e64b93fefb44423b97fdf57aeb5c3271/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/dcefabaf6356432e8e2a88fa5219fb02/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/dcefabaf6356432e8e2a88fa5219fb02/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/68e45e3416584b318e0ad43d02628785/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/68e45e3416584b318e0ad43d02628785/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/cfce74e05ea8442ab6e0c3c390156b38/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/cfce74e05ea8442ab6e0c3c390156b38/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/7cd6c3916b4147a596ff595b0b47bedb/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/7cd6c3916b4147a596ff595b0b47bedb/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/9316953fdce945f7961d0c21e16edd5b/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/9316953fdce945f7961d0c21e16edd5b/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/2024827b215f49eeac690bb529f32503/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/2024827b215f49eeac690bb529f32503/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      },
+      {
+        "file": "关闭运行/检查点存档/00501c2397324797a4e0718fe22c405c/检查点.pt",
+        "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/00501c2397324797a4e0718fe22c405c/检查点.pt",
+        "classification": "intentionally_not_retrieved_checkpoint_retained_on_home"
+      }
+    ],
+    "unexpected_missing": []
+  },
+  "allocations": {
+    "files": 15,
+    "arrays": 225,
+    "all_allow_pickle_false": true,
+    "all_source_csv_sha_equal_frozen_manifest": true,
+    "all_physical_scenario_fields_match_source_csv": true,
+    "all_independent_recomputations_passed": true,
+    "mean_U": 0.8373774648846322,
+    "records": [
+      {
+        "scenario_id": "cover_output_54",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-09ebf81256165a53\\第二阶段分配结果.npz",
+        "source_hash": "050cb2847f433dee89998cdbfcdd203c3d9f237d65e447e2360de7ebfafed517",
+        "sha256": "ac95605f08ae5c42a081307c3ba302c18c82813775c8d6d69578cb14528f95a5",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8339800322171015,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_81",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-0c9015cfeb360ec4\\第二阶段分配结果.npz",
+        "source_hash": "3a2591855fe932fe21b82389e9e39fd73217c8338a2b04711352c4714f5a0351",
+        "sha256": "ffbb0283908169cc6f6fbe5c7a92247a965a0079c354dd8e67bc35f45f4873f9",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8170029840572675,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_31",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-21a9a9c0aca1cf62\\第二阶段分配结果.npz",
+        "source_hash": "736b1b05a136f4db7029fb5514e4e3709012f0bcdbbd13b98ef534c1acac4d0c",
+        "sha256": "835342adec5f235ab82d449927b806251dc2855dc9167f0d3178804995ef4f91",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8293803315315089,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_56",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-44554ba2cdd1b0af\\第二阶段分配结果.npz",
+        "source_hash": "b4aea205b321f64be4dd60a359c3d3ba55a20860bb266cde626df84beab02e38",
+        "sha256": "52e7733b07e9938fa6e2c14d6a17d8189ae3db6d8d284565cbc40230ceaa34e5",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8529604644746632,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_33",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-4c60ac4eb53c2cd7\\第二阶段分配结果.npz",
+        "source_hash": "e0e5ce83eb8ba915798b40d9b4afa77838b5f319e6779f11d5af065d3da69db7",
+        "sha256": "cfd68b342492b2a0060f4c03c9a166610825fe8b31721f889c30a73ce2d1c302",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8439789252865472,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_6",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-57310e75589e7f4f\\第二阶段分配结果.npz",
+        "source_hash": "202e5f416b235f57350bed9e88b45f121ff706eb54a5140c56d9d8f073eee167",
+        "sha256": "bc0df679239d3785e73d94f44b4568bad29b9cc9a055d83ef2c31918f0d24adf",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.7900884430819536,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_0",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-67db72352a867b26\\第二阶段分配结果.npz",
+        "source_hash": "3799e5f2ebda449ae2cf36b62c11d31aa3682a76ce9afff483e9cba2b9bcf853",
+        "sha256": "a7ba4c17b4e5247a8093fcda1d27b37b8edfa77ebc979f6195c0caff0027301d",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8416425882201398,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_79",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-71527de25919ca7e\\第二阶段分配结果.npz",
+        "source_hash": "8be2a961ad9239c0598655c771287bb0ff28b2726b73cd8d8c1172ba44968e72",
+        "sha256": "7d62e2566f104224af8c1f4ec241610c486f5d9281a6a2be70b2f57ab519caef",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8560694701219075,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_34",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-88bff13580d11b2e\\第二阶段分配结果.npz",
+        "source_hash": "4627636d84a7c5a3e1a2f20418cfed50d779e0514f9ec20783de5d431f8d1f77",
+        "sha256": "f5a28f156b939d2b7edc098bdb8c7e57bee885afea8e98f262748b8075adf552",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8133767600773361,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_87",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-9586d567ba78e1fa\\第二阶段分配结果.npz",
+        "source_hash": "6a18b335b55bdd668c5602eb9cbc2c4a3cbf3af7f5862a068a900f28bb0dd3c6",
+        "sha256": "48c50426257072674575b0c8383aeb93bb5457fe8fb102ac9b2fd1346e9d6c09",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8493326209437465,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_76",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-972d7b35d5179c0e\\第二阶段分配结果.npz",
+        "source_hash": "a1f437950c873ed64069108334d97f62757c2410116eeb7d59dbf4a1ae864234",
+        "sha256": "5d98fd95874c14523434fbb6ea9c08f29c40371acb86251c9e93c95697504eb0",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8237847145034086,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_29",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-a4bc9f309ade38d8\\第二阶段分配结果.npz",
+        "source_hash": "bddf3708922ff00a7c6d9ee07f313f0a07fbae9e0bcbeefc04c73d7b9fd8e4db",
+        "sha256": "a077c89598df52ef1ce877cd9c71a164161b37d92ffbc4aa36d25ddce5ce6c4b",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8136810932210757,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_99",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-a50e9b070a7cc346\\第二阶段分配结果.npz",
+        "source_hash": "3fdc06f7b3f453d59819c1a27e0ae050db1df4822b2c700e3afc438d6f97a983",
+        "sha256": "c2e63c4af6b663d24c6c1119affce59efbbf86bbfdad9410c79840708d93995a",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.9043776571686737,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_62",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-b0df46b6166ead2f\\第二阶段分配结果.npz",
+        "source_hash": "121fa53953b9a3ed96214daf3f25925cfb557bbdc2ae2e671392142e86390201",
+        "sha256": "fc99acf1364e24666004ca8a572e0b27655912ea7ebb54c27f44aea51f93f1aa",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.8454254491687937,
+        "constraint_violations": 0
+      },
+      {
+        "scenario_id": "cover_output_35",
+        "npz": "关闭运行\\独立评估\\bfa6b64bb571\\policy\\场景-cbd4952f443a01a7\\第二阶段分配结果.npz",
+        "source_hash": "ecb21f950228e85c8f1e62382f2f8f66e4c249625c19c16337a3b1688a769fbe",
+        "sha256": "2c5341a4be5d3e99732dce190bb36974a35abaed245500d63f572eb58998a581",
+        "passed": true,
+        "allow_pickle": false,
+        "array_count": 15,
+        "shapes": {
+          "beam_id": [
+            200
+          ],
+          "entity_mask": [
+            200
+          ],
+          "demand_mask": [
+            200
+          ],
+          "status": [
+            200
+          ],
+          "group_id": [
+            200
+          ],
+          "polarization_id": [
+            200
+          ],
+          "X": [
+            200,
+            100
+          ],
+          "p_total_w": [
+            200
+          ],
+          "p_slot_w": [
+            200,
+            100
+          ],
+          "demand_bps": [
+            200
+          ],
+          "ground_diameter_deg": [
+            200
+          ],
+          "noise_temperature_k": [
+            200
+          ],
+          "frequency_hz": [
+            100
+          ],
+          "rate_bps": [
+            200
+          ],
+          "sinr_linear": [
+            200,
+            100
+          ]
+        },
+        "mean_U": 0.84558043919536,
+        "constraint_violations": 0
+      }
+    ]
+  },
+  "limits": [
+    "中间权重及最新别名共19排除项保留远端home，不计为缺失错误",
+    "本地唯一最终pt只做字节SHA/sidecar身份核验，未再次加载全部模型/优化器/Replay做恢复演练",
+    "本地训练SQLite仅此新attempt150回合；原gpu4前150回合SQLite未取得，不宣称累计300回合训练SQLite齐全",
+    "旧失败归档P2本轮未触发，仍未代码修复",
+    "没有新test评价或多seed显著性结论；旧seed42共同预算工件本轮不重做"
+  ],
+  "retrieval_exclusion_categories": {
+    "total": 19,
+    "intermediate_checkpoint_pt": 14,
+    "latest_checkpoint_alias_pt": 1,
+    "temporary_sqlite_wal_shm": 4,
+    "wal_bytes": [
+      0,
+      0
+    ]
+  }
+}

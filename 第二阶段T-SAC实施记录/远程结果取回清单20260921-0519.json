@@ -1,0 +1,1351 @@
+{
+  "retrieved_at_utc": "2026-09-20T21:21:30.198879+00:00",
+  "files": [
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\论文基线对比\\提交计划.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/提交计划.json",
+      "sha256": "8c0546412408a2db193e80e152180e87c6ade89d98cd033fdad317d4be091d5b",
+      "bytes": 19407
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\论文基线对比\\队列状态.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/队列状态.json",
+      "sha256": "a8fc800cf0a6e838a5f325bac47ff3761884a3e5a66c5d9395dfa0040cf43810",
+      "bytes": 66
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\论文基线对比\\父实验完成快照.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/父实验完成快照.json",
+      "sha256": "192ed4c314b580ec8dbf3145d984027ae6965fb9d5ae954f8e9a53704b4a8114",
+      "bytes": 374951
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\论文基线对比\\父参考预选择.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/父参考预选择.json",
+      "sha256": "948fa4db4d4ab9660e53079b1d09a5ca876fa0ccc4860ff80592684c2ae6aea7",
+      "bytes": 239619
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\论文基线对比\\冻结实验计划.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/冻结实验计划.json",
+      "sha256": "6abc11933ca043292f2d961f3ca8e60ed1715acd216b6e34eb3c941418b3979e",
+      "bytes": 19952
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\论文基线对比\\GPU短验结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/GPU短验结果.json",
+      "sha256": "cd746818320c050ddf0c120980cf5b57c074441a3e6906b7a87f548947544508",
+      "bytes": 1906
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\T-SAC局部观察控制组-算法参数.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/T-SAC局部观察控制组-算法参数.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\T-SAC局部观察控制组-训练日志.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/T-SAC局部观察控制组-训练日志.txt",
+      "sha256": "80e66c53b4e0f6a8e3a0c72c8910c60736148ff5037287dd46807145703cd618",
+      "bytes": 11258
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-SAC-最终-评价日志.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-SAC-最终-评价日志.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-SAC-最终-评价结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-SAC-最终-评价结果.json",
+      "sha256": "08b0dd87a27fb284889b478f22026fe2edcd3aff93430b1cc88a532ec9d7e5cf",
+      "bytes": 24559
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-SAC-副本日志-1.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-SAC-副本日志-1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\CNN-SAC-最终-评价结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/CNN-SAC-最终-评价结果.json",
+      "sha256": "3efa3a09232f812c020797791adeeda7a8f418549e6985d320365645db5a8d44",
+      "bytes": 24626
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\CNN-SAC-副本结果-1.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/CNN-SAC-副本结果-1.json",
+      "sha256": "1227e21fdf82f658a029f513849f555c58340c3f038af1518d1ef8cc412a9718",
+      "bytes": 212
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-SAC-训练日志.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-SAC-训练日志.txt",
+      "sha256": "1e2d039b9ad7008fb9c2911b47fdd9878b1bfb3879b591736d3a3e8d4434f1a7",
+      "bytes": 14394
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\夜间计划.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/夜间计划.json",
+      "sha256": "6abc11933ca043292f2d961f3ca8e60ed1715acd216b6e34eb3c941418b3979e",
+      "bytes": 19952
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\CNN-SAC-训练日志.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/CNN-SAC-训练日志.txt",
+      "sha256": "b3fb02deb70b55d12e496fec46f65dff2336df8b2a0979c56ed11bf3fb25077e",
+      "bytes": 14397
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-DQN-训练日志.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-DQN-训练日志.txt",
+      "sha256": "fe8f37b8acf998ff4b4537e17540ce57960a496d48d7d5ed73e155d5e2bd41cd",
+      "bytes": 14388
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-PPO-副本结果-1.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-PPO-副本结果-1.json",
+      "sha256": "8ab8e9e16984b133c3cab160e755c5b8552c6fd208a8092d23cfd1799f3633f1",
+      "bytes": 212
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-SAC-最终-评价请求.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-SAC-最终-评价请求.json",
+      "sha256": "e6fdb18b54e0166edca4b2b8a6921a5ea26443a3a46241221370a83f99564769",
+      "bytes": 699
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\CNN-SAC-最终-评价请求.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/CNN-SAC-最终-评价请求.json",
+      "sha256": "5ec130dd5d6792139546aebc7fc76d2fb8131125dac3af81e8fa15e7d764abb9",
+      "bytes": 699
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\CNN-SAC-副本日志-1.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/CNN-SAC-副本日志-1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-SAC-副本请求-1.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-SAC-副本请求-1.json",
+      "sha256": "514e02e756227aca92d5cc74f13ffd0fbff5da76a27b0e48fe1abebef59bbc5f",
+      "bytes": 518
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-DQN-副本结果-1.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-DQN-副本结果-1.json",
+      "sha256": "5e34ab05ebfcf13959fe86d59b4c532cca2aa84c3c0302b7b67ae0888ad1c8d3",
+      "bytes": 212
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-PPO-最终-评价日志.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-PPO-最终-评价日志.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\T-SAC局部观察控制组-训练配置.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/T-SAC局部观察控制组-训练配置.json",
+      "sha256": "a83e65807a045eabcea33c1ba89f79b62756a80b13f8600a4231baa2933893fe",
+      "bytes": 2835
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-PPO-副本日志-1.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-PPO-副本日志-1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-DQN-最终-评价请求.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-DQN-最终-评价请求.json",
+      "sha256": "664d67cd71f22edeb227eb0dc3b4d23ffdad4df5ba6353c3442bf360b778effc",
+      "bytes": 699
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-DQN-最终-评价日志.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-DQN-最终-评价日志.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\CNN-SAC-副本请求-1.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/CNN-SAC-副本请求-1.json",
+      "sha256": "217d63ccf82e58d9fa1d6a88f672640e583c6b9b0373639b8ea5adb306efb3ea",
+      "bytes": 518
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\CNN-SAC-训练配置.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/CNN-SAC-训练配置.json",
+      "sha256": "7a21705c83e3a595eebdba04c46da6cdf8c5175edef83f6e153eba43a6b54e74",
+      "bytes": 2832
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-SAC-训练配置.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-SAC-训练配置.json",
+      "sha256": "e9bc1daa12bdb2582a0e7429b029865542ebea63767eee65305bfa946b71c31c",
+      "bytes": 2832
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-DQN-算法参数.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-DQN-算法参数.json",
+      "sha256": "305eadfef1f35ecb2b4e8ecb11bc3b4c15702f0399d26c08207ac15247afa85f",
+      "bytes": 81
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\夜间进度.md",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/夜间进度.md",
+      "sha256": "69cff1925ba5af47ff723f1034488526f73eec3bc8f38034a61513e7f8236a4f",
+      "bytes": 2218
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-PPO-算法参数.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-PPO-算法参数.json",
+      "sha256": "c40e8116eec525892a3ca0199a7a0f0aa5beb4d1bd8359a9e020498e70953b53",
+      "bytes": 178
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-PPO-副本请求-1.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-PPO-副本请求-1.json",
+      "sha256": "217398eed408e754889aebdc77d395b41b5a95374dce35668d69d7a71bc1f00c",
+      "bytes": 518
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-DQN-最终-评价结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-DQN-最终-评价结果.json",
+      "sha256": "380bf9cefdc2ec7644be16d8a4829561b9e837c4fa4fc39dc9feefbb123ff78a",
+      "bytes": 24435
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\CNN-SAC-最终-评价日志.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/CNN-SAC-最终-评价日志.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-SAC-算法参数.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-SAC-算法参数.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\CNN-SAC-算法参数.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/CNN-SAC-算法参数.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-DQN-训练配置.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-DQN-训练配置.json",
+      "sha256": "e69f89c3e5ed40b0d7bc2d846fc20265a96b4092704c3e9fd35b6d40bfba3be6",
+      "bytes": 2832
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-PPO-训练配置.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-PPO-训练配置.json",
+      "sha256": "be2eec0839dc7ff5fd5546df71837089c4f603b6a1bbd70a91803aaccbb35b51",
+      "bytes": 2833
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-PPO-最终-评价结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-PPO-最终-评价结果.json",
+      "sha256": "b120c7e9e0470cd457df852755977343164813b00e1f2a785b44fdbc2be026f8",
+      "bytes": 22668
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\夜间进度.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/夜间进度.json",
+      "sha256": "d0b266888738b148d619e53334645ac9c839c9566bc1d675a249082f0c7cc5c1",
+      "bytes": 123464
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-SAC-副本结果-1.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-SAC-副本结果-1.json",
+      "sha256": "231b3f2309cf46150806dab6e6bde1b7ed8fceb6c0cc9806bbc9c78b0733c623",
+      "bytes": 212
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-PPO-训练日志.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-PPO-训练日志.txt",
+      "sha256": "3ca4ccdd83576505b1c9c60224c696a253b6c9cdc6ef3acb7519c7b1fcdbe8fc",
+      "bytes": 14363
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-DQN-副本请求-1.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-DQN-副本请求-1.json",
+      "sha256": "a45d99b9026eb432ba23266d49bdca4eb11381488794d388bfebbe8b31ab0de7",
+      "bytes": 518
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-DQN-副本日志-1.txt",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-DQN-副本日志-1.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\夜间实验\\MLP-PPO-最终-评价请求.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-PPO-最终-评价请求.json",
+      "sha256": "a302769b8c46e5429baa72ceeb8dbef17005c62bb72022731b92dccf4343031b",
+      "bytes": 698
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\配置快照.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/配置快照.json",
+      "sha256": "e9bc1daa12bdb2582a0e7429b029865542ebea63767eee65305bfa946b71c31c",
+      "bytes": 2832
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\运行清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/运行清单.json",
+      "sha256": "0cd7a8ac1dde01d9c0aef3e212bf634c175195673287246902074b1644160ff4",
+      "bytes": 57527
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\数据划分.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/数据划分.json",
+      "sha256": "62574aa50d4df0926f0dca642daa2f42643f4cbde82a7af47a44e0b3ced3b8c2",
+      "bytes": 57095
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\训练场景覆盖审计.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/训练场景覆盖审计.json",
+      "sha256": "eefd4dd7d3bba6526c0362a748cce9c98201b16cac61413becd7431e142c304a",
+      "bytes": 18900
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/检查点清单.json",
+      "sha256": "654677fed9d4a58b1792e66ce7ce06433c385fae19a893c36159bed55c696f44",
+      "bytes": 464
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\基线训练结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/基线训练结果.json",
+      "sha256": "77a323412934427a3e11454d792b1ac56c3c6415d5a3006a46ea75deaf476a9b",
+      "bytes": 144709
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\检查点存档\\68ca237e6f604e3fa860ae538b8e005b\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/检查点存档/68ca237e6f604e3fa860ae538b8e005b/检查点清单.json",
+      "sha256": "948dfeb9b1eb809bb7a4e1a967b6d41b089f1d04436bf85514b29e2b74111b0e",
+      "bytes": 460
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\检查点存档\\3507b46839cc4bed8f0d2129e7a6e72c\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/检查点存档/3507b46839cc4bed8f0d2129e7a6e72c/检查点清单.json",
+      "sha256": "daed0bd28a5f9bed9712da059cb84efe8c7e217fed33a65b296c5fee31f1634c",
+      "bytes": 460
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\检查点存档\\f4e88b16c760456baaedf7bfc88281ea\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/检查点存档/f4e88b16c760456baaedf7bfc88281ea/检查点清单.json",
+      "sha256": "d30cee3925f96e844d1b96930ef6e8bb00a0d6dc36cfa88bb833a84bf3cf954a",
+      "bytes": 462
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\检查点存档\\02ee3bbc94b74de8a39df3e98ddfbb56\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/检查点存档/02ee3bbc94b74de8a39df3e98ddfbb56/检查点清单.json",
+      "sha256": "654677fed9d4a58b1792e66ce7ce06433c385fae19a893c36159bed55c696f44",
+      "bytes": 464
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\评估结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/评估结果.json",
+      "sha256": "d2603b2d2592a88cd07c355cc6b097067f8cef5b81d6e5e1d12033ad097502af",
+      "bytes": 23232
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\运行清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/运行清单.json",
+      "sha256": "c6db5a9526096b8f9ec01e958e55527f2dd30f61d58511f398a6b124766a33bc",
+      "bytes": 57662
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\训练场景覆盖审计.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/训练场景覆盖审计.json",
+      "sha256": "eefd4dd7d3bba6526c0362a748cce9c98201b16cac61413becd7431e142c304a",
+      "bytes": 18900
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-88bff13580d11b2e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-88bff13580d11b2e/导出复算验收.json",
+      "sha256": "d1c26eabaa247524ffdb6a83bfa358f53b6c76c886baceb38b9afecd08f8cd92",
+      "bytes": 1296
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-88bff13580d11b2e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-88bff13580d11b2e/第三阶段交接清单.json",
+      "sha256": "3bb8685074bd1a43e9def80779a0e7a3240f76f45ea13c900fe75ff8d428dd90",
+      "bytes": 40161
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-a4bc9f309ade38d8\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-a4bc9f309ade38d8/导出复算验收.json",
+      "sha256": "a2f2e692e79ca77f3e215256046dcb83c7af5e2c2ff5683944f212f559e9ee01",
+      "bytes": 1298
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-a4bc9f309ade38d8\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-a4bc9f309ade38d8/第三阶段交接清单.json",
+      "sha256": "b318d5e625c91f9c7550dab9874b609322ea751f16d8ae17e3229421b4cd1b2e",
+      "bytes": 40079
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-21a9a9c0aca1cf62\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-21a9a9c0aca1cf62/导出复算验收.json",
+      "sha256": "2daec8864f29f96b5af68909c60178a897ce0f7f8f304c2c9e4d87a26db39df8",
+      "bytes": 1340
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-21a9a9c0aca1cf62\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-21a9a9c0aca1cf62/第三阶段交接清单.json",
+      "sha256": "e77a0d8a79f001f6338dc8cf99c9afad838a4eb5b8edaa45130fcca34a3178a6",
+      "bytes": 40968
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-0c9015cfeb360ec4\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-0c9015cfeb360ec4/导出复算验收.json",
+      "sha256": "740bbcc543665739f183df35c991844ebb0c613c44220637d32f67ba3abc27f6",
+      "bytes": 1295
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-0c9015cfeb360ec4\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-0c9015cfeb360ec4/第三阶段交接清单.json",
+      "sha256": "a57c432b6e721fbb2bf9f6f68f13658e507cbff4726abca5aa63dc83d34db8f6",
+      "bytes": 39502
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-a50e9b070a7cc346\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-a50e9b070a7cc346/导出复算验收.json",
+      "sha256": "403793d047f56a95a02a737a733dfad00f5ce0f93f798e0c4fd86b461b0fc6a7",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-a50e9b070a7cc346\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-a50e9b070a7cc346/第三阶段交接清单.json",
+      "sha256": "1de594e46a1a1884d04d62405519d9cf2b0cae39bae2187ffb6a84dd163da6af",
+      "bytes": 36636
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-972d7b35d5179c0e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-972d7b35d5179c0e/导出复算验收.json",
+      "sha256": "e92a334b047827c03ac2c24d856a0913e37f4cc8ca30d8f4656b270e64f3ca24",
+      "bytes": 1297
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-972d7b35d5179c0e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-972d7b35d5179c0e/第三阶段交接清单.json",
+      "sha256": "3a82e5304f3405ed1684e6e217e551f1b3483213c1cf048b7a038110cec56125",
+      "bytes": 39936
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-67db72352a867b26\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-67db72352a867b26/导出复算验收.json",
+      "sha256": "c3dd43cee50142294bdc0154890f607b5d9b8ba462d90969a601fc6c8ff9618a",
+      "bytes": 1344
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-67db72352a867b26\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-67db72352a867b26/第三阶段交接清单.json",
+      "sha256": "e7235e419622d5a758c0c9b38c86e4de1faae446d791573a15207935edde52a5",
+      "bytes": 40431
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-b0df46b6166ead2f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-b0df46b6166ead2f/导出复算验收.json",
+      "sha256": "29f079c90dcdd485f793d279894cee6fb8bf2578c8cacd75e5d0e1fbfeae12b2",
+      "bytes": 1327
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-b0df46b6166ead2f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-b0df46b6166ead2f/第三阶段交接清单.json",
+      "sha256": "ceb72b2cb712429738bb872e6b2d3df768d3b4c08beadceb50d2eccb8f7ae50e",
+      "bytes": 40774
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-cbd4952f443a01a7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-cbd4952f443a01a7/导出复算验收.json",
+      "sha256": "e5546a3e367a2ef9342b46c06dc70d65c92103be9502cf6b30da5976034dad58",
+      "bytes": 1294
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-cbd4952f443a01a7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-cbd4952f443a01a7/第三阶段交接清单.json",
+      "sha256": "3d0d31dd0bd3b2f74c98353987d6191f6e99e850ebff33f7eeb28b65659ac990",
+      "bytes": 40064
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-4c60ac4eb53c2cd7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-4c60ac4eb53c2cd7/导出复算验收.json",
+      "sha256": "dd725fb7dfc9e6c1b8231ad08deb39e05d235be6d8eb9103d02cab44a6aa835d",
+      "bytes": 1288
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-4c60ac4eb53c2cd7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-4c60ac4eb53c2cd7/第三阶段交接清单.json",
+      "sha256": "f75933ac3b07bb5ed65f45e491744a30ea36413766c6f83bb974a083ab6b9b8f",
+      "bytes": 40138
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-57310e75589e7f4f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-57310e75589e7f4f/导出复算验收.json",
+      "sha256": "25434543f874f95caae75f3fb1dafba695863813ed5c9cd58cc3031ef157072f",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-57310e75589e7f4f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-57310e75589e7f4f/第三阶段交接清单.json",
+      "sha256": "78a945b35f134d1db70a9ef698c2a9d8f0f0fa39e5ea625628d90e67cb81311d",
+      "bytes": 39819
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-71527de25919ca7e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-71527de25919ca7e/导出复算验收.json",
+      "sha256": "6af8f36a5f20fc930f67b01506622d034607fff8fa164ac372e041dfa76371c1",
+      "bytes": 1295
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-71527de25919ca7e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-71527de25919ca7e/第三阶段交接清单.json",
+      "sha256": "9b9dc1d7985a8ff9f7675392c83044ac93cbb75d06172d5e358a4fed575de1a4",
+      "bytes": 40098
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-9586d567ba78e1fa\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-9586d567ba78e1fa/导出复算验收.json",
+      "sha256": "677543e6abff245d9d80cd22271f4ec6a9a0a3e689caa4fc3877ed583d58a0f4",
+      "bytes": 1338
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-9586d567ba78e1fa\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-9586d567ba78e1fa/第三阶段交接清单.json",
+      "sha256": "6e1cd5dc6e15989be2c2804e2bb9c342f1b0678c7bf743a9039ef313e9b4d519",
+      "bytes": 40435
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-44554ba2cdd1b0af\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-44554ba2cdd1b0af/导出复算验收.json",
+      "sha256": "4ddf77098a0926cacd5109e33144656ef91fe005c9ebb2009ce1e8b29ae895c0",
+      "bytes": 1278
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-44554ba2cdd1b0af\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-44554ba2cdd1b0af/第三阶段交接清单.json",
+      "sha256": "7e53e1c160b988083c182defd84f851debb4efbffe38d3718fb1958b1a830fff",
+      "bytes": 40323
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-09ebf81256165a53\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-09ebf81256165a53/导出复算验收.json",
+      "sha256": "e9b18ca7dbdc8438dd2c592645f21e3ec4531a25b8d7788ea14e2558ac78637e",
+      "bytes": 1338
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\policy\\场景-09ebf81256165a53\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/policy/场景-09ebf81256165a53/第三阶段交接清单.json",
+      "sha256": "76e0881b62f82d9a71602a7f0f74ec2f90833d27e9db03df0dc7a64e60ae243e",
+      "bytes": 40872
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b5d92d21adf3\\独立评估\\41851d93d020\\评估报告.md",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/独立评估/41851d93d020/评估报告.md",
+      "sha256": "838aab0907f6233804fa0859909b89b6f5fa76684009937335d0ea92a3e83446",
+      "bytes": 482
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\配置快照.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/配置快照.json",
+      "sha256": "7a21705c83e3a595eebdba04c46da6cdf8c5175edef83f6e153eba43a6b54e74",
+      "bytes": 2832
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\运行清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/运行清单.json",
+      "sha256": "e85bb8cbfe14d7dc23ebb5470cf1f9c0737c3e6e1abfa269be9efcc317bfe9b7",
+      "bytes": 57534
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\数据划分.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/数据划分.json",
+      "sha256": "62574aa50d4df0926f0dca642daa2f42643f4cbde82a7af47a44e0b3ced3b8c2",
+      "bytes": 57095
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\训练场景覆盖审计.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/训练场景覆盖审计.json",
+      "sha256": "eefd4dd7d3bba6526c0362a748cce9c98201b16cac61413becd7431e142c304a",
+      "bytes": 18900
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/检查点清单.json",
+      "sha256": "645fd640ac4c61a1bd9216eea274105f22be3170d9b8bfcb0b6eb6b0338b26c4",
+      "bytes": 464
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\基线训练结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/基线训练结果.json",
+      "sha256": "969a59c91731eb8c217cb799441d93139f7f9ac02fdf2ff4532a0ee401776119",
+      "bytes": 144503
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\检查点存档\\abc5b39189a14862b221b8159b29875b\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/检查点存档/abc5b39189a14862b221b8159b29875b/检查点清单.json",
+      "sha256": "434c6ee12ad5ee8118e87f1f8b9267fb10f49a4b630749266fcec7124b720823",
+      "bytes": 460
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\检查点存档\\5180a86491a046a98b39f0004e1e4210\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/检查点存档/5180a86491a046a98b39f0004e1e4210/检查点清单.json",
+      "sha256": "645fd640ac4c61a1bd9216eea274105f22be3170d9b8bfcb0b6eb6b0338b26c4",
+      "bytes": 464
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\检查点存档\\cf08ad94fa1343f4a573a0575fadf276\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/检查点存档/cf08ad94fa1343f4a573a0575fadf276/检查点清单.json",
+      "sha256": "5d5e9cd177850f74dcde7dd2ac907c9859d5cf62c5c381116fc37b593f4dfc2e",
+      "bytes": 460
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\检查点存档\\5da80c2df62d440898917fbcb904bbf4\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/检查点存档/5da80c2df62d440898917fbcb904bbf4/检查点清单.json",
+      "sha256": "a36c24d0a4ad6d87745630b969c701912d4fca665cb02cb2a73cee437d4d8f92",
+      "bytes": 462
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\评估结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/评估结果.json",
+      "sha256": "b6e28febee590d1d72100539559490c5f9e0378a5407ebedbbd658e50a49f8a3",
+      "bytes": 23299
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\运行清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/运行清单.json",
+      "sha256": "cc3cb755bc9a1d1c16f3482a2a9315d7af74743e8ee235be2e4c6d11ec2bd8bc",
+      "bytes": 57669
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\训练场景覆盖审计.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/训练场景覆盖审计.json",
+      "sha256": "eefd4dd7d3bba6526c0362a748cce9c98201b16cac61413becd7431e142c304a",
+      "bytes": 18900
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-88bff13580d11b2e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-88bff13580d11b2e/导出复算验收.json",
+      "sha256": "0c9e2c9c5419ac4b8c976724238365cdbe62dceb50aac436cefcb30f5bdbc722",
+      "bytes": 1295
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-88bff13580d11b2e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-88bff13580d11b2e/第三阶段交接清单.json",
+      "sha256": "2aa2f532ba0c7fa9cdf647735fb75e5974624c95be8b3496ac5b1d40efbc2ffa",
+      "bytes": 40160
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-a4bc9f309ade38d8\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-a4bc9f309ade38d8/导出复算验收.json",
+      "sha256": "60df8750f227775574d692f3a548f06cfc173e5c6848d0edadd908b97d92f10b",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-a4bc9f309ade38d8\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-a4bc9f309ade38d8/第三阶段交接清单.json",
+      "sha256": "21705832e0a5ac385ad7bb67d31bfe3cc84a716ae0a86f3a860e99b83366da45",
+      "bytes": 40074
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-21a9a9c0aca1cf62\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-21a9a9c0aca1cf62/导出复算验收.json",
+      "sha256": "0758a0db561b12b87a4bba7c47be91dd6cc364ede1062dda0e70a230792c7daf",
+      "bytes": 1338
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-21a9a9c0aca1cf62\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-21a9a9c0aca1cf62/第三阶段交接清单.json",
+      "sha256": "1809cba0fa87c37e0f4fcd6ab149e7405964e8441f3f406b5ad014b33502407e",
+      "bytes": 40966
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-0c9015cfeb360ec4\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-0c9015cfeb360ec4/导出复算验收.json",
+      "sha256": "808c86b3b284bd4edeaf8a8bec69768c4608061d73d95262359732f17b6691e0",
+      "bytes": 1295
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-0c9015cfeb360ec4\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-0c9015cfeb360ec4/第三阶段交接清单.json",
+      "sha256": "9ab12983e0e5b79444b6cae8d256ebc544a02da4f80a4fe4460a6846e9f2e359",
+      "bytes": 39502
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-a50e9b070a7cc346\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-a50e9b070a7cc346/导出复算验收.json",
+      "sha256": "06a1fcaa93ac0d2eb63440b3bf838ff1625e3fb4a35843b42a93eff366abbfad",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-a50e9b070a7cc346\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-a50e9b070a7cc346/第三阶段交接清单.json",
+      "sha256": "d89313cdf1f2d89441c32ebd797806ad7d1e8dfcee02658bf655550bae5be94e",
+      "bytes": 36636
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-972d7b35d5179c0e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-972d7b35d5179c0e/导出复算验收.json",
+      "sha256": "244c2f45b0f6fd9cb1996cafdfc313a9180c019963e78844480b0b1c8ef506ad",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-972d7b35d5179c0e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-972d7b35d5179c0e/第三阶段交接清单.json",
+      "sha256": "767b2a81637ff9948a3f56f05aff8ac7bee68cf99c94934c843cc3f14b3bc7fc",
+      "bytes": 39932
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-67db72352a867b26\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-67db72352a867b26/导出复算验收.json",
+      "sha256": "e3a6342b37073c7654a51aa204698b22ad16547ca20a574ede3bc33679c311f2",
+      "bytes": 1343
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-67db72352a867b26\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-67db72352a867b26/第三阶段交接清单.json",
+      "sha256": "a5aee03174017b564b6940fc079ff3be5a286c9efbf1b5162e0cc53fa3f37a1e",
+      "bytes": 40430
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-b0df46b6166ead2f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-b0df46b6166ead2f/导出复算验收.json",
+      "sha256": "d76847b7e993fbfc890722ae9ac1f07d2b735b607afe6ed397663a1b8aa4599c",
+      "bytes": 1345
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-b0df46b6166ead2f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-b0df46b6166ead2f/第三阶段交接清单.json",
+      "sha256": "fa3d5d448d3e26f53457edbf2cb223af87f16432c3e39f1546f10cb8da5e97e5",
+      "bytes": 40792
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-cbd4952f443a01a7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-cbd4952f443a01a7/导出复算验收.json",
+      "sha256": "7e5435bb0f09a93cbf23c66f4b7b5b3a15d02e9dd988f380f624866c10e9ab0b",
+      "bytes": 1327
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-cbd4952f443a01a7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-cbd4952f443a01a7/第三阶段交接清单.json",
+      "sha256": "5ae20b836910ac98a621983129fdaa05480d658ec61af0f56c5b0e98687793a3",
+      "bytes": 40097
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-4c60ac4eb53c2cd7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-4c60ac4eb53c2cd7/导出复算验收.json",
+      "sha256": "71e55f13eb157a96bbaff985dc7d3740970f6dcb7940f3253960c5eb5bf658ec",
+      "bytes": 1291
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-4c60ac4eb53c2cd7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-4c60ac4eb53c2cd7/第三阶段交接清单.json",
+      "sha256": "6b9fffd935af6fda51b0fdba3c1e0db529ac3350faed11d7d5ed5767479e6af4",
+      "bytes": 40141
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-57310e75589e7f4f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-57310e75589e7f4f/导出复算验收.json",
+      "sha256": "ea5ec981e039c5c18ee09decce5ee3b96f7bdef99e6c89baad4778d64e60de71",
+      "bytes": 1294
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-57310e75589e7f4f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-57310e75589e7f4f/第三阶段交接清单.json",
+      "sha256": "2b9bfdcf9c2bc7dabe259f7d44afcb30a3e4ff5b02b39d2a699a3982baf6a657",
+      "bytes": 39820
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-71527de25919ca7e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-71527de25919ca7e/导出复算验收.json",
+      "sha256": "004a36bd52ceb4f8643640750cfde9fe2933b342d480c7f851c18ae98b62040b",
+      "bytes": 1344
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-71527de25919ca7e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-71527de25919ca7e/第三阶段交接清单.json",
+      "sha256": "48bfe5c2badd2f65e3014bfdc186b2409937483518806c165c9d672d6a94b564",
+      "bytes": 40147
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-9586d567ba78e1fa\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-9586d567ba78e1fa/导出复算验收.json",
+      "sha256": "f888653a8f205a9002f324fe956be89118b3995effe02f76a36083bf8d43ba6e",
+      "bytes": 1292
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-9586d567ba78e1fa\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-9586d567ba78e1fa/第三阶段交接清单.json",
+      "sha256": "29c4ec4316537aaa3a2d01889d28f5d7f1e6194e629c3eb425a93e4da2240131",
+      "bytes": 40389
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-44554ba2cdd1b0af\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-44554ba2cdd1b0af/导出复算验收.json",
+      "sha256": "c7c95bf241bec25c9b38db21a1c330e654581dbdbca4a21eb5625e8b8dfc334a",
+      "bytes": 1295
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-44554ba2cdd1b0af\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-44554ba2cdd1b0af/第三阶段交接清单.json",
+      "sha256": "8b57039689104d799a99555f0c7dfdacf44c240f3b55a3b1e6fc51d089fa14aa",
+      "bytes": 40340
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-09ebf81256165a53\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-09ebf81256165a53/导出复算验收.json",
+      "sha256": "6a8141d52e734d0fea6bd92679f05171003a7acfcb6a130b7bbfe75680f250c1",
+      "bytes": 1344
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\policy\\场景-09ebf81256165a53\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/policy/场景-09ebf81256165a53/第三阶段交接清单.json",
+      "sha256": "88dadcd15cf49f1379a1c3549415ec15a66bf6265dbf0c9061a9ada0b7d5a588",
+      "bytes": 40878
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_2c40a6bf449e\\独立评估\\7a3997c16cf1\\评估报告.md",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/独立评估/7a3997c16cf1/评估报告.md",
+      "sha256": "da541b314f35a04b24150e676b0bc756c809947cb54bbe0d572571b828e80dbf",
+      "bytes": 482
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\配置快照.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/配置快照.json",
+      "sha256": "e69f89c3e5ed40b0d7bc2d846fc20265a96b4092704c3e9fd35b6d40bfba3be6",
+      "bytes": 2832
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\运行清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/运行清单.json",
+      "sha256": "c8c5ec7b937826160e9a10cdd85bb92ba61ad2a532feb056cb0897896926e5ad",
+      "bytes": 57890
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\数据划分.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/数据划分.json",
+      "sha256": "62574aa50d4df0926f0dca642daa2f42643f4cbde82a7af47a44e0b3ced3b8c2",
+      "bytes": 57095
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\训练场景覆盖审计.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/训练场景覆盖审计.json",
+      "sha256": "eefd4dd7d3bba6526c0362a748cce9c98201b16cac61413becd7431e142c304a",
+      "bytes": 18900
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/检查点清单.json",
+      "sha256": "e562f6df8599ce1f067ca9095d69f83138cc4cec95cefcaa51115384ab238dc3",
+      "bytes": 464
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\基线训练结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/基线训练结果.json",
+      "sha256": "07899c2ba89bc6bb3cea9d9942830ad54ad391e736ddd6b49ee0146752670954",
+      "bytes": 143311
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\检查点存档\\17e9626ce78440128f1dd2aae97776f5\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/检查点存档/17e9626ce78440128f1dd2aae97776f5/检查点清单.json",
+      "sha256": "198dc2680da47ab2c88919884d05914b4b0e120befb2a17b3b999e055b6d6767",
+      "bytes": 462
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\检查点存档\\96715007c7414418b5c487206c6fae2c\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/检查点存档/96715007c7414418b5c487206c6fae2c/检查点清单.json",
+      "sha256": "7439ae6d430cf8c8523c3a560ce7f7ea99a873b0ce16dadcacfa6cf7a2cc1461",
+      "bytes": 460
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\检查点存档\\4d352c48e4624e6e83f5f2549727b3e8\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/检查点存档/4d352c48e4624e6e83f5f2549727b3e8/检查点清单.json",
+      "sha256": "e562f6df8599ce1f067ca9095d69f83138cc4cec95cefcaa51115384ab238dc3",
+      "bytes": 464
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\检查点存档\\f45925aad4a4499ca5a7d89aaa017d6f\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/检查点存档/f45925aad4a4499ca5a7d89aaa017d6f/检查点清单.json",
+      "sha256": "e40a2cebba4fa85ad40b64ecef347d0e754ca36435fd80759d7af9f24b8826c4",
+      "bytes": 460
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\评估结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/评估结果.json",
+      "sha256": "ced9e8fc9bf49c5e8d770b19ee9d9c42a1ac663901bfe3938aa609f6bd1d9fcb",
+      "bytes": 23108
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\运行清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/运行清单.json",
+      "sha256": "c32e9cfaad7dfc668d46ff3a9dfb3b021f559f4db80f3397ea38bf278917ba18",
+      "bytes": 58025
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\训练场景覆盖审计.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/训练场景覆盖审计.json",
+      "sha256": "eefd4dd7d3bba6526c0362a748cce9c98201b16cac61413becd7431e142c304a",
+      "bytes": 18900
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-88bff13580d11b2e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-88bff13580d11b2e/导出复算验收.json",
+      "sha256": "ecd3f6b5be30dcadee18d6574ab0ffceda04608250e1be09d2c3edcce9210cb4",
+      "bytes": 1297
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-88bff13580d11b2e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-88bff13580d11b2e/第三阶段交接清单.json",
+      "sha256": "9706c4d6050a6186ffac5b3972cead7881e77b47b42ec513382016c769c55c79",
+      "bytes": 40162
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-a4bc9f309ade38d8\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-a4bc9f309ade38d8/导出复算验收.json",
+      "sha256": "38f37605baefd8dde7cb4224e790bfa0d73e12d445a40727daed14471d95e8e8",
+      "bytes": 1294
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-a4bc9f309ade38d8\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-a4bc9f309ade38d8/第三阶段交接清单.json",
+      "sha256": "ecb13d974be07584f236141a8a787b5f6c1a777deddfb7eace510b08faf48394",
+      "bytes": 40075
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-21a9a9c0aca1cf62\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-21a9a9c0aca1cf62/导出复算验收.json",
+      "sha256": "853c7e14f2e6f35ad6b1b6357ee4e500bd197bb14833b418495cea2825d1531b",
+      "bytes": 1343
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-21a9a9c0aca1cf62\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-21a9a9c0aca1cf62/第三阶段交接清单.json",
+      "sha256": "8f31bfe04c0f84eb387ba1f3ffbaea384adcbdf6710a8813ac5a4686dde535d0",
+      "bytes": 40971
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-0c9015cfeb360ec4\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-0c9015cfeb360ec4/导出复算验收.json",
+      "sha256": "a47c36403851ebec8e35581026fd04aed290efa8308866137551cd75cd31fa63",
+      "bytes": 1298
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-0c9015cfeb360ec4\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-0c9015cfeb360ec4/第三阶段交接清单.json",
+      "sha256": "22550eed6913397c4930c63488ae4dea560b41d4ff12367f5ee8d1ee6ee0a130",
+      "bytes": 39505
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-a50e9b070a7cc346\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-a50e9b070a7cc346/导出复算验收.json",
+      "sha256": "1fbaeaf96bcf06f842fd997114ca262885d06c7698c48ba7d850cd5a30c07c0e",
+      "bytes": 1296
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-a50e9b070a7cc346\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-a50e9b070a7cc346/第三阶段交接清单.json",
+      "sha256": "2ff26ca2bb4c41a2554fd14e02fc9d899a2c31285a4e5bb6b898786062a81531",
+      "bytes": 36639
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-972d7b35d5179c0e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-972d7b35d5179c0e/导出复算验收.json",
+      "sha256": "c24782279a3988d96c7787078701592bed56e117c89f0548b63a154e3a63fa87",
+      "bytes": 1297
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-972d7b35d5179c0e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-972d7b35d5179c0e/第三阶段交接清单.json",
+      "sha256": "52fb7b7009faa823456c76bf76f1d420ecd9c2c777f811a7aa0b5000974147e9",
+      "bytes": 39936
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-67db72352a867b26\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-67db72352a867b26/导出复算验收.json",
+      "sha256": "82b49e777bdb001c4d5c88409831f4b799ce98a6293fe08a116e4556cb1828ba",
+      "bytes": 1298
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-67db72352a867b26\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-67db72352a867b26/第三阶段交接清单.json",
+      "sha256": "2e275fa3e0c96a1b560392b8edd0f42df927f0188ee511bb6e065d7aee7d1ca2",
+      "bytes": 40385
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-b0df46b6166ead2f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-b0df46b6166ead2f/导出复算验收.json",
+      "sha256": "cdf903c7d058f1b602dfa807d9700862f9d5acc30edb58631b9ce6c650a84311",
+      "bytes": 1295
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-b0df46b6166ead2f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-b0df46b6166ead2f/第三阶段交接清单.json",
+      "sha256": "80013d067437a8945a6ec3e0094c7ea2b1fdd4c3666e0d9a6b5ee4c2c60d82bd",
+      "bytes": 40742
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-cbd4952f443a01a7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-cbd4952f443a01a7/导出复算验收.json",
+      "sha256": "d80be9ab855515dc0f857c955a296b7dc852691bb37abaaeb395e56116cd1513",
+      "bytes": 1296
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-cbd4952f443a01a7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-cbd4952f443a01a7/第三阶段交接清单.json",
+      "sha256": "35fe6154481c03092cba709474f7d1904c1cbc41f10ebd78b83e11d3cb93ec07",
+      "bytes": 40066
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-4c60ac4eb53c2cd7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-4c60ac4eb53c2cd7/导出复算验收.json",
+      "sha256": "65c3000af564145a19b35a203a08be623bb1c729bea10983cf6580c5b2e84a3b",
+      "bytes": 1296
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-4c60ac4eb53c2cd7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-4c60ac4eb53c2cd7/第三阶段交接清单.json",
+      "sha256": "9e1ff10f5f0c45494c944bc49d24a708315120d2ed92241a7c9682bd9bb3596f",
+      "bytes": 40146
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-57310e75589e7f4f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-57310e75589e7f4f/导出复算验收.json",
+      "sha256": "962cef1d581520b6e381691bfd32473736710afb4acf8c51022c4c0f9d009cd8",
+      "bytes": 1297
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-57310e75589e7f4f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-57310e75589e7f4f/第三阶段交接清单.json",
+      "sha256": "bd87cbf60ed44756689a282d5aba1126301969490a4da9b3124317f81f6b09b4",
+      "bytes": 39823
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-71527de25919ca7e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-71527de25919ca7e/导出复算验收.json",
+      "sha256": "f2f8248be4a847e6bba6907e1c21072375ba73c5f93cb92a0268311d32467c78",
+      "bytes": 1294
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-71527de25919ca7e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-71527de25919ca7e/第三阶段交接清单.json",
+      "sha256": "6699ea1d77ed1acd5b6f932d57e8847c09b1790a853ed59eadd46b7352079b32",
+      "bytes": 40097
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-9586d567ba78e1fa\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-9586d567ba78e1fa/导出复算验收.json",
+      "sha256": "073f0200d8b03c805f5d462112893e9f61370fcd5406c241eccdeebc29eef397",
+      "bytes": 1296
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-9586d567ba78e1fa\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-9586d567ba78e1fa/第三阶段交接清单.json",
+      "sha256": "094562ac1a9212066ae189a77fa2a001ff0ed50bd6d932bc0eee1a60c1807ae4",
+      "bytes": 40393
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-44554ba2cdd1b0af\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-44554ba2cdd1b0af/导出复算验收.json",
+      "sha256": "6a0a7beec269ad83837ae91f7a88a9e10985637e7593fe2e2a5c1cfc5c94a368",
+      "bytes": 1296
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-44554ba2cdd1b0af\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-44554ba2cdd1b0af/第三阶段交接清单.json",
+      "sha256": "a3556643eda736f989f1d3c59a54b111943cf31dda58ddfe87deecc484c2cb90",
+      "bytes": 40341
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-09ebf81256165a53\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-09ebf81256165a53/导出复算验收.json",
+      "sha256": "dae73aadd2bd40eeaeb904388d8eb884b1884f38934f758d8ef142ef5ba197a8",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\policy\\场景-09ebf81256165a53\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/policy/场景-09ebf81256165a53/第三阶段交接清单.json",
+      "sha256": "4127ee9cfdaa7645d3092e4a9de23f07b2164985356385b0c19b67a39aabf2ee",
+      "bytes": 40827
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T201733_b691167ad121\\独立评估\\f7045be59f8f\\评估报告.md",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/独立评估/f7045be59f8f/评估报告.md",
+      "sha256": "36ab3daedc4db295d48ed41595f1a8abb2e10f147c2e0292ed751a8aa9ebd75b",
+      "bytes": 482
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\配置快照.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/配置快照.json",
+      "sha256": "be2eec0839dc7ff5fd5546df71837089c4f603b6a1bbd70a91803aaccbb35b51",
+      "bytes": 2833
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\运行清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/运行清单.json",
+      "sha256": "60e2dabc754b28691c01efda9321295726880b04f18adb4d1d7f8668b0b38f25",
+      "bytes": 58186
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\数据划分.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/数据划分.json",
+      "sha256": "62574aa50d4df0926f0dca642daa2f42643f4cbde82a7af47a44e0b3ced3b8c2",
+      "bytes": 57095
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\训练场景覆盖审计.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/训练场景覆盖审计.json",
+      "sha256": "eefd4dd7d3bba6526c0362a748cce9c98201b16cac61413becd7431e142c304a",
+      "bytes": 18900
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/检查点清单.json",
+      "sha256": "fc0b37ae7a07f5a3759c4f2deca171e5e5870cb29fce1286140f4348195ddf48",
+      "bytes": 463
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\基线训练结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/基线训练结果.json",
+      "sha256": "36ff59537c3eb694890a97b5c54ce74ccbd2007c8b965944ef5172a7c92e279c",
+      "bytes": 146932
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\检查点存档\\960331c1325a4d8b83fedf46fbc3a610\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/检查点存档/960331c1325a4d8b83fedf46fbc3a610/检查点清单.json",
+      "sha256": "fc0b37ae7a07f5a3759c4f2deca171e5e5870cb29fce1286140f4348195ddf48",
+      "bytes": 463
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\检查点存档\\5b032b31dcc14125b63f138899a61aea\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/检查点存档/5b032b31dcc14125b63f138899a61aea/检查点清单.json",
+      "sha256": "b5ea563fb29a6bc1282e41208a76a0f861da1f5586c0383eec120e04b4443600",
+      "bytes": 460
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\检查点存档\\6b296d80f82746278a3368305e72faff\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/检查点存档/6b296d80f82746278a3368305e72faff/检查点清单.json",
+      "sha256": "9463421ed1614ba177ad710e080e9371b0e07db553dd411f428276cc46cdd05b",
+      "bytes": 459
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\检查点存档\\391160f623884d9ea6e7f012b8f2ef62\\检查点清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/检查点存档/391160f623884d9ea6e7f012b8f2ef62/检查点清单.json",
+      "sha256": "4c285ecd1b66b8419a06495fbc938b9c01f6f8f87adfaa0c2c386fc5668ef297",
+      "bytes": 462
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\评估结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/评估结果.json",
+      "sha256": "25c3040651854ea5e2b15869f0801b77b180774df9c00ae7a8559e4b616ea066",
+      "bytes": 21342
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\运行清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/运行清单.json",
+      "sha256": "940ca621b3629b3072e74c11d59dbeebcb94b47d9b218273a08ecbd94a74a13e",
+      "bytes": 58320
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\训练场景覆盖审计.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/训练场景覆盖审计.json",
+      "sha256": "eefd4dd7d3bba6526c0362a748cce9c98201b16cac61413becd7431e142c304a",
+      "bytes": 18900
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-88bff13580d11b2e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-88bff13580d11b2e/导出复算验收.json",
+      "sha256": "487cfab1e7b00c9781ae47f3e4a488854a08249c946badab2399b56613ee4b64",
+      "bytes": 1154
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-88bff13580d11b2e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-88bff13580d11b2e/第三阶段交接清单.json",
+      "sha256": "f30e31c703516b602838a63ad6d2aa0505af86354afa444e35b9c4d2c75288e3",
+      "bytes": 40020
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-a4bc9f309ade38d8\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-a4bc9f309ade38d8/导出复算验收.json",
+      "sha256": "207d7dd71ee6a26c34a639b637374a171636464f2b240c76480911e5683aa69e",
+      "bytes": 1154
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-a4bc9f309ade38d8\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-a4bc9f309ade38d8/第三阶段交接清单.json",
+      "sha256": "469578c80d926a9ed2bf0c61c67c4c246335a9ff62bd4734bc64c7b82d317016",
+      "bytes": 39936
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-21a9a9c0aca1cf62\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-21a9a9c0aca1cf62/导出复算验收.json",
+      "sha256": "4a563c9e52ab386683db216a8d3a74a762fedec059a2beb4ed1f4da91934d4e3",
+      "bytes": 1154
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-21a9a9c0aca1cf62\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-21a9a9c0aca1cf62/第三阶段交接清单.json",
+      "sha256": "39e6158a9283fb27b1443083231b885a5add9f94435f6f2869f89311821ee11c",
+      "bytes": 40783
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-0c9015cfeb360ec4\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-0c9015cfeb360ec4/导出复算验收.json",
+      "sha256": "3a6c8226a233ff80d3c64d6d286eecb88ef5d4319e0d7c95856875b6a8f87d33",
+      "bytes": 1343
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-0c9015cfeb360ec4\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-0c9015cfeb360ec4/第三阶段交接清单.json",
+      "sha256": "96b24f2eb32875a421a2e1d04fbf2f4b0a7ae3c68fb84abaff58525f28340620",
+      "bytes": 39551
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-a50e9b070a7cc346\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-a50e9b070a7cc346/导出复算验收.json",
+      "sha256": "0b2190b0618eff8f5c0740f3830d674bf05490327d69acd341e4b47f59cedac4",
+      "bytes": 1152
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-a50e9b070a7cc346\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-a50e9b070a7cc346/第三阶段交接清单.json",
+      "sha256": "b18de4c0b8290fab844f27f5e4bb0cadff370c155e508df8c86b10c447ad288c",
+      "bytes": 36496
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-972d7b35d5179c0e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-972d7b35d5179c0e/导出复算验收.json",
+      "sha256": "92b5d1590a90a955c94b54074898826df03d87b04fa72dd339990aaeb94fd928",
+      "bytes": 1154
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-972d7b35d5179c0e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-972d7b35d5179c0e/第三阶段交接清单.json",
+      "sha256": "498331b0cfe91751fcf3e7a232510a5cc27d747a004e82321cf4026ec64359d8",
+      "bytes": 39794
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-67db72352a867b26\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-67db72352a867b26/导出复算验收.json",
+      "sha256": "db973e1057c12b5d6364ba7d6f7c139e12af71eaa0ea9bfa0cbc3e77d729ddea",
+      "bytes": 1154
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-67db72352a867b26\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-67db72352a867b26/第三阶段交接清单.json",
+      "sha256": "db7bf94993ebe3c6b94b7dc56ba2d0e063cb4733c43193db92fef7153f87c234",
+      "bytes": 40242
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-b0df46b6166ead2f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-b0df46b6166ead2f/导出复算验收.json",
+      "sha256": "8dfb756ca45a919f2b79733b56ccbf46fac2bc3e14da98b72ebd631438eee80a",
+      "bytes": 1154
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-b0df46b6166ead2f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-b0df46b6166ead2f/第三阶段交接清单.json",
+      "sha256": "5a8cbe072b9c78820d0e1f049beb07315e0cceaf49e9254427dad7dea4fb9605",
+      "bytes": 40602
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-cbd4952f443a01a7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-cbd4952f443a01a7/导出复算验收.json",
+      "sha256": "a55c62d32c66da1acd4e39ca0ee23110175fba883e91980cc793e8fe4ea59f1e",
+      "bytes": 1154
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-cbd4952f443a01a7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-cbd4952f443a01a7/第三阶段交接清单.json",
+      "sha256": "60e76e03536566e0b17736c19531cd072669a2ac37884d569f4c46c92d1c3b70",
+      "bytes": 39925
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-4c60ac4eb53c2cd7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-4c60ac4eb53c2cd7/导出复算验收.json",
+      "sha256": "661be83b3e8a565670cd36619043e8ab0ca7b3fb99b9d75f1eb4355803b15c4d",
+      "bytes": 1154
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-4c60ac4eb53c2cd7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-4c60ac4eb53c2cd7/第三阶段交接清单.json",
+      "sha256": "f8ba0d76eeb6b1d9755bb98ed51f34647a91f8e56e23c6fba1ae04880418a4d7",
+      "bytes": 40005
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-57310e75589e7f4f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-57310e75589e7f4f/导出复算验收.json",
+      "sha256": "56afe1aed98eddf18371dfe0f26efabef973ce4029f328cc785d03135fb921ab",
+      "bytes": 1154
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-57310e75589e7f4f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-57310e75589e7f4f/第三阶段交接清单.json",
+      "sha256": "b58a1d283faa7e725b84e34d678c55a8247fbf0a0fb0d43c8aeeb15b06f5b29f",
+      "bytes": 39681
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-71527de25919ca7e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-71527de25919ca7e/导出复算验收.json",
+      "sha256": "c90abe93ccc6f03fe3fa73c1e394b903d160e23b6c8c341fa9d0f2abd040774c",
+      "bytes": 1345
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-71527de25919ca7e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-71527de25919ca7e/第三阶段交接清单.json",
+      "sha256": "41d932112ce85d9f1efa918a7a9a91a970f0d4f64eb14c718cef170f7c75323a",
+      "bytes": 40149
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-9586d567ba78e1fa\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-9586d567ba78e1fa/导出复算验收.json",
+      "sha256": "819e5777fe42c90cc8d27ed2b3d008bb1f9ba77e87c2f3d269e963f50321b620",
+      "bytes": 1154
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-9586d567ba78e1fa\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-9586d567ba78e1fa/第三阶段交接清单.json",
+      "sha256": "c9dc407a37b2507fdf63c5f30ce31e9487c006177d539c28466fb0a91284e8c8",
+      "bytes": 40252
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-44554ba2cdd1b0af\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-44554ba2cdd1b0af/导出复算验收.json",
+      "sha256": "46cf694c02dfe70b134d345d53c17a0a5e98575d8f6122a4c34f9e15f51d5b34",
+      "bytes": 1345
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-44554ba2cdd1b0af\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-44554ba2cdd1b0af/第三阶段交接清单.json",
+      "sha256": "b8b0d8a7c4c7e033cb577bc37309bfb53cafb0604b92eb7559a3c75066d57cf0",
+      "bytes": 40391
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-09ebf81256165a53\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-09ebf81256165a53/导出复算验收.json",
+      "sha256": "580f51d07dbd1b951509296a70c5af701c87650ca374a94b16e1bad46a50dd94",
+      "bytes": 1153
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\policy\\场景-09ebf81256165a53\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/policy/场景-09ebf81256165a53/第三阶段交接清单.json",
+      "sha256": "6fb9dda398b21427a0e585d78f24b7cf62346b361d959c24163f9fa763403b06",
+      "bytes": 40688
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0519\\完成运行\\20260920T203641_73d4515809fe\\独立评估\\e0f2c4d68ba4\\评估报告.md",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/独立评估/e0f2c4d68ba4/评估报告.md",
+      "sha256": "898ca82b64b6fc44f5e74913c72da946fca88881e937a823b770d49a1329a0e9",
+      "bytes": 483
+    }
+  ],
+  "gpu4_disk": "gpu4\nFilesystem      Size  Used Avail Use% Mounted on\nnone             79G   69G  5.4G  93% /\n",
+  "scope": "完成运行的评价/清单及监督快照；未下载活跃SQLite和权重"
+}

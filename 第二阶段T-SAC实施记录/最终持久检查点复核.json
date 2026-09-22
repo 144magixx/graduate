@@ -1,0 +1,61 @@
+{
+  "verified_at_utc": "2026-09-20T22:10:15.355917+00:00",
+  "checkpoints": [
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b5d92d21adf3/检查点存档/02ee3bbc94b74de8a39df3e98ddfbb56/检查点.pt",
+      "sha256": "e6e6b860f6a9cdadbb6081c0e958daaf605e8d5adde2674996b33495c4397019",
+      "checkpoint_id": "02ee3bbc94b74de8a39df3e98ddfbb56",
+      "actual_sha256": "e6e6b860f6a9cdadbb6081c0e958daaf605e8d5adde2674996b33495c4397019",
+      "matches": true,
+      "bytes": 68992503
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_2c40a6bf449e/检查点存档/5180a86491a046a98b39f0004e1e4210/检查点.pt",
+      "sha256": "a2fcab6465cfe18bc0afd701ac6c73f671ea8d3fdbf88423414d03a739a7fba8",
+      "checkpoint_id": "5180a86491a046a98b39f0004e1e4210",
+      "actual_sha256": "a2fcab6465cfe18bc0afd701ac6c73f671ea8d3fdbf88423414d03a739a7fba8",
+      "matches": true,
+      "bytes": 98761094
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T201733_b691167ad121/检查点存档/4d352c48e4624e6e83f5f2549727b3e8/检查点.pt",
+      "sha256": "c8118f5465ba6f2f3d1233cb07fcf0f229a8c823d96d2a5e7b72c98a0d2aa1ca",
+      "checkpoint_id": "4d352c48e4624e6e83f5f2549727b3e8",
+      "actual_sha256": "c8118f5465ba6f2f3d1233cb07fcf0f229a8c823d96d2a5e7b72c98a0d2aa1ca",
+      "matches": true,
+      "bytes": 69074892
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/检查点存档/960331c1325a4d8b83fedf46fbc3a610/检查点.pt",
+      "sha256": "1be658b221d2f511c91cf65373601c78723a644f1859000311520e1ef1bccaba",
+      "checkpoint_id": "960331c1325a4d8b83fedf46fbc3a610",
+      "actual_sha256": "1be658b221d2f511c91cf65373601c78723a644f1859000311520e1ef1bccaba",
+      "matches": true,
+      "bytes": 1181365
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T204415_3ff6b2c902ef/检查点存档/e83d5708a3764de7a0f71e5a807f31ef/检查点.pt",
+      "sha256": "64361e25e4901fa41582ae79d794e0688750452ef3e4984cce94fedbd6f470e8",
+      "checkpoint_id": "e83d5708a3764de7a0f71e5a807f31ef",
+      "actual_sha256": "64361e25e4901fa41582ae79d794e0688750452ef3e4984cce94fedbd6f470e8",
+      "matches": true,
+      "bytes": 83832970
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/HorizonT-SAC-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T175318_b8b9d93a0d79/检查点存档/9f5e288408cb478994c9f549db7d90ef/检查点.pt",
+      "sha256": "29fc5d91cf62735f42269cfa63fb79d4609aa9e994bef04c4ecd28ac3da68c48",
+      "checkpoint_id": "9f5e288408cb478994c9f549db7d90ef",
+      "actual_sha256": "29fc5d91cf62735f42269cfa63fb79d4609aa9e994bef04c4ecd28ac3da68c48",
+      "matches": true,
+      "bytes": 380267298
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/HorizonT-SAC-20260921-v1/PPO4090/outputs/horizon_tsac_20260920/20260920T175318_d20568cffeaa/检查点存档/6ed7277268604a6fa29fd62b6466f35a/检查点.pt",
+      "sha256": "48e81b87fcb4701fe519615123277a06cf4de72c1fec9103b66e82e5fe9b0ae5",
+      "checkpoint_id": "6ed7277268604a6fa29fd62b6466f35a",
+      "actual_sha256": "48e81b87fcb4701fe519615123277a06cf4de72c1fec9103b66e82e5fe9b0ae5",
+      "matches": true,
+      "bytes": 379802594
+    }
+  ]
+}

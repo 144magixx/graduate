@@ -1,0 +1,552 @@
+{
+  "evidence_dir": "D:\\graduate\\第二阶段T-SAC实施记录\\gpu2共同预算评价证据-053733",
+  "archive": "D:\\graduate\\第二阶段T-SAC实施记录\\gpu2共同预算评价取回-053733.tar.gz",
+  "sha256": "db39ef6ce118ed83d0922ef47403e4ed5f11b20a5cfab86a1f24c890c294a478",
+  "files": [
+    {
+      "path": "gpu2恢复兼容检查结果.json",
+      "sha256": "dd9389003de8b5cb41fc6a611a40856c3872361a84f6021ec82167d8aed2d74d",
+      "bytes": 13497
+    },
+    {
+      "path": "gpu2恢复前测试日志.txt",
+      "sha256": "2d1a01f6c864a750f76bc90f20c299577cae0136c1ab5d195f5691f49ea700f5",
+      "bytes": 11249
+    },
+    {
+      "path": "gpu2恢复计划.json",
+      "sha256": "68e81904a75d1fb513b036139f36c7188724f5365809e7461a4bd5a74a546934",
+      "bytes": 2681
+    },
+    {
+      "path": "恢复进度.json",
+      "sha256": "94a281950a6cbd56f4f1627512c281f8005007a00e4e7373345b01f7c7f2a533",
+      "bytes": 70177
+    },
+    {
+      "path": "调度提交记录.json",
+      "sha256": "498caa14c33cf4952b9c63f3e72c8d60e670520c7678effecec8bc5021d4f11b",
+      "bytes": 240
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\评估报告.md",
+      "sha256": "401a47e89e6aacb838523e4fb93e5c4d6f0ac60a5abf913411c4b5edcb3d0baa",
+      "bytes": 482
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\评估结果.json",
+      "sha256": "4b56b8d17d9540f40877dd6b03d9272d9096813c62827b2119cb72ac87296f0c",
+      "bytes": 23150
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\训练场景覆盖审计.json",
+      "sha256": "935bb9b2aaae267241b666d7e49d5deea29140f1fb53085a9a4382133e0b74b1",
+      "bytes": 18902
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\训练场景覆盖规格.yaml",
+      "sha256": "ae3bff6272286fed9448e7454f330357bebf29b4bb547beb8c3120cf815ffbe4",
+      "bytes": 5754
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\诊断日志.jsonl",
+      "sha256": "a60c318487f8521a1f2dec1930e3fc0d997272e0cc0895cd5cabc3d5e69bc901",
+      "bytes": 8791461
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\运行清单.json",
+      "sha256": "931a7b26242c15814bb3e4a8a1728678534998c302805096f036e0505a33a69b",
+      "bytes": 60002
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\运行记录.sqlite",
+      "sha256": "a051325ef02d671d60256c594efc43b9412f54ded59dd726c9a42ac202562275",
+      "bytes": 91418624
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-09ebf81256165a53\\导出复算验收.json",
+      "sha256": "db948ed187a0ddb7d7d372d8254c6d86946f0c5b952c14b06662c6f2b7d687eb",
+      "bytes": 1340
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-09ebf81256165a53\\第三阶段交接清单.json",
+      "sha256": "d954b1bf56ac0722004d7121e4cad18ee21068ce7b62c2b23773d35c0fc5ad79",
+      "bytes": 40936
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-09ebf81256165a53\\第二阶段分配结果.npz",
+      "sha256": "98d44bda5788b74709c0d1b375a5e0d9409915a6a13f1acb72714ed4cf353276",
+      "bytes": 13439
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-0c9015cfeb360ec4\\导出复算验收.json",
+      "sha256": "bd952dd82a2d8a0f3af663b2bbf1d5dd836eb7a8c6c0a96b6310b0e8062593c6",
+      "bytes": 1295
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-0c9015cfeb360ec4\\第三阶段交接清单.json",
+      "sha256": "8fa286d00645a71364e8e62f0b8179b5d9e7742517a574b48b0ed2b96a4485f2",
+      "bytes": 39564
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-0c9015cfeb360ec4\\第二阶段分配结果.npz",
+      "sha256": "4abf03ae97860502af2fd9b7d4a137597280846c9c2ff5b1ca722447217126de",
+      "bytes": 12793
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-21a9a9c0aca1cf62\\导出复算验收.json",
+      "sha256": "80e00d4c4328405f2a9e0d49eceead2ea79930f094f477dfbef435c1908a8e35",
+      "bytes": 1339
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-21a9a9c0aca1cf62\\第三阶段交接清单.json",
+      "sha256": "3fa009814eecec0f5f1ef3b18a92d9f8d9889b0ffd8209b8f311b2cd87ef213b",
+      "bytes": 41029
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-21a9a9c0aca1cf62\\第二阶段分配结果.npz",
+      "sha256": "37463d0fb86bc801a3b588825e8c5fde51e6544eb9a7c5dd1337b229500c9c00",
+      "bytes": 13489
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-44554ba2cdd1b0af\\导出复算验收.json",
+      "sha256": "5e04c9409999ba29543327b25ef93ec19f6f4250e516c23ebd513acd7f8bfc28",
+      "bytes": 1295
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-44554ba2cdd1b0af\\第三阶段交接清单.json",
+      "sha256": "258bd27d2a4babef624eb19f350b8af2e232082aebad8d8a4bbe970dda3f8d78",
+      "bytes": 40402
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-44554ba2cdd1b0af\\第二阶段分配结果.npz",
+      "sha256": "e8062438197c470ce7caab6c47fe9c7497d94d0395d830ff2fa1928552a9aae2",
+      "bytes": 13413
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-4c60ac4eb53c2cd7\\导出复算验收.json",
+      "sha256": "62714613df86c8b8c890b2fe952f320a9f97f5b4b8f24063a5e7b765fb65b3a8",
+      "bytes": 1294
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-4c60ac4eb53c2cd7\\第三阶段交接清单.json",
+      "sha256": "cf16f3c13864727120a0eda585c1af9a7f41d192aca9157d85594d11195bde7e",
+      "bytes": 40206
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-4c60ac4eb53c2cd7\\第二阶段分配结果.npz",
+      "sha256": "4af52400230b3356ee16bcd291b6b5665e6d2ff7e0a4cf705e89038eb6795697",
+      "bytes": 13310
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-57310e75589e7f4f\\导出复算验收.json",
+      "sha256": "05e7dbb7c814b3a935e2cdad659cb65ce8d2ecb0ae93c8d7e503165bb5839c70",
+      "bytes": 1290
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-57310e75589e7f4f\\第三阶段交接清单.json",
+      "sha256": "a32d336edc63e0cdba1e1350fd3434db063804933e7db0938e986f4497bb95c4",
+      "bytes": 39878
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-57310e75589e7f4f\\第二阶段分配结果.npz",
+      "sha256": "0dc4cd40771de733aceaf1910ab7d37d894567c83f0035933eb27ed36c6aba97",
+      "bytes": 12487
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-67db72352a867b26\\导出复算验收.json",
+      "sha256": "5b767145c145afd20b92037ea56d5b208b8d233b9295ac136abba7ae15b33fdd",
+      "bytes": 1295
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-67db72352a867b26\\第三阶段交接清单.json",
+      "sha256": "a9d84d681ab4fe1e462d09f3e87c7d8da26e4beb5000ad321c04d4b1d6858eb9",
+      "bytes": 40444
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-67db72352a867b26\\第二阶段分配结果.npz",
+      "sha256": "ad138336ace72abd94d03e78b9c2ecc9bda864240b85e112e6f057a7d147a4c8",
+      "bytes": 13366
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-71527de25919ca7e\\导出复算验收.json",
+      "sha256": "b496aaf36008fe40302a03255975e4f5caf49f05a3fdc0b7a7823c01a33a1673",
+      "bytes": 1293
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-71527de25919ca7e\\第三阶段交接清单.json",
+      "sha256": "22d95c6c3c96311d0f58541c02babf32e5aa0719e7b3845330c77d67a091e15a",
+      "bytes": 40158
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-71527de25919ca7e\\第二阶段分配结果.npz",
+      "sha256": "855986a06e171f36117b4c9c759fb3fc8dc790259f9f343d1202cb13315c95d6",
+      "bytes": 13070
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-88bff13580d11b2e\\导出复算验收.json",
+      "sha256": "c956cc59021d79eedfe9be548c0f6d5bea3affe23c377f94b8608566fac5309c",
+      "bytes": 1294
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-88bff13580d11b2e\\第三阶段交接清单.json",
+      "sha256": "e25347e94ea8d37a74ba0f80eb437206cd6c95b4242fe18bed4bcb46bde5c77f",
+      "bytes": 40221
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-88bff13580d11b2e\\第二阶段分配结果.npz",
+      "sha256": "f0aea9a67fcf9ed69843102bf2a259c685504ce1d577a813c200534c6978e547",
+      "bytes": 13365
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-9586d567ba78e1fa\\导出复算验收.json",
+      "sha256": "7abe52893b4d998d654a60e04ddeebc6a657f0558c8bb51bd02408966cd24afb",
+      "bytes": 1295
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-9586d567ba78e1fa\\第三阶段交接清单.json",
+      "sha256": "e9e8ca9a7ae492457f9170081553b36e718ef3956a3667e2992d07eaa50046ad",
+      "bytes": 40454
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-9586d567ba78e1fa\\第二阶段分配结果.npz",
+      "sha256": "c78468c253144f0a5fec5b003fdaaf645b4758a5ff404ae651d494c72aebc18b",
+      "bytes": 13335
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-972d7b35d5179c0e\\导出复算验收.json",
+      "sha256": "cc7a49f9f16e7e21f92fa1b3a5473f001e8285e09d2625b3a0737c1f7e833442",
+      "bytes": 1293
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-972d7b35d5179c0e\\第三阶段交接清单.json",
+      "sha256": "82051ee1c2112c315873696213abe989acd0d0470feb9760ab1cc846483717b5",
+      "bytes": 39994
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-972d7b35d5179c0e\\第二阶段分配结果.npz",
+      "sha256": "19f3c5b2c287cf206424150c5bb1a8ff175634f86df52359778ef2e090ec9f30",
+      "bytes": 13158
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-a4bc9f309ade38d8\\导出复算验收.json",
+      "sha256": "0216e675af2e93f590400525ac9b438fa26b7cd78ecb31f536eebd7299a6fcd8",
+      "bytes": 1296
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-a4bc9f309ade38d8\\第三阶段交接清单.json",
+      "sha256": "278f828e11fdb40e7dc79b57d0a3130d5ac51e2af8341798e986d4c540af6936",
+      "bytes": 40139
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-a4bc9f309ade38d8\\第二阶段分配结果.npz",
+      "sha256": "b2ad28350c4788b84e4bfa1d764ba578b01ae192893b455f24d34e76d670797f",
+      "bytes": 13119
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-a50e9b070a7cc346\\导出复算验收.json",
+      "sha256": "ef9ef3a585bb244e5080ddc8b9d62d52e44e166736e285ae780564e26d28f94d",
+      "bytes": 1296
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-a50e9b070a7cc346\\第三阶段交接清单.json",
+      "sha256": "0e2a7647120112e9a13a35135228464762662c90aa902725367859fd5adb16ee",
+      "bytes": 36701
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-a50e9b070a7cc346\\第二阶段分配结果.npz",
+      "sha256": "991eb3b8592c76865aef4cfeacccf246025c7032bb7f7481e9976e3adcf42d57",
+      "bytes": 8359
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-b0df46b6166ead2f\\导出复算验收.json",
+      "sha256": "3cd9cc4dc71ebbb656b6b129a1d19ecc4be7dbbada802d97e0c794a1745de6c9",
+      "bytes": 1338
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-b0df46b6166ead2f\\第三阶段交接清单.json",
+      "sha256": "40c131aa63b1945151f7551b48cd059a92ac9451e7cb8fe6c7ef2dd937e46d6d",
+      "bytes": 40847
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-b0df46b6166ead2f\\第二阶段分配结果.npz",
+      "sha256": "6a23575b1188c30fd8e7a3013c9d76ef06a0f9f78c86e35b35c85d5271fbaa41",
+      "bytes": 13390
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-cbd4952f443a01a7\\导出复算验收.json",
+      "sha256": "c57eb41adf3d78aedd6de02d3f37b2f3bc5c3ebfd929ed495f31c52fd67609ab",
+      "bytes": 1295
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-cbd4952f443a01a7\\第三阶段交接清单.json",
+      "sha256": "d17229e473bbb5d2683da86491f5f7628c20569942adda0f34d3154b73fb91a4",
+      "bytes": 40130
+    },
+    {
+      "path": "共同预算评价\\CNN-seed42-250\\policy\\场景-cbd4952f443a01a7\\第二阶段分配结果.npz",
+      "sha256": "56ede179e40ccf22e5fc08d611dbfbca9e720b9619dc84ccfdf6210eceecc6ca",
+      "bytes": 13217
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\评估报告.md",
+      "sha256": "130865d8d27a73a68c9ef6e2b3b1947e14402138b0794cfd87edcf7a295bbce0",
+      "bytes": 482
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\评估结果.json",
+      "sha256": "e697ed8cd824c2709f723c3fdb8d7516fe936e4face092ec9b17b63a1ea4cb05",
+      "bytes": 23055
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\训练场景覆盖审计.json",
+      "sha256": "935bb9b2aaae267241b666d7e49d5deea29140f1fb53085a9a4382133e0b74b1",
+      "bytes": 18902
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\训练场景覆盖规格.yaml",
+      "sha256": "ae3bff6272286fed9448e7454f330357bebf29b4bb547beb8c3120cf815ffbe4",
+      "bytes": 5754
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\诊断日志.jsonl",
+      "sha256": "b92bba1a636616e9c5d2ac160b36943f21a993cff47e4a340acac90636fce250",
+      "bytes": 8740611
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\运行清单.json",
+      "sha256": "6cb86abfce7729b987bc1550bc15414e9a86d7d086ed9d4cf12a6bf246167dc3",
+      "bytes": 66173
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\运行记录.sqlite",
+      "sha256": "1c21131557c6fac89d8ea15fab82b39f278b9b5f61b324699cbb5315e81edeea",
+      "bytes": 89808896
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-09ebf81256165a53\\导出复算验收.json",
+      "sha256": "55189b2daf12ff70b5b03b4f3fccd6dc8c0fdeaef68f45b8ff925ad36c62ad6c",
+      "bytes": 1338
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-09ebf81256165a53\\第三阶段交接清单.json",
+      "sha256": "dd9600b0f26d9339485004f737cce146aa47ed22e7158a83c084afb97ab40e77",
+      "bytes": 40933
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-09ebf81256165a53\\第二阶段分配结果.npz",
+      "sha256": "15b136a6c7888b8b1e36fd6b03308f5e6af0a25d66d4b269807210fb4978d698",
+      "bytes": 12262
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-0c9015cfeb360ec4\\导出复算验收.json",
+      "sha256": "35fcb59f250c8f4b1103a4325bc440dfa56b93590d33d4a249f4652042c0cc7d",
+      "bytes": 1291
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-0c9015cfeb360ec4\\第三阶段交接清单.json",
+      "sha256": "9d7a6355f69ef34c2817f6f32dc66a9d9d02f7b7b103bd0a0c2f9963043301ee",
+      "bytes": 39559
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-0c9015cfeb360ec4\\第二阶段分配结果.npz",
+      "sha256": "68a944f0ad74b4602536eb13baedfc9c2a3d9338b85dfbdc3e1790749d3d8c59",
+      "bytes": 11402
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-21a9a9c0aca1cf62\\导出复算验收.json",
+      "sha256": "88d3d364d3e95a45beccccdfc5b7710fb65eda2eb5f00f55c3c5e9a1ae8dc1b9",
+      "bytes": 1341
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-21a9a9c0aca1cf62\\第三阶段交接清单.json",
+      "sha256": "2347a37e63adc4ec8ed5cd2523d21dbf8984572269689a18560e82fba233d6c8",
+      "bytes": 41030
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-21a9a9c0aca1cf62\\第二阶段分配结果.npz",
+      "sha256": "8e3ad525c83ca6002f24e133dff3f96c2e653af5acb1f08ed20612643e3ca7bf",
+      "bytes": 12318
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-44554ba2cdd1b0af\\导出复算验收.json",
+      "sha256": "8763af83c83be64ca73464cf11e3e312bbfa1cee19b37bf05e550247628f9ffd",
+      "bytes": 1279
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-44554ba2cdd1b0af\\第三阶段交接清单.json",
+      "sha256": "cfb9bf4dc402d3f7b7cc940f97a05102799cdfa8f279bcedd66f6d2517466c75",
+      "bytes": 40385
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-44554ba2cdd1b0af\\第二阶段分配结果.npz",
+      "sha256": "5299faae55dca18b6c6e86a37d88966dc916368f48d8cd73bcccab928783601c",
+      "bytes": 12012
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-4c60ac4eb53c2cd7\\导出复算验收.json",
+      "sha256": "2d7a8e812d512b582e983e1defd66f40d9c817f6402056fbf77b77479d28a566",
+      "bytes": 1292
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-4c60ac4eb53c2cd7\\第三阶段交接清单.json",
+      "sha256": "fc8973c9413b73094e2fd426fa2c38d4cd67661ab0499de6159c3bc6bd39e2b6",
+      "bytes": 40203
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-4c60ac4eb53c2cd7\\第二阶段分配结果.npz",
+      "sha256": "8ac84b0c8ce5a724083e668a3357d892399726d2f7d7a099f0112e71d0e74ff2",
+      "bytes": 11833
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-57310e75589e7f4f\\导出复算验收.json",
+      "sha256": "c49f307124d889bf5e8fb7d81ec6e47286630ff61ed4f9f640a283cfa382b67b",
+      "bytes": 1296
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-57310e75589e7f4f\\第三阶段交接清单.json",
+      "sha256": "e66b2f3ff3476d052316d7746bb313243cd60813a01a7ec69931d26e6c7d9871",
+      "bytes": 39883
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-57310e75589e7f4f\\第二阶段分配结果.npz",
+      "sha256": "12239e4cc938ca18053b9862613462b696ba16175883590c07b3fd7b1bdbb0b0",
+      "bytes": 11619
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-67db72352a867b26\\导出复算验收.json",
+      "sha256": "4b055a91031bfe5f3c35d0efcdac045f631f4ba6d7789b97d1fbd756311d98a1",
+      "bytes": 1293
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-67db72352a867b26\\第三阶段交接清单.json",
+      "sha256": "9a8e12717d7f074c705cf2ef810ac31b66eb462bc3460031ee623cc5742c4e35",
+      "bytes": 40441
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-67db72352a867b26\\第二阶段分配结果.npz",
+      "sha256": "4e59fa84a883d850a248955eb554c81c619343e1a265b882f1cd6e32666a61fd",
+      "bytes": 12052
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-71527de25919ca7e\\导出复算验收.json",
+      "sha256": "569c4fc5a4fe37293eb82a5466aa5e070f9c27097cfb7b246100111ae35554fa",
+      "bytes": 1294
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-71527de25919ca7e\\第三阶段交接清单.json",
+      "sha256": "dc3c5fa198dd9cba7b99de234cbaaab5d28c239a1429878a01ab20f7f0de440c",
+      "bytes": 40158
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-71527de25919ca7e\\第二阶段分配结果.npz",
+      "sha256": "56219faa2ae9009f0215c81f4c517e6bfcc5a537a61a4c949cf6700ad30bcd9c",
+      "bytes": 11972
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-88bff13580d11b2e\\导出复算验收.json",
+      "sha256": "e9ecd1188dc168293bfc107489fcfb312f5b90b45139ede90d982d836fd2f474",
+      "bytes": 1297
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-88bff13580d11b2e\\第三阶段交接清单.json",
+      "sha256": "4f28183148e9c19c061b7acf0c41f5aa8938289fb4f6164411603328d4c3d88c",
+      "bytes": 40223
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-88bff13580d11b2e\\第二阶段分配结果.npz",
+      "sha256": "469f2b0dd084f5fdd87f13b64163ed03838f338e5b1cdd37f83964ba797a5055",
+      "bytes": 11857
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-9586d567ba78e1fa\\导出复算验收.json",
+      "sha256": "0fd19b57fb07ab5fec77af5d09b023f3822e3f2c5974b92652ec475e5c929905",
+      "bytes": 1292
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-9586d567ba78e1fa\\第三阶段交接清单.json",
+      "sha256": "9397fb257164345e8ff953623cc09e30a9fc66319024e3fe67c7cc53bf568731",
+      "bytes": 40450
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-9586d567ba78e1fa\\第二阶段分配结果.npz",
+      "sha256": "31e45d9ce5cbd4987c581d1a6953fc1b4dca9387424ae3b79289403f9278c985",
+      "bytes": 12135
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-972d7b35d5179c0e\\导出复算验收.json",
+      "sha256": "f3f35d2a00fca5f891e081e041cf3ce6183154512092c45fd27b4b83d995fda3",
+      "bytes": 1293
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-972d7b35d5179c0e\\第三阶段交接清单.json",
+      "sha256": "82f7333c07cabd9f8b6c54c5cf32617bd816c41f98b6525e5bb7dfa3ac59138f",
+      "bytes": 39993
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-972d7b35d5179c0e\\第二阶段分配结果.npz",
+      "sha256": "992b93dec47806fc5a041266acc516e570e0ad617a4037c0dabaea69144dd2da",
+      "bytes": 11769
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-a4bc9f309ade38d8\\导出复算验收.json",
+      "sha256": "38cf0e4f4bc3e4bca10ed7e8f28e70805f47d3c403ed7ee93d4d55b1e97a9d7d",
+      "bytes": 1294
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-a4bc9f309ade38d8\\第三阶段交接清单.json",
+      "sha256": "e70349e1e857b432d8f77cc6bd5a48d8f9f3fb3088c1a6f94e90d1b9672f4938",
+      "bytes": 40136
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-a4bc9f309ade38d8\\第二阶段分配结果.npz",
+      "sha256": "891dd5c3d966169b103e80a8042602c8269aea61c48ad1c09c1050c1ae20f89f",
+      "bytes": 11780
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-a50e9b070a7cc346\\导出复算验收.json",
+      "sha256": "7b6f12318463ee5675bbe0cd46105118504c04142bb7609b7812f32b80cfb5fb",
+      "bytes": 1297
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-a50e9b070a7cc346\\第三阶段交接清单.json",
+      "sha256": "ab5de02e8c458a2c5f2037f64c6c3e522359b01449731575be251f937c7582af",
+      "bytes": 36701
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-a50e9b070a7cc346\\第二阶段分配结果.npz",
+      "sha256": "2f04a0b8990e574883684d85a81f6cae065c99ca735ba4c85881af83c0339fcf",
+      "bytes": 8232
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-b0df46b6166ead2f\\导出复算验收.json",
+      "sha256": "b6ce0e7c14da9650c32eb303b6ea36da82a33c7cab78e7b8857d6a44f01893bc",
+      "bytes": 1281
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-b0df46b6166ead2f\\第三阶段交接清单.json",
+      "sha256": "f150fce598e3a5c7e8ead17aeca1e3b16391e633eb26c2e4715378d3ed3b7c50",
+      "bytes": 40789
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-b0df46b6166ead2f\\第二阶段分配结果.npz",
+      "sha256": "1caf08183bd9adb66b9f44733d0c3e1fa0eecc3ec6c1f00175145b4e035d0e95",
+      "bytes": 12279
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-cbd4952f443a01a7\\导出复算验收.json",
+      "sha256": "4acb5ccbfb93d255d0e4cb79a3732754c650b6f219e8ed4a59d81db17993885c",
+      "bytes": 1295
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-cbd4952f443a01a7\\第三阶段交接清单.json",
+      "sha256": "d5f5d989c1489c26bc1e9f274de50173d2fc90865a0f57e382949d25c4b06812",
+      "bytes": 40126
+    },
+    {
+      "path": "共同预算评价\\Spectrum-seed42-250\\policy\\场景-cbd4952f443a01a7\\第二阶段分配结果.npz",
+      "sha256": "a59578b4d7dacd04652526ef58e808cb1f33037a009753fb7b7067ad463ea38b",
+      "bytes": 11892
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "status": "completed",
+  "experiments": [
+    {
+      "encoder": "cnn_local",
+      "status": "completed",
+      "run_dir": "/dev/shm/SpectrumT-SAC-20260921-ah2j5yfv/PPO4090/outputs/spectrum_tsac_20260921/20260921T004118_3da162f16360",
+      "counters": {
+        "env_step": 139,
+        "update_step": 1,
+        "episodes": 1
+      },
+      "first_episode_U": 0.9141985258584475,
+      "evaluation": {
+        "output_dir": "/dev/shm/SpectrumT-SAC-20260921-ah2j5yfv/PPO4090/outputs/spectrum_tsac_20260921/20260921T004118_3da162f16360/独立评估/a8a2c266e897",
+        "summary": {
+          "policy": {
+            "scenarios": 1,
+            "mean_U": 0.8970923004789451,
+            "micro_U": 0.8970923004789451,
+            "inference_p50_seconds": 1.1459904592484236,
+            "inference_p95_seconds": 1.1459904592484236,
+            "constraint_violations": 0
+          }
+        }
+      },
+      "research_data": false
+    },
+    {
+      "encoder": "cnn_attention_residual",
+      "status": "completed",
+      "run_dir": "/dev/shm/SpectrumT-SAC-20260921-ah2j5yfv/PPO4090/outputs/spectrum_tsac_20260921/20260921T004156_24b61c347a0e",
+      "counters": {
+        "env_step": 139,
+        "update_step": 1,
+        "episodes": 1
+      },
+      "first_episode_U": 0.9141985258584475,
+      "evaluation": {
+        "output_dir": "/dev/shm/SpectrumT-SAC-20260921-ah2j5yfv/PPO4090/outputs/spectrum_tsac_20260921/20260921T004156_24b61c347a0e/独立评估/b99faa2f51c1",
+        "summary": {
+          "policy": {
+            "scenarios": 1,
+            "mean_U": 0.8969084712420893,
+            "micro_U": 0.8969084712420893,
+            "inference_p50_seconds": 1.6216140016913414,
+            "inference_p95_seconds": 1.6216140016913414,
+            "constraint_violations": 0
+          }
+        }
+      },
+      "research_data": false
+    }
+  ],
+  "formal_training_started": false,
+  "hardware": {
+    "torch": "2.6.0+cu124",
+    "gpu": "NVIDIA A800-SXM4-80GB"
+  },
+  "pytest_exit_code": 0
+}

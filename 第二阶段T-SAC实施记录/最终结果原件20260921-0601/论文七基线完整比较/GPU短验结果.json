@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "experiments": [
+    {
+      "algorithm": "mlp_sac",
+      "status": "completed",
+      "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201642_182e9b99ff9a",
+      "counters": {
+        "env_step": 139,
+        "update_step": 1,
+        "episodes": 1
+      },
+      "research_data": false,
+      "mode": "paper_baseline_preflight"
+    },
+    {
+      "algorithm": "cnn_sac",
+      "status": "completed",
+      "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201651_8070fc708c63",
+      "counters": {
+        "env_step": 139,
+        "update_step": 1,
+        "episodes": 1
+      },
+      "research_data": false,
+      "mode": "paper_baseline_preflight"
+    },
+    {
+      "algorithm": "mlp_dqn",
+      "status": "completed",
+      "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201703_5ea44d16834f",
+      "counters": {
+        "env_step": 139,
+        "update_step": 1,
+        "episodes": 1
+      },
+      "research_data": false,
+      "mode": "paper_baseline_preflight"
+    },
+    {
+      "algorithm": "mlp_ppo",
+      "status": "completed",
+      "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201712_a02e64c81b6e",
+      "counters": {
+        "env_step": 139,
+        "update_step": 3,
+        "episodes": 1
+      },
+      "research_data": false,
+      "mode": "paper_baseline_preflight"
+    },
+    {
+      "algorithm": "tsac_205",
+      "status": "completed",
+      "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201722_88c76deae7ec",
+      "counters": {
+        "env_step": 139,
+        "update_step": 1,
+        "episodes": 1
+      },
+      "research_data": false,
+      "mode": "paper_baseline_preflight"
+    }
+  ]
+}

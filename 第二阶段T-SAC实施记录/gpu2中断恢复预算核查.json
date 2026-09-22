@@ -1,0 +1,87 @@
+{
+  "schema_version": "interrupted_training_budget_audit.v1",
+  "scope": "本地只读盘点与预算文件；没有SSH、修改源码/计划或启动训练",
+  "source_file": "D:\\graduate\\第二阶段T-SAC实施记录\\gpu2环境与中断计时盘点.json",
+  "source_file_sha256": "92a7ac0ae52b7fa6b02e7fd0a383eae6ee92a3f9e4361ef5f3a48ca35c0c16c9",
+  "interruption": {
+    "job_step_id": "206178.4",
+    "state": "CANCELLED",
+    "exit_code": "0:15",
+    "timezone": "+0800",
+    "campaign_start": "2026-09-21T08:44:03+08:00",
+    "campaign_end": "2026-09-21T12:35:45+08:00",
+    "campaign_elapsed_seconds": 13902,
+    "campaign_elapsed_used_for_single_run_budget": false
+  },
+  "restorable_run": {
+    "algorithm": "Spectrum残差模型",
+    "continuation_seed": 43,
+    "run_id": "20260921T031515_931ec8ab244a",
+    "run_id_creation_utc": "2026-09-21T03:15:15+00:00",
+    "run_id_creation_local": "2026-09-21T11:15:15+08:00",
+    "training_start_proxy_reason": "create_run在初始化后、训练计时前，run_id按秒截断；作为偏保守训练起点",
+    "checkpoint_id": "180cc4eb1a4d44768287ec6201bedfeb",
+    "checkpoint_sha256": "37a368f168fc7c06f234ec987069a8106e29f46abf55b7ee0c42ea891d108bf5",
+    "checkpoint_counters": {
+      "episodes": 150,
+      "env_step": 21294,
+      "update_step": 20295
+    },
+    "maximum_total_continuation_episodes": 300,
+    "maximum_additional_episodes_after_restore": 150
+  },
+  "wall_time_budget": {
+    "original_single_run_limit_seconds": 10800,
+    "estimated_active_seconds_before_interruption": 4830,
+    "conservative_margin_seconds": 30,
+    "charged_prior_seconds": 4860,
+    "remaining_training_seconds": 5940,
+    "method": "cancellation_time_minus_run_id_creation_time_plus_margin",
+    "precision": "估计上界；不是checkpoint保存的精确累计训练秒数",
+    "includes_lost_work_after_checkpoint": true,
+    "lost_completed_episodes_at_least": 10,
+    "lost_partial_tail_included": true,
+    "downtime_charged": false,
+    "training_timer_starts_at_resume": true,
+    "episode_boundary_note": "沿用完整回合边界收尾，实际耗时可能略超阈值；不能因此补更多回合"
+  },
+  "runtime_save_frequency_change": {
+    "previous_checkpoint_every": 50,
+    "resume_checkpoint_every": 10,
+    "allowed_by_strict_resume": true,
+    "reason": "缩小再次中断后的持久检查点损失，保留每50回合的共同预算检查点",
+    "retains_multiples_of_50": true,
+    "model_data_reward_optimizer_settings_changed": false
+  },
+  "no_more_training": [
+    {
+      "method": "CNN继续训练对照",
+      "seed": 42,
+      "episodes": 300
+    },
+    {
+      "method": "CNN继续训练对照",
+      "seed": 43,
+      "episodes": 300
+    },
+    {
+      "method": "Spectrum残差模型",
+      "seed": 42,
+      "episodes": 271,
+      "elapsed_seconds": 10836.050751704723,
+      "wall_time_complete": true,
+      "do_not_add_29_episodes": true
+    }
+  ],
+  "allocation_risk": {
+    "node": "gpu2",
+    "allocation_id": "206357",
+    "allocation_kind": "interactive",
+    "batch_flag": 0,
+    "detached_child_survival_after_allocation_closes_guaranteed": false,
+    "statement": "detached进程与交互资源分配生命周期不同；交互分配关闭后仍可能被SLURM终止，不能承诺断网绝对无影响"
+  },
+  "remote_operations_performed": false,
+  "code_or_plan_modified": false,
+  "training_started_by_this_audit": false
+}

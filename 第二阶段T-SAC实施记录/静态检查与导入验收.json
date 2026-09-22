@@ -1,0 +1,80 @@
+{
+  "ast_passed": 101,
+  "import_groups": [
+    {
+      "category": "legacy_non_training",
+      "modules": [
+        "implementations.greedy_baseline.Environment_103",
+        "implementations.legacy_ppo.seq_no_power.Environment_seq_no_power",
+        "implementations.legacy_ppo.state_1603.Environment_1603",
+        "implementations.legacy_ppo.state_1603_power.Environment_1603_power",
+        "implementations.legacy_ppo.state_801_power.Environment_801_power",
+        "implementations.sac_city_power.sac_transformer_p",
+        "implementations.sac_city_shared.Environment_sac_p",
+        "implementations.sac_city_token.sac_transformer_tok",
+        "implementations.sac_fyh_io.Environment_fyh_IO",
+        "implementations.sac_fyh_io.sac_fyh_IO"
+      ],
+      "seconds": 5.732741400017403,
+      "stderr": ""
+    },
+    {
+      "category": "new_including_guarded_entries",
+      "modules": [
+        "implementations.horizon_tsac_20260920",
+        "implementations.horizon_tsac_20260920.artifacts",
+        "implementations.horizon_tsac_20260920.audit",
+        "implementations.horizon_tsac_20260920.config",
+        "implementations.horizon_tsac_20260920.dashboard",
+        "implementations.horizon_tsac_20260920.dashboard.__main__",
+        "implementations.horizon_tsac_20260920.dashboard.api",
+        "implementations.horizon_tsac_20260920.data.augment",
+        "implementations.horizon_tsac_20260920.data.domain",
+        "implementations.horizon_tsac_20260920.data.loader",
+        "implementations.horizon_tsac_20260920.data.schema",
+        "implementations.horizon_tsac_20260920.data.split",
+        "implementations.horizon_tsac_20260920.env.action",
+        "implementations.horizon_tsac_20260920.env.environment",
+        "implementations.horizon_tsac_20260920.env.metrics",
+        "implementations.horizon_tsac_20260920.env.physics",
+        "implementations.horizon_tsac_20260920.env.reward",
+        "implementations.horizon_tsac_20260920.env.state",
+        "implementations.horizon_tsac_20260920.evaluate",
+        "implementations.horizon_tsac_20260920.export",
+        "implementations.horizon_tsac_20260920.legacy_reference",
+        "implementations.horizon_tsac_20260920.models",
+        "implementations.horizon_tsac_20260920.models.networks",
+        "implementations.horizon_tsac_20260920.overnight",
+        "implementations.horizon_tsac_20260920.package",
+        "implementations.horizon_tsac_20260920.paper_baselines",
+        "implementations.horizon_tsac_20260920.paper_baselines.dqn",
+        "implementations.horizon_tsac_20260920.paper_baselines.heuristics",
+        "implementations.horizon_tsac_20260920.paper_baselines.ppo",
+        "implementations.horizon_tsac_20260920.paper_baselines.specs",
+        "implementations.horizon_tsac_20260920.paper_baselines.suite",
+        "implementations.horizon_tsac_20260920.paper_baselines.train",
+        "implementations.horizon_tsac_20260920.research_stats",
+        "implementations.horizon_tsac_20260920.rl",
+        "implementations.horizon_tsac_20260920.rl.benchmark",
+        "implementations.horizon_tsac_20260920.rl.overnight_probe",
+        "implementations.horizon_tsac_20260920.rl.replay",
+        "implementations.horizon_tsac_20260920.rl.sac",
+        "implementations.horizon_tsac_20260920.rl.validation",
+        "implementations.horizon_tsac_20260920.telemetry",
+        "implementations.horizon_tsac_20260920.telemetry.legacy",
+        "implementations.horizon_tsac_20260920.telemetry.recorder",
+        "implementations.horizon_tsac_20260920.telemetry.storage",
+        "implementations.horizon_tsac_20260920.train",
+        "implementations.horizon_tsac_20260920.verify"
+      ],
+      "seconds": 4.992102599993814,
+      "stderr": ""
+    }
+  ],
+  "baseline": {
+    "verified_files": 126,
+    "changed": []
+  },
+  "old_training_entries_imported": false,
+  "new_entrypoints_guarded": true
+}

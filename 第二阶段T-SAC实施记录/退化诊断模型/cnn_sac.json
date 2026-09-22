@@ -1,0 +1,7 @@
+{
+  "file": "cnn_sac.pt.gz",
+  "sha256": "f68acf85ad34bad0b5b8e5087af89e8d9e95bdd10c92aa1d368321da3ab3bfe1",
+  "source_checkpoint_id": "5180a86491a046a98b39f0004e1e4210",
+  "source_sha256": "a2fcab6465cfe18bc0afd701ac6c73f671ea8d3fdbf88423414d03a739a7fba8",
+  "scope": "diagnostic_model_only_no_optimizer_replay_rng"
+}

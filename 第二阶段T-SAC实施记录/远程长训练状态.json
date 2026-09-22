@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "compute_host": "gpu4",
+  "login_host": "10.160.16.3",
+  "port": 22854,
+  "username": "u2024110224",
+  "identity_file": "C:/Users/minyu/.ssh/HorizonT-SAC",
+  "slurm_allocation": "206178",
+  "node_local_root": "/tmp/HorizonT-SAC-20260921-tWxdou",
+  "node_local_project": "/tmp/HorizonT-SAC-20260921-tWxdou/PPO4090",
+  "python": "/tmp/HorizonT-SAC-20260921-tWxdou/.venv-horizon/bin/python",
+  "durable_release": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/HorizonT-SAC-20260921-v1",
+  "durable_project": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/HorizonT-SAC-20260921-v1/PPO4090",
+  "campaign_id": "HorizonT-SAC-20260921夜间超参数对比",
+  "local_tests": "146 passed, 1 skipped; CUDA-specific case passed remotely",
+  "remote_core_tests": "133 passed",
+  "long_training_started": true,
+  "supervisor_pid": 1455573,
+  "slurm_step": "206178.1",
+  "automation_id": "gpu4-t-sac",
+  "started_at_utc": "2026-09-20T17:53:14.592742+00:00",
+  "code_package_sha256": "ade9a49ddd7ed490bdc5f8a927a1e7098f09c146df68191552afb1fb0712f0e1",
+  "run_ids": {
+    "eta_0.2": "20260920T175318_d20568cffeaa",
+    "eta_0.8": "20260920T175318_d20baa2bfb80",
+    "eta_0.5": "20260920T175318_b8b9d93a0d79"
+  },
+  "durable_campaign_dir": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/HorizonT-SAC-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921夜间超参数对比",
+  "last_heartbeat_checked_at": "2026-09-20T22:13:30.424844+00:00",
+  "last_notified_evaluation_type": "final_validation",
+  "last_notified_checkpoint_counters": {
+    "episodes": 100,
+    "env_step": 14281,
+    "update_step": 13282
+  },
+  "last_notified_checkpoint_ids": [
+    "6ed7277268604a6fa29fd62b6466f35a",
+    "9f5e288408cb478994c9f549db7d90ef",
+    "b12228f000b64f13aa3939c162e70997"
+  ],
+  "last_evaluation_report": "D:/graduate/第二阶段T-SAC实施记录/gpu4夜间超参数最终验证报告.md",
+  "baseline_followup_state": "D:/graduate/第二阶段T-SAC实施记录/论文基线后续状态.json",
+  "last_observed_training_counters": {
+    "熵目标0.2": {
+      "episodes": 100,
+      "env_step": 14281,
+      "update_step": 13282
+    },
+    "熵目标0.5": {
+      "episodes": 100,
+      "env_step": 14281,
+      "update_step": 13282
+    },
+    "熵目标0.8": {
+      "episodes": 100,
+      "env_step": 14281,
+      "update_step": 13282
+    }
+  },
+  "completed_at_utc": "2026-09-20T20:16:09.644986+00:00",
+  "all_training_successful": true,
+  "all_final_evaluations_available": true,
+  "all_durable_copies_available": true,
+  "matched_final_budget": true,
+  "test_set_used": false,
+  "local_result_inventory": "D:/graduate/第二阶段T-SAC实施记录/远程结果取回清单20260921-0439.json",
+  "local_result_scope": "评价及日志/清单原件；完整权重与数据库已在远程持久化",
+  "baseline_followup_status": "completed",
+  "final_combined_report": "D:/graduate/第二阶段T-SAC实施记录/论文七基线最终对比与夜间训练验收报告.md",
+  "final_delivery_sync": "completed",
+  "automation_status": "PAUSED",
+  "automation_paused_at_utc": "2026-09-20T22:16:30.564266+00:00",
+  "final_delivery_record": "D:/graduate/第二阶段T-SAC实施记录/最终交付同步校验记录.json",
+  "completion_index": "D:/graduate/第二阶段T-SAC实施记录/夜间任务完成与恢复索引.json"
+}

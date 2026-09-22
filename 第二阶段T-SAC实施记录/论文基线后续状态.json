@@ -1,0 +1,182 @@
+{
+  "status": "completed",
+  "authorized": true,
+  "compute_host": "gpu4",
+  "wait_for_campaign": "HorizonT-SAC-20260921夜间超参数对比",
+  "primary_baselines": [
+    "fixed",
+    "greedy",
+    "random",
+    "mlp_sac",
+    "cnn_sac",
+    "mlp_dqn",
+    "mlp_ppo"
+  ],
+  "additional_control": "tsac_205",
+  "requires_local_acceptance": true,
+  "remote_started": true,
+  "runtime_edit_forbidden": true,
+  "source_paper": "D:/graduate/Transformer-Enhanced SAC for Joint.pdf",
+  "paper_section": "IV",
+  "paper_page": 5,
+  "queue_started": true,
+  "formal_training_started": true,
+  "local_acceptance": "219 passed, 2 CUDA-specific skipped; five learners real-CSV 2-episode training/evaluation/export passed",
+  "slurm_allocation": "206178",
+  "slurm_step": "206178.2",
+  "supervisor_pid": 1584475,
+  "started_at_utc": "2026-09-20T19:52:36.390006+00:00",
+  "last_checked_at_utc": "2026-09-20T22:13:30.424844+00:00",
+  "node_local_root": "/tmp/Horizon-Baselines-20260921-ZfqRoo",
+  "node_local_project": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090",
+  "python": "/tmp/HorizonT-SAC-20260921-tWxdou/.venv-horizon/bin/python",
+  "durable_release": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1",
+  "durable_project": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090",
+  "campaign_id": "HorizonT-SAC-20260921论文七基线对比",
+  "queue_state_path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/队列状态.json",
+  "parent_progress_path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/HorizonT-SAC-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921夜间超参数对比/夜间进度.json",
+  "remote_plan_path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/baseline_plan.json",
+  "queue_log": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/baseline_queue.log",
+  "code_package_sha256": "9e0f43744b3b6b8b212b395247e4572a50fdbe7f92e28c0ec7447d7eedb1996a",
+  "plan_sha256": "6df13976a6ed9ed93fa6f9534907b790e71ba0a59f20a6ab9b55bcd62fb5518d",
+  "automation_id": "gpu4-t-sac",
+  "run_ids": {
+    "MLP-SAC": "20260920T201733_b5d92d21adf3",
+    "CNN-SAC": "20260920T201733_2c40a6bf449e",
+    "MLP-DQN": "20260920T201733_b691167ad121",
+    "MLP-PPO": "20260920T203641_73d4515809fe",
+    "T-SAC局部观察控制组": "20260920T204415_3ff6b2c902ef"
+  },
+  "max_workers": 3,
+  "episodes_per_learner": 100,
+  "source_deployment_separate": true,
+  "gpu_preflight": {
+    "status": "completed",
+    "experiments": [
+      {
+        "algorithm": "mlp_sac",
+        "status": "completed",
+        "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201642_182e9b99ff9a",
+        "counters": {
+          "env_step": 139,
+          "update_step": 1,
+          "episodes": 1
+        },
+        "research_data": false,
+        "mode": "paper_baseline_preflight"
+      },
+      {
+        "algorithm": "cnn_sac",
+        "status": "completed",
+        "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201651_8070fc708c63",
+        "counters": {
+          "env_step": 139,
+          "update_step": 1,
+          "episodes": 1
+        },
+        "research_data": false,
+        "mode": "paper_baseline_preflight"
+      },
+      {
+        "algorithm": "mlp_dqn",
+        "status": "completed",
+        "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201703_5ea44d16834f",
+        "counters": {
+          "env_step": 139,
+          "update_step": 1,
+          "episodes": 1
+        },
+        "research_data": false,
+        "mode": "paper_baseline_preflight"
+      },
+      {
+        "algorithm": "mlp_ppo",
+        "status": "completed",
+        "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201712_a02e64c81b6e",
+        "counters": {
+          "env_step": 139,
+          "update_step": 3,
+          "episodes": 1
+        },
+        "research_data": false,
+        "mode": "paper_baseline_preflight"
+      },
+      {
+        "algorithm": "tsac_205",
+        "status": "completed",
+        "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T201722_88c76deae7ec",
+        "counters": {
+          "env_step": 139,
+          "update_step": 1,
+          "episodes": 1
+        },
+        "research_data": false,
+        "mode": "paper_baseline_preflight"
+      }
+    ]
+  },
+  "gpu_preflight_result_path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/GPU短验结果.json",
+  "durable_campaign_dir": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比",
+  "last_progress": {
+    "MLP-SAC": {
+      "episodes": 100,
+      "env_step": 14281,
+      "update_step": 13282
+    },
+    "CNN-SAC": {
+      "episodes": 100,
+      "env_step": 14281,
+      "update_step": 13282
+    },
+    "MLP-DQN": {
+      "episodes": 100,
+      "env_step": 14281,
+      "update_step": 13282
+    },
+    "MLP-PPO": {
+      "episodes": 100,
+      "env_step": 14281,
+      "update_step": 2950
+    },
+    "T-SAC局部观察控制组": {
+      "episodes": 100,
+      "env_step": 14281,
+      "update_step": 13282
+    }
+  },
+  "last_progress_updated_at_utc": "2026-09-20T21:32:07.534877+00:00",
+  "latest_local_snapshot": "D:/graduate/第二阶段T-SAC实施记录/远程跟进快照20260921-0601.json",
+  "last_node_disk_available": "3.1 GiB after completion; no new job started and no files deleted",
+  "last_evaluation_report": "D:/graduate/第二阶段T-SAC实施记录/论文七基线最终对比与夜间训练验收报告.md",
+  "last_notified_evaluation_type": "complete_validation_and_frozen_test",
+  "last_notified_checkpoint_ids": [
+    "02ee3bbc94b74de8a39df3e98ddfbb56",
+    "5180a86491a046a98b39f0004e1e4210",
+    "4d352c48e4624e6e83f5f2549727b3e8",
+    "960331c1325a4d8b83fedf46fbc3a610"
+  ],
+  "local_result_inventory": "D:/graduate/第二阶段T-SAC实施记录/最终结果回传校验清单.json",
+  "completion_observed_at_utc": "2026-09-20T22:13:30.424844+00:00",
+  "all_training_successful": true,
+  "all_final_evaluations_available": true,
+  "all_durable_copies_available": true,
+  "validation_complete": true,
+  "test_complete": true,
+  "test_set_used": true,
+  "formal_multiseed_complete": false,
+  "formal_ranking_available": false,
+  "matched_environment_budget": {
+    "episodes": 100,
+    "env_step": 14281,
+    "optimizer_counts_required_equal": false
+  },
+  "local_allocation_npz_count": 300,
+  "local_result_file_count": 1196,
+  "remote_checkpoint_hashes_verified": 7,
+  "final_delivery_sync": "completed",
+  "remote_active_training_processes": 0,
+  "automation_status": "PAUSED",
+  "automation_paused_at_utc": "2026-09-20T22:16:30.564266+00:00",
+  "final_delivery_record": "D:/graduate/第二阶段T-SAC实施记录/最终交付同步校验记录.json",
+  "completion_index": "D:/graduate/第二阶段T-SAC实施记录/夜间任务完成与恢复索引.json"
+}

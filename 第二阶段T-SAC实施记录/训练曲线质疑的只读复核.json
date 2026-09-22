@@ -1,0 +1,173 @@
+{
+  "scope": "只读复核已有训练曲线及Spectrum43关闭SQLite；没有新训练、参数修改或测试集选参",
+  "data_file": "训练收敛曲线PNG-最终版/训练曲线数据与配置.json",
+  "data_sha256": "59e38787514edde7e3f64ed3071e474452fa627b50e25a185ec2f458a4196d9c",
+  "runs": [
+    {
+      "algorithm": "Horizon T-SAC · η=0.2",
+      "seed": 42,
+      "episodes": 100,
+      "first10_train_U": 0.7339743997115142,
+      "last10_train_U": 0.748132089901785,
+      "episodes21_40_train_U": 0.7591734734350372,
+      "last_update_step": 13282,
+      "inherits_cnn_parent": false
+    },
+    {
+      "algorithm": "Horizon T-SAC · η=0.5",
+      "seed": 42,
+      "episodes": 100,
+      "first10_train_U": 0.7339743997115142,
+      "last10_train_U": 0.8281964072120782,
+      "episodes21_40_train_U": 0.7372693802889052,
+      "last_update_step": 13282,
+      "inherits_cnn_parent": false
+    },
+    {
+      "algorithm": "Horizon T-SAC · η=0.8",
+      "seed": 42,
+      "episodes": 100,
+      "first10_train_U": 0.7339743997115142,
+      "last10_train_U": 0.8105890282044907,
+      "episodes21_40_train_U": 0.8384883146186987,
+      "last_update_step": 13282,
+      "inherits_cnn_parent": false
+    },
+    {
+      "algorithm": "CNN-SAC",
+      "seed": 42,
+      "episodes": 100,
+      "first10_train_U": 0.7091535160189288,
+      "last10_train_U": 0.8720374719218402,
+      "episodes21_40_train_U": 0.867718387052921,
+      "last_update_step": 13282,
+      "inherits_cnn_parent": false
+    },
+    {
+      "algorithm": "MLP-SAC",
+      "seed": 42,
+      "episodes": 100,
+      "first10_train_U": 0.667379256136332,
+      "last10_train_U": 0.8645341278130496,
+      "episodes21_40_train_U": 0.8633344652877147,
+      "last_update_step": 13282,
+      "inherits_cnn_parent": false
+    },
+    {
+      "algorithm": "MLP-DQN",
+      "seed": 42,
+      "episodes": 100,
+      "first10_train_U": 0.7409366170196967,
+      "last10_train_U": 0.7595292854268034,
+      "episodes21_40_train_U": 0.7523741188315971,
+      "last_update_step": 13282,
+      "inherits_cnn_parent": false
+    },
+    {
+      "algorithm": "MLP-PPO",
+      "seed": 42,
+      "episodes": 100,
+      "first10_train_U": 0.5765175303210281,
+      "last10_train_U": 0.7104299113337658,
+      "episodes21_40_train_U": 0.7074957883530327,
+      "last_update_step": 2950,
+      "inherits_cnn_parent": false
+    },
+    {
+      "algorithm": "T-SAC（局部205控制组）",
+      "seed": 42,
+      "episodes": 100,
+      "first10_train_U": 0.7455095261198281,
+      "last10_train_U": 0.7955012084955355,
+      "episodes21_40_train_U": 0.8679464943599827,
+      "last_update_step": 13282,
+      "inherits_cnn_parent": false
+    },
+    {
+      "algorithm": "CNN-SAC（继续训练对照）",
+      "seed": 42,
+      "episodes": 300,
+      "first10_train_U": 0.8775929717667464,
+      "last10_train_U": 0.8506089468071331,
+      "episodes21_40_train_U": 0.8795079428500697,
+      "last_update_step": 41722,
+      "inherits_cnn_parent": true
+    },
+    {
+      "algorithm": "CNN-SAC（继续训练对照）",
+      "seed": 43,
+      "episodes": 300,
+      "first10_train_U": 0.8906763684677548,
+      "last10_train_U": 0.8306765058820769,
+      "episodes21_40_train_U": 0.8742134776340242,
+      "last_update_step": 41633,
+      "inherits_cnn_parent": true
+    },
+    {
+      "algorithm": "Spectrum T-SAC（全局注意力残差）",
+      "seed": 42,
+      "episodes": 271,
+      "first10_train_U": 0.8819077144564675,
+      "last10_train_U": 0.7918825359217981,
+      "episodes21_40_train_U": 0.8540726905422705,
+      "last_update_step": 37630,
+      "inherits_cnn_parent": true
+    },
+    {
+      "algorithm": "Spectrum T-SAC（全局注意力残差）",
+      "seed": 43,
+      "episodes": 300,
+      "first10_train_U": 0.8892857774867409,
+      "last10_train_U": 0.8215077421111759,
+      "episodes21_40_train_U": 0.8721617756912396,
+      "last_update_step": 41633,
+      "inherits_cnn_parent": true
+    }
+  ],
+  "spectrum43_resumed_attempt_optimizer_windows": [
+    {
+      "order": "asc",
+      "update_step": 20345,
+      "env_step": 21344,
+      "values": {
+        "alpha": 0.05459117658436299,
+        "entropy": 4.892381095886231,
+        "target_entropy": 3.951698594093323,
+        "actor_gradient_norm": 1.7871773791313172,
+        "critic_1_gradient_norm": 75.98507362365723,
+        "critic_1_loss": 0.355265224725008,
+        "critic_2_loss": 0.41287969022989274,
+        "td_abs_mean": 0.4187058651447296
+      }
+    },
+    {
+      "order": "desc",
+      "update_step": 41633,
+      "env_step": 42632,
+      "values": {
+        "alpha": 0.01741575798455705,
+        "entropy": 3.9082181758068977,
+        "target_entropy": 4.08615297966815,
+        "actor_gradient_norm": 0.7649146407208545,
+        "critic_1_gradient_norm": 58.296555945213804,
+        "critic_1_loss": 0.07646503037911781,
+        "critic_2_loss": 0.09324682432603329,
+        "td_abs_mean": 0.2305802084664081
+      }
+    }
+  ],
+  "interpretation": [
+    "工程链路通过不等于算法性能目标通过。",
+    "CNN/MLP训练首末窗口存在前期改善，不支持把所有平坦外观都当无学习；场景和行为策略变化使这些均值不能单独证明泛化提升。",
+    "Spectrum从CNN100父权重初始化，曲线高起点不能计为新结构学习收益。",
+    "Spectrum两流训练和已存validation相对CNN父起点退化；比配对CNN续训高只说明同协议下相对表现，不代表超过父模型或修复目标已达成。",
+    "非零梯度和真实更新排除完全未执行优化这一简单解释，不证明更新方向正确或有效。",
+    "Spectrum43恢复后alpha从约.0546降至.0174，不能把CNN续训alpha抬升当作所有退化统一主因。",
+    "现有训练采样/增强轨迹不等同固定验证场景曲线；缺少从零初始化至终点的密集固定验证与可学习性控制实验。"
+  ],
+  "recommended_next_diagnostics": [
+    "单场景可学习性与动作价值区分能力检查",
+    "固定验证场景及固定评价规则的检查点曲线，加入未训练/随机/父模型参照",
+    "在具名小预算实验中分离熵系数控制、优化器/Replay重置与上下文残差影响；不按已见test选参"
+  ]
+}

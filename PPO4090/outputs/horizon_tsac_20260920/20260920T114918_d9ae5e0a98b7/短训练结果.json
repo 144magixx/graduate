@@ -1,0 +1,110 @@
+{
+  "run_id": "20260920T114918_d9ae5e0a98b7",
+  "mode": "smoke",
+  "counters": {
+    "env_step": 286,
+    "update_step": 2,
+    "episodes": 2
+  },
+  "elapsed_seconds": 4.062000000005355,
+  "steps_per_second": 70.40866568183726,
+  "episodes": [
+    {
+      "n_entities": 139,
+      "n_demand": 139,
+      "empty_demand": false,
+      "mean_satisfaction": 0.7785723221114071,
+      "fully_satisfied_fraction": 0.5251798561151079,
+      "served_fraction": 1.0,
+      "skip_fraction": 0.0,
+      "zero_rate_fraction": 0.0,
+      "delivered_bps": 36458046675.74631,
+      "raw_throughput_bps": 54554948641.99634,
+      "unmet_bps": 31850542204.564526,
+      "total_demand_bps": 68308588880.31084,
+      "power_used_w": 3865.0,
+      "remaining_power_w": 2135.0,
+      "power_budget_w": 6000.0,
+      "pool_occupancy": 0.70625,
+      "physical_frequency_coverage": 1.0,
+      "sinr_sample_count": 565,
+      "mean_slot_sinr_db": 11.016980649327815,
+      "p05_slot_sinr_db": 2.792660869123292,
+      "linear_mean_sinr_to_db": 13.470249614802034,
+      "jain_clipped_satisfaction": 0.8795740382638292,
+      "sgm_mean_positive_demand": 0.5608364575866336,
+      "sgm_beta_bps": 491428696.9806535,
+      "constraint_violation_count": 0,
+      "constraint_violations": [],
+      "end_to_end_metric_available": false,
+      "j_root": null,
+      "episode_return": 77.85723221114071,
+      "episode_seconds": 0.5620000000053551,
+      "env_step": 139,
+      "update_step": 0,
+      "episode_id": "7d06b9875e904ec8b73518e36dc148f8",
+      "scenario_id": "cover_output_52",
+      "truncated": false
+    },
+    {
+      "n_entities": 147,
+      "n_demand": 147,
+      "empty_demand": false,
+      "mean_satisfaction": 0.44569420523801623,
+      "fully_satisfied_fraction": 0.3129251700680272,
+      "served_fraction": 0.5918367346938775,
+      "skip_fraction": 0.40816326530612246,
+      "zero_rate_fraction": 0.40816326530612246,
+      "delivered_bps": 26180441804.02646,
+      "raw_throughput_bps": 38777529236.51384,
+      "unmet_bps": 51991915968.01968,
+      "total_demand_bps": 78172357772.04613,
+      "power_used_w": 2310.0,
+      "remaining_power_w": 3690.0,
+      "power_budget_w": 6000.0,
+      "pool_occupancy": 0.50375,
+      "physical_frequency_coverage": 1.0,
+      "sinr_sample_count": 403,
+      "mean_slot_sinr_db": 11.043686624399722,
+      "p05_slot_sinr_db": 3.3143844491866545,
+      "linear_mean_sinr_to_db": 12.95175318774606,
+      "jain_clipped_satisfaction": 0.4992045487738737,
+      "sgm_mean_positive_demand": 0.30925925785704306,
+      "sgm_beta_bps": 531784746.7486131,
+      "constraint_violation_count": 0,
+      "constraint_violations": [],
+      "end_to_end_metric_available": false,
+      "j_root": null,
+      "episode_return": 44.569420523801625,
+      "episode_seconds": 2.687999999994645,
+      "env_step": 286,
+      "update_step": 2,
+      "episode_id": "79848845460c461da681f81094d661f1",
+      "scenario_id": "cover_output_18",
+      "truncated": false
+    }
+  ],
+  "checkpoint_available": true,
+  "sampler": {
+    "rng": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 262352927760196660606018848062626249005,
+        "inc": 225642193180116550529615695599510342417
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "draws": 2,
+    "counts": {
+      "9d44057c94c929b9502c91edae295cb3b4c3c3455238a223e0963c8d10f6e03a": 1,
+      "cell:unknown": 2,
+      "e06fb60c96d2c8687cd7dea79ca3fea138f7bf822823b16fa014d7b8aac98d57": 1
+    },
+    "branch_counts": {
+      "deployment": 2
+    }
+  },
+  "cuda_peak_bytes": null,
+  "conclusion": "短运行验证工程链路，不构成性能提升或正式泛化结论"
+}

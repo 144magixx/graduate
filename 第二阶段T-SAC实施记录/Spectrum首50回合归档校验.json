@@ -1,0 +1,916 @@
+{
+  "retrieved_at_utc": "2026-09-21T01:34:53.687438+00:00",
+  "archives": [
+    {
+      "name": "CNN继续训练对照-seed42",
+      "source": "/dev/shm/SpectrumT-SAC-20260921-ah2j5yfv/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_cf74dbeb8d38/独立评估/bf3dca74b88d",
+      "destination": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d",
+      "checkpoint_id": "2a816914f348424dac5bab5d94d03efe",
+      "status": "copied_closed_evaluation",
+      "database_count": 1
+    },
+    {
+      "name": "Spectrum残差模型-seed42",
+      "source": "/dev/shm/SpectrumT-SAC-20260921-ah2j5yfv/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_7256a95e074e/独立评估/251b58e8b109",
+      "destination": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109",
+      "checkpoint_id": "485e328a754e49bfb89e0e2748f2519f",
+      "status": "copied_closed_evaluation",
+      "database_count": 1
+    },
+    {
+      "name": "CNN继续训练对照-seed43",
+      "source": "/dev/shm/SpectrumT-SAC-20260921-ah2j5yfv/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_09fde58b812f/独立评估/24ef4dc99da6",
+      "destination": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6",
+      "checkpoint_id": "0f565de2087641af946565e7853d65af",
+      "status": "copied_closed_evaluation",
+      "database_count": 1
+    }
+  ],
+  "files": [
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\评估结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/评估结果.json",
+      "sha256": "0509fb2ee2f37937d8b34ecf27f2e3f320e7b1d5f87b1fee139260a0aef504c3",
+      "bytes": 23407
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\评估报告.md",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/评估报告.md",
+      "sha256": "01315aebd99942c15c8851478ac1e951c513592dd5c74f2247f88bb5ce65d88d",
+      "bytes": 482
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\运行清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/运行清单.json",
+      "sha256": "6ce2335d213daf7714228ec7fe316a3dc125c5adcf10ef864fe4b08cc1bf0e36",
+      "bytes": 59999
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\训练场景覆盖审计.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/训练场景覆盖审计.json",
+      "sha256": "935bb9b2aaae267241b666d7e49d5deea29140f1fb53085a9a4382133e0b74b1",
+      "bytes": 18902
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-88bff13580d11b2e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-88bff13580d11b2e/导出复算验收.json",
+      "sha256": "af175bd73878254cb0eb6cc9cf6763eeb39ad0bda40a90f8ce689d680f76327c",
+      "bytes": 1291
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-88bff13580d11b2e\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-88bff13580d11b2e/第二阶段分配结果.npz",
+      "sha256": "fcea9792b84c7072db9e9b85358745c923395b82369cf7972a130f4bce71f801",
+      "bytes": 14480
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-88bff13580d11b2e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-88bff13580d11b2e/第三阶段交接清单.json",
+      "sha256": "fd29be88c70e70d6777147abf64cc1417bd78f5a3da002ba7953c7a1b73d6911",
+      "bytes": 40217
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-a50e9b070a7cc346\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-a50e9b070a7cc346/导出复算验收.json",
+      "sha256": "074bd14740e12e3df0dc69930ab0303f8b872d97874cd0215e221b8381d31e4f",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-a50e9b070a7cc346\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-a50e9b070a7cc346/第二阶段分配结果.npz",
+      "sha256": "c12d0fd3fa0b73bcf13ec86fae9b094846e602505e3ada9bd48795907d854ead",
+      "bytes": 9877
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-a50e9b070a7cc346\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-a50e9b070a7cc346/第三阶段交接清单.json",
+      "sha256": "cf012a01dbf8bc513ec11efbf2da0f8b3cba7852cec1ad77ec4ce53fc3786b16",
+      "bytes": 36697
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-0c9015cfeb360ec4\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-0c9015cfeb360ec4/导出复算验收.json",
+      "sha256": "d9c1d40af2d350b285e60f70f9fdff2fef9380f9b5ccbf34c1dcddf6e7fa8d9f",
+      "bytes": 1295
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-0c9015cfeb360ec4\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-0c9015cfeb360ec4/第二阶段分配结果.npz",
+      "sha256": "759aa3c38d45a47ec694ae6a8622bca45fca7454eae62fd7e0a8a1d033a16a0b",
+      "bytes": 14219
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-0c9015cfeb360ec4\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-0c9015cfeb360ec4/第三阶段交接清单.json",
+      "sha256": "ae8673883f38f4ce2600c7fe4da16ecb6ca2687a4d59661758a94ffb7b71d776",
+      "bytes": 39563
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-972d7b35d5179c0e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-972d7b35d5179c0e/导出复算验收.json",
+      "sha256": "ec6c3ed78278952f7bf9de38297ab6fdb925185064982e668a4c3b9edebc49b3",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-972d7b35d5179c0e\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-972d7b35d5179c0e/第二阶段分配结果.npz",
+      "sha256": "692657885dc5f2bd142cc9cbcd41e710649d688249e8f4e5e6dfd0717a060783",
+      "bytes": 14379
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-972d7b35d5179c0e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-972d7b35d5179c0e/第三阶段交接清单.json",
+      "sha256": "6960ab5e0fa20df7abee1703a3d7146183c44f828982fa68a4f493dc7a9bf486",
+      "bytes": 39993
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-21a9a9c0aca1cf62\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-21a9a9c0aca1cf62/导出复算验收.json",
+      "sha256": "d05489025c62e808264823be81187382632331755d5e1b6c16642364b55df70c",
+      "bytes": 1337
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-21a9a9c0aca1cf62\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-21a9a9c0aca1cf62/第二阶段分配结果.npz",
+      "sha256": "c55a9a815c86c3f510693b47fb8d6370b1871297de37a8e933a0a68be534c2af",
+      "bytes": 14662
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-21a9a9c0aca1cf62\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-21a9a9c0aca1cf62/第三阶段交接清单.json",
+      "sha256": "2a46868a6a2af34c5ac53680008c0ae7def6abd3bcbdff5f5506fe53867427fb",
+      "bytes": 41026
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-a4bc9f309ade38d8\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-a4bc9f309ade38d8/导出复算验收.json",
+      "sha256": "296f6ff5c766728fdb00bb57a76c991024a241a7b82ca8c163a7f4ccc7b956f0",
+      "bytes": 1345
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-a4bc9f309ade38d8\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-a4bc9f309ade38d8/第二阶段分配结果.npz",
+      "sha256": "0b42015b97a90b9727e0e8e21699100b71b6e99e091263f6b52523ea8755621a",
+      "bytes": 14485
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-a4bc9f309ade38d8\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-a4bc9f309ade38d8/第三阶段交接清单.json",
+      "sha256": "8641f0afd08b93b889ff554b215d60643650fde3fb0723d8d15d8651c986854e",
+      "bytes": 40187
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-67db72352a867b26\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-67db72352a867b26/导出复算验收.json",
+      "sha256": "e9952b102fc3c0472f243d50fe1ae6f8944565549ad738153b3ba2734baeb67d",
+      "bytes": 1341
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-67db72352a867b26\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-67db72352a867b26/第二阶段分配结果.npz",
+      "sha256": "2f6d8ff5c14344e854a2458b21ed77a3f653ff3247ac2691ac3344c3772435c2",
+      "bytes": 14621
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-67db72352a867b26\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-67db72352a867b26/第三阶段交接清单.json",
+      "sha256": "109bc6d73a90d7877ea95deefbbdcd6b8bb286b772f7a38a6d2c5b2b2a1e25c3",
+      "bytes": 40489
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-b0df46b6166ead2f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-b0df46b6166ead2f/导出复算验收.json",
+      "sha256": "078e5d09243c6f9f1baf9092700c2c8d5ac4a992b31ea5c12b340b723f4c0777",
+      "bytes": 1342
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-b0df46b6166ead2f\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-b0df46b6166ead2f/第二阶段分配结果.npz",
+      "sha256": "723aaa97b9f964e84eecfdcf7a085929963005710b5f6b486b617cce6dc5ce09",
+      "bytes": 14753
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-b0df46b6166ead2f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-b0df46b6166ead2f/第三阶段交接清单.json",
+      "sha256": "eb523d635343e0040c4a01438e116853e30e97f2973b296c2ddfe68c207b3e8f",
+      "bytes": 40850
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-cbd4952f443a01a7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-cbd4952f443a01a7/导出复算验收.json",
+      "sha256": "5aacc3f49004175d471bc50497c65063209dafec82c9005ddb610116cd80898b",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-cbd4952f443a01a7\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-cbd4952f443a01a7/第二阶段分配结果.npz",
+      "sha256": "3195eb6ce3718194a3835b73d40effc596aa3e14adc90a3fd9cb4d6a916d8c94",
+      "bytes": 14461
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-cbd4952f443a01a7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-cbd4952f443a01a7/第三阶段交接清单.json",
+      "sha256": "a8196a25a43e9fc8fd47d63ea447dbd4202459d953358d4ff778870bf9f6a515",
+      "bytes": 40124
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-57310e75589e7f4f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-57310e75589e7f4f/导出复算验收.json",
+      "sha256": "133b03e7711782bd3f066fa81adfdf5a5e5fbacb2d13d5fff1001d8a59ba1be4",
+      "bytes": 1343
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-57310e75589e7f4f\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-57310e75589e7f4f/第二阶段分配结果.npz",
+      "sha256": "d3cfd23208379909f7c006ecd039309627298b91541cd27724e2a7f153ca734b",
+      "bytes": 14214
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-57310e75589e7f4f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-57310e75589e7f4f/第三阶段交接清单.json",
+      "sha256": "5b7c0fb98442aceee3e451f9578dbfafddf899fc77c0e8839b34dcf72f13d81a",
+      "bytes": 39930
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-4c60ac4eb53c2cd7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-4c60ac4eb53c2cd7/导出复算验收.json",
+      "sha256": "110bb20cfb9558dbf0ea56e1d151d775f3dfbf1273282fe837254c31713be33f",
+      "bytes": 1292
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-4c60ac4eb53c2cd7\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-4c60ac4eb53c2cd7/第二阶段分配结果.npz",
+      "sha256": "d68a89f379f891ac24ad52d27cbb5fa390476f6d97ffbcca46cbadfc4264b8e1",
+      "bytes": 14400
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-4c60ac4eb53c2cd7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-4c60ac4eb53c2cd7/第三阶段交接清单.json",
+      "sha256": "cb4272a2304ba8b0cc37f3944f93726625bf98156612ef11df58e575e4959aa3",
+      "bytes": 40203
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-9586d567ba78e1fa\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-9586d567ba78e1fa/导出复算验收.json",
+      "sha256": "85b4b48e27592a7e6a4c0b44bb2ebc601a78ed168bae2cc0bc725e3bc262f161",
+      "bytes": 1340
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-9586d567ba78e1fa\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-9586d567ba78e1fa/第二阶段分配结果.npz",
+      "sha256": "04befaf2b1de88fd791e0931477317795306844943c4c4f2102069a093a4767e",
+      "bytes": 14627
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-9586d567ba78e1fa\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-9586d567ba78e1fa/第三阶段交接清单.json",
+      "sha256": "a6728539f35cbcbd395d18b0391c68014d0a01f96fe0a446b15e6b4c07344147",
+      "bytes": 40498
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-71527de25919ca7e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-71527de25919ca7e/导出复算验收.json",
+      "sha256": "9745efc02aae316c252b2c09abf2d45664d7b7cc8fbecf13db151db85f0b8199",
+      "bytes": 1342
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-71527de25919ca7e\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-71527de25919ca7e/第二阶段分配结果.npz",
+      "sha256": "d55c997fa9416d1e525d47d277f9d2278b91508f5d094f85b629cc993819a7c2",
+      "bytes": 14515
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-71527de25919ca7e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-71527de25919ca7e/第三阶段交接清单.json",
+      "sha256": "254aa521d9452cc947f3de1039c09d0e4cc28267a6da2804fc1ea5315c47b2a1",
+      "bytes": 40206
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-44554ba2cdd1b0af\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-44554ba2cdd1b0af/导出复算验收.json",
+      "sha256": "3415df00995aa9a21fa7c4ef0dfe7a93f5a979ff98b4f7dc53455dfbfd61c67f",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-44554ba2cdd1b0af\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-44554ba2cdd1b0af/第二阶段分配结果.npz",
+      "sha256": "aa6f68a4687cced8920cb7349484ba023f2a73a6998eb2c3cfd1e61558a7589c",
+      "bytes": 14536
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-44554ba2cdd1b0af\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-44554ba2cdd1b0af/第三阶段交接清单.json",
+      "sha256": "e15521b2a02c0b1f2d3a2a7942ea1ca2bf3b196f69546c0b6892d6daa1ed970e",
+      "bytes": 40399
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-09ebf81256165a53\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-09ebf81256165a53/导出复算验收.json",
+      "sha256": "90dbbd568b9e4e7cdce08f5adb833fa125da96aa62e7d33ee3329abe57ad7113",
+      "bytes": 1340
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-09ebf81256165a53\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-09ebf81256165a53/第二阶段分配结果.npz",
+      "sha256": "3d7d11e99e6ad8fc996d24d7a6de9a7c1fe21cce11410b17bc1ad984b6acd0a8",
+      "bytes": 14714
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed42\\policy\\场景-09ebf81256165a53\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed42/bf3dca74b88d/policy/场景-09ebf81256165a53/第三阶段交接清单.json",
+      "sha256": "e3360d0dfc34870d0e10a184c5876ca5a910537f3976d3bff8308538a9b5afa3",
+      "bytes": 40935
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\评估结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/评估结果.json",
+      "sha256": "5db88f7c63e1cd43368936475fed52f9c453f2eae5356b5c78547e6428812b79",
+      "bytes": 23429
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\评估报告.md",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/评估报告.md",
+      "sha256": "30d2c477e85749f4a700451dd6d2aecfd6fe9ac7375865f433ed29b260d4673f",
+      "bytes": 482
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\运行清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/运行清单.json",
+      "sha256": "962c594f4b9446ddfc811ad2a7d5ff41da2f404af880623158bbe9d324df4d1b",
+      "bytes": 66170
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\训练场景覆盖审计.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/训练场景覆盖审计.json",
+      "sha256": "935bb9b2aaae267241b666d7e49d5deea29140f1fb53085a9a4382133e0b74b1",
+      "bytes": 18902
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-88bff13580d11b2e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-88bff13580d11b2e/导出复算验收.json",
+      "sha256": "10570b89b28cc14ea41e297af97fc5904125ea544dac231f8d51aa5654750328",
+      "bytes": 1292
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-88bff13580d11b2e\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-88bff13580d11b2e/第二阶段分配结果.npz",
+      "sha256": "21c62acb7a8f969eb2ba5ef4fa87434e79e2da31593120ff4984dcfc6afbe3e6",
+      "bytes": 14529
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-88bff13580d11b2e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-88bff13580d11b2e/第三阶段交接清单.json",
+      "sha256": "4c613951aeeb0b9be0576e968d6bf01492c7c1b58442c28a3bd5f9b194db84df",
+      "bytes": 40217
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-a50e9b070a7cc346\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-a50e9b070a7cc346/导出复算验收.json",
+      "sha256": "bd7995e0ccc3461b00d4e73c31b9dc45fbc4781ec05a7a2239ea4ded165ec17f",
+      "bytes": 1284
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-a50e9b070a7cc346\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-a50e9b070a7cc346/第二阶段分配结果.npz",
+      "sha256": "48cf846a7e95361b012e444afafc1ee3be138f191b0e61e0ebfe3f20b0bb668f",
+      "bytes": 9906
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-a50e9b070a7cc346\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-a50e9b070a7cc346/第三阶段交接清单.json",
+      "sha256": "0c83a0ed2634db77e77f840acf90df041a9858ccf352d66ca3e5724c4fa452c8",
+      "bytes": 36687
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-0c9015cfeb360ec4\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-0c9015cfeb360ec4/导出复算验收.json",
+      "sha256": "75b293faa87ad7856e3b7015fdb018cdfb258c0b13f98ac719c00489b7a232ca",
+      "bytes": 1295
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-0c9015cfeb360ec4\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-0c9015cfeb360ec4/第二阶段分配结果.npz",
+      "sha256": "94149031750b0a07c84712ab5c60cfbf8cf4a932a719abebac37755d05e7bc68",
+      "bytes": 14178
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-0c9015cfeb360ec4\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-0c9015cfeb360ec4/第三阶段交接清单.json",
+      "sha256": "94b3195810d7b1d5ae81df68382c8ba2734e16b5e41b963ec5b29119bdc6ace6",
+      "bytes": 39562
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-972d7b35d5179c0e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-972d7b35d5179c0e/导出复算验收.json",
+      "sha256": "4a807bc7f1b7e9da743789cc7c7b2de84bda015d7b4e6568cfc25be1fef3831a",
+      "bytes": 1345
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-972d7b35d5179c0e\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-972d7b35d5179c0e/第二阶段分配结果.npz",
+      "sha256": "6fe2103b4549e3af0733f133f3e8a43a4b28648ad916b04c18bc6ed7a3704545",
+      "bytes": 14431
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-972d7b35d5179c0e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-972d7b35d5179c0e/第三阶段交接清单.json",
+      "sha256": "3c04df6dd3843b9b8e8be15695438f395cb954e7c8d0297c555c84fabfb7a613",
+      "bytes": 40044
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-21a9a9c0aca1cf62\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-21a9a9c0aca1cf62/导出复算验收.json",
+      "sha256": "0faceae5d646a3cc5269c98e8977d85f1a2fcf84e5ef110f07f9e7d55c096457",
+      "bytes": 1340
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-21a9a9c0aca1cf62\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-21a9a9c0aca1cf62/第二阶段分配结果.npz",
+      "sha256": "1a992d798547363ac64b5874a3a93fb025a1bfc7d4ac7b13d00f3ef5d95bc142",
+      "bytes": 14741
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-21a9a9c0aca1cf62\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-21a9a9c0aca1cf62/第三阶段交接清单.json",
+      "sha256": "ab8d02a5bf781d0dec0700555daec09bbb077edbf31953beb2d6e7f5347c5a1b",
+      "bytes": 41028
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-a4bc9f309ade38d8\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-a4bc9f309ade38d8/导出复算验收.json",
+      "sha256": "83110a1f188bc60eba004f78dd9160c7a00dc421ff8b3941f7ab93c4ffbb3128",
+      "bytes": 1289
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-a4bc9f309ade38d8\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-a4bc9f309ade38d8/第二阶段分配结果.npz",
+      "sha256": "0d18598dfe39d5b077753b8137a724e4e326e54eaab5093baa0235a189e7d7d2",
+      "bytes": 14538
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-a4bc9f309ade38d8\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-a4bc9f309ade38d8/第三阶段交接清单.json",
+      "sha256": "43d5e899e9cfd1ae3fa03866f3ff334b79c7ac20b17e6a37e267781a83c29a21",
+      "bytes": 40130
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-67db72352a867b26\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-67db72352a867b26/导出复算验收.json",
+      "sha256": "bb345ef68f7c80941a214e5c7a0e72b910ef484678e77137b67003331b76c989",
+      "bytes": 1337
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-67db72352a867b26\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-67db72352a867b26/第二阶段分配结果.npz",
+      "sha256": "1e8802edf15286648ad38b0ef1d6232c72f573cc2f6de978a56171dfa37cf04e",
+      "bytes": 14516
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-67db72352a867b26\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-67db72352a867b26/第三阶段交接清单.json",
+      "sha256": "59070252095c2b99fb0063d7031b24fdd0ca8713d25bd8d97c9a3b6c048f8830",
+      "bytes": 40484
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-b0df46b6166ead2f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-b0df46b6166ead2f/导出复算验收.json",
+      "sha256": "7a7770b4eb9b28f3fdeb8bb547e2a48f8271cdc203d8dd40f8decda00458e4f4",
+      "bytes": 1340
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-b0df46b6166ead2f\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-b0df46b6166ead2f/第二阶段分配结果.npz",
+      "sha256": "42204e54d74a0f6d10886cd1963a47d04813a6ed9922787ff59a621940be7d1b",
+      "bytes": 14704
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-b0df46b6166ead2f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-b0df46b6166ead2f/第三阶段交接清单.json",
+      "sha256": "15faa3fdbbc95d43aaf3a64ef40cf8de5788454bb8a682e3c1491e81b5e228ee",
+      "bytes": 40847
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-cbd4952f443a01a7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-cbd4952f443a01a7/导出复算验收.json",
+      "sha256": "b257105943dc5e7f41b9c3f396840d21287c19f87be63489c669d226bc6977f5",
+      "bytes": 1343
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-cbd4952f443a01a7\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-cbd4952f443a01a7/第二阶段分配结果.npz",
+      "sha256": "b5fb12c707e2e4e4fb02f9a4ca76cb6af78c95c951a728ae294173ffd31cf37e",
+      "bytes": 14390
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-cbd4952f443a01a7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-cbd4952f443a01a7/第三阶段交接清单.json",
+      "sha256": "e058db1f316ffb272465a28d3aa3304a0029a336ae78cfe9ab5ee1fab59051ee",
+      "bytes": 40173
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-57310e75589e7f4f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-57310e75589e7f4f/导出复算验收.json",
+      "sha256": "34174de96b358972672ae16a30d690de46b5893aad3b516c4d0f7798b478b421",
+      "bytes": 1291
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-57310e75589e7f4f\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-57310e75589e7f4f/第二阶段分配结果.npz",
+      "sha256": "b44458d1b0f971d4eae8ff7fbe0640334f478ca9b00cf6b00274f175e6455a63",
+      "bytes": 14213
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-57310e75589e7f4f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-57310e75589e7f4f/第三阶段交接清单.json",
+      "sha256": "c95684994b58c44f1a2e9ea58441afa8e494b0b680d7c1d0d2de664de44497f8",
+      "bytes": 39877
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-4c60ac4eb53c2cd7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-4c60ac4eb53c2cd7/导出复算验收.json",
+      "sha256": "b0f4959d90f04b48b8f38e7a97833fdd66c1ef8eb6214f64c6dc5046485368d3",
+      "bytes": 1344
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-4c60ac4eb53c2cd7\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-4c60ac4eb53c2cd7/第二阶段分配结果.npz",
+      "sha256": "1311fad2e1c62682b59f571e5047c89fd47e53e794c532b1a89c999b0de972d4",
+      "bytes": 14572
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-4c60ac4eb53c2cd7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-4c60ac4eb53c2cd7/第三阶段交接清单.json",
+      "sha256": "9af5061d6201968d416bd42b6475b8e81e5b64643d351d72d4ed19d5bb2893e2",
+      "bytes": 40254
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-9586d567ba78e1fa\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-9586d567ba78e1fa/导出复算验收.json",
+      "sha256": "0e15c7770f1b4b08bcafec36f273f2cf273a667e0e86965a65edb1c25f1e6035",
+      "bytes": 1341
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-9586d567ba78e1fa\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-9586d567ba78e1fa/第二阶段分配结果.npz",
+      "sha256": "ede78b28e4bfc98d9b7f03aade8d7751535d547fae234c0f7798b2d0c089de8d",
+      "bytes": 14571
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-9586d567ba78e1fa\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-9586d567ba78e1fa/第三阶段交接清单.json",
+      "sha256": "fd1490a67eb040c11fe3781fa26fdbc4b35c6116b4730f58ac51d282767fb329",
+      "bytes": 40498
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-71527de25919ca7e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-71527de25919ca7e/导出复算验收.json",
+      "sha256": "4de9860af50c9776ddb716e5b6df93f055e345ad9ec69b19a8f52c07250ca20b",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-71527de25919ca7e\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-71527de25919ca7e/第二阶段分配结果.npz",
+      "sha256": "fae227821127fd727b9baafeb94a58d802c4e4422126e36e83aa6360bb467ba9",
+      "bytes": 14497
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-71527de25919ca7e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-71527de25919ca7e/第三阶段交接清单.json",
+      "sha256": "d6e6bd33dc72314a260f29e5f6db3f007db48aa7845e7cd622e2da84f2964076",
+      "bytes": 40156
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-44554ba2cdd1b0af\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-44554ba2cdd1b0af/导出复算验收.json",
+      "sha256": "fef7b32aacf9d2b19eae9cadd1288d67b59e9467c39497a5b30794543e8f482d",
+      "bytes": 1344
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-44554ba2cdd1b0af\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-44554ba2cdd1b0af/第二阶段分配结果.npz",
+      "sha256": "4d1ffd30eb58e10173c9968bae6577dee7c41f47c3f9bec3d7cf70d5472d8387",
+      "bytes": 14496
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-44554ba2cdd1b0af\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-44554ba2cdd1b0af/第三阶段交接清单.json",
+      "sha256": "e211667a7452118fbb7a89acf7ff7e49fbcc5a2ef8f97f95d95241860d5f9d3d",
+      "bytes": 40449
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-09ebf81256165a53\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-09ebf81256165a53/导出复算验收.json",
+      "sha256": "f50b7bb94c2152db2229e2013017812663e599091a2676eb28282b6f77663ade",
+      "bytes": 1339
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-09ebf81256165a53\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-09ebf81256165a53/第二阶段分配结果.npz",
+      "sha256": "22f6c015c843b1f73b228b4b3bec8062efccd348daea8249d9a7f4e1ba89a0d7",
+      "bytes": 14729
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\Spectrum残差模型-seed42\\policy\\场景-09ebf81256165a53\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/Spectrum残差模型-seed42/251b58e8b109/policy/场景-09ebf81256165a53/第三阶段交接清单.json",
+      "sha256": "9449789edf4318a33dd321d5b2114687b899c1bc58e2006e435f2171ad20d3d8",
+      "bytes": 40933
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\评估结果.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/评估结果.json",
+      "sha256": "f60aa327875a4a55345d3b7a56e372fcef207b36fecb1f62c5678bec928af836",
+      "bytes": 23370
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\评估报告.md",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/评估报告.md",
+      "sha256": "14dfced6011a0c747b9b86b56dad39c6804fac91e44864cac7a90616fe1f6339",
+      "bytes": 481
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\运行清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/运行清单.json",
+      "sha256": "0b1bcde9a49b54950d5d6d4237a3e21983d2d800b8ba736cf3ac0449f8cd38ce",
+      "bytes": 59999
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\训练场景覆盖审计.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/训练场景覆盖审计.json",
+      "sha256": "935bb9b2aaae267241b666d7e49d5deea29140f1fb53085a9a4382133e0b74b1",
+      "bytes": 18902
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-88bff13580d11b2e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-88bff13580d11b2e/导出复算验收.json",
+      "sha256": "8b595ecacba7a04f9e184aa103df1af2ad19f8fb9c86bc63f5fd6713d1b76179",
+      "bytes": 1344
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-88bff13580d11b2e\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-88bff13580d11b2e/第二阶段分配结果.npz",
+      "sha256": "30d31ce30905e9df6986bb64e24a25db6dfac5dfd9cd421271ad8d2f83d18f2e",
+      "bytes": 14059
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-88bff13580d11b2e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-88bff13580d11b2e/第三阶段交接清单.json",
+      "sha256": "7f8d919a232eb9eb88ed42e374265d9a88d4825087d6251846aa8597d537be94",
+      "bytes": 40270
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-a50e9b070a7cc346\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-a50e9b070a7cc346/导出复算验收.json",
+      "sha256": "c3e5735b5845cdfe4007b3b115c6c3ef6f7c6833ccbb6fac3e5866d1115e932b",
+      "bytes": 1293
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-a50e9b070a7cc346\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-a50e9b070a7cc346/第二阶段分配结果.npz",
+      "sha256": "02c6e4db28cdde82113c61b1e24da90004d96c852bbf1259bac0eb2a11f73cef",
+      "bytes": 9504
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-a50e9b070a7cc346\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-a50e9b070a7cc346/第三阶段交接清单.json",
+      "sha256": "0a7fab51ff29510d27ebe82023d866e798111786f325caef4942adb94213db94",
+      "bytes": 36697
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-0c9015cfeb360ec4\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-0c9015cfeb360ec4/导出复算验收.json",
+      "sha256": "5fdf22c2a7d25e6e8f5b3efa2306e7b76b97efd8fb7c939613a1776f99583c19",
+      "bytes": 1294
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-0c9015cfeb360ec4\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-0c9015cfeb360ec4/第二阶段分配结果.npz",
+      "sha256": "58c4b929a4815d09c329fdc74ff5269c64d11f11726a535eed3f34fd5248727a",
+      "bytes": 13726
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-0c9015cfeb360ec4\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-0c9015cfeb360ec4/第三阶段交接清单.json",
+      "sha256": "3b4c14b9bf045efe26137dc63be7ad393091b39da6fdae39131e770eec92bf70",
+      "bytes": 39562
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-972d7b35d5179c0e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-972d7b35d5179c0e/导出复算验收.json",
+      "sha256": "1767875df87e70eec0a6a3b35c9081a56193b2f4a053c1a867305bdaf52e10f8",
+      "bytes": 1294
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-972d7b35d5179c0e\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-972d7b35d5179c0e/第二阶段分配结果.npz",
+      "sha256": "105d9d8333b89bfeecfa4a6676a4f1910c7e7f853c5dd0e2c256a6e94a2dac65",
+      "bytes": 14078
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-972d7b35d5179c0e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-972d7b35d5179c0e/第三阶段交接清单.json",
+      "sha256": "61fb212d256c094f6a7ce4f52b4f65226fc3ee6165dbba8c74782612d0b96799",
+      "bytes": 39994
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-21a9a9c0aca1cf62\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-21a9a9c0aca1cf62/导出复算验收.json",
+      "sha256": "937380f63b711ca4754240d8f45a9954083b3c79b8add9f37d1e3afb99f3525b",
+      "bytes": 1339
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-21a9a9c0aca1cf62\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-21a9a9c0aca1cf62/第二阶段分配结果.npz",
+      "sha256": "0fffdfd31b959545abd659c178343140ecc25bb0dbd6bedde97ee92fbfe4ceab",
+      "bytes": 14008
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-21a9a9c0aca1cf62\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-21a9a9c0aca1cf62/第三阶段交接清单.json",
+      "sha256": "3974b920a4b0f1b9a24eb607db5f8424813b1e7fa1c7b26b1c5f05a6aeab6ebe",
+      "bytes": 41028
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-a4bc9f309ade38d8\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-a4bc9f309ade38d8/导出复算验收.json",
+      "sha256": "c05d4a20f75b74bd02f346aba85bfc890ff695de6e27d9f1bb590b15aee17adb",
+      "bytes": 1341
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-a4bc9f309ade38d8\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-a4bc9f309ade38d8/第二阶段分配结果.npz",
+      "sha256": "5f3ae6213e17172612780d584c822517dc8b767fe5e52d2edf8c5cada9904557",
+      "bytes": 14060
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-a4bc9f309ade38d8\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-a4bc9f309ade38d8/第三阶段交接清单.json",
+      "sha256": "2de6535d5533eb7ab13f2141059802d7eb820b7269d0e068636f83d5c5dd7f67",
+      "bytes": 40183
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-67db72352a867b26\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-67db72352a867b26/导出复算验收.json",
+      "sha256": "227b064b919f75f3523a5b4d626e1c3e89c97f2a48ea3ffbfd132abd4966e917",
+      "bytes": 1340
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-67db72352a867b26\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-67db72352a867b26/第二阶段分配结果.npz",
+      "sha256": "a8eeeb5046d216d2960645e8ec94d8a5cae9865882de9527cbe0a3475a251737",
+      "bytes": 14073
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-67db72352a867b26\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-67db72352a867b26/第三阶段交接清单.json",
+      "sha256": "faa1ab34c9afd993f16264bcb3a2d623bcd20ef0e2f3c069698630504722a486",
+      "bytes": 40488
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-b0df46b6166ead2f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-b0df46b6166ead2f/导出复算验收.json",
+      "sha256": "550236e203b921e264ce5e6343500b2393d5a740507c3a99b9004b77abc016ac",
+      "bytes": 1325
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-b0df46b6166ead2f\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-b0df46b6166ead2f/第二阶段分配结果.npz",
+      "sha256": "2f13aa03b5567de5dba2889ace81d82f9dedc44ad2817a4456658d1eb09e9c00",
+      "bytes": 14168
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-b0df46b6166ead2f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-b0df46b6166ead2f/第三阶段交接清单.json",
+      "sha256": "a377686507a305d84e18afc9c597bd6592836758e461903286f89140232d4ba5",
+      "bytes": 40833
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-cbd4952f443a01a7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-cbd4952f443a01a7/导出复算验收.json",
+      "sha256": "9ccc7fd94ae856e22f9467ec8ab4a3670d51dcf18ea4488b8ceb81f931cd8e83",
+      "bytes": 1290
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-cbd4952f443a01a7\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-cbd4952f443a01a7/第二阶段分配结果.npz",
+      "sha256": "5633f51cdd45b124bf674c39b083798e119c7f37ebb6d1c0233c1f913243ffa2",
+      "bytes": 14061
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-cbd4952f443a01a7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-cbd4952f443a01a7/第三阶段交接清单.json",
+      "sha256": "856fd73d9be56b8412eb5058428eca55dd0ef72053c16d0db8a049b2e71ba1f8",
+      "bytes": 40121
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-57310e75589e7f4f\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-57310e75589e7f4f/导出复算验收.json",
+      "sha256": "a1de6e0e6f94c6833efec472e5ebff5bea18f83b94518cd6b62f3c6465ab9268",
+      "bytes": 1295
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-57310e75589e7f4f\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-57310e75589e7f4f/第二阶段分配结果.npz",
+      "sha256": "d1395dd10b8b50978081e7f755a2b2ac862a7dd73b65419956c6a842a76211ad",
+      "bytes": 13817
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-57310e75589e7f4f\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-57310e75589e7f4f/第三阶段交接清单.json",
+      "sha256": "e5bf04082ccc87715a0c86115c7f6c75b1f2369bf0fff3701ce4a43100017762",
+      "bytes": 39882
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-4c60ac4eb53c2cd7\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-4c60ac4eb53c2cd7/导出复算验收.json",
+      "sha256": "22bed54981aa8cb1e1d017cbbfb858501de9237eef72abef867402d6a9727da2",
+      "bytes": 1295
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-4c60ac4eb53c2cd7\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-4c60ac4eb53c2cd7/第二阶段分配结果.npz",
+      "sha256": "592a5afd837f7b7d05cf03f3d883a14f11c2aa363bf670fff869888fee4e99aa",
+      "bytes": 14103
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-4c60ac4eb53c2cd7\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-4c60ac4eb53c2cd7/第三阶段交接清单.json",
+      "sha256": "733b8ea0c8c7da0e8808999f95517122b1969f7c4544de9eb5db92065d8fbcd5",
+      "bytes": 40206
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-9586d567ba78e1fa\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-9586d567ba78e1fa/导出复算验收.json",
+      "sha256": "343f392e41c08df92513b9b759c12c6ce81c73c7a9a5b3b1901cbb0438c70760",
+      "bytes": 1339
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-9586d567ba78e1fa\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-9586d567ba78e1fa/第二阶段分配结果.npz",
+      "sha256": "3e5c86a28570187a0c30a2c6d935758bb8b11e6b9a96a43047abb5565dede3ca",
+      "bytes": 13976
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-9586d567ba78e1fa\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-9586d567ba78e1fa/第三阶段交接清单.json",
+      "sha256": "e12979aa52ece703998ff063558235e431e188074bf85e6c64972238694cf1cc",
+      "bytes": 40497
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-71527de25919ca7e\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-71527de25919ca7e/导出复算验收.json",
+      "sha256": "ca0baa0e38540bfb4ad9f44ad41221ba2959986c81800a4e04ff649bfddde872",
+      "bytes": 1291
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-71527de25919ca7e\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-71527de25919ca7e/第二阶段分配结果.npz",
+      "sha256": "f014bca0c807a79f814be1c99a47c9c253105ec9dcee2b9c28e09de4654b5d8e",
+      "bytes": 14144
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-71527de25919ca7e\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-71527de25919ca7e/第三阶段交接清单.json",
+      "sha256": "daffa1fa2d202de86d7a406a08acdb03d103c51966f016aa498f0392f24dd309",
+      "bytes": 40155
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-44554ba2cdd1b0af\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-44554ba2cdd1b0af/导出复算验收.json",
+      "sha256": "630e8f76f3835d0f7a5d3ee3c3cefa2fb62353c7f882c17cdade84ab81fb2914",
+      "bytes": 1340
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-44554ba2cdd1b0af\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-44554ba2cdd1b0af/第二阶段分配结果.npz",
+      "sha256": "ad6e533979dc7da460a917b08f6a41c1f4121daf7f86f1e8973b60ca2c06c139",
+      "bytes": 14082
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-44554ba2cdd1b0af\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-44554ba2cdd1b0af/第三阶段交接清单.json",
+      "sha256": "48c6a250a6dd9681113985406f0b3ac531c48a2a5c9baad961d33c40bd3e48fd",
+      "bytes": 40446
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-09ebf81256165a53\\导出复算验收.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-09ebf81256165a53/导出复算验收.json",
+      "sha256": "02d6d5b3813d18a5eff6f306ae89643d8841a3be0205d13c4c9dfde0a858ff53",
+      "bytes": 1337
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-09ebf81256165a53\\第二阶段分配结果.npz",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-09ebf81256165a53/第二阶段分配结果.npz",
+      "sha256": "e0a15052ab1ce42f2e9516be88a7da8dff051fd569f5c468d7f121b0a4ced371",
+      "bytes": 14181
+    },
+    {
+      "local": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum首50回合评价原件\\CNN继续训练对照-seed43\\policy\\场景-09ebf81256165a53\\第三阶段交接清单.json",
+      "remote": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/阶段验证归档/首50回合/CNN继续训练对照-seed43/24ef4dc99da6/policy/场景-09ebf81256165a53/第三阶段交接清单.json",
+      "sha256": "14504ba7ca63b6062a22dcec0ed3330f9a79c11a01b915fa855e4f62e46829e4",
+      "bytes": 40932
+    }
+  ],
+  "memory": "              total        used        free      shared  buff/cache   available\nMem:          1.0Ti       100Gi        98Gi        33Gi       807Gi       776Gi\nSwap:          31Gi       798Mi        31Gi\n",
+  "allocation_memory": "206178.4|10486964K|9174944K\n",
+  "active_training_db_copied": false
+}

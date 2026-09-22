@@ -1,0 +1,13 @@
+{
+  "host": "gpu2",
+  "tracked_processes": {
+    "2912387": false,
+    "2912424": false
+  },
+  "disk_free_bytes": 53684592640,
+  "memory": [
+    "MemFree:        149014148 kB",
+    "MemAvailable:   945566924 kB"
+  ],
+  "gpu": "NVIDIA A800-SXM4-80GB, 0 MiB, 0 %\n"
+}

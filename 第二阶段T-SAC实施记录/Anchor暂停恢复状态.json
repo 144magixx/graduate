@@ -1,0 +1,367 @@
+{
+  "status": "completed_no_experiment",
+  "paused_at_utc": "2026-09-21T09:28:09.216865+00:00",
+  "reason": "用户将断网，要求保存当前进度，等待明确说继续",
+  "resume_requires_explicit_user_continue": false,
+  "scope": "Anchor旧纯Transformer回归、新环境适配与只读五模块前端；仅代码和工程测试，不跑实验",
+  "implementation": "PPO4090/implementations/anchor_tsac_20260921",
+  "tests": "PPO4090/tests/anchor_tsac_20260921",
+  "frontend": "PPO4090/frontend/anchor_tsac_20260921",
+  "model_assignment": {
+    "design_review": "gpt-6-astra/ultra（主agent职责约定，不声称自动改动UI模型设置）",
+    "research": "gpt-5.6-luna/medium",
+    "complex_backend": "gpt-5.6-sol/high",
+    "frontend_and_evaluation_contracts": "gpt-5.6-terra/medium"
+  },
+  "completed": [
+    "独立Anchor后端与两个零预算中文配置",
+    "14token旧core工程回归、两205观察适配与新物理接口",
+    "旧五网络安全weights-only迁移及严格resume语义",
+    "预算与不可变检查点、Replay RNG、日志/覆盖与工件链路合同修复",
+    "只读API和五模块前端build",
+    "3人工beam/固定3动作工程demo，排除科学比较",
+    "模型分工成本约定写入AGENTS.md"
+  ],
+  "verification": {
+    "combined_pytest": {
+      "passed": 34,
+      "warnings": 21,
+      "seconds": 24.78,
+      "xml": "第二阶段T-SAC实施记录/Anchor合并工程测试.xml"
+    },
+    "protected_files_unchanged": 116,
+    "all_project_ast_modules": 214,
+    "safe_anchor_import_modules": 32,
+    "frontend_build": "passed",
+    "browser_checked": "8877工程demo五模块已复查：波束、频谱、回放真实显示；曲线标注工程示例非训练；比较排除demo；8876空态之前已复查",
+    "cli_guard": "两配置preflight通过；未授权train/evaluate/export在读取数据前拒绝",
+    "evidence": "第二阶段T-SAC实施记录/Anchor静态与隔离验收.json"
+  },
+  "not_run": [
+    "真实CSV rollout",
+    "真实旧checkpoint迁移试验",
+    "短训练或长训练",
+    "性能/泛化评价",
+    "SSH或远端部署",
+    "自动化重启"
+  ],
+  "pending": [],
+  "local_services": {
+    "empty_dashboard": {
+      "url": "http://127.0.0.1:8876/",
+      "last_pid": 52348,
+      "session_id": 86963,
+      "status": "已停止；空态已在暂停前复查"
+    },
+    "engineering_demo": {
+      "url": "http://127.0.0.1:8877/",
+      "last_pid": 50264,
+      "session_id": 58645,
+      "status": "最后已知8877服务由Terra启动并完成前端复查；结束后不保证进程仍存活",
+      "data": "临时目录合成3束固定手工动作，无模型/优化器/CSV"
+    }
+  },
+  "automation": {
+    "id": "gpu4-t-sac",
+    "observed_status": "PAUSED",
+    "must_remain_paused": true
+  },
+  "agents": "所有编码与核查子任务已完成，无仍在运行的子agent",
+  "files": [
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/__init__.py",
+      "sha256": "06887fdba7a1e5ef1c6b6f429892985ec4bb3a805454ea30e1bee3abc38b7fc9"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/artifacts.py",
+      "sha256": "cb12d79d4da7cc7d20b6191156693ddd44d016db53464f6754348a9fe7fbd4cd"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/audit.py",
+      "sha256": "0da6574d1989055998ca6d8898cc88aaa92bec2f3b877e9f098df73f53d67095"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/config.py",
+      "sha256": "1450e6c3869a00449ce58f8e585aa518559b49209dcdecbfa40827ad8964ec27"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/evaluate.py",
+      "sha256": "c9dd01f4e93589ce10cd1be04be66a3e982bf7003ab0ff4293bf42d04f99eb28"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/export.py",
+      "sha256": "8f80cf3aa7ac23f8f835dcd5ecabc5145db40c4e6327b7990794fa3819891e4f"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/initialization.py",
+      "sha256": "1f3f3f971b79e7b12471189308a6b0b6f3624915c5ca52edec757960ae74a5ac"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/train.py",
+      "sha256": "49504eb1a85def2eb893d097c6f41db62d2cbb0a9da63c56a6abe7ec35f36cf4"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/configs/新环境旧尺度纯Transformer配置.json",
+      "sha256": "86c20eced7a95829a69ddcd6181a0348b7d0f912698af90aa3522fb9c6c202ce"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/configs/新环境现代205纯Transformer配置.json",
+      "sha256": "5297daadf39d85d9405f3d583298cb8bd0c7ba1093152427dccec7dae376fb11"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/dashboard/__init__.py",
+      "sha256": "53eac7ebec9c466c046679fd9741249466b2e72ed0f15dd6e803282873eeb940"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/dashboard/__main__.py",
+      "sha256": "b3e8b069ea0ae552ee1cf25d7a47aa44882f61313f11d86ba24a33a97f193650"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/dashboard/api.py",
+      "sha256": "85bb804ddf6aa72b85edb0c7934d9ab59920f629d7cede8cb87f8488a3c62f43"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/dashboard/demo.py",
+      "sha256": "134a44833ec71744136d3ef65ffd06e1bfa90f68291dff8ba0b0dd317be9a17d"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/data/__init__.py",
+      "sha256": "d9f126a9fc87f8e6ff91b380116a569c0f3785fef603a46260ac11d9f8bb4f35"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/data/augment.py",
+      "sha256": "af4c9d7e09c005e331d716389c45fb45915ec876e66158eb60509d69fc7b5591"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/data/domain.py",
+      "sha256": "92e83b28be19346fcd5e9d97f313149afeec27224a494f0702ae5c80b13ae728"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/data/loader.py",
+      "sha256": "c58f20eb60a26a5ea824aa34d06f0770f7ecf1b17145cc528a90a4a272b767d4"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/data/schema.py",
+      "sha256": "fd3b5676e6972a8c6746dd32d9aa20a8dbb20583c9819e8b0e193ea27ae23c30"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/data/split.py",
+      "sha256": "6162ff07f98c617bbe07632ee181a043e8694965db88695bc9daa93e282f9932"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/env/__init__.py",
+      "sha256": "24595da118eb187fa799dc18fd61524698c197bdbf95d7bfc7b55ba1192b4421"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/env/action.py",
+      "sha256": "8aa75bbbeced28dac544aa177f43362d94b242813e68951c4154afe1542c9a2c"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/env/environment.py",
+      "sha256": "f71e7606197676ba48c9456f41f5a4da17b5afd21c6ef1256cc0413a0bcdeaa5"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/env/metrics.py",
+      "sha256": "08a40a2022ba4d447bf92576efc182f978eafa87cda28bb88561ffb257e4534c"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/env/observation.py",
+      "sha256": "f484b4ba760ec6133635a9462254d1591879e968a889216d4640c9e0f647f218"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/env/physics.py",
+      "sha256": "7d7f6594ec4968afee38a54e35d63a941c62f105ab88ade4f16e09ac1de58c7b"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/env/reward.py",
+      "sha256": "4a269505ae29964fce4454eb776b5b14b73e98f17a15c75dd9f278260b27a50a"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/env/state.py",
+      "sha256": "0fd3132a93500499b95eea421dd83db29e2c235f74bd390949f81dcda881e1a6"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/models/__init__.py",
+      "sha256": "5138dca1bc8a1290bc5ee55fac2f72356f4103d1ea039a713c5f0e0b9db011f1"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/models/networks.py",
+      "sha256": "2f03ba693f9b6b3679992c52aef0710c6e9189cafe5c2f014663f729df2fed4a"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/rl/__init__.py",
+      "sha256": "3553e2f79bd5458488a60884b380b1a050d9093c84b893a9eff1fd33506abd64"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/rl/replay.py",
+      "sha256": "112b12dceebfef4e622f3d8fbd46f131bc90afc44cfa8ba992a3261f47af456e"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/rl/sac.py",
+      "sha256": "8b7b627ef6d63d987b4a7f293fa12e3c5aa904923beeb3c10f5300e6850156bc"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/telemetry/__init__.py",
+      "sha256": "5266e34a87dd38002128b7503bad0286fbb0c5afab9dfa93e465c9cf26f7201e"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/telemetry/legacy.py",
+      "sha256": "cb1e713f599a8f3b342736b3415496f84bd58352609e0be02c442f877a390e54"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/telemetry/recorder.py",
+      "sha256": "d2ee6d39496dcb26d5dc2c526a6e24b3df765bc38399f25592a5748ce4c08289"
+    },
+    {
+      "path": "PPO4090/implementations/anchor_tsac_20260921/telemetry/storage.py",
+      "sha256": "db14a3d5ada73599a6019bcf2f30b1383fb7154eea26d55aeb3fc6b954e13b8b"
+    },
+    {
+      "path": "PPO4090/tests/anchor_tsac_20260921/test_anchor_core.py",
+      "sha256": "6be8933b8b29d5226647758efc4f464aae6221c96045d9cc452de73b0dd096ef"
+    },
+    {
+      "path": "PPO4090/tests/anchor_tsac_20260921/test_controller_contracts.py",
+      "sha256": "1f8fdf2256e2c4d24131ae964456b0e7dc0e2a172999231b1783703d42458369"
+    },
+    {
+      "path": "PPO4090/tests/anchor_tsac_20260921/test_dashboard_api.py",
+      "sha256": "45716528db298cc373b7d9f25a4757bc04bf87dd3b952b947e25e83add34f1fb"
+    },
+    {
+      "path": "PPO4090/tests/anchor_tsac_20260921/test_environment_adapters.py",
+      "sha256": "b1c680af9bf3474ed5dd110d72f27dfd5359cca399f76c79fbfa04711a70977a"
+    },
+    {
+      "path": "PPO4090/tests/anchor_tsac_20260921/test_evaluate_contract.py",
+      "sha256": "70cc7e931c225c64d0fe63a30d664649a2751a69ba3ac9816fa53f5aa53f68a6"
+    },
+    {
+      "path": "PPO4090/tests/anchor_tsac_20260921/test_initialization.py",
+      "sha256": "9f39623a04133733354bd5658b076b7f4686563af1d44312ca3b63832c10a20a"
+    },
+    {
+      "path": "PPO4090/tests/anchor_tsac_20260921/test_rl_and_artifacts.py",
+      "sha256": "56220ff1dafddffe211a40e6c3cfebd7667c7ef1c402245b6a16dbb365d8e3bd"
+    },
+    {
+      "path": "PPO4090/frontend/anchor_tsac_20260921/.gitignore",
+      "sha256": "790e3169bc19b046fe55ba1da6d13b976c28363c8c00462a2195fe5faf260910"
+    },
+    {
+      "path": "PPO4090/frontend/anchor_tsac_20260921/index.html",
+      "sha256": "50911d186ac12f9736a4c18776406bf16c30666da0c524b504288543f0fde2ac"
+    },
+    {
+      "path": "PPO4090/frontend/anchor_tsac_20260921/package-lock.json",
+      "sha256": "7a1596a0e612dce8972116d2e8231e919f19cae2bef8ad1d63f46644e8514e4b"
+    },
+    {
+      "path": "PPO4090/frontend/anchor_tsac_20260921/package.json",
+      "sha256": "ed600832d344dfcfa4b9e8ebf311db0abd6d86f0ea44711bc4f0924d01de7923"
+    },
+    {
+      "path": "PPO4090/frontend/anchor_tsac_20260921/tsconfig.json",
+      "sha256": "7e8bc9a2ccfde7a893b6c581ba57dac50b585bf36b8b6abe97a39a7c74fc9ca8"
+    },
+    {
+      "path": "PPO4090/frontend/anchor_tsac_20260921/看板使用说明.md",
+      "sha256": "775e077734f00a352992c98ab784aa6f6c44f03f4e795023d825b40ba108c9f5"
+    },
+    {
+      "path": "PPO4090/frontend/anchor_tsac_20260921/dist/index.html",
+      "sha256": "eb529812727230ab79f209b5e55dc4638e9bfe110bedbb8629a8304ea63ec817"
+    },
+    {
+      "path": "PPO4090/frontend/anchor_tsac_20260921/dist/assets/index-Od4YJEkd.js",
+      "sha256": "bf64162cbd16a513b5394c55a3134558306bdbe392e172499de6a03f311d916a"
+    },
+    {
+      "path": "PPO4090/frontend/anchor_tsac_20260921/dist/assets/index-p7ScqQ_B.css",
+      "sha256": "ff247c508aa77bb9172a715f29ea23d6fd236bc3d851d7586c18cfdc5e2cee27"
+    },
+    {
+      "path": "PPO4090/frontend/anchor_tsac_20260921/src/main.tsx",
+      "sha256": "b70e1ba8e28b5d46181fd786fdd7d876503f3a798fe1e2e5d6c8fcca16b386fb"
+    },
+    {
+      "path": "PPO4090/frontend/anchor_tsac_20260921/src/style.css",
+      "sha256": "6e4242b6c7c3bcb88612ce52d92f4cd4fb34373f9836af373895c2ee9d8fb056"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "dc7dde9b93edf0b7bb4b763bc3fbc27c74bb62bf30345ace859716610f5673ac"
+    },
+    {
+      "path": "PPO4090/project_paths.py",
+      "sha256": "8f693a6d4f0ec812087602ab8eae44ecfdb732a722ecc61bc41c91ea71c6a1de"
+    }
+  ],
+  "completed_at_utc": "2026-09-22T05:45:06.417217+00:00",
+  "post_resume_file_diffs": [
+    {
+      "path": "AGENTS.md",
+      "before": "dc7dde9b93edf0b7bb4b763bc3fbc27c74bb62bf30345ace859716610f5673ac",
+      "after": "51a641a95af95a8dd3ccadcd2036cc787f6f10d9bfca2e72dbf1a4f866ec69d0"
+    }
+  ],
+  "post_resume_current_sha256": {
+    "PPO4090/implementations/anchor_tsac_20260921/__init__.py": "06887fdba7a1e5ef1c6b6f429892985ec4bb3a805454ea30e1bee3abc38b7fc9",
+    "PPO4090/implementations/anchor_tsac_20260921/artifacts.py": "cb12d79d4da7cc7d20b6191156693ddd44d016db53464f6754348a9fe7fbd4cd",
+    "PPO4090/implementations/anchor_tsac_20260921/audit.py": "0da6574d1989055998ca6d8898cc88aaa92bec2f3b877e9f098df73f53d67095",
+    "PPO4090/implementations/anchor_tsac_20260921/config.py": "1450e6c3869a00449ce58f8e585aa518559b49209dcdecbfa40827ad8964ec27",
+    "PPO4090/implementations/anchor_tsac_20260921/evaluate.py": "c9dd01f4e93589ce10cd1be04be66a3e982bf7003ab0ff4293bf42d04f99eb28",
+    "PPO4090/implementations/anchor_tsac_20260921/export.py": "8f80cf3aa7ac23f8f835dcd5ecabc5145db40c4e6327b7990794fa3819891e4f",
+    "PPO4090/implementations/anchor_tsac_20260921/initialization.py": "1f3f3f971b79e7b12471189308a6b0b6f3624915c5ca52edec757960ae74a5ac",
+    "PPO4090/implementations/anchor_tsac_20260921/train.py": "49504eb1a85def2eb893d097c6f41db62d2cbb0a9da63c56a6abe7ec35f36cf4",
+    "PPO4090/implementations/anchor_tsac_20260921/configs/新环境旧尺度纯Transformer配置.json": "86c20eced7a95829a69ddcd6181a0348b7d0f912698af90aa3522fb9c6c202ce",
+    "PPO4090/implementations/anchor_tsac_20260921/configs/新环境现代205纯Transformer配置.json": "5297daadf39d85d9405f3d583298cb8bd0c7ba1093152427dccec7dae376fb11",
+    "PPO4090/implementations/anchor_tsac_20260921/dashboard/__init__.py": "53eac7ebec9c466c046679fd9741249466b2e72ed0f15dd6e803282873eeb940",
+    "PPO4090/implementations/anchor_tsac_20260921/dashboard/__main__.py": "b3e8b069ea0ae552ee1cf25d7a47aa44882f61313f11d86ba24a33a97f193650",
+    "PPO4090/implementations/anchor_tsac_20260921/dashboard/api.py": "85bb804ddf6aa72b85edb0c7934d9ab59920f629d7cede8cb87f8488a3c62f43",
+    "PPO4090/implementations/anchor_tsac_20260921/dashboard/demo.py": "134a44833ec71744136d3ef65ffd06e1bfa90f68291dff8ba0b0dd317be9a17d",
+    "PPO4090/implementations/anchor_tsac_20260921/data/__init__.py": "d9f126a9fc87f8e6ff91b380116a569c0f3785fef603a46260ac11d9f8bb4f35",
+    "PPO4090/implementations/anchor_tsac_20260921/data/augment.py": "af4c9d7e09c005e331d716389c45fb45915ec876e66158eb60509d69fc7b5591",
+    "PPO4090/implementations/anchor_tsac_20260921/data/domain.py": "92e83b28be19346fcd5e9d97f313149afeec27224a494f0702ae5c80b13ae728",
+    "PPO4090/implementations/anchor_tsac_20260921/data/loader.py": "c58f20eb60a26a5ea824aa34d06f0770f7ecf1b17145cc528a90a4a272b767d4",
+    "PPO4090/implementations/anchor_tsac_20260921/data/schema.py": "fd3b5676e6972a8c6746dd32d9aa20a8dbb20583c9819e8b0e193ea27ae23c30",
+    "PPO4090/implementations/anchor_tsac_20260921/data/split.py": "6162ff07f98c617bbe07632ee181a043e8694965db88695bc9daa93e282f9932",
+    "PPO4090/implementations/anchor_tsac_20260921/env/__init__.py": "24595da118eb187fa799dc18fd61524698c197bdbf95d7bfc7b55ba1192b4421",
+    "PPO4090/implementations/anchor_tsac_20260921/env/action.py": "8aa75bbbeced28dac544aa177f43362d94b242813e68951c4154afe1542c9a2c",
+    "PPO4090/implementations/anchor_tsac_20260921/env/environment.py": "f71e7606197676ba48c9456f41f5a4da17b5afd21c6ef1256cc0413a0bcdeaa5",
+    "PPO4090/implementations/anchor_tsac_20260921/env/metrics.py": "08a40a2022ba4d447bf92576efc182f978eafa87cda28bb88561ffb257e4534c",
+    "PPO4090/implementations/anchor_tsac_20260921/env/observation.py": "f484b4ba760ec6133635a9462254d1591879e968a889216d4640c9e0f647f218",
+    "PPO4090/implementations/anchor_tsac_20260921/env/physics.py": "7d7f6594ec4968afee38a54e35d63a941c62f105ab88ade4f16e09ac1de58c7b",
+    "PPO4090/implementations/anchor_tsac_20260921/env/reward.py": "4a269505ae29964fce4454eb776b5b14b73e98f17a15c75dd9f278260b27a50a",
+    "PPO4090/implementations/anchor_tsac_20260921/env/state.py": "0fd3132a93500499b95eea421dd83db29e2c235f74bd390949f81dcda881e1a6",
+    "PPO4090/implementations/anchor_tsac_20260921/models/__init__.py": "5138dca1bc8a1290bc5ee55fac2f72356f4103d1ea039a713c5f0e0b9db011f1",
+    "PPO4090/implementations/anchor_tsac_20260921/models/networks.py": "2f03ba693f9b6b3679992c52aef0710c6e9189cafe5c2f014663f729df2fed4a",
+    "PPO4090/implementations/anchor_tsac_20260921/rl/__init__.py": "3553e2f79bd5458488a60884b380b1a050d9093c84b893a9eff1fd33506abd64",
+    "PPO4090/implementations/anchor_tsac_20260921/rl/replay.py": "112b12dceebfef4e622f3d8fbd46f131bc90afc44cfa8ba992a3261f47af456e",
+    "PPO4090/implementations/anchor_tsac_20260921/rl/sac.py": "8b7b627ef6d63d987b4a7f293fa12e3c5aa904923beeb3c10f5300e6850156bc",
+    "PPO4090/implementations/anchor_tsac_20260921/telemetry/__init__.py": "5266e34a87dd38002128b7503bad0286fbb0c5afab9dfa93e465c9cf26f7201e",
+    "PPO4090/implementations/anchor_tsac_20260921/telemetry/legacy.py": "cb1e713f599a8f3b342736b3415496f84bd58352609e0be02c442f877a390e54",
+    "PPO4090/implementations/anchor_tsac_20260921/telemetry/recorder.py": "d2ee6d39496dcb26d5dc2c526a6e24b3df765bc38399f25592a5748ce4c08289",
+    "PPO4090/implementations/anchor_tsac_20260921/telemetry/storage.py": "db14a3d5ada73599a6019bcf2f30b1383fb7154eea26d55aeb3fc6b954e13b8b",
+    "PPO4090/tests/anchor_tsac_20260921/test_anchor_core.py": "6be8933b8b29d5226647758efc4f464aae6221c96045d9cc452de73b0dd096ef",
+    "PPO4090/tests/anchor_tsac_20260921/test_controller_contracts.py": "1f8fdf2256e2c4d24131ae964456b0e7dc0e2a172999231b1783703d42458369",
+    "PPO4090/tests/anchor_tsac_20260921/test_dashboard_api.py": "45716528db298cc373b7d9f25a4757bc04bf87dd3b952b947e25e83add34f1fb",
+    "PPO4090/tests/anchor_tsac_20260921/test_environment_adapters.py": "b1c680af9bf3474ed5dd110d72f27dfd5359cca399f76c79fbfa04711a70977a",
+    "PPO4090/tests/anchor_tsac_20260921/test_evaluate_contract.py": "70cc7e931c225c64d0fe63a30d664649a2751a69ba3ac9816fa53f5aa53f68a6",
+    "PPO4090/tests/anchor_tsac_20260921/test_initialization.py": "9f39623a04133733354bd5658b076b7f4686563af1d44312ca3b63832c10a20a",
+    "PPO4090/tests/anchor_tsac_20260921/test_rl_and_artifacts.py": "56220ff1dafddffe211a40e6c3cfebd7667c7ef1c402245b6a16dbb365d8e3bd",
+    "PPO4090/frontend/anchor_tsac_20260921/.gitignore": "790e3169bc19b046fe55ba1da6d13b976c28363c8c00462a2195fe5faf260910",
+    "PPO4090/frontend/anchor_tsac_20260921/index.html": "50911d186ac12f9736a4c18776406bf16c30666da0c524b504288543f0fde2ac",
+    "PPO4090/frontend/anchor_tsac_20260921/package-lock.json": "7a1596a0e612dce8972116d2e8231e919f19cae2bef8ad1d63f46644e8514e4b",
+    "PPO4090/frontend/anchor_tsac_20260921/package.json": "ed600832d344dfcfa4b9e8ebf311db0abd6d86f0ea44711bc4f0924d01de7923",
+    "PPO4090/frontend/anchor_tsac_20260921/tsconfig.json": "7e8bc9a2ccfde7a893b6c581ba57dac50b585bf36b8b6abe97a39a7c74fc9ca8",
+    "PPO4090/frontend/anchor_tsac_20260921/看板使用说明.md": "775e077734f00a352992c98ab784aa6f6c44f03f4e795023d825b40ba108c9f5",
+    "PPO4090/frontend/anchor_tsac_20260921/dist/index.html": "eb529812727230ab79f209b5e55dc4638e9bfe110bedbb8629a8304ea63ec817",
+    "PPO4090/frontend/anchor_tsac_20260921/dist/assets/index-Od4YJEkd.js": "bf64162cbd16a513b5394c55a3134558306bdbe392e172499de6a03f311d916a",
+    "PPO4090/frontend/anchor_tsac_20260921/dist/assets/index-p7ScqQ_B.css": "ff247c508aa77bb9172a715f29ea23d6fd236bc3d851d7586c18cfdc5e2cee27",
+    "PPO4090/frontend/anchor_tsac_20260921/src/main.tsx": "b70e1ba8e28b5d46181fd786fdd7d876503f3a798fe1e2e5d6c8fcca16b386fb",
+    "PPO4090/frontend/anchor_tsac_20260921/src/style.css": "6e4242b6c7c3bcb88612ce52d92f4cd4fb34373f9836af373895c2ee9d8fb056",
+    "AGENTS.md": "51a641a95af95a8dd3ccadcd2036cc787f6f10d9bfca2e72dbf1a4f866ec69d0",
+    "PPO4090/project_paths.py": "8f693a6d4f0ec812087602ab8eae44ecfdb732a722ecc61bc41c91ea71c6a1de"
+  }
+}

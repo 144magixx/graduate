@@ -1,0 +1,7 @@
+{
+  "workstation_before_utc": "2026-09-20T22:11:58.611773+00:00",
+  "workstation_after_utc": "2026-09-20T22:11:59.456305+00:00",
+  "gpu4_utc": "2026-09-20T22:11:59+00:00",
+  "gpu4_minus_workstation_seconds": 0.388227,
+  "interpretation": "当前workstation与gpu4读时相差小于1秒；保存的NFS文件mtime约比清单嵌入UTC早145秒，来源未进一步确定。时序审计使用同一gpu4生成的嵌入UTC和顺序控制证据，不跨比NFSmtime。未修改系统时钟。"
+}

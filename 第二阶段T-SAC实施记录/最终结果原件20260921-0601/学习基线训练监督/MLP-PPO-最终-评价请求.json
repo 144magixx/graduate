@@ -1,0 +1,15 @@
+{
+  "kind": "final",
+  "run_dir": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe",
+  "checkpoint_path": "/tmp/Horizon-Baselines-20260921-ZfqRoo/PPO4090/outputs/horizon_tsac_20260920/20260920T203641_73d4515809fe/检查点存档/960331c1325a4d8b83fedf46fbc3a610/检查点.pt",
+  "checkpoint_counters": {
+    "env_step": 14281,
+    "update_step": 2950,
+    "episodes": 100
+  },
+  "result_path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921论文七基线对比/MLP-PPO-最终-评价结果.json",
+  "limit": 0,
+  "policies": [
+    "policy"
+  ]
+}

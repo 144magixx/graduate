@@ -1,0 +1,137 @@
+{
+  "status": "historical_interrupted_recovery_on_gpu2",
+  "compute_host": "gpu4",
+  "login_host": "10.160.16.3",
+  "port": 22854,
+  "username": "u2024110224",
+  "identity_file": "C:/Users/minyu/.ssh/HorizonT-SAC",
+  "slurm_allocation": "206178",
+  "node_local_root": "/dev/shm/SpectrumT-SAC-20260921-ah2j5yfv",
+  "node_local_project": "/dev/shm/SpectrumT-SAC-20260921-ah2j5yfv/PPO4090",
+  "python": "/tmp/HorizonT-SAC-20260921-tWxdou/.venv-horizon/bin/python",
+  "durable_release": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1",
+  "durable_project": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090",
+  "plan_path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/recovery_plan.json",
+  "campaign_id": "SpectrumT-SAC-20260921同源修复对照",
+  "package_sha256": "ee3d84b6dc621134ba141a3a9b737946824328d8b2eb7cc89a3a53c7529c78e1",
+  "local_regression": "477 passed,4 CUDA skipped; post-change supervisor 51 passed",
+  "local_short_validation": {
+    "cnn": 0.8892545783763347,
+    "residual": 0.8840182323328959,
+    "scenarios": 15,
+    "constraint_violations": 0
+  },
+  "source_checkpoint_id": "5180a86491a046a98b39f0004e1e4210",
+  "source_checkpoint_sha256": "a2fcab6465cfe18bc0afd701ac6c73f671ea8d3fdbf88423414d03a739a7fba8",
+  "long_training_started": true,
+  "test_set_allowed": false,
+  "run_ids": {
+    "CNN继续训练对照-seed42": "20260921T004424_cf74dbeb8d38",
+    "Spectrum残差模型-seed42": "20260921T004424_7256a95e074e",
+    "CNN继续训练对照-seed43": "20260921T004424_09fde58b812f",
+    "Spectrum残差模型-seed43": "20260921T031515_931ec8ab244a"
+  },
+  "automation_id": "gpu4-t-sac",
+  "automation_status": "PAUSED",
+  "previous_package_sha256": "47fff568f965bddfb71a92ce1daaec2a3f0024d2ba0a9f75b5636ba7f6097114",
+  "package_file": "SpectrumT-SAC-20260921修复运行包-v2.tar.gz",
+  "preflight_package_revision_note": "v2仅修正打包清单文件名循环变量遮蔽；v1归档保留，未曾启动任务，无热改训练",
+  "gpu_preflight_log": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/preflight.log",
+  "last_checked_at_utc": "2026-09-21T03:33:32.751269+00:00",
+  "supervisor_pid": 1881932,
+  "started_at_utc": "2026-09-21T00:44:03.821574+00:00",
+  "supervisor_log": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/supervisor.log",
+  "durable_campaign_dir": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/夜间实验/SpectrumT-SAC-20260921同源修复对照",
+  "gpu_preflight_status": "completed",
+  "gpu_regression": "297 passed, 0 skipped; actual CUDA preflights both completed",
+  "long_training_submitted": true,
+  "last_progress_updated_at_utc": "2026-09-21T03:33:10.913015+00:00",
+  "last_counters": {
+    "CNN继续训练对照-seed42": {
+      "episodes": 300,
+      "env_step": 42721,
+      "update_step": 41722
+    },
+    "Spectrum残差模型-seed42": {
+      "episodes": 251,
+      "env_step": 35862,
+      "update_step": 34855
+    },
+    "CNN继续训练对照-seed43": {
+      "episodes": 300,
+      "env_step": 42632,
+      "update_step": 41633
+    },
+    "Spectrum残差模型-seed43": {
+      "episodes": 36,
+      "env_step": 5142,
+      "update_step": 4130
+    }
+  },
+  "slurm_step": "206178.4",
+  "last_notified_event": "cnn_controls_completed_300",
+  "local_supervisor_regression": "51 passed (includes 37 transfer/control tests, overlaps prior suite)",
+  "latest_stage_report": "D:/graduate/第二阶段T-SAC实施记录/Spectrum对照300回合阶段报告.md",
+  "last_notified_checkpoint_ids": [
+    "2a816914f348424dac5bab5d94d03efe",
+    "485e328a754e49bfb89e0e2748f2519f"
+  ],
+  "quick_evaluation_archive": "D:/graduate/第二阶段T-SAC实施记录/Spectrum首50回合归档校验.json",
+  "last_resources": "gpu4\nFilesystem      Size  Used Avail Use% Mounted on\ntmpfs           504G   18G  487G   4% /dev/shm\n              total        used        free      shared  buff/cache   available\nMem:          1.0Ti        97Gi       137Gi        39Gi       772Gi       773Gi\nSwap:          31Gi       869Mi        31Gi\nNVIDIA A800-SXM4-80GB, 2279 MiB, 74 %\n206178.4|10682648K|5107948K\n",
+  "latest_verified_checkpoints": [
+    {
+      "name": "CNN继续训练对照-seed42",
+      "checkpoint_id": "f8440e29daf943c6bcb540fd650cf77f",
+      "counters": {
+        "env_step": 28511,
+        "update_step": 27512,
+        "episodes": 200
+      },
+      "sha256": "ed5398ce2e9e44b9dec5df2d99dc186f7bb3388fbd264f2e0406b85ecedfcc19",
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_cf74dbeb8d38/检查点存档/f8440e29daf943c6bcb540fd650cf77f/检查点.pt"
+    },
+    {
+      "name": "Spectrum残差模型-seed42",
+      "checkpoint_id": "075de1c81da84ad7a9859bd7d6c08aa3",
+      "counters": {
+        "env_step": 21313,
+        "update_step": 20314,
+        "episodes": 150
+      },
+      "sha256": "93f1a2fa8c276d2398295864de75f82c78cfba3c3f97ce97171da807e4e42abe",
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_7256a95e074e/检查点存档/075de1c81da84ad7a9859bd7d6c08aa3/检查点.pt"
+    },
+    {
+      "name": "CNN继续训练对照-seed43",
+      "checkpoint_id": "12c7be01023649aaba7a6241e97744f6",
+      "counters": {
+        "env_step": 28365,
+        "update_step": 27366,
+        "episodes": 200
+      },
+      "sha256": "29ef91664d099266d9baaaf6ee8e0e18a2d50ef61321bda2d2ddf1812ce67ea9",
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_09fde58b812f/检查点存档/12c7be01023649aaba7a6241e97744f6/检查点.pt"
+    }
+  ],
+  "last_check_result": "healthy_no_new_comparable_evaluation",
+  "last_notified_control_final_checkpoint_ids": [
+    "14d23f5e411a4fce8c95774d36e00417",
+    "3854cff91ec246e385adf014316e2c10"
+  ],
+  "last_result_inventory": "D:/graduate/第二阶段T-SAC实施记录/Spectrum对照300回合取回核验.json",
+  "agent_status": "paused_by_user",
+  "paused_at_utc": "2026-09-21T03:37:04.029619+00:00",
+  "pause_reason": "用户可能临时断网，要求保留进度，等待明确说继续后恢复主动工作",
+  "remote_training_interrupted": false,
+  "pause_record": "D:/graduate/第二阶段T-SAC实施记录/Spectrum临时断网暂停与恢复记录.md",
+  "agent_work_paused": false,
+  "user_resumed": true,
+  "current_compute_host": "gpu2",
+  "current_state_file": "D:/graduate/第二阶段T-SAC实施记录/SpectrumGPU2恢复状态.json",
+  "old_slurm_end_at": "2026-09-21T12:35:45+08:00",
+  "old_slurm_step_state": "CANCELLED",
+  "do_not_restart_old_campaign": true,
+  "paused_by_user": false,
+  "current_batch_status": "completed",
+  "completion_record": "D:/graduate/第二阶段T-SAC实施记录/Spectrum批次完成与自动化暂停记录.md"
+}

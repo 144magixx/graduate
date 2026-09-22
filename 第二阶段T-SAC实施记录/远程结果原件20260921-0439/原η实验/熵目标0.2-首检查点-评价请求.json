@@ -1,0 +1,18 @@
+{
+  "kind": "quick",
+  "run_dir": "/tmp/HorizonT-SAC-20260921-tWxdou/PPO4090/outputs/horizon_tsac_20260920/20260920T175318_d20568cffeaa",
+  "checkpoint_path": "/tmp/HorizonT-SAC-20260921-tWxdou/PPO4090/outputs/horizon_tsac_20260920/20260920T175318_d20568cffeaa/检查点存档/6cf5379bddc044bbab06b574d5470392/检查点.pt",
+  "checkpoint_counters": {
+    "env_step": 3551,
+    "update_step": 2552,
+    "episodes": 25
+  },
+  "result_path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/HorizonT-SAC-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921夜间超参数对比/熵目标0.2-首检查点-评价结果.json",
+  "limit": 3,
+  "policies": [
+    "policy",
+    "random"
+  ],
+  "backup_path": "/tmp/HorizonT-SAC-20260921-tWxdou/PPO4090/outputs/horizon_tsac_20260920/.夜间备份/HorizonT-SAC-20260921夜间超参数对比/熵目标0.2-首检查点",
+  "durable_backup_path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/HorizonT-SAC-20260921-v1/PPO4090/夜间实验/HorizonT-SAC-20260921夜间超参数对比/首检查点运行包/熵目标0.2"
+}

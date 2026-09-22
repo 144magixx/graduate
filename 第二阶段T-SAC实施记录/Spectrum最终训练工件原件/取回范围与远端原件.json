@@ -1,0 +1,1388 @@
+{
+  "durable_run": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba",
+  "scope": "新attempt关闭训练记录和全部终局评价、场景与日志、唯一最终不可变checkpoint；中间权重保留home",
+  "excluded": [
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点.pt",
+      "bytes": 115129075,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/00501c2397324797a4e0718fe22c405c/检查点.pt",
+      "bytes": 115139879,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/2024827b215f49eeac690bb529f32503/检查点.pt",
+      "bytes": 115813917,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/2c70adf7ae4744f598804eb82e3c944f/检查点.pt",
+      "bytes": 114823468,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/39059cbe27ff45dcabcdee9b9bf7c5a9/检查点.pt",
+      "bytes": 114097745,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/5fab876b5183439c9f22a9ddbdaac49d/检查点.pt",
+      "bytes": 113925784,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/68e45e3416584b318e0ad43d02628785/检查点.pt",
+      "bytes": 114179422,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/7cd6c3916b4147a596ff595b0b47bedb/检查点.pt",
+      "bytes": 115206096,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/9316953fdce945f7961d0c21e16edd5b/检查点.pt",
+      "bytes": 116050806,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/cfce74e05ea8442ab6e0c3c390156b38/检查点.pt",
+      "bytes": 116161670,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/d6edf07b02df46f89c07a2af59bb87e1/检查点.pt",
+      "bytes": 115552016,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/dcefabaf6356432e8e2a88fa5219fb02/检查点.pt",
+      "bytes": 114744675,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/e0502c91fec540a4a09225cbc221aa9d/检查点.pt",
+      "bytes": 115533800,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/e64b93fefb44423b97fdf57aeb5c3271/检查点.pt",
+      "bytes": 115148312,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/检查点存档/f7b0e3c6d2ff4b7294fc97006504d28f/检查点.pt",
+      "bytes": 115810206,
+      "reason": "中间权重或最新别名保留在远端；本地只取唯一最终不可变checkpoint"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/独立评估/bfa6b64bb571/policy/运行记录.sqlite-shm",
+      "bytes": 32768,
+      "reason": "监督器已生成关闭SQLite一致备份；不取临时WAL/SHM"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/独立评估/bfa6b64bb571/policy/运行记录.sqlite-wal",
+      "bytes": 0,
+      "reason": "监督器已生成关闭SQLite一致备份；不取临时WAL/SHM"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/运行记录.sqlite-shm",
+      "bytes": 32768,
+      "reason": "监督器已生成关闭SQLite一致备份；不取临时WAL/SHM"
+    },
+    {
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T053400_b66b2ea983ba/运行记录.sqlite-wal",
+      "bytes": 0,
+      "reason": "监督器已生成关闭SQLite一致备份；不取临时WAL/SHM"
+    }
+  ],
+  "files": [
+    {
+      "path": "关闭运行/场景快照/场景-0590bf3f72aa4a909ee7f54c8a20e130.json",
+      "bytes": 35053,
+      "sha256": "9306fcfea2a19a7379ce7b5697a005aeb5a9596c222276932dcdab45bbe6eeef"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-05a7ed673d5a4b44bc9196fb00b77cac.json",
+      "bytes": 34720,
+      "sha256": "d231be21db35b685a2577234e13f66b2a7f4cabd1f2e7c3a1c9b7bac7b027e9a"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-05d86d6ee6184b6981cbde1ee18bb7f9.json",
+      "bytes": 34765,
+      "sha256": "2ef51cbde83579e7cf44d0815eb560a92377186dbbf1596915d4bab6a54782bb"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-07955b70a6ef47c7bedbb4cb9c06f9d3.json",
+      "bytes": 35246,
+      "sha256": "bae3ff2238c78759ac170ba304b3ebcba3a0053cf1b18c2052461c43e7cef422"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-086f98f5779148179a0b762c132386ba.json",
+      "bytes": 35473,
+      "sha256": "fdd25d6dc444e363973143bbbf882da3184c3657c7363e2439b87dadad9c933c"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-0a0ee3d784954788b19b1e7f184ecfac.json",
+      "bytes": 34990,
+      "sha256": "5d11b2510cb63b3014d8caf7c14ad7055a2d4cf2eaf79a429c93308932b121a7"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-0cb6966170fd44fc92fa396a3b93afa2.json",
+      "bytes": 36404,
+      "sha256": "6a74cff82d3a002101260089832a54eb0c1c1657259bc83d55dcf04bcb7a93b3"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-0da8792e18984231a7100fc6e956d371.json",
+      "bytes": 34400,
+      "sha256": "d1ec03d5f45a4b583b92310a5de366a72434c5e44a6846c1eceb5e172d213b9b"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-100060e572524226bc3fa03f7aed92e9.json",
+      "bytes": 35344,
+      "sha256": "b15b327cc2b3f72364f178e63ad30e298a6e320e853e11e54b88237efac16039"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-10a30ad476294c9fbe0bf67f78a1af19.json",
+      "bytes": 35254,
+      "sha256": "6c78e23fa871a008e7441e63f97acfdb4c10676178e898e71518bf78847636ad"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-1396d5395a7c4a30b007809b5f714b12.json",
+      "bytes": 35171,
+      "sha256": "7edf6ca3437c0573e9e6a0671e534c873ef384cc0bb055dfcc1e8c3b0e803010"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-1470927ff1d5468596d9c94e6b3f0851.json",
+      "bytes": 35080,
+      "sha256": "e18dd43a9d479279d49964c05645b6b7af46e9ff9f55100be63047aaef65d238"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-153faef3ed8b4dd18cf3293153b9e91f.json",
+      "bytes": 34670,
+      "sha256": "bfc19658274ce2f294f83191375e8955fd1913393c61c477f08dd0668fc4791c"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-174d024ff80042509fb68512001c82a7.json",
+      "bytes": 35801,
+      "sha256": "8b84873f1ac582c34982a8653260c0d4f37351181bd4b20c5bf7cb8c95428ccb"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-18b695ce472a4a2ea7ac05b3bd182b53.json",
+      "bytes": 34922,
+      "sha256": "6d29d760f1f8dbeed2c27ef5ab5b95e732eebb7f6850ca211cd4a9bf5f362642"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-1a7464f15d0e4a15b2101a40b152be50.json",
+      "bytes": 35209,
+      "sha256": "82183bc12aeb4cfce8dbf6b755dda59bfabe9d29b7da891cb4acd4346549a59c"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-1ad282ad220e4ad785a9dae34c9e0d11.json",
+      "bytes": 35013,
+      "sha256": "76dd563606ab3bfd4fa6b83ca9daf4f3bbc2e2cc33a38ee95f39708dfa023d29"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-1c8804bdcddb4177aa91efef0ca8b222.json",
+      "bytes": 34070,
+      "sha256": "c95cee1434e0598d03a2f89f6a747cac9199b7c7060ad0a4bd25595957e39437"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-1cfc5c32c0ec4e47a455096c9be96960.json",
+      "bytes": 34957,
+      "sha256": "6aa3c8ab9ce793f5cf6b095bd2b6c24b0d5db768b90d7e4d96b608eb69bc22d2"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-1d9ae42d08c3442fba1db4dca7ae5d29.json",
+      "bytes": 35351,
+      "sha256": "7719c6ffe1538161e32e7f3361b15c2a0907f3b1d275c3233a7f6d7a65a37257"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-1dc3827ae6ff40009e78d1b3aaeff60a.json",
+      "bytes": 35363,
+      "sha256": "10e3123f2fc658cf5163b643df23e9350bd0980b018d923c706a51e5808123b0"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-1f0079749c5d420d9d7ba72437ca3f49.json",
+      "bytes": 33753,
+      "sha256": "c9b93feaf2352957f5ca0c0561cd946c29556fe0766550a946e01b3dac0df4f9"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-20da7f125f6e4b7c9babef0bebb77342.json",
+      "bytes": 35808,
+      "sha256": "2a9712249ebfc7051789c4da3dd36b0353dd1df2ba2cb6ad424460a0b03405b4"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-25426278d5d047aea0a4ddb06afb7bfc.json",
+      "bytes": 34966,
+      "sha256": "44739ef58b91a92fe35a3697cde05d154fcba2bc025a137789f7a89026c2a4ac"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-2ad56cd848b04b3c80fe4cf9af70a16b.json",
+      "bytes": 33557,
+      "sha256": "27193d2a6077d4bec9ecf781f97f0814aa0f3dcf4a42ac23e271f076bacf4b4e"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-2b5f52a4688841b5b226beec2de3a6de.json",
+      "bytes": 34794,
+      "sha256": "bdc08cd683cf364479c2ae82f26156c75325d931c53b23613ba555f3774ed293"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-2bf19d5df2f54f97978c004ee3f25458.json",
+      "bytes": 36878,
+      "sha256": "417532ed79b7b88be565be71cf9f3ee2053dc2df73c0fb5a3b30496ea9b29265"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-2c5a351ebb11450c8008d127b9367eb1.json",
+      "bytes": 34894,
+      "sha256": "a31bd75ab7b3d6fd63253cc4d5a8f76a025f209c1f3db3bcd3c07ec2134c2035"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-2d255f7ef30d467dbaa1e4c6b3390b0e.json",
+      "bytes": 35936,
+      "sha256": "69211c654ec0a750056fab7547141b2ef72b7463acb1f8d2b6f0c98b16e48fe5"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-2e819f4ae9064d7b83b53c5ea5e2b9d8.json",
+      "bytes": 34886,
+      "sha256": "f46e30f89149a6699005f51e2b06ab0c4ddc34ddb1016d1e1d6b6253aff256ef"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-30731ded0a96417bafcc65c0072a7e74.json",
+      "bytes": 35253,
+      "sha256": "fdfc0a8ea25e6642a7dd4775c07d505438a71c35489d349b1946e2503fb55db8"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-3158f4ee9fcd47cda9a930f3e378f446.json",
+      "bytes": 34688,
+      "sha256": "0d0eaf3144050214f62760ca3e755c98179fea3e3356fc0f8846beff8a500536"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-3422a8a96f044ba9a1f661ae0c1edae5.json",
+      "bytes": 35162,
+      "sha256": "4e722aebf8f9f67fea5388680d26bb4e6333268d02f694c643a9a08d1ec210db"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-3782ab2ca921499fa5b8cfb915eacde6.json",
+      "bytes": 35718,
+      "sha256": "a31475c1cca7e285ae9304a1aad15487fdfa70fd7b3d4aca38e74a5db12d79de"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-38b23d7c4da044f89a3eb0a10b3729a1.json",
+      "bytes": 35069,
+      "sha256": "71a7a4afb9be1c7b2d9993f64e08f7384c3d660887941be336048308f092b61e"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-3bbc74999c154593b3053dcf35656650.json",
+      "bytes": 35372,
+      "sha256": "221605c55fd3d47009916debbfa958c60d50fcf5643fbe705e6bb43ac614d751"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-3e34d624c69541b88e2f43c0f3abce02.json",
+      "bytes": 36387,
+      "sha256": "d58d334312398820168596868bcbef427ef0310b8d0acfec67447b78f57838e9"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-40020acbac7847a5a8e3502f55ea50d2.json",
+      "bytes": 35096,
+      "sha256": "05f0e1319c9642ecad8fa178db6644606d8fdb793d51256d02d966137da62142"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-417e2cf78a0a4cd4ac6402fe6f0252f6.json",
+      "bytes": 35315,
+      "sha256": "bd094d31864c846022225c9f4ffc4e318e27fc493e017498582f9e57a136f4d7"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-451c811186c64dfbb5013d1f7a349374.json",
+      "bytes": 34388,
+      "sha256": "021190c4d21f4273aa15f46641f00c2e78224e9171ba713a6d343eef3839affe"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-45876197a9d64e879c7bbbf0d80b8b17.json",
+      "bytes": 34997,
+      "sha256": "6dc9dac8023c669afd4d68b2eaf01b43bbd00633b3f353cd19c79c413aa81b60"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-458dd92098f54fae8560fec10de522b3.json",
+      "bytes": 34336,
+      "sha256": "c9aedd375d0efb410746dd88a1ffaa48604530bf80f52375fbb7aec83535e048"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-45fe14c299ec43ef930cf6fed2a80894.json",
+      "bytes": 34675,
+      "sha256": "5e3441caaca1fe0def8ce23114097f58c4ba3bd1454bbdfacc52402654bc5318"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-477c6ad69ea545419ac5ced05eb7f47f.json",
+      "bytes": 34910,
+      "sha256": "5932de59c77616b27155681c29072c74b66f76198c6c6f440c812e8b4e9af230"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-47a07d16ee4c42a089b8bae867e21e02.json",
+      "bytes": 35080,
+      "sha256": "8665f594b7df02c89b915d63760d2a57748fb239c8ec07e5750c0734d25c7069"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-4ac7c6f1df8c4d9f8d46bb5d919f1747.json",
+      "bytes": 34983,
+      "sha256": "950b02ae511c268e6d6913055b346b256212ff7b4244afcdf921b0685c8ac2e0"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-4c087dae9ae049908347f16cf112aee1.json",
+      "bytes": 35302,
+      "sha256": "00e9739e034a07230df8114950c400114dbd7707f8565d6d4a3c4e5df5c71601"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-4cd64a0bb0e040089f827a55dbc48348.json",
+      "bytes": 35589,
+      "sha256": "2d4d9e5b13fe1845209992195ee90ec95d7a51e303786a777277831f205d1dcc"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-519037a63c804ea4bcc0612a65d795f0.json",
+      "bytes": 34769,
+      "sha256": "1dd6f29912fe5a66527c79db69619d5a29fa0df4557b716ab86a70d60f67dcc1"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-53badaac05f44a8d887b2d8331d23a84.json",
+      "bytes": 34278,
+      "sha256": "fb1577e187088b9df730d91480ec4c8eb3729a825aa1e6523e82f042b1575eb1"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-53d4a6a7d7ec41e19da1877ad2cbe820.json",
+      "bytes": 33576,
+      "sha256": "40c6d56d0622d3f98a8e644fb08bfe74f09baadd2c23d8f0f21580daa55d0e47"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-58f73210bf394429b060686e19ca9a17.json",
+      "bytes": 34049,
+      "sha256": "a2d195c12873b905b9dd91be5c649fb4da8357e88cffc63509e24cc0eeb9c545"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-5b12e7c32f8a4536895da517339e0c9a.json",
+      "bytes": 35308,
+      "sha256": "df73a0a62403f106f2db23d5780029fda1c663a59b267cb79835f617bb4acc30"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-5e89111244204af5a9d893e191c0ce09.json",
+      "bytes": 35056,
+      "sha256": "c5374b9493f7d39419f535db4c48486bcb05f015e664f4d363cea5d30bf7a22f"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-5f282736d9f54000aa4c781281af22b9.json",
+      "bytes": 34975,
+      "sha256": "fa4682d85d764e2674c9259effa77cf7bab0da5283c491e1184e2d2268a48d63"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-5f76e71c93394690b79fa40d7530b135.json",
+      "bytes": 34575,
+      "sha256": "20b693f5a3feca9ca976c389a7cd8ec2d92207cfe312e2935f4c23e76b335d05"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-5feff05694c54db285bddb60d6ca3af5.json",
+      "bytes": 35364,
+      "sha256": "93f179faa1be906af8a3bc2f1c06f7ce862210307840383e4b7d7821a48de001"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-6054a8465f5943028f60f9209bd8758f.json",
+      "bytes": 35221,
+      "sha256": "9fcaf9b7d55556184ade330777e16f978ea31ac2010d237ebfbdd01c872f16a8"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-60e2b871af214e36894ce5c283eb376a.json",
+      "bytes": 33752,
+      "sha256": "bd5675de778e35db402c83baeac44e6c881effd87554ef3dd8b7ce11d1f4f191"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-616b8c270f0a4bf9bf4a28a299c268ff.json",
+      "bytes": 34629,
+      "sha256": "83b2d6046872b63a8741af70c75132acb9bbe831c869ec3f8ae545c532541e7f"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-625f117e00284f6792621277da57519a.json",
+      "bytes": 34742,
+      "sha256": "a73c7062426b193f2c031ed77e9f2d60247bcd2f5b8965beeccaa2178f07c623"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-630e9973422a4871bf53dd3f08ad073b.json",
+      "bytes": 35131,
+      "sha256": "973e67b808c3089d51ac644852726b2dee8b193a3eac92e9c914371a67fac6d1"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-63186945df5a4727ad3dcecbc921e769.json",
+      "bytes": 35872,
+      "sha256": "8fe095a2a3e5403a619fcc0ead37b4231cc4a869b60b68522a1e83fa9eb3be39"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-638fbd24d8ea4cf08367a3fb5f37dfe8.json",
+      "bytes": 34928,
+      "sha256": "73204d84ec2550de9beef9f7599d0f9c46b991edaa674d9cec11da5fbfec1253"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-642ee9d3c9c84e86876988231b2d52bc.json",
+      "bytes": 35497,
+      "sha256": "757f55b2cc429d79ef216fda12ab5590a1d66e98f252a2d259aa7b232158d762"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-6479af28f2334586989fb1fc7132397f.json",
+      "bytes": 34924,
+      "sha256": "b448af1d3eb1f173e571ce9e90be580457c408f25d229fc2290b6458d309acfc"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-66cd92ba223946258dcb6a82c6c082a2.json",
+      "bytes": 34906,
+      "sha256": "abeb63a6d370a918b9316132605937b98f3b2b61b037163405d07cae95b96ee1"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-6956d2c99b7a4460b423b8fe0a6864c1.json",
+      "bytes": 34630,
+      "sha256": "2753a167896d80987531a6a772a19a5198d30bddce082ef95aea95a17f80998a"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-6c4e8480ccb14bc6b4ddfe448ce2408f.json",
+      "bytes": 34970,
+      "sha256": "f9bfb6cbfc8475c22e9a314991d9e68a263f48f709b7a53f76c18b3e53490e0a"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-6d8c0d0f914e480e8964fafb81e507a1.json",
+      "bytes": 35245,
+      "sha256": "e68354c68dedb85542004212156b4b7be5709c8d1880315f9f2cb7b91dace1a5"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-6ffda122110c4687abe0bfe6b27cd1d5.json",
+      "bytes": 35160,
+      "sha256": "0c13ae143533186eb2fafa0d72359780d600c6c36dee9bd1bb6b21620b6b5366"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-719aa7f431e84dff9ceeb39eb1f20167.json",
+      "bytes": 34640,
+      "sha256": "ddfc952337e4ae0ba0142d3c6f3ba7ad7fa04e4f70a1b502958270e32264d3cd"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-71e4779673a44d3ebac4f6c718323f0a.json",
+      "bytes": 35159,
+      "sha256": "0c0a7967058d0afea2a39ad58f6a3fa14b9ef6d3d125f154af2f8e190d44e34d"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-75e580273f9444858f359aca1fa394b1.json",
+      "bytes": 35284,
+      "sha256": "9f9df367d84ec9fd2d50791b092f97572b6b0e70611aa8f1ba90dd19eec1df47"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-7609dccab3264b53a82e7262f917c16f.json",
+      "bytes": 35347,
+      "sha256": "cea3f0429bedc039fc67bb8314216535459e316d1ed4cb00c9387f6d1699a653"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-78df6cc38cb44a81a095a6d5e838b8c0.json",
+      "bytes": 34538,
+      "sha256": "9bfc11fe15ebd37a7d31ee4ff7a59e9b4992116f8de43e72bb33b706b9455ed0"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-7c0c6015d09a40c6a9b2f83f48f9ac7a.json",
+      "bytes": 36873,
+      "sha256": "f6a90ba65fb6dc8dd79fa3e74f414a30abdb0505bc1f17f97576bc5c0f92ef6e"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-7d6c6120b84845bc91877021d3cef3a8.json",
+      "bytes": 35290,
+      "sha256": "904fc9fb2ebccb19df654a0d8af7669dad00b645e87ff4ce10d1cb35896c2c47"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-7f372f0ca832408895b8db63dc4a6ae8.json",
+      "bytes": 35156,
+      "sha256": "d583fa484de6d05cce93710bf0bb56a25894cf78d8bdb2bdb0bc725a8ac56aa1"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-806aeab5a45a4163ac01d069dd67d3a1.json",
+      "bytes": 34341,
+      "sha256": "b89f1505a12d1b750381187526fb82f587a3781a375b8dcd669e698c8eb2c57a"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-80cc884798044021b608eff6790516f7.json",
+      "bytes": 33868,
+      "sha256": "9ff1d4e5872d13c558dd3650c2f7c48f909572354bbe9e74f4acd437bfa8c948"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-8416ac072b214f5c9d9ddad97e5375ee.json",
+      "bytes": 35025,
+      "sha256": "abf64555408c6b51aaabed6352aa894a185bdaef2a43bcd541e4c378eaea992a"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-84c423399e4041e4915e81d0ef8076f5.json",
+      "bytes": 34039,
+      "sha256": "55f9c3bffa1b9900b6ff2988142428b1f7b7a47b63a6745b6e916ccf49393eac"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-859eabf9bba944bba2cec9ff9d2dbc8b.json",
+      "bytes": 35183,
+      "sha256": "c5148b2777323803bcf099d64774e895350d0d86030b36102ac268103e548c1d"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-86e47593e0d741d7bffaa2f1d2c82827.json",
+      "bytes": 35361,
+      "sha256": "11e167a83b071033c21b2aa489f4503883c847d10781fb45e125047404eb924c"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-873cbae398874261a5a9e45dbe95b65d.json",
+      "bytes": 34614,
+      "sha256": "22db662db725a22fddd01acf88e51a6b153fee078d024ed45708c84fe310e32c"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-88dc96a7d4f746509e416c4d6ade7383.json",
+      "bytes": 33706,
+      "sha256": "54dadd50d668b3d0fcbba0eaf0b6cdfc6851c5e97cae5b0dd899ca1d5e359307"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-890ade5ad1db4dc88498970b155ab268.json",
+      "bytes": 36884,
+      "sha256": "6f58617bc93e1d7c321c07a7836a6c90d76318ebd3ab830819d38a3c1a1927af"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-8992a7a4471d4beeabf824891c0dcc02.json",
+      "bytes": 34630,
+      "sha256": "942ce5d612cd97fd9a3b5d256eda198ab6e64d6cfde706fd611b333adcc94de2"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-899a53d0ed39400eb19571af709bf113.json",
+      "bytes": 35161,
+      "sha256": "691299b16266cc71aa04565a3a66091ae60327d2c76e085696353293f8cde4d5"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-89d29fd0eb27425d90f320f936837739.json",
+      "bytes": 35153,
+      "sha256": "1008572ce89b55cda2897544acf357495dd140df068905d59e5d1d31973f1eed"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-8c3205d5c17a45ce8ea90bee4a4c7775.json",
+      "bytes": 35384,
+      "sha256": "94c3ed7c863d1d809c58d4b62e2931357b5822c2d4f5bd2ede974c872b1e0557"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-8f34a2e0654c44a183d95bb250b80410.json",
+      "bytes": 35108,
+      "sha256": "15ef9ee907fda30b9b77d77b31f86d9074ea702d2cb68edce6a970e75e8eae25"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-916548cd2e7d49f89635633f388cca33.json",
+      "bytes": 34966,
+      "sha256": "cf3adc497c79e035b7d3085adcc6454dd3e5b81d6cebc726621e76e294449b40"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-91e5c35a05484056a8d86fb73d21cee9.json",
+      "bytes": 35120,
+      "sha256": "4e0a879cd4db5467f607d04eba965ab5d762492e3bac7e9954c919a40266c7fa"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-92a0b04aae314b49ab07e0ce8d27ee7d.json",
+      "bytes": 35071,
+      "sha256": "aec7ecfd42470b4d5eb21e80bf72675a1b9934e7a73eb3e389cb68a92c5d7ae9"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-954ad729d6a84ff1a72348ce22203a11.json",
+      "bytes": 35487,
+      "sha256": "d26e2e20979f292dff51f30b64ecf82202c2c9fa0e042502af0e2592d94ce4bb"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-9558556c97b44c43a8da212ff59cb2b5.json",
+      "bytes": 35096,
+      "sha256": "1051eeca88e2f13e554b514b01a4f3076abd309bb7377ef78681891d171bcffa"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-9779091642bb4617b7417ac964dc5596.json",
+      "bytes": 35211,
+      "sha256": "5f1cadb736eaef4b1416e6f7f4bbac77c79f64ec15c1a010e398cb61d3395bf7"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-989cc9dc07b64d46a0783d0ed8524d5b.json",
+      "bytes": 35725,
+      "sha256": "49b961285e7dafb61319c16ebc00b824db4be61dc922b9c3a56079756993cf6f"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-990527ef092445c2ba220336ec006d8e.json",
+      "bytes": 35376,
+      "sha256": "3dde234169a958251f3c19225b69f8286aef73db72b838a837e1d69131ea38a3"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-9aa6807f6eda4f819e82bb4cc6d16343.json",
+      "bytes": 34652,
+      "sha256": "5d608bc32b1c6a2bac2d99f54588256ad34d63d87a28f079c258754e9d29087b"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-9d97d76f77724d4e871fd18ad4e37f2b.json",
+      "bytes": 35336,
+      "sha256": "ed82fd6b3eeeaf392f8ffbc8bfaaff4c9858e42614122305aa4f99ebb9dc0907"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-a2f677a016eb4533b5adf6fe6f48e9d8.json",
+      "bytes": 34760,
+      "sha256": "ff1b5d6b4106944d6f3e01b2c32469568ad04a8c4efc2a945e2ae9dd747b5b85"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-a64cd36c5fbc49e98f572e1b6d31d0e3.json",
+      "bytes": 35286,
+      "sha256": "71f9e571130601004e9994a969f9a86193681a59b20ded0d79118b7020076a5e"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-a680216c1ae744fc90f360ac1b06d42a.json",
+      "bytes": 34694,
+      "sha256": "a91df58ffe2c5ed6b6079633836f17f59c33959d284bfb61c9780dfc60b5e676"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-a6b5aadfdef1409bbc42650920bf032a.json",
+      "bytes": 35844,
+      "sha256": "e43e8a9af769765bee0a3d63e3b5a14c4126da7d76ce38bbf4e845de45afd99b"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-a82d2257ef664d7cac768809441a4fed.json",
+      "bytes": 34981,
+      "sha256": "9fa224b263eb588b9a4066288d737b2243b928edd017574162e2a309c6c96b1e"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-ab79459f5b434c2687efd51f94f76c16.json",
+      "bytes": 34733,
+      "sha256": "0c13a378c78cf8d1b7fda817b8d1fd7895f5f1ec8f2070c4491d6bff0c240ecb"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-ad6f868f91ab4f5da96863f1cc8587a5.json",
+      "bytes": 35165,
+      "sha256": "a8ceb549eb636ee55508b845b31d8e744f40df5184051270e4edb0861f41aca8"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-b03c99ee452f48b6af4506a21b089cf1.json",
+      "bytes": 33701,
+      "sha256": "d24b0afb9160e95b69bdd6199be8e235523f58e52b3c0f17034a04923db82d77"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-b47bd2d8de824f809d0e43ab4ec41a3c.json",
+      "bytes": 35163,
+      "sha256": "378d60507b99d6467ca85d379f0c3f6429746d6cd81a80a1944a99784f0c4f85"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-bfe5de668d1a44858671696b43710d32.json",
+      "bytes": 34636,
+      "sha256": "9fcfa040e8c908a8a1019c05a2c3b0afa4f100966b76b5de40ae9455ec7c1510"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-c042ac58878b4bfaa8a3d5a772dcb810.json",
+      "bytes": 35127,
+      "sha256": "e30dad1d0c88691060de8843d274019ee44e3209a484574fd2f803ddbb616c14"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-c268ac6cd30f403d82a6fe692d46ed45.json",
+      "bytes": 36399,
+      "sha256": "603415e41bb1df9f539db512f39de9e94e8d8b264e5eea997fe8e6795161b178"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-c3ce30f1510542dd851f370175051b65.json",
+      "bytes": 34881,
+      "sha256": "57818af05458ba2e4b8a663f2f0319fbeff230359285856980ce379e3513a870"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-c3e60aa723084dfda72d32c049a17766.json",
+      "bytes": 34920,
+      "sha256": "efb634508826062175e78fe216b31aa614d0e5b7309b9cc9c34600aa97afde1d"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-c4ec1b5388984aeea47a524b5e3ccf2f.json",
+      "bytes": 35063,
+      "sha256": "3e2f854c9ab2f9635a074e0c770024bd40a715a051a11e0e78f8de57b6fc52ff"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-c64da0a4fb6848dcac9c4a81d9a21790.json",
+      "bytes": 34567,
+      "sha256": "cd2178e2c8bb5773b7e0e6129c249fa1e8e902723fb90ac0c65a509a2d683a9b"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-c72c4ea8977248efae98f822af3a85a7.json",
+      "bytes": 35172,
+      "sha256": "179073d716024ff89adfeff3f3e085965acba7274becc3aa10837fcba9e776d8"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-c81a9219d10f4b86a2a51e219035b8f8.json",
+      "bytes": 34543,
+      "sha256": "c6012a5abfa293d9862580da536836f62f0e40d66adb54ec41f8162af8a96441"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-c8601c445d4c42439e110738010f70de.json",
+      "bytes": 35472,
+      "sha256": "d5e1b66ce20f0c20a0e8fa40cc111f1be7887740253f8c66c380e16857e2bec9"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-cdd2bc5b6e2348aa9fff45547481ac5d.json",
+      "bytes": 33852,
+      "sha256": "35458f19cee5b8a0a6a808bae77f9a95eb4b075518569836e34cfe46ad3101fc"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-cff6a06c96da42cd981dc66d1af6180a.json",
+      "bytes": 34070,
+      "sha256": "73ffc1df818bd59f33039f5ebae93266a08a8ec5d9ecf2c00f6ee929dfd4071f"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-d44aa7ae487942ec833909e193b916e8.json",
+      "bytes": 35443,
+      "sha256": "80b22a913d438d907be3a94f479a49bcadff9daadd5adfaacb6e596c7695107d"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-d900b904e3884fe9b692cbea8f5c8fc3.json",
+      "bytes": 35123,
+      "sha256": "be54b82b8dea77f5f8bd4bb5263a2d68c871c7af49ac8604e0d40f49c435cc1c"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-dd3c7c0ca7834e8885f9d42ca6301a12.json",
+      "bytes": 34706,
+      "sha256": "205f766757c1dd1128c42eae1f8a9c8fc405abe7940b7f6b8bf9ae4724d605a9"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-dd73497a9c124ac0b317f5032a45ad72.json",
+      "bytes": 35192,
+      "sha256": "ef543b94f8487a665c9e68096d9516abcc8b1580d36146359c1a620973a50d5c"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-dfc6ae66eaf34139be9d79565b9b67d1.json",
+      "bytes": 34686,
+      "sha256": "fb243073fc7c7f08c4a32bae272b8523105e2b87c7ea6b0ea85912afc7c9cead"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e1f1034437024a059ae4d88828845e82.json",
+      "bytes": 35610,
+      "sha256": "4585fa53b1abff5399382ad5638c49141c2897303ac35fae5e9a49c8f3c86384"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e2145318afd148fda8b042a05fcc41c2.json",
+      "bytes": 35166,
+      "sha256": "342039cac5701f9beec4e8a49779f5e14a4f9151eeade73c9791fcf933655a9e"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e214c2414f81426e876992160a0811a6.json",
+      "bytes": 36661,
+      "sha256": "99abadcce8288ca3b24c44d5b89835177362629411a59778baebc5329b232d37"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e42c6e9c47b54783b886551b9552574a.json",
+      "bytes": 36679,
+      "sha256": "5839424d9ea02f698c0933b35d48a3d69dd92a607d5afc072012d9f0c8320534"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e44d7893af3847adb0da0d202780f944.json",
+      "bytes": 34919,
+      "sha256": "57f9ef6ea651cb05e7b0bd73a0de821daafd62b12cb422e61d2384e3e9d6aa33"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e69af536aecb436a88d3d1f255f37c46.json",
+      "bytes": 35949,
+      "sha256": "87f39c7d019d2dedcb5852b5520a1938a09b478d90c7410e0912c607c5ce5763"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e6df56599ab847d2b114b7e7bb23647b.json",
+      "bytes": 35118,
+      "sha256": "f5f65339b0604ca3b7f2745a51a39b725b62fbfdbfec15b937eb136f3dfeb9d8"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e7452dcfb487478ea8f0dbf887225d88.json",
+      "bytes": 35575,
+      "sha256": "7d6c5b3b65e9670791e4c8af79447e96a37b1d0a1003b8207173af2c39c45e14"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e82d9b49af564af9b46e3dd97211e421.json",
+      "bytes": 36667,
+      "sha256": "8190f80e4b13e5238ff0fbe4a8aef6f2fe5069572963cdac8ef426c76017c4cd"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e8b912c524d24b9fa509a53810e87361.json",
+      "bytes": 34710,
+      "sha256": "e581185170c40d38cb91d618c45a11ffa6be06dffbf5b692570cd966eb4314b5"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e8d4b0761e834bc9bc115e1d53a3dddc.json",
+      "bytes": 34628,
+      "sha256": "935f53b8dbb86d5030cbfdb0ac9ff5df23f5663f88f07b269410d5bee0465b35"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-e964c3ce4de34b9ab025db1f8dee756a.json",
+      "bytes": 34979,
+      "sha256": "1aae78d439ff0463cb907706f7f85f5d7202f9f453738ded1ffb6417e328efc9"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-ee82cb4c205f4ae3b696e5b2f4e5b567.json",
+      "bytes": 34636,
+      "sha256": "330d05bf08a6825c6140d7d807ccc30b37081c185cee844b7855578edad8cf74"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-eeb5d83f1a36417380fc4b82b845dc92.json",
+      "bytes": 35275,
+      "sha256": "3b29b1224604bd18ca04196fbf79ac96f2364c759fa986d8f30e53f2eab9cad0"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-ef20ec34c373476f8cad488e0bcd06fe.json",
+      "bytes": 33494,
+      "sha256": "b282bf1676e1fe021d7d1e0e4360bc0ce3acd7a3a974c06887769cee20153627"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-efcfcc7286d5419eb77ddd48b03cab93.json",
+      "bytes": 34954,
+      "sha256": "be316450073cf7a3e5ad49ef472f07a5005d638ce25a3a17da8d66cfdd5914a9"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-f1b0ae4c4d5e4704abdf414caf884934.json",
+      "bytes": 35369,
+      "sha256": "98165c7851ae75523856a955730188c67a3796a0fe2cfa9cf01cb534c4415fff"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-fa03f23ed9764052b800d1b4d5acfe03.json",
+      "bytes": 35058,
+      "sha256": "a92ad76c5caab95880df5a41955e8ac858597b36f3ff8c8be2a674e2e2e06a8f"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-fceb6a893cf84e22992bf15887f5379e.json",
+      "bytes": 34078,
+      "sha256": "eecbc8b2b1a740b39b46fe32ec40ed09d23fc437b02a6c4407f5224a7e27abcf"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-fe98272997dc47eb9de20e55f34e0b9e.json",
+      "bytes": 34768,
+      "sha256": "341976a8ed6bd2cca9a194285c072c1d2db0f3ed20c2d8fb66901073af34d448"
+    },
+    {
+      "path": "关闭运行/场景快照/场景-fecbb13c9f914e0a97ee657a0c237ea1.json",
+      "bytes": 34738,
+      "sha256": "072f8192f60a4fe709ce63cde000b9bbafdc77438caec28aa07a83682cd35b5a"
+    },
+    {
+      "path": "关闭运行/数据划分.json",
+      "bytes": 57095,
+      "sha256": "62574aa50d4df0926f0dca642daa2f42643f4cbde82a7af47a44e0b3ced3b8c2"
+    },
+    {
+      "path": "关闭运行/检查点存档/00501c2397324797a4e0718fe22c405c/检查点清单.json",
+      "bytes": 464,
+      "sha256": "8bb071227104ce2b8c1da209c273f0a7ef09971bf31dec30cfb92d62d32309b1"
+    },
+    {
+      "path": "关闭运行/检查点存档/2024827b215f49eeac690bb529f32503/检查点清单.json",
+      "bytes": 464,
+      "sha256": "b2e24b8cc2b3336310c9cdac04639a679a57a969d5087d767a6a116723a574e9"
+    },
+    {
+      "path": "关闭运行/检查点存档/2c70adf7ae4744f598804eb82e3c944f/检查点清单.json",
+      "bytes": 463,
+      "sha256": "64ae20ab1f261cf087bf7ad85553e1436f5741fed19c3fbd6d146318be0c6a6b"
+    },
+    {
+      "path": "关闭运行/检查点存档/39059cbe27ff45dcabcdee9b9bf7c5a9/检查点清单.json",
+      "bytes": 463,
+      "sha256": "cc6105aafbd760d26e75ccc43e70ca8d5401eaf7ff99303bb6dba6a2ff82cc34"
+    },
+    {
+      "path": "关闭运行/检查点存档/5fab876b5183439c9f22a9ddbdaac49d/检查点清单.json",
+      "bytes": 463,
+      "sha256": "886a28dcdb055890b911cb0e3ce94c6805f55830b352ddfd372bf5ae51592b1c"
+    },
+    {
+      "path": "关闭运行/检查点存档/68e45e3416584b318e0ad43d02628785/检查点清单.json",
+      "bytes": 464,
+      "sha256": "1b15a9cb7902afb7e4f1bef86746ff8e93627c940422ce19e719832d105b4105"
+    },
+    {
+      "path": "关闭运行/检查点存档/7cd6c3916b4147a596ff595b0b47bedb/检查点清单.json",
+      "bytes": 464,
+      "sha256": "a6dba275c3fdd83c38b8c0f4c0b448e7a77336acb9a5089b8dab4d88fb4bade5"
+    },
+    {
+      "path": "关闭运行/检查点存档/8c0ac11408ba47faa271c402dc94cdec/检查点.pt",
+      "bytes": 115129075,
+      "sha256": "15f1b9ab7b15af270023270e58eeef2825f5a2b0fddba1cdf78cba439f83d883"
+    },
+    {
+      "path": "关闭运行/检查点存档/8c0ac11408ba47faa271c402dc94cdec/检查点清单.json",
+      "bytes": 464,
+      "sha256": "e3e64d7fd425cc8a8760048dd81394c02c412d2f0bc09a4684729924d4377bb9"
+    },
+    {
+      "path": "关闭运行/检查点存档/9316953fdce945f7961d0c21e16edd5b/检查点清单.json",
+      "bytes": 464,
+      "sha256": "4466c1f303b06e9a06ddf94556e905ab45b32775947a1189fdac495d1ea60f86"
+    },
+    {
+      "path": "关闭运行/检查点存档/cfce74e05ea8442ab6e0c3c390156b38/检查点清单.json",
+      "bytes": 464,
+      "sha256": "002fec2f331cfcaead9d5877cc676fcd0c2e1475e09a734726c9d71242d020c8"
+    },
+    {
+      "path": "关闭运行/检查点存档/d6edf07b02df46f89c07a2af59bb87e1/检查点清单.json",
+      "bytes": 463,
+      "sha256": "38ebfd2992e272c1eba71d1e4c42da7115cab6deeb4dc9e51109b693932018f7"
+    },
+    {
+      "path": "关闭运行/检查点存档/dcefabaf6356432e8e2a88fa5219fb02/检查点清单.json",
+      "bytes": 464,
+      "sha256": "68b82ad7df224a6e647d48a0110427434fa1beb84ec8f52165c2cb6737cc97fe"
+    },
+    {
+      "path": "关闭运行/检查点存档/e0502c91fec540a4a09225cbc221aa9d/检查点清单.json",
+      "bytes": 463,
+      "sha256": "754ab6f2f1532c47f7541604caba10eba0d27aa9b99a61e361c360c40f898ed4"
+    },
+    {
+      "path": "关闭运行/检查点存档/e64b93fefb44423b97fdf57aeb5c3271/检查点清单.json",
+      "bytes": 464,
+      "sha256": "4107899d2113cfef2224a47b4512a109c5b525b65ff59b10c75de0c545d1f726"
+    },
+    {
+      "path": "关闭运行/检查点存档/f7b0e3c6d2ff4b7294fc97006504d28f/检查点清单.json",
+      "bytes": 463,
+      "sha256": "64f6ca82457a38384fe5678d8380b21858e6560298ed615dfbe94ae78e047fec"
+    },
+    {
+      "path": "关闭运行/检查点清单.json",
+      "bytes": 464,
+      "sha256": "e3e64d7fd425cc8a8760048dd81394c02c412d2f0bc09a4684729924d4377bb9"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-09ebf81256165a53/导出复算验收.json",
+      "bytes": 1295,
+      "sha256": "a736d3624f997605ed0590750efe0a325f83d6e292ff17f6d804faee373317a4"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-09ebf81256165a53/第三阶段交接清单.json",
+      "bytes": 40889,
+      "sha256": "d6da83d408f88e397fd21ed1a204297237fbacc7a98ef352cc808a02eec59335"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-09ebf81256165a53/第二阶段分配结果.npz",
+      "bytes": 12309,
+      "sha256": "ac95605f08ae5c42a081307c3ba302c18c82813775c8d6d69578cb14528f95a5"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-0c9015cfeb360ec4/导出复算验收.json",
+      "bytes": 1295,
+      "sha256": "6a40403c4b7ebbe55a27829a8691bd5b3c022b576064a04ebba90344105c7447"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-0c9015cfeb360ec4/第三阶段交接清单.json",
+      "bytes": 39562,
+      "sha256": "73f0c48bda3dc9a50e60195da7155c75d646cbb667c0e08ec5c6a0932f39170c"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-0c9015cfeb360ec4/第二阶段分配结果.npz",
+      "bytes": 11530,
+      "sha256": "ffbb0283908169cc6f6fbe5c7a92247a965a0079c354dd8e67bc35f45f4873f9"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-21a9a9c0aca1cf62/导出复算验收.json",
+      "bytes": 1291,
+      "sha256": "8f44a3338af82cd9cff3a38b3c65c73b79424e7c88ab6db82d68a59c73b425cc"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-21a9a9c0aca1cf62/第三阶段交接清单.json",
+      "bytes": 40979,
+      "sha256": "50c146d80bd48c583a4f7dcc84d227bb4389bfddbf824a53ccab87168123df82"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-21a9a9c0aca1cf62/第二阶段分配结果.npz",
+      "bytes": 12389,
+      "sha256": "835342adec5f235ab82d449927b806251dc2855dc9167f0d3178804995ef4f91"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-44554ba2cdd1b0af/导出复算验收.json",
+      "bytes": 1296,
+      "sha256": "8cc631c96528f8811690de0070fbc15e7ff83d3f8ea8e6105a3577289bcdae73"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-44554ba2cdd1b0af/第三阶段交接清单.json",
+      "bytes": 40401,
+      "sha256": "d2e654394484b2f33e0ccb6bddada4e7751679ca6909044bcc14d694a7d43974"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-44554ba2cdd1b0af/第二阶段分配结果.npz",
+      "bytes": 12047,
+      "sha256": "52e7733b07e9938fa6e2c14d6a17d8189ae3db6d8d284565cbc40230ceaa34e5"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-4c60ac4eb53c2cd7/导出复算验收.json",
+      "bytes": 1295,
+      "sha256": "f6ad330108798d428c0a50c356d832946bd9ca175264e8a25ee3bc4498e87f21"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-4c60ac4eb53c2cd7/第三阶段交接清单.json",
+      "bytes": 40205,
+      "sha256": "e2129ac4d4dbad4fbbeb257c6eee2ea0adeff3e8b85f3728aaa06fe25e9883da"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-4c60ac4eb53c2cd7/第二阶段分配结果.npz",
+      "bytes": 11907,
+      "sha256": "cfd68b342492b2a0060f4c03c9a166610825fe8b31721f889c30a73ce2d1c302"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-57310e75589e7f4f/导出复算验收.json",
+      "bytes": 1295,
+      "sha256": "5c97e8b884588f2ccfc45061a7b4c3392b80e58edf562fbb5f5a1a4a673239d7"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-57310e75589e7f4f/第三阶段交接清单.json",
+      "bytes": 39881,
+      "sha256": "2bc04cfacadf3c5cd9218869d87e090da4f04c15a59ce3ebf8bce9cf7a4ad450"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-57310e75589e7f4f/第二阶段分配结果.npz",
+      "bytes": 11663,
+      "sha256": "bc0df679239d3785e73d94f44b4568bad29b9cc9a055d83ef2c31918f0d24adf"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-67db72352a867b26/导出复算验收.json",
+      "bytes": 1295,
+      "sha256": "cd4d5aaf9ef12f488649a4a5550c1d6eb11b756a3766cc96df0190aa072e859e"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-67db72352a867b26/第三阶段交接清单.json",
+      "bytes": 40442,
+      "sha256": "dc0afdf0b3456d59b74408b00acdd600bd160945081f2c3e010ed92ca7b1f321"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-67db72352a867b26/第二阶段分配结果.npz",
+      "bytes": 12105,
+      "sha256": "a7ba4c17b4e5247a8093fcda1d27b37b8edfa77ebc979f6195c0caff0027301d"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-71527de25919ca7e/导出复算验收.json",
+      "bytes": 1291,
+      "sha256": "8d767a405cda2fb0d3a60dd86865bffab08f1944c65a9f89dde1bfa0839c6052"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-71527de25919ca7e/第三阶段交接清单.json",
+      "bytes": 40154,
+      "sha256": "1fca4029b5f7ce4b65b0d86bfa692af3945f244d3a6611c58d00ab7a055fea04"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-71527de25919ca7e/第二阶段分配结果.npz",
+      "bytes": 11829,
+      "sha256": "7d62e2566f104224af8c1f4ec241610c486f5d9281a6a2be70b2f57ab519caef"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-88bff13580d11b2e/导出复算验收.json",
+      "bytes": 1292,
+      "sha256": "cc32a40cb84a57cc7d0c29e938be1541a2c1efd8549c55061a23f41d4d738a69"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-88bff13580d11b2e/第三阶段交接清单.json",
+      "bytes": 40217,
+      "sha256": "9c5147b6bfc9396f41c2ba2d4a27abecd4be4efc02f232f9eb82b8333bec8b6b"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-88bff13580d11b2e/第二阶段分配结果.npz",
+      "bytes": 12017,
+      "sha256": "f5a28f156b939d2b7edc098bdb8c7e57bee885afea8e98f262748b8075adf552"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-9586d567ba78e1fa/导出复算验收.json",
+      "bytes": 1293,
+      "sha256": "f77ba8f887d7a79489a82f5a79057c0ef46214567bdbd80c04e6d4e39f0fd69b"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-9586d567ba78e1fa/第三阶段交接清单.json",
+      "bytes": 40450,
+      "sha256": "7b77c386c10d1d9a945ea2eefea97a09b36d11eac2fe68c35491f23b4ef27b1d"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-9586d567ba78e1fa/第二阶段分配结果.npz",
+      "bytes": 12138,
+      "sha256": "48c50426257072674575b0c8383aeb93bb5457fe8fb102ac9b2fd1346e9d6c09"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-972d7b35d5179c0e/导出复算验收.json",
+      "bytes": 1293,
+      "sha256": "204636a9452fabe491e03bbe7d7e0f1d018be2159dddecd1963ac307345e640a"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-972d7b35d5179c0e/第三阶段交接清单.json",
+      "bytes": 39992,
+      "sha256": "6f5a52623b9e25401b3b828e01f9b0b59591a06714bb04d6778c6df10393ae9d"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-972d7b35d5179c0e/第二阶段分配结果.npz",
+      "bytes": 11842,
+      "sha256": "5d98fd95874c14523434fbb6ea9c08f29c40371acb86251c9e93c95697504eb0"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a4bc9f309ade38d8/导出复算验收.json",
+      "bytes": 1296,
+      "sha256": "37ae0650b4ecd76aded01c70c089e0811f8168d81e3f784ec8b07a484a286559"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a4bc9f309ade38d8/第三阶段交接清单.json",
+      "bytes": 40137,
+      "sha256": "bfd4b8c7991fa0c27d9d8b1e548598b48032f8d20642fc9e2afa330c04ff3d96"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a4bc9f309ade38d8/第二阶段分配结果.npz",
+      "bytes": 11985,
+      "sha256": "a077c89598df52ef1ce877cd9c71a164161b37d92ffbc4aa36d25ddce5ce6c4b"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a50e9b070a7cc346/导出复算验收.json",
+      "bytes": 1292,
+      "sha256": "ecba41b0b03ce4cc4844b229f3eb112cd47b106dcd1bf86780501c3a8a0a8e5a"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a50e9b070a7cc346/第三阶段交接清单.json",
+      "bytes": 36695,
+      "sha256": "20a2ccc9da6d285ab302ff63bb0c3353845524ca1dba1de3c38093be12e59cd4"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-a50e9b070a7cc346/第二阶段分配结果.npz",
+      "bytes": 9024,
+      "sha256": "c2e63c4af6b663d24c6c1119affce59efbbf86bbfdad9410c79840708d93995a"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-b0df46b6166ead2f/导出复算验收.json",
+      "bytes": 1295,
+      "sha256": "87f99fc2dd209fcdf2f2c64cb4b8069a6fb57ff88d39ab6f8ded8f991f3f4bd5"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-b0df46b6166ead2f/第三阶段交接清单.json",
+      "bytes": 40802,
+      "sha256": "e77cfae3d98d37f85947ec7683e89aac27e57d858c84d0f87ef5dba1f6c9cb33"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-b0df46b6166ead2f/第二阶段分配结果.npz",
+      "bytes": 12320,
+      "sha256": "fc99acf1364e24666004ca8a572e0b27655912ea7ebb54c27f44aea51f93f1aa"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-cbd4952f443a01a7/导出复算验收.json",
+      "bytes": 1292,
+      "sha256": "7b1400cc832a0c616727360d4ab49523e3464e77f3ff82bd5da50c4b947b333a"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-cbd4952f443a01a7/第三阶段交接清单.json",
+      "bytes": 40122,
+      "sha256": "89b96238e64d9c9712ce458cbf0b7523f35b730402ba917ea6bfe01968390a3b"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/场景-cbd4952f443a01a7/第二阶段分配结果.npz",
+      "bytes": 11807,
+      "sha256": "2c5341a4be5d3e99732dce190bb36974a35abaed245500d63f572eb58998a581"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/训练场景覆盖审计.json",
+      "bytes": 18903,
+      "sha256": "328ea5a886bcdf0395cc9575886acaa96849b1cabae8628881266f559df5bdec"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/训练场景覆盖规格.yaml",
+      "bytes": 5754,
+      "sha256": "ae3bff6272286fed9448e7454f330357bebf29b4bb547beb8c3120cf815ffbe4"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/诊断日志.jsonl",
+      "bytes": 8719155,
+      "sha256": "9a48077da8c8f1540bc455c19b4586441f7845b92132c7f1757b7bcf69941fff"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/运行清单.json",
+      "bytes": 66200,
+      "sha256": "976a3366db3386d1e2b90714bbc2e337109958d43a632c51e9ee43257df67056"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/policy/运行记录.sqlite",
+      "bytes": 89759744,
+      "sha256": "8cfac5008e7641ece32f0d37571742d47496ea7e1c7bb0c15cb9d4758893459d"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/评估报告.md",
+      "bytes": 482,
+      "sha256": "d00f290edb18a5ae980748256118cc0e33a19e44a989d0f226605d5548558764"
+    },
+    {
+      "path": "关闭运行/独立评估/bfa6b64bb571/评估结果.json",
+      "bytes": 23015,
+      "sha256": "3393129c8d20789c38a9ad4e7afdea8c8f7cca8e5462e6b417a1f18fe775fba3"
+    },
+    {
+      "path": "关闭运行/训练场景覆盖审计.json",
+      "bytes": 18903,
+      "sha256": "328ea5a886bcdf0395cc9575886acaa96849b1cabae8628881266f559df5bdec"
+    },
+    {
+      "path": "关闭运行/训练场景覆盖规格.yaml",
+      "bytes": 5754,
+      "sha256": "ae3bff6272286fed9448e7454f330357bebf29b4bb547beb8c3120cf815ffbe4"
+    },
+    {
+      "path": "关闭运行/训练结果.json",
+      "bytes": 222641,
+      "sha256": "3bdbc51f8beb03de7b0765fac0e58a3a98c3195064fda6e2084ca1286c767bc7"
+    },
+    {
+      "path": "关闭运行/诊断日志-0001.jsonl",
+      "bytes": 10760704,
+      "sha256": "afee065e8075a5443c59e0dfb773a41d9b4d4350330744f4555c14467c1262ff"
+    },
+    {
+      "path": "关闭运行/诊断日志-0002.jsonl",
+      "bytes": 10679075,
+      "sha256": "905c2585d8333ed2e294cdd3cbe6402b062f66f865b6e35861aebde7c76ed56b"
+    },
+    {
+      "path": "关闭运行/诊断日志-0003.jsonl",
+      "bytes": 10486120,
+      "sha256": "2ceebaefd96760c9048a8c17d73e40891e0100386998c2f7680ed24a17670cff"
+    },
+    {
+      "path": "关闭运行/诊断日志-0004.jsonl",
+      "bytes": 10855464,
+      "sha256": "42c462b1ee7d3bef024643580958f59ed0273eeb41fbd10079e86581b8a2e901"
+    },
+    {
+      "path": "关闭运行/诊断日志-0005.jsonl",
+      "bytes": 10799762,
+      "sha256": "25b5316a3ac58e27de2d1b56919df79e0f12eb5cc48a847a38de8311caadcb86"
+    },
+    {
+      "path": "关闭运行/诊断日志-0006.jsonl",
+      "bytes": 10643570,
+      "sha256": "3b8065a5797d919e1c52a649d202de4f6681db26d4c54f4313d6679907b5e1a8"
+    },
+    {
+      "path": "关闭运行/诊断日志-0007.jsonl",
+      "bytes": 10505403,
+      "sha256": "608fcd4150c9c612f6c6defb88819e9d7f545527d8bc660038cd78c05a23d1c1"
+    },
+    {
+      "path": "关闭运行/诊断日志-0008.jsonl",
+      "bytes": 10547654,
+      "sha256": "ebf168ccb740d69100621fbb33dd31e099f71442561e96963ff71e9ea75823de"
+    },
+    {
+      "path": "关闭运行/诊断日志-0009.jsonl",
+      "bytes": 10720214,
+      "sha256": "071f2b27cc6e396c93148fc06aed0ce63d2ca3f1c332c39e5d62f38a5f21afd1"
+    },
+    {
+      "path": "关闭运行/诊断日志-0010.jsonl",
+      "bytes": 10487724,
+      "sha256": "16d48cf4d490625e84eb3df6aa7b1977fccdf34832b31f1d9e4782f980d3a820"
+    },
+    {
+      "path": "关闭运行/诊断日志-0011.jsonl",
+      "bytes": 10510969,
+      "sha256": "8d24d2e0ac6ced3e9af6f74013d8318ee96f7c5b67b1012a42a7cfd8b4fbbc5c"
+    },
+    {
+      "path": "关闭运行/诊断日志-0012.jsonl",
+      "bytes": 10798419,
+      "sha256": "b54dfee285ecbde3cc29cccb3a558158c77c8bfb25487438bac56a0b1a711760"
+    },
+    {
+      "path": "关闭运行/诊断日志-0013.jsonl",
+      "bytes": 10714124,
+      "sha256": "a2dceb43b2f903065a46829869b890db7cbfd764d62e537e01707838dd3fc651"
+    },
+    {
+      "path": "关闭运行/诊断日志-0014.jsonl",
+      "bytes": 10746672,
+      "sha256": "25c4db91b3b7244ce0a54b4214466080b59f142ca49ae77d255b6da2cdce450f"
+    },
+    {
+      "path": "关闭运行/诊断日志-0015.jsonl",
+      "bytes": 10560047,
+      "sha256": "b77bced0eade37a95262a14c421da8c85cfa52b08140afd9d25e1f5cad4df98c"
+    },
+    {
+      "path": "关闭运行/诊断日志-0016.jsonl",
+      "bytes": 10486057,
+      "sha256": "6941f95ac0e1d8240e41d27be98b579ecb6a8ab592e2e7539c6d92cbefcb50a9"
+    },
+    {
+      "path": "关闭运行/诊断日志-0017.jsonl",
+      "bytes": 10666707,
+      "sha256": "3f63fdf7959752019a290a3d37e37b55624aac5d292d13e552a4bd091e4d92a1"
+    },
+    {
+      "path": "关闭运行/诊断日志-0018.jsonl",
+      "bytes": 10887983,
+      "sha256": "fe0a09b5f56c010d4850c830c19cbba76c07ce9dec638ff4da6a8f1a24ff9170"
+    },
+    {
+      "path": "关闭运行/诊断日志-0019.jsonl",
+      "bytes": 10754985,
+      "sha256": "b4fb549729cc2eb0dfea907bd10c9106aa7a619ac89b67811a4e96f117e0b63c"
+    },
+    {
+      "path": "关闭运行/诊断日志-0020.jsonl",
+      "bytes": 10488104,
+      "sha256": "1ec2908981dce9fc24e6d4f00dc8199b613d74f302ee869e09fa8bdc8bc104ce"
+    },
+    {
+      "path": "关闭运行/诊断日志-0021.jsonl",
+      "bytes": 10572615,
+      "sha256": "973aa94e9981920f4d8a798cb12a87f9aa98174f98c95753a7b89e8e9b1f1a1f"
+    },
+    {
+      "path": "关闭运行/诊断日志-0022.jsonl",
+      "bytes": 10506221,
+      "sha256": "496b8dbdacd6101dac1e74d57841fc4bfa4b1be08344df63a712a36865c602e7"
+    },
+    {
+      "path": "关闭运行/诊断日志-0023.jsonl",
+      "bytes": 10794678,
+      "sha256": "89cc761e47a02864ff35de78b4201baf056449963f063ad282a2f33fc80d1478"
+    },
+    {
+      "path": "关闭运行/诊断日志-0024.jsonl",
+      "bytes": 10593281,
+      "sha256": "2239137e13f1b48a1c6ff782cb5623c482c978b0db13dfd10701678db0dbcb89"
+    },
+    {
+      "path": "关闭运行/诊断日志-0025.jsonl",
+      "bytes": 10674096,
+      "sha256": "dd256cc18e8dbedf32dee74201fa2e25a856b19ff0b77b17066c04e152195523"
+    },
+    {
+      "path": "关闭运行/诊断日志.jsonl",
+      "bytes": 9521271,
+      "sha256": "bdc3eaa05494cb30bdc8275cce475be1570286388f09c028405aad85f0e5f405"
+    },
+    {
+      "path": "关闭运行/运行清单.json",
+      "bytes": 66090,
+      "sha256": "a28b49b20489a95d6a6685ef8ddb62f329ed7ae16d9b7761cdb79fc3dcdf2055"
+    },
+    {
+      "path": "关闭运行/运行记录.sqlite",
+      "bytes": 1099943936,
+      "sha256": "dc038d1e31c846d237b8a71f74121700646c3efe05b0b69f00528f1c3d2a5215"
+    },
+    {
+      "path": "关闭运行/配置快照.json",
+      "bytes": 2895,
+      "sha256": "fdfe6b63da743fbba07eb69e94b3352665bbe132baf90728cc2f7ea1e1ff6789"
+    },
+    {
+      "path": "监督记录/恢复进度.json",
+      "bytes": 123245,
+      "sha256": "48f77bb7e1f67babb88a86089ada3952bc2e198fc57fa4721871801ea8db71ac"
+    },
+    {
+      "path": "监督记录/seed43恢复训练日志.txt",
+      "bytes": 22656,
+      "sha256": "78893879f27119852f9d618f04394e8e036cabe341b6d2e29a55936aead109f6"
+    },
+    {
+      "path": "监督记录/gpu2恢复监督日志.txt",
+      "bytes": 56,
+      "sha256": "e068cf23e7448f09f546a10a296f527444f2dfe5910d639bf542dc35b2b99533"
+    },
+    {
+      "path": "监督记录/gpu2恢复配置.json",
+      "bytes": 2896,
+      "sha256": "6f5282270ffb4fc90666f56f987f533de6b2bb420265d260cc8bd18e8e69d2b5"
+    },
+    {
+      "path": "监督记录/gpu2恢复计划.json",
+      "bytes": 2681,
+      "sha256": "68e81904a75d1fb513b036139f36c7188724f5365809e7461a4bd5a74a546934"
+    }
+  ]
+}

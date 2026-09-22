@@ -1,0 +1,12 @@
+{
+  "directory": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/恢复监督/最终交付/20260921T071605/收尾状态",
+  "status": "verified",
+  "files": {
+    "SpectrumGPU2恢复状态.json": "1e7678dbc6a7e605b7b295d0da35be1d2ac1e39e02545c16800009f438043f04",
+    "Spectrum远程训练状态.json": "1ec64eef93c00d80a7aa71e2fa395eeb9df1424978ce73366ed5d1d49f0aa35a",
+    "实施进度.md": "085dc950bad4c45a77479c2c0ecb01a5a60a76195f4bb455d51b28a9aef1e090",
+    "Spectrum批次完成与自动化暂停记录.md": "dca2a472ad61a4578e511d6248226bebe8f2e4631d1950862b18b07ba55110fb",
+    "项目路由约定.md": "476615234225c193355e2839c4c6480db830f850be0b9d09fc6dc1af5179517d",
+    "项目说明.md": "0b16b774acf84fad6c80730391ce5b988170b2889cb53f4885a30daae6a4e557"
+  }
+}

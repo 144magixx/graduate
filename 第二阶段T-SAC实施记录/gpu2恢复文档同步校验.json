@@ -1,0 +1,24 @@
+{
+  "directory": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-gpu2-recovery-v1/PPO4090/恢复监督/恢复文档/20260921T054938",
+  "file_count": 17,
+  "archive_sha256": "520ba1aec3bdc20ce1f28cf2b547063fbcd7c69dac483bfaec51c7fa601f67f1",
+  "files": {
+    "gpu2中断恢复预算核查.md": "df1b66e5d91c28bd77b9ef300a46d064ce40f430b1db12d02dfe3c0c0ff3b151",
+    "gpu2恢复兼容检查结果.json": "d3fea10ccf2cf1a83c37da95b8dae268fb32acb5ecc2b996d176890290882e10",
+    "项目路由约定.md": "f5a1ade7287c35c1ed3159cbfed609f41e7ff86e5698a599ddc3369d3a80f6df",
+    "gpu2共同250回合配对验证报告.md": "bca2be0d4564ef766f26eb0b6181231989261960cd8bf24fbc0e59de516057df",
+    "gpu2恢复配置.json": "80530f621ccfabc23ee7afd4774c16276d37b204d8f7a74c6552eae95330ee33",
+    "gpu2恢复前测试日志.txt": "857b3be8dc6f501a672f8060fd418d65f61e0d375efcaf7cdab66d197bf69590",
+    "gpu2中断工件补救说明.md": "d2cca753512331e107f3c9798cad61d8ed9b250bccd209db5f11892b852683a5",
+    "项目说明.md": "257b99eceaa60e3e6d646bc084fa58fc8e9067ed5c9fb1803d83a3336789c3ef",
+    "SpectrumGPU2恢复状态.json": "82c2f349c289aba99e5f861b6ec27333299952e43315d443f2efde070c4e5056",
+    "gpu2中断恢复预算核查.json": "7e3ad320744f6c937134769f9deab5ed4b5952b226ccbffbc79b96942389136d",
+    "gpu2恢复启动核验.json": "fd2f430755abfef9ec793e834c0b182bf4ffa9eb96c20f1cbb6d7eeee5711ec2",
+    "gpu2恢复持久化核验.json": "b90675806999444535ce0d85afff429ab05aa6cda4cc44c48d5c92478d4347d1",
+    "gpu2共同250回合配对验证报告.json": "a674cfb524845ad5c0014e723b8e5ed7b243cf5ddbef2ee4fa0a682de47c34d3",
+    "gpu2评价工件取回校验.json": "781d00092fe1de2c295a6daf85f66f4c877d5d30973987a82f56cf2e38808e60",
+    "Spectrum临时断网暂停与恢复记录.md": "c0015122189eac6586ad0cdbaa62d4d00916c1fdcc7bca5d3d9347d959d22fd8",
+    "gpu2恢复计划.json": "9c0d1d94a6e135e028625537f2b483efc38a41cc5aa31b325115031495a2fada",
+    "Spectrum修复验收与代码审查报告.md": "9ca129bcd53761a46189ee86b2f1a183749da5a4f1404b9fd51a72f4b8d267e0"
+  }
+}

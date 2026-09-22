@@ -1,0 +1,54 @@
+[
+  {
+    "name": "CNN继续训练对照",
+    "status": "completed",
+    "run": {
+      "run_dir": "D:\\graduate\\PPO4090\\outputs\\spectrum_tsac_20260921\\20260921T001843_df035993c018",
+      "counters": {
+        "env_step": 286,
+        "update_step": 148,
+        "episodes": 2
+      }
+    },
+    "evaluation": {
+      "output_dir": "D:\\graduate\\PPO4090\\outputs\\spectrum_tsac_20260921\\20260921T001843_df035993c018\\独立评估\\9d5d65711768",
+      "summary": {
+        "policy": {
+          "scenarios": 15,
+          "mean_U": 0.8892545783763347,
+          "micro_U": 0.8869626998863984,
+          "inference_p50_seconds": 1.2960098001058213,
+          "inference_p95_seconds": 1.612203609989956,
+          "constraint_violations": 0
+        }
+      }
+    },
+    "sanity_gate": "相同15validation零违规且U不低于CNN父.890374减.10；仅灾难性退化门，不是增益证明"
+  },
+  {
+    "name": "Spectrum残差模型",
+    "status": "completed",
+    "run": {
+      "run_dir": "D:\\graduate\\PPO4090\\outputs\\spectrum_tsac_20260921\\20260921T001843_a181397c5a7b",
+      "counters": {
+        "env_step": 286,
+        "update_step": 148,
+        "episodes": 2
+      }
+    },
+    "evaluation": {
+      "output_dir": "D:\\graduate\\PPO4090\\outputs\\spectrum_tsac_20260921\\20260921T001843_a181397c5a7b\\独立评估\\c9aa7f397cb0",
+      "summary": {
+        "policy": {
+          "scenarios": 15,
+          "mean_U": 0.8840182323328959,
+          "micro_U": 0.8822473667165942,
+          "inference_p50_seconds": 1.9010304001276381,
+          "inference_p95_seconds": 2.5120677401137073,
+          "constraint_violations": 0
+        }
+      }
+    },
+    "sanity_gate": "相同15validation零违规且U不低于CNN父.890374减.10；仅灾难性退化门，不是增益证明"
+  }
+]

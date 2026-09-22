@@ -1,0 +1,217 @@
+{
+  "purpose": "真实短评估的单seed诊断，不是正式多seed研究",
+  "source": "D:\\graduate\\PPO4090\\outputs\\horizon_tsac_20260920\\20260920T114236_e4949de2fada\\独立评估\\1a1af79264ef\\评估结果.json",
+  "status_source": "SQLite runs.status",
+  "comparison": {
+    "metric": "mean_satisfaction",
+    "phase": "validation",
+    "compatible": true,
+    "differing_fields": [],
+    "missing_fields": [],
+    "return_comparable": true,
+    "comparison_available": true,
+    "delta_direction": "right_minus_left",
+    "mean_difference": 0.73207448087878,
+    "n_seed_pairs": 1,
+    "n_scenario_pairs": 2,
+    "paired_differences": [
+      {
+        "seed": 42,
+        "scenario_id": "cover_output_0",
+        "left": 0.0,
+        "right": 0.729109644005247,
+        "difference": 0.729109644005247
+      },
+      {
+        "seed": 42,
+        "scenario_id": "cover_output_29",
+        "left": 0.0,
+        "right": 0.7350393177523131,
+        "difference": 0.7350393177523131
+      }
+    ],
+    "scenario_ci95": [
+      0.729109644005247,
+      0.7350393177523131
+    ],
+    "seed_ci95": null,
+    "seed_interval_available": false,
+    "missing_seeds": {
+      "left": [],
+      "right": []
+    },
+    "unmatched_seeds": {
+      "left": [],
+      "right": []
+    },
+    "paired_missing_scenarios": [],
+    "ranking_available": false,
+    "left": {
+      "metric": "mean_satisfaction",
+      "phase": "validation",
+      "compatible": true,
+      "differing_fields": [],
+      "missing_fields": [],
+      "return_comparable": true,
+      "mean": 0.0,
+      "n_seeds": 1,
+      "n_scenarios": 2,
+      "selected_run_ids": [
+        "20260920T114236_e4949de2fada_eval_1a1af79264ef_policy"
+      ],
+      "scenario_means": [
+        {
+          "scenario_id": "cover_output_0",
+          "mean": 0.0
+        },
+        {
+          "scenario_id": "cover_output_29",
+          "mean": 0.0
+        }
+      ],
+      "seed_means": [
+        {
+          "seed": 42,
+          "trial_id": "2068ad6db5884ee8aa72d5082bb7dd2a",
+          "mean": 0.0
+        }
+      ],
+      "scenario_ci95": [
+        0.0,
+        0.0
+      ],
+      "seed_ci95": null,
+      "seed_interval_available": false,
+      "missing_seeds": [],
+      "missing_scenarios": [
+        "cover_output_31",
+        "cover_output_33",
+        "cover_output_34",
+        "cover_output_35",
+        "cover_output_54",
+        "cover_output_56",
+        "cover_output_6",
+        "cover_output_62",
+        "cover_output_76",
+        "cover_output_79",
+        "cover_output_81",
+        "cover_output_87",
+        "cover_output_99"
+      ],
+      "failed_runs": [],
+      "excluded_runs": [],
+      "lineage_selection": [
+        {
+          "trial_id": "2068ad6db5884ee8aa72d5082bb7dd2a",
+          "seed": 42,
+          "selected_run_id": "20260920T114236_e4949de2fada_eval_1a1af79264ef_policy",
+          "superseded_or_failed_run_ids": [],
+          "rule": "latest_completed_descendant_then_timestamp"
+        }
+      ],
+      "duplicate_seed_trials": [],
+      "support_limitations": [
+        "缺少可信root/split_group独立性；区间仅描述现有候选场景，不能证明业务实例泛化",
+        "原始业务/assignment未完整提供，不推造J_root或端到端业务结论",
+        "不足2个独立训练seed，训练seed区间不可用；场景区间仅作诊断",
+        "仅对所有保留seed共同评估的场景求均值；缺失场景已单列，不补0",
+        "缺少预登记seed清单，无法判断未提交或失败的seed，禁止正式排名"
+      ],
+      "ranking_available": false,
+      "method": "seed_scene_bootstrap_shared_scenario_indices",
+      "confidence_level": 0.95,
+      "bootstrap_resamples": 2000,
+      "random_seed": 42,
+      "estimator": "训练seed等权；共同场景等权；同run重复场景先求均值；恢复段不增加seed数"
+    },
+    "right": {
+      "metric": "mean_satisfaction",
+      "phase": "validation",
+      "compatible": true,
+      "differing_fields": [],
+      "missing_fields": [],
+      "return_comparable": true,
+      "mean": 0.73207448087878,
+      "n_seeds": 1,
+      "n_scenarios": 2,
+      "selected_run_ids": [
+        "20260920T114236_e4949de2fada_eval_1a1af79264ef_random"
+      ],
+      "scenario_means": [
+        {
+          "scenario_id": "cover_output_0",
+          "mean": 0.729109644005247
+        },
+        {
+          "scenario_id": "cover_output_29",
+          "mean": 0.7350393177523131
+        }
+      ],
+      "seed_means": [
+        {
+          "seed": 42,
+          "trial_id": "2068ad6db5884ee8aa72d5082bb7dd2a",
+          "mean": 0.73207448087878
+        }
+      ],
+      "scenario_ci95": [
+        0.729109644005247,
+        0.7350393177523131
+      ],
+      "seed_ci95": null,
+      "seed_interval_available": false,
+      "missing_seeds": [],
+      "missing_scenarios": [
+        "cover_output_31",
+        "cover_output_33",
+        "cover_output_34",
+        "cover_output_35",
+        "cover_output_54",
+        "cover_output_56",
+        "cover_output_6",
+        "cover_output_62",
+        "cover_output_76",
+        "cover_output_79",
+        "cover_output_81",
+        "cover_output_87",
+        "cover_output_99"
+      ],
+      "failed_runs": [],
+      "excluded_runs": [],
+      "lineage_selection": [
+        {
+          "trial_id": "2068ad6db5884ee8aa72d5082bb7dd2a",
+          "seed": 42,
+          "selected_run_id": "20260920T114236_e4949de2fada_eval_1a1af79264ef_random",
+          "superseded_or_failed_run_ids": [],
+          "rule": "latest_completed_descendant_then_timestamp"
+        }
+      ],
+      "duplicate_seed_trials": [],
+      "support_limitations": [
+        "缺少可信root/split_group独立性；区间仅描述现有候选场景，不能证明业务实例泛化",
+        "原始业务/assignment未完整提供，不推造J_root或端到端业务结论",
+        "不足2个独立训练seed，训练seed区间不可用；场景区间仅作诊断",
+        "仅对所有保留seed共同评估的场景求均值；缺失场景已单列，不补0",
+        "缺少预登记seed清单，无法判断未提交或失败的seed，禁止正式排名"
+      ],
+      "ranking_available": false,
+      "method": "seed_scene_bootstrap_shared_scenario_indices",
+      "confidence_level": 0.95,
+      "bootstrap_resamples": 2000,
+      "random_seed": 42,
+      "estimator": "训练seed等权；共同场景等权；同run重复场景先求均值；恢复段不增加seed数"
+    },
+    "support_limitations": [
+      "不足2个独立训练seed，训练seed区间不可用；场景区间仅作诊断",
+      "仅对所有保留seed共同评估的场景求均值；缺失场景已单列，不补0",
+      "原始业务/assignment未完整提供，不推造J_root或端到端业务结论",
+      "缺少可信root/split_group独立性；区间仅描述现有候选场景，不能证明业务实例泛化",
+      "缺少预登记seed清单，无法判断未提交或失败的seed，禁止正式排名"
+    ],
+    "method": "paired_seed_scene_bootstrap_shared_scenario_indices",
+    "confidence_level": 0.95,
+    "bootstrap_resamples": 2000,
+    "random_seed": 42
+  }
+}

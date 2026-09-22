@@ -1,0 +1,174 @@
+{
+  "as_of_utc": "2026-09-20T21:19:31.373932+00:00",
+  "records": [
+    {
+      "method": "MLP-SAC",
+      "run_id": "20260920T201733_b5d92d21adf3",
+      "checkpoint_id": "02ee3bbc94b74de8a39df3e98ddfbb56",
+      "evaluation_id": "41851d93d020",
+      "counters": {
+        "env_step": 14281,
+        "update_step": 13282,
+        "episodes": 100
+      },
+      "metrics": {
+        "mean_satisfaction": {
+          "mean": 0.8558287896279756,
+          "n_nonnull": 15
+        },
+        "sgm_mean_positive_demand": {
+          "mean": 0.6364154621958139,
+          "n_nonnull": 15
+        },
+        "delivered_bps": {
+          "mean": 53603734682.52809,
+          "n_nonnull": 15
+        },
+        "power_used_w": {
+          "mean": 5538.333333333333,
+          "n_nonnull": 15
+        },
+        "skip_fraction": {
+          "mean": 0.014396881960620474,
+          "n_nonnull": 15
+        },
+        "mean_slot_sinr_db": {
+          "mean": 11.604663508611521,
+          "n_nonnull": 15
+        }
+      },
+      "validation_scenarios": 15,
+      "constraint_violations": 0,
+      "zero_U_scenes": 0,
+      "all_skip_scenes": 0
+    },
+    {
+      "method": "CNN-SAC",
+      "run_id": "20260920T201733_2c40a6bf449e",
+      "checkpoint_id": "5180a86491a046a98b39f0004e1e4210",
+      "evaluation_id": "7a3997c16cf1",
+      "counters": {
+        "env_step": 14281,
+        "update_step": 13282,
+        "episodes": 100
+      },
+      "metrics": {
+        "mean_satisfaction": {
+          "mean": 0.8903744222080676,
+          "n_nonnull": 15
+        },
+        "sgm_mean_positive_demand": {
+          "mean": 0.6820070481219439,
+          "n_nonnull": 15
+        },
+        "delivered_bps": {
+          "mean": 57357821507.19858,
+          "n_nonnull": 15
+        },
+        "power_used_w": {
+          "mean": 5073.333333333333,
+          "n_nonnull": 15
+        },
+        "skip_fraction": {
+          "mean": 0.008405394892593752,
+          "n_nonnull": 15
+        },
+        "mean_slot_sinr_db": {
+          "mean": 11.850223648990589,
+          "n_nonnull": 15
+        }
+      },
+      "validation_scenarios": 15,
+      "constraint_violations": 0,
+      "zero_U_scenes": 0,
+      "all_skip_scenes": 0
+    },
+    {
+      "method": "MLP-DQN",
+      "run_id": "20260920T201733_b691167ad121",
+      "checkpoint_id": "4d352c48e4624e6e83f5f2549727b3e8",
+      "evaluation_id": "f7045be59f8f",
+      "counters": {
+        "env_step": 14281,
+        "update_step": 13282,
+        "episodes": 100
+      },
+      "metrics": {
+        "mean_satisfaction": {
+          "mean": 0.7204957163231017,
+          "n_nonnull": 15
+        },
+        "sgm_mean_positive_demand": {
+          "mean": 0.4740455489027854,
+          "n_nonnull": 15
+        },
+        "delivered_bps": {
+          "mean": 37179060636.392136,
+          "n_nonnull": 15
+        },
+        "power_used_w": {
+          "mean": 3527.6666666666665,
+          "n_nonnull": 15
+        },
+        "skip_fraction": {
+          "mean": 0.0004246284501061571,
+          "n_nonnull": 15
+        },
+        "mean_slot_sinr_db": {
+          "mean": 9.981270566394581,
+          "n_nonnull": 15
+        }
+      },
+      "validation_scenarios": 15,
+      "constraint_violations": 0,
+      "zero_U_scenes": 0,
+      "all_skip_scenes": 0
+    },
+    {
+      "method": "MLP-PPO",
+      "run_id": "20260920T203641_73d4515809fe",
+      "checkpoint_id": "960331c1325a4d8b83fedf46fbc3a610",
+      "evaluation_id": "e0f2c4d68ba4",
+      "counters": {
+        "env_step": 14281,
+        "update_step": 2950,
+        "episodes": 100
+      },
+      "metrics": {
+        "mean_satisfaction": {
+          "mean": 0.004465657037874551,
+          "n_nonnull": 15
+        },
+        "sgm_mean_positive_demand": {
+          "mean": 0.0026501286230308126,
+          "n_nonnull": 15
+        },
+        "delivered_bps": {
+          "mean": 409665922.3981082,
+          "n_nonnull": 15
+        },
+        "power_used_w": {
+          "mean": 18.333333333333332,
+          "n_nonnull": 15
+        },
+        "skip_fraction": {
+          "mean": 0.9917851391764435,
+          "n_nonnull": 15
+        },
+        "mean_slot_sinr_db": {
+          "mean": 7.245776576502425,
+          "n_nonnull": 3
+        }
+      },
+      "validation_scenarios": 15,
+      "constraint_violations": 0,
+      "zero_U_scenes": 12,
+      "all_skip_scenes": 12
+    }
+  ],
+  "data_manifest_hash": "154326a45c9dbde33ae6b0613283a1367c09267ff3dde4bb73b19d6752bfb1a5",
+  "data_split_sha256": "62574aa50d4df0926f0dca642daa2f42643f4cbde82a7af47a44e0b3ced3b8c2",
+  "complete_paper_comparison": false,
+  "test_set_used": false,
+  "formal_multiseed_complete": false
+}

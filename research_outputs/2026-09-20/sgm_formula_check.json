@@ -1,0 +1,12 @@
+{
+  "purpose": "Independent formula check only, not a satellite experiment",
+  "D": 500.0,
+  "beta": 500.0,
+  "L": 0.9,
+  "k": 0.6239175860351552,
+  "chi_lower": 0.6573007627077334,
+  "chi_upper": 1.4411763559869994,
+  "sgm_lower": 0.8999999999999999,
+  "sgm_upper": 0.9,
+  "sgm_at_1": 1.0
+}

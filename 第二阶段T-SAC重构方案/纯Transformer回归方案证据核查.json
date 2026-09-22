@@ -1,0 +1,925 @@
+{
+  "scope": "新方案依据的只读历史产物和源码核验；未导入旧训练入口、没有训练或参数修改",
+  "legacy_metrics": {
+    "path": "D:\\graduate\\PPO4090\\outputs\\sac_fyh_io\\metrics\\metrics_202512120428.npz",
+    "sha256": "b1b7c5df2352065259188874f1b69747ed3115447d96c46ae2b599e93a12d77a",
+    "arrays": {
+      "returns": {
+        "count": 4000,
+        "first100_mean": -160.47902509640008,
+        "last100_mean": 120.6930434240055,
+        "min": -266.70781940239203,
+        "max": 187.87265835854632
+      },
+      "satisfactions": {
+        "count": 4000,
+        "first100_mean": 119.41149984833163,
+        "last100_mean": 182.88519983182974,
+        "min": 73.38467030484242,
+        "max": 198.73018970310744
+      }
+    },
+    "semantics": "旧训练回合returns与total_satisfaction累计量；不是新正需求平均U或独立validation",
+    "confirmed_episode_count": 4000
+  },
+  "legacy_weights": {
+    "path": "D:\\graduate\\PPO4090\\outputs\\sac_fyh_io\\models\\sac_transformer_full_model_202512120428.pth",
+    "sha256": "2649269ce8910d562145ac142dbadd5f5513eda74a8c4515a26578fd0f8141b3",
+    "loaded_weights_only": true,
+    "network_keys": [
+      "actor_state_dict",
+      "critic_1",
+      "critic_2",
+      "target_critic_1",
+      "target_critic_2"
+    ],
+    "actor_position_embedding_shape": [
+      1,
+      14,
+      128
+    ],
+    "has_training_config": false,
+    "has_optimizer_or_replay_or_rng_or_alpha": false,
+    "limitation": "可作权重/结构兼容锚点，不足以精确接续原训练；head数/dropout等不编码在张量形状中，不能由state_dict单独认定历史参数"
+  },
+  "source_fingerprints": [
+    {
+      "path": "PPO4090/implementations/sac_fyh_io/sac_train_fyh_IO.py",
+      "sha256": "4ab10ed147c2f4ebd40195b07c478d2fb7ca1c4f236b13a883c943a43fb220f2"
+    },
+    {
+      "path": "PPO4090/implementations/sac_fyh_io/Environment_fyh_IO.py",
+      "sha256": "5b1cd4131463147429a194bd7ec83814b9684f280ec819094b8be6fa6f540307"
+    },
+    {
+      "path": "PPO4090/implementations/sac_fyh_io/sac_fyh_IO.py",
+      "sha256": "58b0be8efa43f5f17e0eb4e75afa9a1dfee92d5249ad9d55527d078346767b74"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/models/networks.py",
+      "sha256": "3fced331c5f7859bde1029b5cc43e786fa5550fca6d2a70d08d717def4e3a40f"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/rl/sac.py",
+      "sha256": "03d7567b7e8f495121f17c8139a45070ccf2c7a38103f8859111180600dee78e"
+    },
+    {
+      "path": "PPO4090/implementations/horizon_tsac_20260920/env/environment.py",
+      "sha256": "a26030f4c82abe5414e4f170af65138de27daea27de054c2dd3c17956cc45f23"
+    },
+    {
+      "path": "第二阶段T-SAC实施记录/夜间超参数实验计划.json",
+      "sha256": "c3b79c6f32af64379c137967517ac9ea1937fa0a3c55e2ffbf2a92a49ec77172"
+    }
+  ],
+  "环境差分核查.json": {
+    "scope": "Read-only legacy environment/data versus actually-run frozen Horizon primary; no old training import, no train, no SSH, no source/data edits",
+    "frozen_run_manifest": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0439\\完成运行\\20260920T175318_b8b9d93a0d79\\运行清单.json",
+    "frozen_horizon_source_hash_matches": {
+      "implementations/horizon_tsac_20260920/env/physics.py": true,
+      "implementations/horizon_tsac_20260920/env/environment.py": true,
+      "implementations/horizon_tsac_20260920/data/loader.py": true,
+      "implementations/horizon_tsac_20260920/data/augment.py": true,
+      "implementations/horizon_tsac_20260920/train.py": true
+    },
+    "frozen_horizon_config": {
+      "schema_version": "coverage.v2",
+      "data": {
+        "source_schema": "legacy_lon_in_lat",
+        "rate_unit": "Mbps",
+        "traffic_scale": 0.25,
+        "beamwidth_kind": "ground_angular_diameter_deg",
+        "group_assignment": "canonical_demand_rank_mod8",
+        "service_order": "demand_desc",
+        "augment": true,
+        "width_augmentation": false,
+        "split_seed": 20260920,
+        "dataset_version": "legacy_aggregate.v1"
+      },
+      "physics": {
+        "physics_version": "uniform_slot_shannon.v1",
+        "group_profile": "shared_grid_parity_isolation_v1",
+        "beamwidth_kind": "ground_angular_diameter_deg",
+        "num_groups": 8,
+        "num_slots": 100,
+        "slot_bandwidth_hz": 25000000.0,
+        "frequency_start_hz": 17700000000.0,
+        "earth_radius_km": 6371.0,
+        "satellite_radius_km": 42164.0,
+        "satellite_longitude_deg": 122.2,
+        "satellite_latitude_deg": 0.0,
+        "sinr_margin_db": 5.0,
+        "tx_gain_peak_dbi": 50.0,
+        "rx_gain_peak_dbi": 40.0,
+        "noise_temperature_k": 290.0,
+        "rate_model": "shannon_with_sinr_margin",
+        "power_semantics": "beam_total_uniform_slots"
+      },
+      "env": {
+        "power_budget_w": 6000.0,
+        "power_levels_w": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0,
+          30.0,
+          35.0,
+          40.0,
+          45.0,
+          50.0
+        ],
+        "max_block_length": 10,
+        "reward_scale": 100.0,
+        "reward_version": "delta_mean_satisfaction_v1",
+        "metric_version": "positive_demand_metrics.v1",
+        "observation_version": "obs_full_v2",
+        "action_version": "contiguous_total_power.v1",
+        "budget_tolerance_w": 1e-08,
+        "satisfaction_tolerance": 1e-08
+      },
+      "model": {
+        "model_version": "horizon_tsac.v1",
+        "encoder": "full_attention",
+        "actor": "conditional",
+        "critic": "joint",
+        "d_model": 128,
+        "attention_heads": 4,
+        "encoder_layers": 2,
+        "dropout": 0.0,
+        "spectrum_tokens": "slots",
+        "candidate_chunk_size": 512
+      },
+      "train": {
+        "seed": 42,
+        "device": "cuda:0",
+        "episodes": 100,
+        "max_env_steps": 0,
+        "batch_size": 64,
+        "microbatch_size": 64,
+        "replay_capacity": 4000,
+        "replay_mode": "episode_balanced",
+        "warmup_steps": 1000,
+        "update_schedule": "env_step",
+        "updates_per_step": 1,
+        "updates_per_episode": 1,
+        "actor_lr": 1e-05,
+        "critic_lr": 0.0001,
+        "alpha_lr": 0.0001,
+        "initial_alpha": 0.01,
+        "target_entropy_ratio": 0.5,
+        "gamma": 1.0,
+        "tau": 0.005,
+        "gradient_clip_norm": 10.0,
+        "torch_num_threads": 1,
+        "deterministic": true,
+        "checkpoint_every": 25,
+        "max_wall_seconds": 16200
+      },
+      "telemetry": {
+        "enabled": true,
+        "trace_level": "basic_all",
+        "keyframe_interval": 20,
+        "update_window": 50,
+        "queue_max_messages": 512,
+        "queue_max_bytes": 67108864,
+        "flush_interval": 1.0,
+        "enqueue_timeout": 10.0
+      }
+    },
+    "findings": [
+      {
+        "id": 1,
+        "title": "功率同记一次预算，但旧版把整束功率重复用于每个槽",
+        "classification": [
+          "不可直接比",
+          "已确认旧版功率语义不守恒"
+        ],
+        "old": "入口把5–50W转dBW；预算只加一次P，而receiving_power使用整个P，current_rate_calculate每个槽重复同一信号功率，未除槽数。",
+        "new": "功率仍是整束总量P，但每个占用槽只分P/L，速率按全部槽线性功率重算。",
+        "effect": "L=10时单槽信号相差10dB（噪声限制时SINR同差）；宽带动作在旧任务更容易满足需求。干扰也受功率缩放，不能泛称所有场景吞吐下降10倍。此为物理任务变化，不是Transformer公式退化证据。",
+        "old_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "start": 242,
+            "end": 247
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 593,
+            "end": 618
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 721,
+            "end": 750
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 980,
+            "end": 983
+          }
+        ],
+        "new_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\physics.py",
+            "start": 124,
+            "end": 149
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "历史SINR缓存对后加入干扰未统一施加5dB margin",
+        "classification": [
+          "不可直接比",
+          "已确认旧版历史更新不一致"
+        ],
+        "old": "新分配的初始SINR先减5dB并写history_cinr；之后由S/origin_sinr反推分母再加新干扰，得到S/[M(N+I_old)+I_new]。旧速率是缓存增量扣减。",
+        "new": "从完整账本重算S/[M(N+I_old+I_new)]，对所有时序的干扰统一margin，只有静态信道几何缓存。",
+        "effect": "旧历史波束把后来干扰少乘M=10^0.5，可能乐观且依赖加入顺序。S=N=I_new=1、I_old=0时旧SINR .2402530734，新 .1581138830，旧高1.81699dB。",
+        "old_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 739,
+            "end": 749
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 759,
+            "end": 789
+          }
+        ],
+        "new_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\physics.py",
+            "start": 82,
+            "end": 83
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\physics.py",
+            "start": 137,
+            "end": 149
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\environment.py",
+            "start": 114,
+            "end": 125
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "旧Satisfaction是含零需求奖励的累计和，新U是全场景正需求平均",
+        "classification": [
+          "不可直接比",
+          "已确认旧指标零需求及末次日志偏移"
+        ],
+        "old": "calculate_total_satisfaction返回sum而非mean；零需求step current_satisfaction=1并把total_satisfaction加1，info在加1之前构造；训练曲线直接保存info.total_satisfaction。",
+        "new": "只对demand_mask正需求的min(rate/demand,1)求平均；未分配为0，空需求为None；零需求不获虚拟满足度。",
+        "effect": "100CSV全为200模板行，正需求仅52–168；cover52有139正需求+61零需求。完整走完零需求尾部时旧日志约为正需求满足度之和+零需求数−1，不能把该Satisfaction或除200的值与新U比较。超预算提前终止时另当别论。",
+        "old_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 826,
+            "end": 832
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 931,
+            "end": 962
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "start": 255,
+            "end": 280
+          }
+        ],
+        "new_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\data\\loader.py",
+            "start": 36,
+            "end": 44
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\metrics.py",
+            "start": 5,
+            "end": 15
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\metrics.py",
+            "start": 37,
+            "end": 43
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "奖励从阈值+SGM整形变成100倍全局满足度增量",
+        "classification": [
+          "不可直接比",
+          "可能影响差分学习",
+          "旧SGM归一化缓存未reset"
+        ],
+        "old": "global satisfaction increment>=1给sat=+1，否则-1；reward=sat+SGM−需求差惩罚−占用惩罚。SGM beta只在Env.__init__从最初CSV按200行求均值，reset换CSV不更新beta。",
+        "new": "reward=100*(U_after−U_before)，包含历史受害损失，正需求全局分母；gamma在实际Horizon运行改为1，SGM仅作诊断指标。",
+        "effect": "旧目标偏向单次达到完全满足，并有阈值跳变；新目标是连续、可望远镜求和的终局U。它改变梯度/回报尺度与策略偏好，不是只替换编码器。旧beta对后续不同需求场景可失配。",
+        "old_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 453,
+            "end": 458
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 490,
+            "end": 506
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 853,
+            "end": 868
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 1057,
+            "end": 1081
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "start": 111,
+            "end": 111
+          }
+        ],
+        "new_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\reward.py",
+            "start": 1,
+            "end": 8
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\environment.py",
+            "start": 124,
+            "end": 125
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\metrics.py",
+            "start": 26,
+            "end": 35
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "无硬mask的请求动作+环境裁剪，改为完整合法字典+显式SKIP",
+        "classification": [
+          "不可直接比",
+          "可能影响差分学习",
+          "旧终局资源池更新缺陷"
+        ],
+        "old": "actor三head直接softmax/独立采样100×10×10请求；旧Env.get_action_mask并非该实际调用链。越界/遇占用会裁slots，仍累计功率，超6000W后done；done时不更新freq_pool，却仍计算最后束速率。Replay记原请求。",
+        "new": "9550个边界合法ALLOC+SKIP；mask同时约束整个连续区间和剩余功率；非法操作拒绝且不变账本；全正需求处理完才自然结束，最后动作也提交。",
+        "effect": "旧策略可学习环境裁剪映射，动作空间/终止分布/预算策略都变了。原请求与裁剪执行不一本身仍可定义有效MDP，不能单凭此叫Replay标签错误；但旧终局资源池与末束速率账本不同步是已确认缺陷。",
+        "old_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "start": 114,
+            "end": 120
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "start": 297,
+            "end": 318
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "start": 239,
+            "end": 251
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 964,
+            "end": 1006
+          }
+        ],
+        "new_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\action.py",
+            "start": 26,
+            "end": 28
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\action.py",
+            "start": 64,
+            "end": 75
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\environment.py",
+            "start": 102,
+            "end": 130
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\environment.py",
+            "start": 40,
+            "end": 46
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "新legacy205只有形状兼容，观测数值语义及主模型信息结构已变",
+        "classification": [
+          "不可直接比",
+          "可能影响表示与优化"
+        ],
+        "old": "坐标线性映射至地区[-1,1]，需求/550Mbps，宽度/2后clip；干扰用绝对瓦功率转dB，再在[-300,-100]线性clip到[0,1]。只提供当前束4属性+预算+100干扰+100占用。",
+        "new": "legacy205坐标/90,/180，需求/1Gbps，宽度为原角度；干扰log1p(I/N)。Horizon实际用full_attention、obs_full_v2，另含所有束的静动态信息、当前槽INR/噪声与全局统计，不能称原205未变。",
+        "effect": "输入尺度、干扰动态范围、宽度分辨率和表示路径均改变；可能影响有限预算学习，需要同环境/同头结构的观察归一化与token消融，尚非已确认新bug。旧观测干扰另以角度phi与公里半径比较，单位不一致；当前数值影响未单独量化。",
+        "old_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 397,
+            "end": 426
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 464,
+            "end": 488
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 792,
+            "end": 824
+          }
+        ],
+        "new_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\environment.py",
+            "start": 67,
+            "end": 99
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "训练/评价数据协议与波束宽度增强显著变化",
+        "classification": [
+          "不可直接比",
+          "可能实际提高新任务干扰难度"
+        ],
+        "old": "从全部100CSV均匀抽样，没有train/validation/test隔离；每回合normal/hard需求增强，20%hard；波束宽度乘随机因子后clip到[.05,2]。图保存的是增强场景训练期指标。",
+        "new": "冻结70/15/15划分，独立validation原场景评价；width_augmentation=false，需求增强函数不改宽度；实际train调用未传level，故只用normal（hard接口有但这次未调用）。",
+        "effect": "原始14130正需求行有5278(37.35%)宽度>2°，最大2.8°；旧裁到2，新保留较宽方向图，可增加共频干扰。旧训练曲线并非新held-out validation，不能直接比较“更好”。",
+        "old_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "start": 120,
+            "end": 124
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "start": 185,
+            "end": 199
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "start": 206,
+            "end": 229
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "start": 271,
+            "end": 296
+          }
+        ],
+        "new_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\data\\split.py",
+            "start": 44,
+            "end": 52
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\data\\augment.py",
+            "start": 6,
+            "end": 27
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\train.py",
+            "start": 140,
+            "end": 144
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\evaluate.py",
+            "start": 140,
+            "end": 158
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "服务顺序/极化组从增强后排名逐回合重排，改为实体固定分组",
+        "classification": [
+          "不可直接比",
+          "可能改变真实干扰结构"
+        ],
+        "old": "增强发生在BeamInfo之前；BeamInfo按增强后需求argsort重排所有属性；训练按当前beam_idx%8分组（极化=group%2）。固定200行，短文件重复、长文件截断；原始beam_id身份随重排丢失。",
+        "new": "loader先按原始需求降序、beam_id打破并列来固定group和极化；augment只重新排列service_order，不改group_id；beam_id稳定、原行数保留、仅正需求进入服务序列。",
+        "effect": "相近需求在增强后互换排名时，旧实现会互换group甚至极化；新实现只换服务次序。因此即使同CSV/同需求增强，物理同频耦合图也未必一致。新方案是有意稳定实体语义，不能称新bug或为追旧分数而回退；应在相同分组、顺序与ledger评价条件下比较模型。",
+        "old_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 317,
+            "end": 342
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 344,
+            "end": 360
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "start": 232,
+            "end": 246
+          }
+        ],
+        "new_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\data\\loader.py",
+            "start": 28,
+            "end": 60
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\data\\augment.py",
+            "start": 19,
+            "end": 27
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\environment.py",
+            "start": 40,
+            "end": 46
+          }
+        ]
+      }
+    ],
+    "actual_csv_audit": {
+      "files": 100,
+      "rows_per_file": 200,
+      "positive_beams_min": 52,
+      "positive_beams_max": 168,
+      "cover_output_52_positive": 139,
+      "cover_output_52_zero": 61,
+      "positive_rows_total": 14130,
+      "positive_width_min_deg": 0.5,
+      "positive_width_max_deg": 2.8,
+      "positive_width_over_2deg_rows": 5278,
+      "positive_width_over_2deg_fraction": 0.3735314932767162
+    },
+    "important_unchanged_semantics": [
+      {
+        "fact": "CSV经纬命名适配相同：旧df[[lon,lat]]与新legacy_lon_in_lat均把CSV lon作latitude、lat作longitude；不是本轮新增坐标互换",
+        "old_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 323,
+            "end": 324
+          }
+        ],
+        "new_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\data\\loader.py",
+            "start": 32,
+            "end": 38
+          }
+        ]
+      },
+      {
+        "fact": "需求数值均rate*0.25e6 bps；噪温290K、tx50dBi、rx40dBi、6000W总预算均相同。新受害端Rx语义修正对于本批全部40dBi没有数值作用，不应冒称性能差原因。",
+        "old_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 310,
+            "end": 328
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "start": 685,
+            "end": 697
+          }
+        ],
+        "new_refs": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\physics.py",
+            "start": 47,
+            "end": 49
+          }
+        ]
+      }
+    ],
+    "budget_context": {
+      "legacy_source_config_episodes": 4000,
+      "legacy_actual_completed_episodes_not_verified": true,
+      "horizon_actual_episodes": 100,
+      "horizon_actual_batch_size": 64,
+      "horizon_actual_replay_capacity": 4000,
+      "horizon_actual_gamma": 1.0,
+      "legacy_source_batch_size": 256,
+      "legacy_source_replay_capacity": 20000,
+      "legacy_source_gamma": 0.99,
+      "note": "旧源码配置4000不等于已核实某个历史权重训练满4000；需旧产物证据。更不能把旧训练曲线与新独立评价视为等预算。",
+      "legacy_refs": [
+        {
+          "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+          "start": 101,
+          "end": 111
+        }
+      ]
+    },
+    "conclusion": "此审查已确认旧任务的功率/缓存/指标缺陷及多项实验语义变化，没有确认新的环境实现bug能单独解释Transformer退化。旧新高低不能直接归因编码器；这些差异也不能替代对同一新环境下Horizon输给CNN的模型/优化诊断。新方案应冻结纠正后的物理与评价，做受控旧式局部Transformer/归一化/token/头结构/预算消融，不能恢复旧乐观物理或padding加分。"
+  },
+  "网络训练差分核查.json": {
+    "scope": "只读旧sac_fyh_io模型/训练脚本与Horizon新链路及冻结配置；未导入旧训练入口、未SSH、未训练",
+    "facts_not_causes": true,
+    "findings": [
+      {
+        "id": 1,
+        "topic": "真实token与顺序",
+        "confirmed": "旧205维=4个属性token+10个20维频谱块token；每块前10个干扰/后10个占用，顺序在列与块位置中保留；pool是geo token而非独立CLS。Horizon完整模型改为beam集合与100个逐槽token，再交叉注意力汇聚；不能把差距当成仅Transformer大小差。新旧都保留位置，不支持“新模型忘了位置编码”。",
+        "old": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 89
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 106
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 111
+          }
+        ],
+        "new": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\models\\networks.py",
+            "line": 93
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\models\\networks.py",
+            "line": 141
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\models\\networks.py",
+            "line": 147
+          }
+        ],
+        "unproven": "不同信息压缩路径是架构假设，未单独证明为全部性能差原因。"
+      },
+      {
+        "id": 2,
+        "topic": "局部205不等于旧观察数值",
+        "confirmed": "旧坐标中国区域中心化、rate/rate_mean、宽度归一化并clip、绝对干扰dB clip到[0,1]；新legacy205用lat/90、lon/180、demand/1e9、原始宽度、log1p(I/N)。现有legacy14不是旧模型输入协议的完整复原。",
+        "old": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "line": 407
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\Environment_fyh_IO.py",
+            "line": 482
+          }
+        ],
+        "new": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\env\\environment.py",
+            "line": 85
+          }
+        ],
+        "unproven": "数值尺度/输入定义改变可能影响优化，不能未经同物理状态实验认定其导致退化。"
+      },
+      {
+        "id": 3,
+        "topic": "编码器超参与运行模式",
+        "confirmed": "旧d128/8头/2层，pos_embed零初始化；新配置4头，legacy位置normal(std=.02)，Transformer显式GELU/dropout0。旧未显式传activation/dropout且未将target设eval；本地PyTorch2.3.0默认ReLU/dropout.1，历史实际框架版本未由原run清单证实。新target frozen/eval。",
+        "old": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 55
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 66
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 69
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 193
+          }
+        ],
+        "new": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\models\\networks.py",
+            "line": 45
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\models\\networks.py",
+            "line": 79
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\rl\\sac.py",
+            "line": 40
+          },
+          {
+            "file": "D:\\graduate\\第二阶段T-SAC实施记录\\夜间超参数实验计划.json",
+            "line": 74
+          }
+        ],
+        "unproven": "不能将头数、激活、dropout、初始化同时变化的结果归因于某一项。"
+      },
+      {
+        "id": 4,
+        "topic": "Actor/Critic及动作空间",
+        "confirmed": "旧Actor三个Categorical独立抽样、无SKIP/gate/完整合法mask；旧Critic实际Q为三头选中值之和。Horizon主模型变为SKIP门控+条件Actor及joint Q动作嵌入MLP，9551候选上的硬mask共同用于采样与更新；independent/additive仅是新包可选分支。",
+        "old": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 304
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 361
+          }
+        ],
+        "new": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\models\\networks.py",
+            "line": 159
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\models\\networks.py",
+            "line": 174
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\models\\networks.py",
+            "line": 211
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\models\\networks.py",
+            "line": 218
+          }
+        ],
+        "unproven": "无主动SKIP和加入主动SKIP是决策问题变化，不能只比较网络名字。"
+      },
+      {
+        "id": 5,
+        "topic": "离散SAC期望的min顺序",
+        "confirmed": "旧target及Actor loss先分别min各Q分支，再求三个边缘期望并相加；新先形成每个完整动作Q，再min(Q1,Q2)并在同一合法联合分布精确求和。二者一般不等价。旧actor阶段还计算无须使用的Q/alpha梯度；新候选Q无梯度且alpha.detach。",
+        "old": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 339
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 431
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 440
+          }
+        ],
+        "new": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\rl\\sac.py",
+            "line": 12
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\rl\\sac.py",
+            "line": 98
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\rl\\sac.py",
+            "line": 195
+          }
+        ],
+        "oracle": "取两分量Q1=(0,10),Q2=(10,0)，sum(min)=0，min(sum)=10。该数学差异已证；其对特定训练性能的符号未证。"
+      },
+      {
+        "id": 6,
+        "topic": "温度与折扣目标改变",
+        "confirmed": "旧H为正熵，target_entropy=-6.9，alpha_loss=(H+6.9)*exp(log_alpha)，其对log_alpha梯度恒正，下降更新持续压低alpha；新用正ηlog合法数，低于目标才提高alpha，并排除仅SKIP状态。旧gamma=.99、新冻结gamma=1，长时信用目标也不同。",
+        "old": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 447
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "line": 109
+          }
+        ],
+        "new": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\rl\\sac.py",
+            "line": 21
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\rl\\sac.py",
+            "line": 211
+          },
+          {
+            "file": "D:\\graduate\\第二阶段T-SAC实施记录\\夜间超参数实验计划.json",
+            "line": 98
+          }
+        ],
+        "unproven": "不能把恢复不可达负目标熵当作正式修复；可用具名固定alpha/明确衰减策略对照探索效应。"
+      },
+      {
+        "id": 7,
+        "topic": "Replay、边界、数据和实际预算",
+        "confirmed": "旧逐步立即入池、random.sample无放回均匀转移、单done关bootstrap；新完成回合后按规模桶/回合/转移有放回采样，只terminated关bootstrap，truncated保留真实next。旧每一步在buffer>2000后一次更新，4000EP/batch256/cap20000；本次Horizon同样env_step一次更新，但实际100EP/batch64/cap4000/warmup1000。旧随机读取全部CSV并增强宽度，新冻结train/validation/test、宽度增强关闭。",
+        "old": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 20
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_fyh_IO.py",
+            "line": 351
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "line": 101
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "line": 199
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "line": 209
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "line": 251
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\sac_fyh_io\\sac_train_fyh_IO.py",
+            "line": 260
+          }
+        ],
+        "new": [
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\rl\\replay.py",
+            "line": 101
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\rl\\replay.py",
+            "line": 148
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\rl\\sac.py",
+            "line": 113
+          },
+          {
+            "file": "D:\\graduate\\PPO4090\\implementations\\horizon_tsac_20260920\\train.py",
+            "line": 59
+          },
+          {
+            "file": "D:\\graduate\\第二阶段T-SAC实施记录\\夜间超参数实验计划.json",
+            "line": 83
+          }
+        ],
+        "old_artifact": {
+          "file": "D:\\graduate\\PPO4090\\outputs\\sac_fyh_io\\metrics\\metrics_202512120428.npz",
+          "return_points": 4000,
+          "satisfaction_points": 4000,
+          "satisfaction_min": 73.38467030484242,
+          "satisfaction_max": 198.73018970310744,
+          "limitation": "与旧训练导出结构一致，但缺原run源码/数据/seed清单，不能仅凭文件名证明精确来源或独立验证效果；旧量纲不能直接与新U0–1比较。"
+        }
+      },
+      {
+        "id": 8,
+        "topic": "可逐项定位的桥接方案",
+        "stages": [
+          "R0只读历史复原：绑定旧权重、205输入构造、14token实际切片、框架默认参数与历史曲线；有条件先固定输入/动作序列复算，不将训练内曲线冒充validation。原始随机训练轨迹若缺RNG/版本记录则明确不可精确复原。",
+          "B0显式桥接：在统一已修复物理/奖励/数据划分、完整合法动作和正确离散SAC下，复建旧14token编码器及独立评分Actor/可加Critic；明确这是桥接，不是旧算法完整复现。不要先加入全局集合、条件Actor、joint Q或CNN warmstart。",
+          "B1数值与编码器单因素：固定动作头/数学/预算，先对照旧式有界标准化与现log-INR；再分别更换头数、激活、位置初始化、dropout及明确运行模式；随后比较14block/100slot/完整场景聚合，不一次全换。",
+          "B2头部与探索单因素：固定已验证编码器，按independent/conditional×additive/joint的2×2配置对照；另单独比较主动SKIP先验和固定alpha/合法正熵目标，最后才改gamma与Replay采样。",
+          "B3预算阶梯：先同环境步、同真实优化步和有效batch作小预算筛选，再延长同一方案并保留各预算检查点；不能拿旧4000训练曲线对新100验证分数宣称架构优劣。仅用冻结validation选参，已见test不得参与选择，正式泛化需新的独立来源数据。"
+        ],
+        "scope": "提出方案，不执行新训练，不恢复自动化，不修改冻结实现。"
+      }
+    ],
+    "permitted_temp_artifact_only": true
+  },
+  "limits": [
+    "历史checkpoint缺运行配置，不凭当前旧源码认定所有2025年训练设置",
+    "旧NPZ为训练累计满意度，不能直接与新正需求validation U比较",
+    "有源码差异和旧曲线改善证据，仍无单因素实验可确认退化主因",
+    "本文没有否认新环境同预算下Horizon落后CNN这一结果"
+  ]
+}

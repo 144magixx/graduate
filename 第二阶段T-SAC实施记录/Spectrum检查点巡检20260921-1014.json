@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-09-21T02:16:29.718071+00:00",
+  "checkpoints": [
+    {
+      "name": "CNN继续训练对照-seed42",
+      "checkpoint_id": "ce88091bc7cf4a7796ea6b8a3275fffb",
+      "counters": {
+        "env_step": 21313,
+        "update_step": 20314,
+        "episodes": 150
+      },
+      "sha256": "8ac142192b09c313dbde581dab5aaf455e0421aa031b96bcbd675313bade4521",
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_cf74dbeb8d38/检查点存档/ce88091bc7cf4a7796ea6b8a3275fffb/检查点.pt",
+      "bytes": 94580409
+    },
+    {
+      "name": "Spectrum残差模型-seed42",
+      "checkpoint_id": "791e92e2a5944c4aa16050c1400e025e",
+      "counters": {
+        "env_step": 14281,
+        "update_step": 13282,
+        "episodes": 100
+      },
+      "sha256": "b84104809e4954afba65df3b5ca068fd4ae6f51972afb033ab79a6d5cf09f691",
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_7256a95e074e/检查点存档/791e92e2a5944c4aa16050c1400e025e/检查点.pt",
+      "bytes": 113950496
+    },
+    {
+      "name": "CNN继续训练对照-seed43",
+      "checkpoint_id": "7965a0a1640c401985be113227d4475d",
+      "counters": {
+        "env_step": 21294,
+        "update_step": 20295,
+        "episodes": 150
+      },
+      "sha256": "630f21c95a8b02eb1d2e333b07a7759a8dd2dbdebed543650f6c3b44fc3857bf",
+      "path": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/SpectrumT-SAC-20260921-v1/PPO4090/outputs/spectrum_tsac_20260921/20260921T004424_09fde58b812f/检查点存档/7965a0a1640c401985be113227d4475d/检查点.pt",
+      "bytes": 96716172
+    }
+  ],
+  "new_comparable_evaluation": false,
+  "actions": "只读核验；冻结训练继续；无源码或参数修改"
+}

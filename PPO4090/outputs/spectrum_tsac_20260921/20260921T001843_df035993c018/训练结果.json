@@ -1,0 +1,312 @@
+{
+  "run_id": "20260921T001843_df035993c018",
+  "mode": "preflight",
+  "counters": {
+    "env_step": 286,
+    "update_step": 148,
+    "episodes": 2
+  },
+  "elapsed_seconds": 41.10899999999674,
+  "update_protocol": {
+    "schedule": "env_step",
+    "warmup_steps": 139,
+    "warmup_collection": "initialized_policy",
+    "updates_per_step": 1,
+    "updates_per_episode": 1,
+    "replay_eligibility": "completed_episodes_only",
+    "missed_updates": "not_accumulated"
+  },
+  "initialization": {
+    "initialization_version": "cnn_weights_only.v1",
+    "kind": "weights_only_not_exact_resume",
+    "source_run_id": "20260920T201733_2c40a6bf449e",
+    "source_trial_id": "5ba335af2cd145359d3d6e058f760698",
+    "source_checkpoint_id": "5180a86491a046a98b39f0004e1e4210",
+    "source_sha256": "a2fcab6465cfe18bc0afd701ac6c73f671ea8d3fdbf88423414d03a739a7fba8",
+    "source_path": "D:\\graduate\\第二阶段T-SAC实施记录\\Spectrum继续训练父检查点\\检查点.pt",
+    "source_counters": {
+      "env_step": 14281,
+      "update_step": 13282,
+      "episodes": 100
+    },
+    "data_manifest_hash": "154326a45c9dbde33ae6b0613283a1367c09267ff3dde4bb73b19d6752bfb1a5",
+    "source_model": {
+      "model_version": "paper_adapted_cnn_sac.v1",
+      "encoder": "cnn_local",
+      "actor": "independent",
+      "critic": "additive",
+      "d_model": 128,
+      "attention_heads": 4,
+      "encoder_layers": 2,
+      "context_layers": 1,
+      "context_residual_scale": 0.25,
+      "dropout": 0.0,
+      "spectrum_tokens": "slots",
+      "candidate_chunk_size": 512
+    },
+    "target_model": {
+      "model_version": "spectrum_cnn_control.v1",
+      "encoder": "cnn_local",
+      "actor": "independent",
+      "critic": "additive",
+      "d_model": 128,
+      "attention_heads": 4,
+      "encoder_layers": 2,
+      "context_layers": 1,
+      "context_residual_scale": 0.25,
+      "dropout": 0.0,
+      "spectrum_tokens": "slots",
+      "candidate_chunk_size": 512
+    },
+    "copied_tensor_keys": {
+      "actor": [
+        "candidates",
+        "encoder.local_convolutions.0.bias",
+        "encoder.local_convolutions.0.weight",
+        "encoder.local_convolutions.2.bias",
+        "encoder.local_convolutions.2.weight",
+        "encoder.local_network.0.bias",
+        "encoder.local_network.0.weight",
+        "encoder.local_network.2.bias",
+        "encoder.local_network.2.weight",
+        "gate.bias",
+        "gate.weight",
+        "length.bias",
+        "length.weight",
+        "power.bias",
+        "power.weight",
+        "start.bias",
+        "start.weight"
+      ],
+      "critic_1": [
+        "candidates",
+        "encoder.local_convolutions.0.bias",
+        "encoder.local_convolutions.0.weight",
+        "encoder.local_convolutions.2.bias",
+        "encoder.local_convolutions.2.weight",
+        "encoder.local_network.0.bias",
+        "encoder.local_network.0.weight",
+        "encoder.local_network.2.bias",
+        "encoder.local_network.2.weight",
+        "length.bias",
+        "length.weight",
+        "power.bias",
+        "power.weight",
+        "skip.bias",
+        "skip.weight",
+        "start.bias",
+        "start.weight"
+      ],
+      "critic_2": [
+        "candidates",
+        "encoder.local_convolutions.0.bias",
+        "encoder.local_convolutions.0.weight",
+        "encoder.local_convolutions.2.bias",
+        "encoder.local_convolutions.2.weight",
+        "encoder.local_network.0.bias",
+        "encoder.local_network.0.weight",
+        "encoder.local_network.2.bias",
+        "encoder.local_network.2.weight",
+        "length.bias",
+        "length.weight",
+        "power.bias",
+        "power.weight",
+        "skip.bias",
+        "skip.weight",
+        "start.bias",
+        "start.weight"
+      ],
+      "target_critic_1": [
+        "candidates",
+        "encoder.local_convolutions.0.bias",
+        "encoder.local_convolutions.0.weight",
+        "encoder.local_convolutions.2.bias",
+        "encoder.local_convolutions.2.weight",
+        "encoder.local_network.0.bias",
+        "encoder.local_network.0.weight",
+        "encoder.local_network.2.bias",
+        "encoder.local_network.2.weight",
+        "length.bias",
+        "length.weight",
+        "power.bias",
+        "power.weight",
+        "skip.bias",
+        "skip.weight",
+        "start.bias",
+        "start.weight"
+      ],
+      "target_critic_2": [
+        "candidates",
+        "encoder.local_convolutions.0.bias",
+        "encoder.local_convolutions.0.weight",
+        "encoder.local_convolutions.2.bias",
+        "encoder.local_convolutions.2.weight",
+        "encoder.local_network.0.bias",
+        "encoder.local_network.0.weight",
+        "encoder.local_network.2.bias",
+        "encoder.local_network.2.weight",
+        "length.bias",
+        "length.weight",
+        "power.bias",
+        "power.weight",
+        "skip.bias",
+        "skip.weight",
+        "start.bias",
+        "start.weight"
+      ]
+    },
+    "new_tensor_keys": {
+      "actor": [],
+      "critic_1": [],
+      "critic_2": [],
+      "target_critic_1": [],
+      "target_critic_2": []
+    },
+    "copied_log_alpha": -3.508819580078125,
+    "preserved_new_state": [
+      "optimizer",
+      "replay",
+      "sampler",
+      "RNG",
+      "counters",
+      "config",
+      "new_trial_identity"
+    ],
+    "new_update_step": 0
+  },
+  "steps_per_second": 6.957114013963431,
+  "episodes": [
+    {
+      "n_entities": 139,
+      "n_demand": 139,
+      "empty_demand": false,
+      "mean_satisfaction": 0.8967343060033346,
+      "fully_satisfied_fraction": 0.7697841726618705,
+      "served_fraction": 1.0,
+      "skip_fraction": 0.0,
+      "zero_rate_fraction": 0.0,
+      "delivered_bps": 50051109518.09216,
+      "raw_throughput_bps": 78257464627.25415,
+      "unmet_bps": 18257479362.21868,
+      "total_demand_bps": 68308588880.31084,
+      "power_used_w": 5370.0,
+      "remaining_power_w": 630.0,
+      "power_budget_w": 6000.0,
+      "pool_occupancy": 0.97125,
+      "physical_frequency_coverage": 1.0,
+      "sinr_sample_count": 777,
+      "mean_slot_sinr_db": 11.608698792745958,
+      "p05_slot_sinr_db": 0.397895576690664,
+      "linear_mean_sinr_to_db": 13.38245302897348,
+      "jain_clipped_satisfaction": 0.9456237311552596,
+      "sgm_mean_positive_demand": 0.5464261936091805,
+      "sgm_beta_bps": 491428696.9806535,
+      "constraint_violation_count": 0,
+      "constraint_violations": [],
+      "end_to_end_metric_available": false,
+      "j_root": null,
+      "episode_return": 89.67343060033342,
+      "episode_seconds": 6.078000000037719,
+      "env_step": 139,
+      "update_step": 1,
+      "episode_id": "2e3155d6af9b489bb2e45adb670e7c57",
+      "scenario_id": "cover_output_52",
+      "truncated": false
+    },
+    {
+      "n_entities": 147,
+      "n_demand": 147,
+      "empty_demand": false,
+      "mean_satisfaction": 0.9146331652986105,
+      "fully_satisfied_fraction": 0.7755102040816326,
+      "served_fraction": 1.0,
+      "skip_fraction": 0.0,
+      "zero_rate_fraction": 0.0,
+      "delivered_bps": 56897419380.13414,
+      "raw_throughput_bps": 81162585782.14624,
+      "unmet_bps": 21274938391.911995,
+      "total_demand_bps": 78172357772.04613,
+      "power_used_w": 5320.0,
+      "remaining_power_w": 680.0,
+      "power_budget_w": 6000.0,
+      "pool_occupancy": 0.98375,
+      "physical_frequency_coverage": 1.0,
+      "sinr_sample_count": 787,
+      "mean_slot_sinr_db": 11.962472963897962,
+      "p05_slot_sinr_db": 1.6118309970158027,
+      "linear_mean_sinr_to_db": 13.467060617454678,
+      "jain_clipped_satisfaction": 0.9562051227799336,
+      "sgm_mean_positive_demand": 0.6550834350874618,
+      "sgm_beta_bps": 531784746.7486131,
+      "constraint_violation_count": 0,
+      "constraint_violations": [],
+      "end_to_end_metric_available": false,
+      "j_root": null,
+      "episode_return": 91.46331652986115,
+      "episode_seconds": 31.95300000003772,
+      "env_step": 286,
+      "update_step": 148,
+      "episode_id": "fb37726d860740b0963c4b395a174d04",
+      "scenario_id": "cover_output_18",
+      "truncated": false
+    }
+  ],
+  "checkpoint_available": true,
+  "sampler": {
+    "rng": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 262352927760196660606018848062626249005,
+        "inc": 225642193180116550529615695599510342417
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "draws": 2,
+    "counts": {
+      "9d44057c94c929b9502c91edae295cb3b4c3c3455238a223e0963c8d10f6e03a": 1,
+      "cell:scale_121_168": 2,
+      "e06fb60c96d2c8687cd7dea79ca3fea138f7bf822823b16fa014d7b8aac98d57": 1
+    },
+    "branch_counts": {
+      "deployment": 2
+    },
+    "collected_by_domain_cell": {
+      "scale_121_168": 2
+    },
+    "source_identity_rule": "declared_root_scene_id_else_source_hash_not_independent_root",
+    "domain_counting_rule": "multi_label_episode_memberships",
+    "sampling_protocol": {
+      "version": "root_mixture.v1",
+      "warmup_draws": 0,
+      "mixture": [
+        0.7,
+        0.2,
+        0.1
+      ]
+    }
+  },
+  "replay_sampling": {
+    "transitions": 286,
+    "episodes": 2,
+    "buckets": {
+      "2": {
+        "episodes": 2,
+        "transitions": 286
+      }
+    },
+    "evicted_episodes": 0,
+    "sampled_by_bucket": {
+      "2": 592
+    },
+    "sampled_by_domain_cell": {
+      "['scale_121_168']": 592
+    },
+    "sampled_by_domain_cell_membership": {
+      "scale_121_168": 592
+    },
+    "sampling_mode": "episode_balanced"
+  },
+  "cuda_peak_bytes": null,
+  "conclusion": "训练记录；性能结论以冻结检查点的独立评估为准，不自动构成多种子泛化证据"
+}

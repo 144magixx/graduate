@@ -1,0 +1,882 @@
+{
+  "campaign_id": "HorizonT-SAC-20260921论文七基线对比",
+  "status": "completed",
+  "training_budget": {
+    "episodes": 100,
+    "env_step": 14281,
+    "ppo_updates": 2950,
+    "other_learned_updates": 13282
+  },
+  "primary_eta": 0.5,
+  "supplemental_eta": 0.2,
+  "test_selection_frozen_at_utc": "2026-09-20T21:32:12.961643+00:00",
+  "formal_multiseed_complete": false,
+  "results": {
+    "fixed": {
+      "display_name": "Fixed",
+      "validation": {
+        "display_name": "Fixed",
+        "mean_U": 0.8081672740730578,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": false,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.5425003201759737,
+          "mean_slot_sinr_db": 11.630274761392291,
+          "p05_slot_sinr_db": 1.8528853252521738,
+          "delivered_bps": 44208935759.06958,
+          "raw_throughput_bps": 67662636218.85188,
+          "unmet_bps": 35811064240.93043,
+          "power_used_w": 4042.0,
+          "skip_fraction": 0.0,
+          "served_fraction": 1.0,
+          "policy_decision_seconds": 0.09553405828773975,
+          "inference_seconds": 0.5077716283500194,
+          "rollout_seconds": 2.9586652509868143
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 10105,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/validation/heuristics/paper_fixed/运行清单.json",
+        "checkpoint_counters": null
+      },
+      "test": {
+        "display_name": "Fixed",
+        "mean_U": 0.8193129683398047,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": false,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.5308874693158186,
+          "mean_slot_sinr_db": 11.640560525367288,
+          "p05_slot_sinr_db": 1.7506873079914358,
+          "delivered_bps": 46971994585.446625,
+          "raw_throughput_bps": 73136353228.2754,
+          "unmet_bps": 36253005414.553375,
+          "power_used_w": 4352.0,
+          "skip_fraction": 0.0031746031746031746,
+          "served_fraction": 0.9968253968253968,
+          "policy_decision_seconds": 0.10424348364273707,
+          "inference_seconds": 0.5582660106321176,
+          "rollout_seconds": 3.3257009845227
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 10880,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/test/heuristics/paper_fixed/运行清单.json",
+        "checkpoint_counters": null
+      }
+    },
+    "greedy": {
+      "display_name": "Greedy",
+      "validation": {
+        "display_name": "Greedy",
+        "mean_U": 0.8109906007056656,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": false,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.5577801787055602,
+          "mean_slot_sinr_db": 11.334005640633617,
+          "p05_slot_sinr_db": 3.527140160277665,
+          "delivered_bps": 45209248505.12244,
+          "raw_throughput_bps": 65766085174.33391,
+          "unmet_bps": 34810751494.87757,
+          "power_used_w": 3359.3333333333335,
+          "skip_fraction": 0.0,
+          "served_fraction": 1.0,
+          "policy_decision_seconds": 0.10150817732016246,
+          "inference_seconds": 0.5119410764425993,
+          "rollout_seconds": 2.963338354850809
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 10105,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/validation/heuristics/paper_greedy/运行清单.json",
+        "checkpoint_counters": null
+      },
+      "test": {
+        "display_name": "Greedy",
+        "mean_U": 0.8228863104537878,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": false,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.5592384451999272,
+          "mean_slot_sinr_db": 11.24047832502959,
+          "p05_slot_sinr_db": 2.3072891171426155,
+          "delivered_bps": 48186977410.051865,
+          "raw_throughput_bps": 70591858542.15106,
+          "unmet_bps": 35038022589.94813,
+          "power_used_w": 3612.0,
+          "skip_fraction": 0.0031746031746031746,
+          "served_fraction": 0.9968253968253968,
+          "policy_decision_seconds": 0.11058180406689644,
+          "inference_seconds": 0.5658137172460556,
+          "rollout_seconds": 3.359886471182108
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 10880,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/test/heuristics/paper_greedy/运行清单.json",
+        "checkpoint_counters": null
+      }
+    },
+    "random": {
+      "display_name": "Random",
+      "validation": {
+        "display_name": "Random",
+        "mean_U": 0.7422246894839061,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": false,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.6118464522674719,
+          "mean_slot_sinr_db": 10.865814851693399,
+          "p05_slot_sinr_db": 2.623551450945025,
+          "delivered_bps": 40822778154.98917,
+          "raw_throughput_bps": 52607836023.78278,
+          "unmet_bps": 39197221845.01083,
+          "power_used_w": 3686.6666666666665,
+          "skip_fraction": 0.0,
+          "served_fraction": 1.0,
+          "policy_decision_seconds": 0.08785340550045172,
+          "inference_seconds": 0.5017851716528337,
+          "rollout_seconds": 2.960758002102375
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 8272,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/validation/heuristics/paper_random/运行清单.json",
+        "checkpoint_counters": null
+      },
+      "test": {
+        "display_name": "Random",
+        "mean_U": 0.7540363938183692,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": false,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.6223117504352732,
+          "mean_slot_sinr_db": 10.90208263366125,
+          "p05_slot_sinr_db": 2.843116149450128,
+          "delivered_bps": 43240890483.879616,
+          "raw_throughput_bps": 55629499984.58401,
+          "unmet_bps": 39984109516.120384,
+          "power_used_w": 3995.0,
+          "skip_fraction": 0.0,
+          "served_fraction": 1.0,
+          "policy_decision_seconds": 0.09570840857923031,
+          "inference_seconds": 0.5504314210265875,
+          "rollout_seconds": 3.325633382300536
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 8726,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/test/heuristics/paper_random/运行清单.json",
+        "checkpoint_counters": null
+      }
+    },
+    "mlp_sac": {
+      "display_name": "MLP-SAC",
+      "validation": {
+        "display_name": "MLP-SAC",
+        "mean_U": 0.8558287896279756,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.6364154621958138,
+          "mean_slot_sinr_db": 11.604663508611521,
+          "p05_slot_sinr_db": 1.8420836941309942,
+          "delivered_bps": 53603734682.52809,
+          "raw_throughput_bps": 75687992067.97336,
+          "unmet_bps": 26416265317.471912,
+          "power_used_w": 5538.333333333333,
+          "skip_fraction": 0.014396881960620474,
+          "served_fraction": 0.9856031180393796,
+          "policy_decision_seconds": 0.21946602314710617,
+          "inference_seconds": 0.6411143158872922,
+          "rollout_seconds": 3.1633946360399325
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 11272,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/validation/mlp_sac/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      },
+      "test": {
+        "display_name": "MLP-SAC",
+        "mean_U": 0.8488887422756212,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.641665294415062,
+          "mean_slot_sinr_db": 11.689914099580054,
+          "p05_slot_sinr_db": 1.632963742434425,
+          "delivered_bps": 56100864232.19971,
+          "raw_throughput_bps": 78885463845.9952,
+          "unmet_bps": 27124135767.800293,
+          "power_used_w": 5921.0,
+          "skip_fraction": 0.02684138288348772,
+          "served_fraction": 0.9731586171165123,
+          "policy_decision_seconds": 0.24051596360901992,
+          "inference_seconds": 0.7038247144470612,
+          "rollout_seconds": 3.562959904347857
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 11679,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/test/mlp_sac/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      }
+    },
+    "cnn_sac": {
+      "display_name": "CNN-SAC",
+      "validation": {
+        "display_name": "CNN-SAC",
+        "mean_U": 0.8903744222080675,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.6820070481219439,
+          "mean_slot_sinr_db": 11.850223648990589,
+          "p05_slot_sinr_db": 4.592407569621988,
+          "delivered_bps": 57357821507.19858,
+          "raw_throughput_bps": 77926739410.82191,
+          "unmet_bps": 22662178492.80142,
+          "power_used_w": 5073.333333333333,
+          "skip_fraction": 0.008405394892593754,
+          "served_fraction": 0.9915946051074064,
+          "policy_decision_seconds": 0.2614783531675736,
+          "inference_seconds": 0.6797082149734099,
+          "rollout_seconds": 3.187719010561705
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 11455,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/validation/cnn_sac/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      },
+      "test": {
+        "display_name": "CNN-SAC",
+        "mean_U": 0.8898147971211094,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.6948851819292855,
+          "mean_slot_sinr_db": 11.976714860842417,
+          "p05_slot_sinr_db": 4.073521429297199,
+          "delivered_bps": 59995244837.245346,
+          "raw_throughput_bps": 81031353539.5573,
+          "unmet_bps": 23229755162.754665,
+          "power_used_w": 5435.666666666667,
+          "skip_fraction": 0.009658074553870565,
+          "served_fraction": 0.9903419254461295,
+          "policy_decision_seconds": 0.2834719639271498,
+          "inference_seconds": 0.7480132646858693,
+          "rollout_seconds": 3.6002527981996537
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 11820,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/test/cnn_sac/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      }
+    },
+    "mlp_dqn": {
+      "display_name": "MLP-DQN",
+      "validation": {
+        "display_name": "MLP-DQN",
+        "mean_U": 0.7204957163231017,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.47404554890278544,
+          "mean_slot_sinr_db": 9.981270566394583,
+          "p05_slot_sinr_db": 1.2658337356190243,
+          "delivered_bps": 37179060636.392136,
+          "raw_throughput_bps": 58282156782.13791,
+          "unmet_bps": 42840939363.607864,
+          "power_used_w": 3527.6666666666665,
+          "skip_fraction": 0.0004246284501061571,
+          "served_fraction": 0.9995753715498937,
+          "policy_decision_seconds": 0.16137457763155302,
+          "inference_seconds": 0.584081394597888,
+          "rollout_seconds": 3.0851169447104136
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 9863,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/validation/mlp_dqn/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      },
+      "test": {
+        "display_name": "MLP-DQN",
+        "mean_U": 0.7307852619248856,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.48187236685254126,
+          "mean_slot_sinr_db": 9.914281694361497,
+          "p05_slot_sinr_db": 0.5324744703817741,
+          "delivered_bps": 39104164487.915985,
+          "raw_throughput_bps": 60882764843.54358,
+          "unmet_bps": 44120835512.084015,
+          "power_used_w": 3984.0,
+          "skip_fraction": 0.0003968253968253968,
+          "served_fraction": 0.9996031746031746,
+          "policy_decision_seconds": 0.17634371543924013,
+          "inference_seconds": 0.6388353607306878,
+          "rollout_seconds": 3.478602485731244
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 10323,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/test/mlp_dqn/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      }
+    },
+    "mlp_ppo": {
+      "display_name": "MLP-PPO（联合MAP）",
+      "validation": {
+        "display_name": "MLP-PPO",
+        "mean_U": 0.00446565703787455,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.002650128623030813,
+          "mean_slot_sinr_db": null,
+          "p05_slot_sinr_db": null,
+          "delivered_bps": 409665922.3981082,
+          "raw_throughput_bps": 569748070.5931203,
+          "unmet_bps": 79610334077.60188,
+          "power_used_w": 18.333333333333332,
+          "skip_fraction": 0.9917851391764435,
+          "served_fraction": 0.008214860823556476,
+          "policy_decision_seconds": 0.1956546193609635,
+          "inference_seconds": 0.47339470001558465,
+          "rollout_seconds": 2.53246527488033
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 3,
+          "p05_slot_sinr_db": 3,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 139,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/validation/mlp_ppo/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 2950,
+          "episodes": 100
+        }
+      },
+      "test": {
+        "display_name": "MLP-PPO",
+        "mean_U": 0.002260444566960539,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.0017863498821949306,
+          "mean_slot_sinr_db": null,
+          "p05_slot_sinr_db": null,
+          "delivered_bps": 280416695.7296369,
+          "raw_throughput_bps": 294969888.32732785,
+          "unmet_bps": 82944583304.27037,
+          "power_used_w": 7.0,
+          "skip_fraction": 0.9948930296756384,
+          "served_fraction": 0.0051069703243616284,
+          "policy_decision_seconds": 0.21152398412426313,
+          "inference_seconds": 0.5084079250693321,
+          "rollout_seconds": 2.828143261373043
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 2,
+          "p05_slot_sinr_db": 2,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 79,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/test/mlp_ppo/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 2950,
+          "episodes": 100
+        }
+      }
+    },
+    "tsac_205": {
+      "display_name": "局部T-SAC控制组",
+      "validation": {
+        "display_name": "T-SAC局部205控制组",
+        "mean_U": 0.7968314147454986,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.7035319670987825,
+          "mean_slot_sinr_db": 11.079082383391244,
+          "p05_slot_sinr_db": 1.9033843356627014,
+          "delivered_bps": 56659648060.37533,
+          "raw_throughput_bps": 75254209259.69316,
+          "unmet_bps": 23360351939.62466,
+          "power_used_w": 4489.666666666667,
+          "skip_fraction": 0.08006493962696154,
+          "served_fraction": 0.9199350603730384,
+          "policy_decision_seconds": 0.3404747827599446,
+          "inference_seconds": 0.7625480340172847,
+          "rollout_seconds": 3.3131783556193115
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 11717,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/validation/tsac_205/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      },
+      "test": {
+        "display_name": "T-SAC局部205控制组",
+        "mean_U": 0.7473664586934945,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.6764121608480471,
+          "mean_slot_sinr_db": 10.971216551942637,
+          "p05_slot_sinr_db": 1.4659842256292683,
+          "delivered_bps": 57969550866.39391,
+          "raw_throughput_bps": 76546054105.31947,
+          "unmet_bps": 25255449133.606083,
+          "power_used_w": 4628.333333333333,
+          "skip_fraction": 0.11727495817195965,
+          "served_fraction": 0.8827250418280403,
+          "policy_decision_seconds": 0.36626448122163613,
+          "inference_seconds": 0.8261117247243722,
+          "rollout_seconds": 3.670749802639087
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 11995,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/test/tsac_205/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      }
+    },
+    "horizon_primary": {
+      "display_name": "Horizon η=.5 主参考",
+      "validation": {
+        "display_name": "Horizon T-SAC主参考η=0.5",
+        "mean_U": 0.7128884571306056,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.660601673670227,
+          "mean_slot_sinr_db": 12.654498206114903,
+          "p05_slot_sinr_db": 2.5147162485693926,
+          "delivered_bps": 48302586375.3477,
+          "raw_throughput_bps": 55651982227.06988,
+          "unmet_bps": 31717413624.652287,
+          "power_used_w": 5733.666666666667,
+          "skip_fraction": 0.0511412882997135,
+          "served_fraction": 0.9488587117002866,
+          "policy_decision_seconds": 1.4331194277852775,
+          "inference_seconds": 1.8581691962977251,
+          "rollout_seconds": 4.3354870464652775
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 7679,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/validation/horizon_primary/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      },
+      "test": {
+        "display_name": "Horizon T-SAC主参考η=0.5",
+        "mean_U": 0.6896361593498255,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.6546604184640077,
+          "mean_slot_sinr_db": 12.547175880646684,
+          "p05_slot_sinr_db": 2.1791040768117607,
+          "delivered_bps": 49841026731.86552,
+          "raw_throughput_bps": 57471943166.81434,
+          "unmet_bps": 33383973268.134476,
+          "power_used_w": 5983.0,
+          "skip_fraction": 0.08238474379516485,
+          "served_fraction": 0.9176152562048352,
+          "policy_decision_seconds": 1.5774507638067008,
+          "inference_seconds": 2.046455820525686,
+          "rollout_seconds": 4.866185588017106
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 7967,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/test/horizon_primary/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      }
+    },
+    "horizon_supplemental": {
+      "display_name": "Horizon η=.2 补充参考",
+      "validation": {
+        "display_name": "Horizon T-SAC验证选择补充参考",
+        "mean_U": 0.7468432432926727,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.6787724748392332,
+          "mean_slot_sinr_db": 13.201053153675048,
+          "p05_slot_sinr_db": 2.604818513684059,
+          "delivered_bps": 48724712891.706696,
+          "raw_throughput_bps": 57437108974.521225,
+          "unmet_bps": 31295287108.293293,
+          "power_used_w": 5750.666666666667,
+          "skip_fraction": 0.06924369513674374,
+          "served_fraction": 0.9307563048632562,
+          "policy_decision_seconds": 1.4206415880471468,
+          "inference_seconds": 1.8441929786155622,
+          "rollout_seconds": 4.30490714845558
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 7647,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/validation/horizon_supplemental/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      },
+      "test": {
+        "display_name": "Horizon T-SAC验证选择补充参考",
+        "mean_U": 0.7233574322096055,
+        "scenarios": 15,
+        "constraint_violations": 0,
+        "training_required": true,
+        "scene_equal_weight_means": {
+          "sgm_mean_positive_demand": 0.6632095208655244,
+          "mean_slot_sinr_db": 13.00053715944143,
+          "p05_slot_sinr_db": 1.6506644080473345,
+          "delivered_bps": 50977344460.6063,
+          "raw_throughput_bps": 59830468295.06844,
+          "unmet_bps": 32247655539.393696,
+          "power_used_w": 5991.666666666667,
+          "skip_fraction": 0.10410511689399864,
+          "served_fraction": 0.8958948831060014,
+          "policy_decision_seconds": 1.5676300786435604,
+          "inference_seconds": 2.03368315435946,
+          "rollout_seconds": 4.852047332376242
+        },
+        "available_scenarios_by_metric": {
+          "sgm_mean_positive_demand": 15,
+          "mean_slot_sinr_db": 15,
+          "p05_slot_sinr_db": 15,
+          "delivered_bps": 15,
+          "raw_throughput_bps": 15,
+          "unmet_bps": 15,
+          "power_used_w": 15,
+          "skip_fraction": 15,
+          "served_fraction": 15,
+          "policy_decision_seconds": 15,
+          "inference_seconds": 15,
+          "rollout_seconds": 15
+        },
+        "sinr_sample_count_total": 8024,
+        "sinr_aggregation_note": "各场景槽SINR均值及各场景P05再等权平均；不是合并槽样本后的P05",
+        "durable_evaluation_manifest": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090/论文基线对比/HorizonT-SAC-20260921论文七基线对比/评价记录/test/horizon_supplemental/policy/运行清单.json",
+        "checkpoint_counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        }
+      }
+    }
+  }
+}

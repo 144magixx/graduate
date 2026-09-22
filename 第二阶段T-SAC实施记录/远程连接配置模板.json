@@ -1,0 +1,13 @@
+{
+  "host": "10.160.16.3",
+  "port": 22854,
+  "username": "u2024110224",
+  "identity_file": "C:/Users/minyu/.ssh/HorizonT-SAC",
+  "remote_project_dir": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920",
+  "说明": {
+    "identity_file": "填写本机已有私钥文件的绝对路径，例如 C:/Users/minyu/.ssh/id_ed25519；此私钥对应的公钥须已获服务器授权。不要在这里粘贴私钥内容。",
+    "remote_project_dir": "填写远程用于新实现的绝对目录，例如 /home/u2024110224/graduate_horizon_20260920。上传时使用独立子目录，保留原实现。",
+    "如果还没有密钥文件": "请告诉我还没有密钥。我可以生成专用密钥对；公钥仍需通过你已登录的终端添加到该服务器账号的 authorized_keys。",
+    "当前用途": "待本地验收完成后上传新实现并做短验证，不启动正式长训练。"
+  }
+}

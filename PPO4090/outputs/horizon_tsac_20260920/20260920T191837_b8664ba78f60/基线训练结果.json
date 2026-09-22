@@ -1,0 +1,194 @@
+{
+  "algorithm": "cnn_sac",
+  "counters": {
+    "env_step": 286,
+    "update_step": 148,
+    "episodes": 2
+  },
+  "episodes": [
+    {
+      "n_entities": 139,
+      "n_demand": 139,
+      "empty_demand": false,
+      "mean_satisfaction": 0.6373458073687331,
+      "fully_satisfied_fraction": 0.41007194244604317,
+      "served_fraction": 0.8489208633093526,
+      "skip_fraction": 0.1510791366906475,
+      "zero_rate_fraction": 0.1510791366906475,
+      "delivered_bps": 34915175424.97083,
+      "raw_throughput_bps": 49627777244.08099,
+      "unmet_bps": 33393413455.34,
+      "total_demand_bps": 68308588880.31084,
+      "power_used_w": 3190.0,
+      "remaining_power_w": 2810.0,
+      "power_budget_w": 6000.0,
+      "pool_occupancy": 0.645,
+      "physical_frequency_coverage": 1.0,
+      "sinr_sample_count": 516,
+      "mean_slot_sinr_db": 11.024200387773451,
+      "p05_slot_sinr_db": 3.0850204036837967,
+      "linear_mean_sinr_to_db": 13.250175811221194,
+      "jain_clipped_satisfaction": 0.7337494960671673,
+      "sgm_mean_positive_demand": 0.4847168762059219,
+      "sgm_beta_bps": 491428696.9806535,
+      "constraint_violation_count": 0,
+      "constraint_violations": [],
+      "end_to_end_metric_available": false,
+      "j_root": null,
+      "episode_return": 63.73458073687329,
+      "episode_seconds": 3.219000000040978,
+      "env_step": 139,
+      "update_step": 1,
+      "episode_id": "6f3897f1453942d1b2a602ce7ac014e7",
+      "scenario_id": "cover_output_52",
+      "truncated": false
+    },
+    {
+      "n_entities": 147,
+      "n_demand": 147,
+      "empty_demand": false,
+      "mean_satisfaction": 0.47576686974944593,
+      "fully_satisfied_fraction": 0.35374149659863946,
+      "served_fraction": 0.564625850340136,
+      "skip_fraction": 0.43537414965986393,
+      "zero_rate_fraction": 0.43537414965986393,
+      "delivered_bps": 25192603914.698242,
+      "raw_throughput_bps": 40136952432.394135,
+      "unmet_bps": 52979753857.34789,
+      "total_demand_bps": 78172357772.04613,
+      "power_used_w": 2425.0,
+      "remaining_power_w": 3575.0,
+      "power_budget_w": 6000.0,
+      "pool_occupancy": 0.50375,
+      "physical_frequency_coverage": 1.0,
+      "sinr_sample_count": 403,
+      "mean_slot_sinr_db": 11.535570496102533,
+      "p05_slot_sinr_db": 5.353035063819673,
+      "linear_mean_sinr_to_db": 13.172404732316958,
+      "jain_clipped_satisfaction": 0.5190492531093074,
+      "sgm_mean_positive_demand": 0.30981939242908335,
+      "sgm_beta_bps": 531784746.7486131,
+      "constraint_violation_count": 0,
+      "constraint_violations": [],
+      "end_to_end_metric_available": false,
+      "j_root": null,
+      "episode_return": 47.576686974944614,
+      "episode_seconds": 18.15600000001723,
+      "env_step": 286,
+      "update_step": 148,
+      "episode_id": "eefde9e8151646a79cb91471c7912848",
+      "scenario_id": "cover_output_18",
+      "truncated": false
+    }
+  ],
+  "elapsed_seconds": 23.17200000002049,
+  "replay": {
+    "transitions": 286,
+    "episodes": 2,
+    "buckets": {
+      "2": {
+        "episodes": 2,
+        "transitions": 286
+      }
+    },
+    "evicted_episodes": 0,
+    "sampled_by_bucket": {
+      "2": 592
+    },
+    "sampled_by_domain_cell": {
+      "['scale_121_168']": 592
+    },
+    "sampled_by_domain_cell_membership": {
+      "scale_121_168": 592
+    },
+    "sampling_mode": "episode_balanced"
+  },
+  "sampler": {
+    "rng": {
+      "bit_generator": "PCG64",
+      "state": {
+        "state": 262352927760196660606018848062626249005,
+        "inc": 225642193180116550529615695599510342417
+      },
+      "has_uint32": 0,
+      "uinteger": 0
+    },
+    "draws": 2,
+    "counts": {
+      "9d44057c94c929b9502c91edae295cb3b4c3c3455238a223e0963c8d10f6e03a": 1,
+      "cell:scale_121_168": 2,
+      "e06fb60c96d2c8687cd7dea79ca3fea138f7bf822823b16fa014d7b8aac98d57": 1
+    },
+    "branch_counts": {
+      "deployment": 2
+    },
+    "collected_by_domain_cell": {
+      "scale_121_168": 2
+    },
+    "source_identity_rule": "declared_root_scene_id_else_source_hash_not_independent_root",
+    "domain_counting_rule": "multi_label_episode_memberships",
+    "sampling_protocol": {
+      "version": "root_mixture.v1",
+      "warmup_draws": 0,
+      "mixture": [
+        0.7,
+        0.2,
+        0.1
+      ]
+    }
+  },
+  "paper_baseline": {
+    "protocol_version": "paper_baselines_adapted.v1",
+    "algorithm_id": "cnn_sac",
+    "display_name": "CNN-SAC",
+    "paper_sha256": "3f83777b8eb69d58c1b9d963d2a8b9ea8d68417c3102708e268211b724ea5e69",
+    "paper_section": "IV",
+    "paper_page": 5,
+    "reproduction_scope": "方法级复现与统一修复环境适配，不声称重现原始论文图中数值",
+    "comparison_scope": "与Horizon完整观察为系统级比较；tsac_205控制组与MLP/CNN局部观察相同，用于编码器归因",
+    "paper_environment": {
+      "beams": 100,
+      "budget_w": 3000,
+      "width_deg": 0.5,
+      "gamma": 0.99,
+      "episodes": 4000,
+      "batch_size": 256
+    },
+    "runtime_profile": {
+      "power_budget_w": 6000.0,
+      "gamma": 1.0,
+      "reward_scale": 100.0
+    },
+    "adaptations": [
+      "统一使用冻结覆盖CSV及配置声明的预算、v3功率/干扰/终止/奖励口径",
+      "所有方法受同一合法动作集合约束；必要时显式SKIP，不静默裁剪",
+      "局部神经基线输入205维；Horizon完整观察含更多信息，不能把差异全部归因于Transformer",
+      "独立三头在合法联合集合归一化后会产生统计依赖，保留独立评分结构而非无约束独立采样",
+      "相同环境交互预算；PPO为on-policy多epoch，优化次数与SAC/DQN分别报告"
+    ],
+    "unpublished_choices": {},
+    "source_provenance_limit": "原论文未提供完整基线超参数/seed/生成数据；当前CSV缺root谱系",
+    "is_primary_paper_baseline": true,
+    "agent_spec": {
+      "input_dim": 205,
+      "hidden_width": 128,
+      "encoder": "cnn_local",
+      "actor": "independent_scoring_joint_mask",
+      "critic": "three_additive_branches_plus_skip",
+      "convolution_channels": [
+        2,
+        32,
+        64
+      ],
+      "convolution_kernels": [
+        5,
+        3
+      ],
+      "mlp_hidden_layers": 2
+    },
+    "trainable_parameters": 2576076,
+    "trace_detail": "basic_all保留全部动作/资源/逐束速率满足度；训练逐槽SINR和干扰数组不记录，终局交接独立复算提供"
+  },
+  "update_protocol": "completed_episode_replay_env_step",
+  "checkpoint_available": true
+}

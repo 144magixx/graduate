@@ -1,0 +1,278 @@
+{
+  "purpose": "220正需求容量shape fixture，不是第一阶段产物，不进入研究训练数据",
+  "passed": true,
+  "command": "python -m implementations.horizon_tsac_20260920.rl.benchmark",
+  "versions": {
+    "schema_version": "coverage.v2",
+    "physics_version": "uniform_slot_shannon.v1",
+    "observation_version": "obs_full_v2",
+    "action_version": "contiguous_total_power.v1",
+    "reward_version": "delta_mean_satisfaction_v1",
+    "metric_version": "positive_demand_metrics.v1",
+    "model_version": "horizon_tsac.v1"
+  },
+  "runtime": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "torch": "2.3.0+cpu",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 140 Stepping 2, GenuineIntel",
+    "torch_num_threads": 2,
+    "device": "cpu",
+    "cuda_available": false,
+    "cuda_device": null,
+    "cuda_peak_memory_bytes": null
+  },
+  "actual_fixture": {
+    "n_demand": 220,
+    "entity_tensor_shape": [
+      220,
+      8
+    ],
+    "slots": 100,
+    "action_count": 9551,
+    "legal_action_count": 9551,
+    "effective_batch": 2,
+    "microbatch": 1,
+    "candidate_chunk": 512
+  },
+  "config": {
+    "schema_version": "coverage.v2",
+    "data": {
+      "source_schema": "legacy_lon_in_lat",
+      "rate_unit": "Mbps",
+      "traffic_scale": 0.25,
+      "beamwidth_kind": "ground_angular_diameter_deg",
+      "group_assignment": "canonical_demand_rank_mod8",
+      "service_order": "demand_desc",
+      "augment": true,
+      "width_augmentation": false,
+      "split_seed": 20260920,
+      "dataset_version": "legacy_aggregate.v1"
+    },
+    "physics": {
+      "physics_version": "uniform_slot_shannon.v1",
+      "group_profile": "shared_grid_parity_isolation_v1",
+      "beamwidth_kind": "ground_angular_diameter_deg",
+      "num_groups": 8,
+      "num_slots": 100,
+      "slot_bandwidth_hz": 25000000.0,
+      "frequency_start_hz": 17700000000.0,
+      "earth_radius_km": 6371.0,
+      "satellite_radius_km": 42164.0,
+      "satellite_longitude_deg": 122.2,
+      "satellite_latitude_deg": 0.0,
+      "sinr_margin_db": 5.0,
+      "tx_gain_peak_dbi": 50.0,
+      "rx_gain_peak_dbi": 40.0,
+      "noise_temperature_k": 290.0,
+      "rate_model": "shannon_with_sinr_margin",
+      "power_semantics": "beam_total_uniform_slots"
+    },
+    "env": {
+      "power_budget_w": 6000.0,
+      "power_levels_w": [
+        5.0,
+        10.0,
+        15.0,
+        20.0,
+        25.0,
+        30.0,
+        35.0,
+        40.0,
+        45.0,
+        50.0
+      ],
+      "max_block_length": 10,
+      "reward_scale": 100.0,
+      "reward_version": "delta_mean_satisfaction_v1",
+      "metric_version": "positive_demand_metrics.v1",
+      "observation_version": "obs_full_v2",
+      "action_version": "contiguous_total_power.v1",
+      "budget_tolerance_w": 1e-08,
+      "satisfaction_tolerance": 1e-08
+    },
+    "model": {
+      "model_version": "horizon_tsac.v1",
+      "encoder": "full_attention",
+      "actor": "conditional",
+      "critic": "joint",
+      "d_model": 128,
+      "attention_heads": 4,
+      "encoder_layers": 2,
+      "dropout": 0.0,
+      "spectrum_tokens": "slots",
+      "candidate_chunk_size": 512
+    },
+    "train": {
+      "seed": 42,
+      "device": "cpu",
+      "episodes": 10,
+      "max_env_steps": 0,
+      "batch_size": 2,
+      "microbatch_size": 1,
+      "replay_capacity": 20000,
+      "replay_mode": "episode_balanced",
+      "warmup_steps": 2000,
+      "updates_per_episode": 1,
+      "actor_lr": 1e-05,
+      "critic_lr": 0.0001,
+      "alpha_lr": 0.0001,
+      "initial_alpha": 0.01,
+      "target_entropy_ratio": 0.5,
+      "gamma": 1.0,
+      "tau": 0.005,
+      "gradient_clip_norm": 10.0,
+      "torch_num_threads": 2,
+      "deterministic": true,
+      "checkpoint_every": 1
+    },
+    "telemetry": {
+      "enabled": true,
+      "trace_level": "basic_all",
+      "keyframe_interval": 20,
+      "update_window": 50,
+      "queue_max_messages": 512,
+      "queue_max_bytes": 67108864,
+      "flush_interval": 1.0,
+      "enqueue_timeout": 10.0
+    }
+  },
+  "timings_seconds": {
+    "model_construction": 6.411033599986695,
+    "first_probability_forward": 0.04905400000279769,
+    "stochastic_sample": 0.03337889999966137,
+    "deterministic_argmax": 0.03138820000458509,
+    "one_effective_batch_update": 1.627905000001192
+  },
+  "memory_before_model": {
+    "working_set_bytes": 170303488,
+    "peak_working_set_bytes": 170303488,
+    "source": "Windows GetProcessMemoryInfo，进程累计峰值"
+  },
+  "memory_after_effective_batch_update": {
+    "working_set_bytes": 303808512,
+    "peak_working_set_bytes": 305733632,
+    "source": "Windows GetProcessMemoryInfo，进程累计峰值"
+  },
+  "parameter_configurations": [
+    {
+      "encoder": "legacy14",
+      "spectrum_tokens": "blocks10",
+      "actor": "independent",
+      "critic": "additive",
+      "d_model": 128,
+      "attention_heads": 4,
+      "encoder_layers": 2,
+      "actor_parameters": 417914,
+      "critic_each_parameters": 417785,
+      "actor_encoder_parameters": 402176,
+      "critic_encoder_each_parameters": 402176,
+      "trainable_parameters_including_log_alpha": 1253485,
+      "parameters_including_two_target_networks_and_log_alpha": 2089055
+    },
+    {
+      "encoder": "summary",
+      "spectrum_tokens": "blocks10",
+      "actor": "independent",
+      "critic": "additive",
+      "d_model": 128,
+      "attention_heads": 4,
+      "encoder_layers": 2,
+      "actor_parameters": 437626,
+      "critic_each_parameters": 437497,
+      "actor_encoder_parameters": 421888,
+      "critic_encoder_each_parameters": 421888,
+      "trainable_parameters_including_log_alpha": 1312621,
+      "parameters_including_two_target_networks_and_log_alpha": 2187615
+    },
+    {
+      "encoder": "full_pool",
+      "spectrum_tokens": "slots",
+      "actor": "conditional",
+      "critic": "joint",
+      "d_model": 128,
+      "attention_heads": 4,
+      "encoder_layers": 2,
+      "actor_parameters": 727290,
+      "critic_each_parameters": 729601,
+      "actor_encoder_parameters": 664448,
+      "critic_encoder_each_parameters": 664448,
+      "trainable_parameters_including_log_alpha": 2186493,
+      "parameters_including_two_target_networks_and_log_alpha": 3645695
+    },
+    {
+      "encoder": "full_attention",
+      "spectrum_tokens": "slots",
+      "actor": "conditional",
+      "critic": "joint",
+      "d_model": 128,
+      "attention_heads": 4,
+      "encoder_layers": 2,
+      "actor_parameters": 1123834,
+      "critic_each_parameters": 1126145,
+      "actor_encoder_parameters": 1060992,
+      "critic_encoder_each_parameters": 1060992,
+      "trainable_parameters_including_log_alpha": 3376125,
+      "parameters_including_two_target_networks_and_log_alpha": 5628415
+    }
+  ],
+  "update_diagnostics": {
+    "critic_1_loss": 0.0009812868891003745,
+    "critic_2_loss": 0.0001665229191871731,
+    "actor_loss": -0.0009103387128561735,
+    "entropy": 4.409632682800293,
+    "target_entropy": 4.582200527191162,
+    "td_abs_mean": 0.016367522068321705,
+    "q_mean": -0.07438596710562706,
+    "target_mean": -0.0591142475605011,
+    "batch_size": 2,
+    "critic_1_gradient_norm": 0.15616345405578613,
+    "critic_2_gradient_norm": 0.05982934311032295,
+    "actor_gradient_norm": 0.12094379216432571,
+    "alpha_loss": 0.7947043180465698,
+    "alpha": 0.010001000948250294,
+    "nonforced_count": 2,
+    "update_step": 1,
+    "update_seconds": 1.6263622000114992,
+    "actor_lr": 1e-05,
+    "critic_lr": 0.0001,
+    "alpha_lr": 0.0001
+  },
+  "gradient_graph_audit": {
+    "saved_tensor_count": 1057,
+    "largest_saved_tensor": {
+      "shape": [
+        1000,
+        128
+      ],
+      "numel": 128000,
+      "bytes": 512000
+    },
+    "full_9551_by_128_gradient_tensor_observed": false,
+    "actor_power_prefix_shapes": [
+      [
+        1,
+        100,
+        10,
+        128
+      ],
+      [
+        1,
+        100,
+        10,
+        128
+      ]
+    ],
+    "candidate_q_forward_calls": 152,
+    "candidate_q_max_chunk": 512,
+    "candidate_q_any_requires_grad": false,
+    "lifecycle": "Actor有梯度前缀特征为[microbatch,100,10,128]，完整候选仅概率/logp [microbatch,9551]；Q候选512分块均no_grad；每个微批backward后释放。"
+  },
+  "acceptance_limits": [
+    "仅测CPU有效batch2/microbatch1一次update，未压测batch256",
+    "未验收4090/CUDA显存、有效batch256或GPU吞吐；CUDA指标为null",
+    "进程峰值是当前独立进程累计working set，不能解释为update专属分配量",
+    "时延为单次有界测量，含当前进程缓存状态，不是P95或稳态吞吐",
+    "四组合同时改变输入/模型且参数量不同，只报告容量，不作公平性能排名"
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "scope": "3 Horizon历史η试验 + 4论文学习基线 + T-SAC局部205控制组；只核查训练原件，不使用独立test评价选参",
+  "eta_definition": "target_entropy_ratio，SAC目标熵比例；DQN/PPO不适用",
+  "common_notes": [
+    "历史训练均为seed42单seed，不能标为多seed均值/置信区间",
+    "当前运行实际gamma=1、reward_scale=100、预算6000W、100回合；原论文4000回合/gamma=.99/batch256不应用于本次曲线图标注",
+    "Horizon完整观察与局部205基线为系统级比较；tsac_205为额外同信息控制组",
+    "MLP-PPO按完整回合on-policy收集并多epoch更新；config中复用的SAC专属字段不适用",
+    "DQN采用MSE、非Double DQN、Polyak目标更新及epsilon-greedy，无SAC actor/alpha/η"
+  ],
+  "runs": [
+    {
+      "run_id": "20260920T175318_b8b9d93a0d79",
+      "algorithm": "Horizon T-SAC",
+      "seed": 42,
+      "status": "completed",
+      "parent_run_id": null,
+      "actual": {
+        "encoder": "full_attention",
+        "actor": "conditional",
+        "critic": "joint",
+        "d_model": 128,
+        "actor_lr": 1E-05,
+        "critic_lr": 0.0001,
+        "alpha_lr": 0.0001,
+        "initial_alpha": 0.01,
+        "eta": 0.5,
+        "gamma": 1.0,
+        "tau": 0.005,
+        "batch_size": 64,
+        "microbatch_size": 64,
+        "replay_capacity": 4000,
+        "replay_mode": "episode_balanced",
+        "warmup_steps": 1000,
+        "update_schedule": "env_step",
+        "updates_per_step": 1,
+        "gradient_clip_norm": 10.0,
+        "configured_episodes": 100,
+        "reward_scale": 100.0,
+        "observation": "obs_full_v2",
+        "power_budget_w": 6000.0
+      },
+      "not_applicable_common_fields": [],
+      "model_snapshot": {
+        "model_version": "horizon_tsac.v1",
+        "encoder": "full_attention",
+        "actor": "conditional",
+        "critic": "joint",
+        "d_model": 128,
+        "attention_heads": 4,
+        "encoder_layers": 2,
+        "dropout": 0.0,
+        "spectrum_tokens": "slots",
+        "candidate_chunk_size": 512
+      },
+      "paper_agent_spec": null,
+      "baseline_settings": null,
+      "paper_unpublished_choices": null,
+      "primary_paper_baseline": null,
+      "validation": {
+        "episode_count": 100,
+        "field_non_null_counts": {
+          "episode_return": 100,
+          "mean_satisfaction": 100,
+          "env_step": 100,
+          "update_step": 100,
+          "episode_id": 100,
+          "scenario_id": 100
+        },
+        "unique_episode_ids": 100,
+        "env_step_strictly_increasing": true,
+        "first_env_step": 139,
+        "last_env_step": 14281,
+        "truncated_count": 0,
+        "reward_equals_100U_max_abs_error": 1.1368683772161603E-13,
+        "reward_equals_100U_tolerance": 1E-09,
+        "counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        },
+        "update_protocol": {
+          "schedule": "env_step",
+          "warmup_steps": 1000,
+          "updates_per_step": 1,
+          "updates_per_episode": 1,
+          "replay_eligibility": "completed_episodes_only",
+          "missed_updates": "not_accumulated"
+        }
+      },
+      "source": {
+        "config": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0439\\完成运行\\20260920T175318_b8b9d93a0d79\\配置快照.json",
+        "manifest": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0439\\完成运行\\20260920T175318_b8b9d93a0d79\\运行清单.json",
+        "result": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0439\\完成运行\\20260920T175318_b8b9d93a0d79\\训练结果.json"
+      }
+    },
+    {
+      "run_id": "20260920T175318_d20568cffeaa",
+      "algorithm": "Horizon T-SAC",
+      "seed": 42,
+      "status": "completed",
+      "parent_run_id": null,
+      "actual": {
+        "encoder": "full_attention",
+        "actor": "conditional",
+        "critic": "joint",
+        "d_model": 128,
+        "actor_lr": 1E-05,
+        "critic_lr": 0.0001,
+        "alpha_lr": 0.0001,
+        "initial_alpha": 0.01,
+        "eta": 0.2,
+        "gamma": 1.0,
+        "tau": 0.005,
+        "batch_size": 64,
+        "microbatch_size": 64,
+        "replay_capacity": 4000,
+        "replay_mode": "episode_balanced",
+        "warmup_steps": 1000,
+        "update_schedule": "env_step",
+        "updates_per_step": 1,
+        "gradient_clip_norm": 10.0,
+        "configured_episodes": 100,
+        "reward_scale": 100.0,
+        "observation": "obs_full_v2",
+        "power_budget_w": 6000.0
+      },
+      "not_applicable_common_fields": [],
+      "model_snapshot": {
+        "model_version": "horizon_tsac.v1",
+        "encoder": "full_attention",
+        "actor": "conditional",
+        "critic": "joint",
+        "d_model": 128,
+        "attention_heads": 4,
+        "encoder_layers": 2,
+        "dropout": 0.0,
+        "spectrum_tokens": "slots",
+        "candidate_chunk_size": 512
+      },
+      "paper_agent_spec": null,
+      "baseline_settings": null,
+      "paper_unpublished_choices": null,
+      "primary_paper_baseline": null,
+      "validation": {
+        "episode_count": 100,
+        "field_non_null_counts": {
+          "episode_return": 100,
+          "mean_satisfaction": 100,
+          "env_step": 100,
+          "update_step": 100,
+          "episode_id": 100,
+          "scenario_id": 100
+        },
+        "unique_episode_ids": 100,
+        "env_step_strictly_increasing": true,
+        "first_env_step": 139,
+        "last_env_step": 14281,
+        "truncated_count": 0,
+        "reward_equals_100U_max_abs_error": 9.947598300641403E-14,
+        "reward_equals_100U_tolerance": 1E-09,
+        "counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        },
+        "update_protocol": {
+          "schedule": "env_step",
+          "warmup_steps": 1000,
+          "updates_per_step": 1,
+          "updates_per_episode": 1,
+          "replay_eligibility": "completed_episodes_only",
+          "missed_updates": "not_accumulated"
+        }
+      },
+      "source": {
+        "config": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0439\\完成运行\\20260920T175318_d20568cffeaa\\配置快照.json",
+        "manifest": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0439\\完成运行\\20260920T175318_d20568cffeaa\\运行清单.json",
+        "result": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0439\\完成运行\\20260920T175318_d20568cffeaa\\训练结果.json"
+      }
+    },
+    {
+      "run_id": "20260920T175318_d20baa2bfb80",
+      "algorithm": "Horizon T-SAC",
+      "seed": 42,
+      "status": "completed",
+      "parent_run_id": null,
+      "actual": {
+        "encoder": "full_attention",
+        "actor": "conditional",
+        "critic": "joint",
+        "d_model": 128,
+        "actor_lr": 1E-05,
+        "critic_lr": 0.0001,
+        "alpha_lr": 0.0001,
+        "initial_alpha": 0.01,
+        "eta": 0.8,
+        "gamma": 1.0,
+        "tau": 0.005,
+        "batch_size": 64,
+        "microbatch_size": 64,
+        "replay_capacity": 4000,
+        "replay_mode": "episode_balanced",
+        "warmup_steps": 1000,
+        "update_schedule": "env_step",
+        "updates_per_step": 1,
+        "gradient_clip_norm": 10.0,
+        "configured_episodes": 100,
+        "reward_scale": 100.0,
+        "observation": "obs_full_v2",
+        "power_budget_w": 6000.0
+      },
+      "not_applicable_common_fields": [],
+      "model_snapshot": {
+        "model_version": "horizon_tsac.v1",
+        "encoder": "full_attention",
+        "actor": "conditional",
+        "critic": "joint",
+        "d_model": 128,
+        "attention_heads": 4,
+        "encoder_layers": 2,
+        "dropout": 0.0,
+        "spectrum_tokens": "slots",
+        "candidate_chunk_size": 512
+      },
+      "paper_agent_spec": null,
+      "baseline_settings": null,
+      "paper_unpublished_choices": null,
+      "primary_paper_baseline": null,
+      "validation": {
+        "episode_count": 100,
+        "field_non_null_counts": {
+          "episode_return": 100,
+          "mean_satisfaction": 100,
+          "env_step": 100,
+          "update_step": 100,
+          "episode_id": 100,
+          "scenario_id": 100
+        },
+        "unique_episode_ids": 100,
+        "env_step_strictly_increasing": true,
+        "first_env_step": 139,
+        "last_env_step": 14281,
+        "truncated_count": 0,
+        "reward_equals_100U_max_abs_error": 1.2789769243681803E-13,
+        "reward_equals_100U_tolerance": 1E-09,
+        "counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        },
+        "update_protocol": {
+          "schedule": "env_step",
+          "warmup_steps": 1000,
+          "updates_per_step": 1,
+          "updates_per_episode": 1,
+          "replay_eligibility": "completed_episodes_only",
+          "missed_updates": "not_accumulated"
+        }
+      },
+      "source": {
+        "config": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0439\\完成运行\\20260920T175318_d20baa2bfb80\\配置快照.json",
+        "manifest": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0439\\完成运行\\20260920T175318_d20baa2bfb80\\运行清单.json",
+        "result": "D:\\graduate\\第二阶段T-SAC实施记录\\远程结果原件20260921-0439\\完成运行\\20260920T175318_d20baa2bfb80\\训练结果.json"
+      }
+    },
+    {
+      "run_id": "20260920T201733_2c40a6bf449e",
+      "algorithm": "CNN-SAC",
+      "seed": 42,
+      "status": "completed",
+      "parent_run_id": null,
+      "actual": {
+        "encoder": "cnn_local",
+        "actor": "independent_scoring_joint_mask",
+        "critic": "three_additive_branches_plus_skip",
+        "d_model": 128,
+        "actor_lr": 1E-05,
+        "critic_lr": 0.0001,
+        "alpha_lr": 0.0001,
+        "initial_alpha": 0.01,
+        "eta": 0.5,
+        "gamma": 1.0,
+        "tau": 0.005,
+        "batch_size": 64,
+        "microbatch_size": 64,
+        "replay_capacity": 4000,
+        "replay_mode": "episode_balanced",
+        "warmup_steps": 1000,
+        "update_schedule": "env_step",
+        "updates_per_step": 1,
+        "gradient_clip_norm": 10.0,
+        "configured_episodes": 100,
+        "reward_scale": 100.0,
+        "observation": "obs_legacy205",
+        "power_budget_w": 6000.0
+      },
+      "not_applicable_common_fields": [],
+      "model_snapshot": {
+        "model_version": "paper_adapted_cnn_sac.v1",
+        "encoder": "cnn_local",
+        "actor": "independent",
+        "critic": "additive",
+        "d_model": 128,
+        "attention_heads": 4,
+        "encoder_layers": 2,
+        "dropout": 0.0,
+        "spectrum_tokens": "slots",
+        "candidate_chunk_size": 512
+      },
+      "paper_agent_spec": {
+        "input_dim": 205,
+        "hidden_width": 128,
+        "encoder": "cnn_local",
+        "actor": "independent_scoring_joint_mask",
+        "critic": "three_additive_branches_plus_skip",
+        "convolution_channels": [
+          2,
+          32,
+          64
+        ],
+        "convolution_kernels": [
+          5,
+          3
+        ],
+        "mlp_hidden_layers": 2
+      },
+      "baseline_settings": {},
+      "paper_unpublished_choices": {},
+      "primary_paper_baseline": true,
+      "validation": {
+        "episode_count": 100,
+        "field_non_null_counts": {
+          "episode_return": 100,
+          "mean_satisfaction": 100,
+          "env_step": 100,
+          "update_step": 100,
+          "episode_id": 100,
+          "scenario_id": 100
+        },
+        "unique_episode_ids": 100,
+        "env_step_strictly_increasing": true,
+        "first_env_step": 139,
+        "last_env_step": 14281,
+        "truncated_count": 0,
+        "reward_equals_100U_max_abs_error": 1.5631940186722204E-13,
+        "reward_equals_100U_tolerance": 1E-09,
+        "counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        },
+        "update_protocol": "completed_episode_replay_env_step"
+      },
+      "source": {
+        "config": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T201733_2c40a6bf449e\\配置快照.json",
+        "manifest": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T201733_2c40a6bf449e\\运行清单.json",
+        "result": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T201733_2c40a6bf449e\\基线训练结果.json"
+      }
+    },
+    {
+      "run_id": "20260920T201733_b5d92d21adf3",
+      "algorithm": "MLP-SAC",
+      "seed": 42,
+      "status": "completed",
+      "parent_run_id": null,
+      "actual": {
+        "encoder": "mlp_local",
+        "actor": "independent_scoring_joint_mask",
+        "critic": "three_additive_branches_plus_skip",
+        "d_model": 128,
+        "actor_lr": 1E-05,
+        "critic_lr": 0.0001,
+        "alpha_lr": 0.0001,
+        "initial_alpha": 0.01,
+        "eta": 0.5,
+        "gamma": 1.0,
+        "tau": 0.005,
+        "batch_size": 64,
+        "microbatch_size": 64,
+        "replay_capacity": 4000,
+        "replay_mode": "episode_balanced",
+        "warmup_steps": 1000,
+        "update_schedule": "env_step",
+        "updates_per_step": 1,
+        "gradient_clip_norm": 10.0,
+        "configured_episodes": 100,
+        "reward_scale": 100.0,
+        "observation": "obs_legacy205",
+        "power_budget_w": 6000.0
+      },
+      "not_applicable_common_fields": [],
+      "model_snapshot": {
+        "model_version": "paper_adapted_mlp_sac.v1",
+        "encoder": "mlp_local",
+        "actor": "independent",
+        "critic": "additive",
+        "d_model": 128,
+        "attention_heads": 4,
+        "encoder_layers": 2,
+        "dropout": 0.0,
+        "spectrum_tokens": "slots",
+        "candidate_chunk_size": 512
+      },
+      "paper_agent_spec": {
+        "input_dim": 205,
+        "hidden_width": 128,
+        "encoder": "mlp_local",
+        "actor": "independent_scoring_joint_mask",
+        "critic": "three_additive_branches_plus_skip",
+        "convolution_channels": null,
+        "convolution_kernels": null,
+        "mlp_hidden_layers": 2
+      },
+      "baseline_settings": {},
+      "paper_unpublished_choices": {},
+      "primary_paper_baseline": true,
+      "validation": {
+        "episode_count": 100,
+        "field_non_null_counts": {
+          "episode_return": 100,
+          "mean_satisfaction": 100,
+          "env_step": 100,
+          "update_step": 100,
+          "episode_id": 100,
+          "scenario_id": 100
+        },
+        "unique_episode_ids": 100,
+        "env_step_strictly_increasing": true,
+        "first_env_step": 139,
+        "last_env_step": 14281,
+        "truncated_count": 0,
+        "reward_equals_100U_max_abs_error": 1.7053025658242404E-13,
+        "reward_equals_100U_tolerance": 1E-09,
+        "counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        },
+        "update_protocol": "completed_episode_replay_env_step"
+      },
+      "source": {
+        "config": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T201733_b5d92d21adf3\\配置快照.json",
+        "manifest": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T201733_b5d92d21adf3\\运行清单.json",
+        "result": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T201733_b5d92d21adf3\\基线训练结果.json"
+      }
+    },
+    {
+      "run_id": "20260920T201733_b691167ad121",
+      "algorithm": "MLP-DQN",
+      "seed": 42,
+      "status": "completed",
+      "parent_run_id": null,
+      "actual": {
+        "encoder": "mlp_local",
+        "actor": null,
+        "critic": "start_plus_length_plus_power_with_independent_skip",
+        "d_model": 128,
+        "actor_lr": null,
+        "critic_lr": 0.0001,
+        "alpha_lr": null,
+        "initial_alpha": null,
+        "eta": null,
+        "gamma": 1.0,
+        "tau": 0.005,
+        "batch_size": 64,
+        "microbatch_size": 64,
+        "replay_capacity": 4000,
+        "replay_mode": "episode_balanced",
+        "warmup_steps": 1000,
+        "update_schedule": "env_step",
+        "updates_per_step": 1,
+        "gradient_clip_norm": 10.0,
+        "configured_episodes": 100,
+        "reward_scale": 100.0,
+        "observation": "obs_legacy205",
+        "power_budget_w": 6000.0,
+        "q_learning_rate": 0.0001
+      },
+      "not_applicable_common_fields": [
+        "actor",
+        "actor_lr",
+        "alpha_lr",
+        "initial_alpha",
+        "eta",
+        "spectrum_tokens"
+      ],
+      "model_snapshot": {
+        "model_version": "paper_adapted_mlp_dqn.v1",
+        "encoder": "mlp_local",
+        "actor": "independent",
+        "critic": "additive",
+        "d_model": 128,
+        "attention_heads": 4,
+        "encoder_layers": 2,
+        "dropout": 0.0,
+        "spectrum_tokens": "slots",
+        "candidate_chunk_size": 512
+      },
+      "paper_agent_spec": {
+        "agent_type": "paper_mlp_dqn.v1",
+        "input": "legacy205",
+        "input_dim": 205,
+        "hidden_layers": [
+          128,
+          128
+        ],
+        "activation": "relu",
+        "double_dqn": false,
+        "q_decomposition": "start_plus_length_plus_power_with_independent_skip",
+        "epsilon_start": 1.0,
+        "epsilon_end": 0.05,
+        "epsilon_decay_steps": 10000,
+        "epsilon_axis": "training_environment_interactions",
+        "optimizer": "adam",
+        "loss": "mse",
+        "target_update": "polyak",
+        "tau": 0.005,
+        "gamma": 1.0,
+        "learning_rate": 0.0001,
+        "gradient_clip_norm": 10.0
+      },
+      "baseline_settings": {
+        "epsilon_start": 1.0,
+        "epsilon_end": 0.05,
+        "epsilon_decay_steps": 10000
+      },
+      "paper_unpublished_choices": {
+        "epsilon_start": 1.0,
+        "epsilon_end": 0.05,
+        "epsilon_decay_steps": 10000
+      },
+      "primary_paper_baseline": true,
+      "validation": {
+        "episode_count": 100,
+        "field_non_null_counts": {
+          "episode_return": 100,
+          "mean_satisfaction": 100,
+          "env_step": 100,
+          "update_step": 100,
+          "episode_id": 100,
+          "scenario_id": 100
+        },
+        "unique_episode_ids": 100,
+        "env_step_strictly_increasing": true,
+        "first_env_step": 139,
+        "last_env_step": 14281,
+        "truncated_count": 0,
+        "reward_equals_100U_max_abs_error": 1.2789769243681803E-13,
+        "reward_equals_100U_tolerance": 1E-09,
+        "counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        },
+        "update_protocol": "completed_episode_replay_env_step"
+      },
+      "source": {
+        "config": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T201733_b691167ad121\\配置快照.json",
+        "manifest": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T201733_b691167ad121\\运行清单.json",
+        "result": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T201733_b691167ad121\\基线训练结果.json"
+      }
+    },
+    {
+      "run_id": "20260920T203641_73d4515809fe",
+      "algorithm": "MLP-PPO",
+      "seed": 42,
+      "status": "completed",
+      "parent_run_id": null,
+      "actual": {
+        "encoder": "mlp_local",
+        "actor": "gate_and_independent_scoring_joint_mask",
+        "critic": "state_value",
+        "d_model": 128,
+        "actor_lr": 0.0003,
+        "critic_lr": 0.0003,
+        "alpha_lr": null,
+        "initial_alpha": null,
+        "eta": null,
+        "gamma": 1.0,
+        "tau": null,
+        "batch_size": 64,
+        "microbatch_size": 64,
+        "replay_capacity": null,
+        "replay_mode": null,
+        "warmup_steps": null,
+        "update_schedule": null,
+        "updates_per_step": null,
+        "gradient_clip_norm": 10.0,
+        "configured_episodes": 100,
+        "reward_scale": 100.0,
+        "observation": "obs_legacy205",
+        "power_budget_w": 6000.0
+      },
+      "not_applicable_common_fields": [
+        "tau",
+        "replay_capacity",
+        "replay_mode",
+        "warmup_steps",
+        "update_schedule",
+        "updates_per_step",
+        "alpha_lr",
+        "initial_alpha",
+        "eta",
+        "config.model.critic",
+        "spectrum_tokens"
+      ],
+      "model_snapshot": {
+        "model_version": "paper_adapted_mlp_ppo.v1",
+        "encoder": "mlp_local",
+        "actor": "independent",
+        "critic": "additive",
+        "d_model": 128,
+        "attention_heads": 4,
+        "encoder_layers": 2,
+        "dropout": 0.0,
+        "spectrum_tokens": "slots",
+        "candidate_chunk_size": 512
+      },
+      "paper_agent_spec": {
+        "input_dim": 205,
+        "hidden_width": 128,
+        "hidden_layers": 2,
+        "hyperparameters": {
+          "gae_lambda": 0.95,
+          "clip_epsilon": 0.2,
+          "epochs": 10,
+          "minibatch_size": 64,
+          "value_coefficient": 0.5,
+          "entropy_coefficient": 0.01,
+          "normalize_advantages": true
+        },
+        "rollout_protocol": "collect_with_frozen_behavior_then_update_no_replay",
+        "actor": "gate_and_independent_scoring_joint_mask",
+        "critic": "state_value"
+      },
+      "baseline_settings": {
+        "gae_lambda": 0.95,
+        "clip_epsilon": 0.2,
+        "epochs": 10,
+        "minibatch_size": 64,
+        "value_coefficient": 0.5,
+        "entropy_coefficient": 0.01,
+        "normalize_advantages": true
+      },
+      "paper_unpublished_choices": {
+        "gae_lambda": 0.95,
+        "clip_epsilon": 0.2,
+        "epochs": 10,
+        "minibatch_size": 64,
+        "value_coefficient": 0.5,
+        "entropy_coefficient": 0.01,
+        "normalize_advantages": true
+      },
+      "primary_paper_baseline": true,
+      "validation": {
+        "episode_count": 100,
+        "field_non_null_counts": {
+          "episode_return": 100,
+          "mean_satisfaction": 100,
+          "env_step": 100,
+          "update_step": 100,
+          "episode_id": 100,
+          "scenario_id": 100
+        },
+        "unique_episode_ids": 100,
+        "env_step_strictly_increasing": true,
+        "first_env_step": 139,
+        "last_env_step": 14281,
+        "truncated_count": 0,
+        "reward_equals_100U_max_abs_error": 8.526512829121202E-14,
+        "reward_equals_100U_tolerance": 1E-09,
+        "counters": {
+          "env_step": 14281,
+          "update_step": 2950,
+          "episodes": 100
+        },
+        "update_protocol": "on_policy_minibatch_epochs"
+      },
+      "source": {
+        "config": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T203641_73d4515809fe\\配置快照.json",
+        "manifest": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T203641_73d4515809fe\\运行清单.json",
+        "result": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T203641_73d4515809fe\\基线训练结果.json"
+      }
+    },
+    {
+      "run_id": "20260920T204415_3ff6b2c902ef",
+      "algorithm": "T-SAC局部观察控制组",
+      "seed": 42,
+      "status": "completed",
+      "parent_run_id": null,
+      "actual": {
+        "encoder": "legacy14",
+        "actor": "independent_scoring_joint_mask",
+        "critic": "three_additive_branches_plus_skip",
+        "d_model": 128,
+        "actor_lr": 1E-05,
+        "critic_lr": 0.0001,
+        "alpha_lr": 0.0001,
+        "initial_alpha": 0.01,
+        "eta": 0.5,
+        "gamma": 1.0,
+        "tau": 0.005,
+        "batch_size": 64,
+        "microbatch_size": 64,
+        "replay_capacity": 4000,
+        "replay_mode": "episode_balanced",
+        "warmup_steps": 1000,
+        "update_schedule": "env_step",
+        "updates_per_step": 1,
+        "gradient_clip_norm": 10.0,
+        "configured_episodes": 100,
+        "reward_scale": 100.0,
+        "observation": "obs_legacy205",
+        "power_budget_w": 6000.0
+      },
+      "not_applicable_common_fields": [],
+      "model_snapshot": {
+        "model_version": "paper_adapted_tsac_205.v1",
+        "encoder": "legacy14",
+        "actor": "independent",
+        "critic": "additive",
+        "d_model": 128,
+        "attention_heads": 4,
+        "encoder_layers": 2,
+        "dropout": 0.0,
+        "spectrum_tokens": "blocks10",
+        "candidate_chunk_size": 512
+      },
+      "paper_agent_spec": {
+        "input_dim": 205,
+        "hidden_width": 128,
+        "encoder": "legacy14",
+        "actor": "independent_scoring_joint_mask",
+        "critic": "three_additive_branches_plus_skip",
+        "convolution_channels": null,
+        "convolution_kernels": null,
+        "mlp_hidden_layers": null
+      },
+      "baseline_settings": {},
+      "paper_unpublished_choices": {},
+      "primary_paper_baseline": false,
+      "validation": {
+        "episode_count": 100,
+        "field_non_null_counts": {
+          "episode_return": 100,
+          "mean_satisfaction": 100,
+          "env_step": 100,
+          "update_step": 100,
+          "episode_id": 100,
+          "scenario_id": 100
+        },
+        "unique_episode_ids": 100,
+        "env_step_strictly_increasing": true,
+        "first_env_step": 139,
+        "last_env_step": 14281,
+        "truncated_count": 0,
+        "reward_equals_100U_max_abs_error": 1.2789769243681803E-13,
+        "reward_equals_100U_tolerance": 1E-09,
+        "counters": {
+          "env_step": 14281,
+          "update_step": 13282,
+          "episodes": 100
+        },
+        "update_protocol": "completed_episode_replay_env_step"
+      },
+      "source": {
+        "config": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T204415_3ff6b2c902ef\\配置快照.json",
+        "manifest": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T204415_3ff6b2c902ef\\运行清单.json",
+        "result": "D:\\graduate\\第二阶段T-SAC实施记录\\最终结果原件20260921-0601\\学习运行清单\\20260920T204415_3ff6b2c902ef\\基线训练结果.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "purpose": "合成诊断fixture；不属于广覆盖训练数据，不证明泛化改善",
+  "seed": 42,
+  "oracle": {
+    "action_count": 15,
+    "sequence_upper_bound": 3375,
+    "legal_complete_sequences": 3375,
+    "optimum_utility": 1.0,
+    "optimum_action_ids": [
+      1,
+      1,
+      1
+    ],
+    "uniform_complete_sequence_mean": 0.9333333333333333
+  },
+  "random_episodes": 100,
+  "random_mean_utility": 0.9566666666666667,
+  "initial_deterministic_utility": 0.0,
+  "trained_deterministic_utility": 1.0,
+  "initial_alloc_probability": 0.2745954990386963,
+  "trained_alloc_probability": 0.9999958214957587,
+  "chosen_action_ids": [
+    4,
+    4,
+    4
+  ],
+  "updates": 180,
+  "diagnostic_update": {
+    "critic_1_loss": 0.36540140211582184,
+    "critic_2_loss": 0.8137930333614349,
+    "actor_loss": -65.94789123535156,
+    "entropy": 0.004403147070358197,
+    "target_entropy": 1.3540250460306804,
+    "td_abs_mean": 0.6394832730293274,
+    "q_mean": 64.99659220377605,
+    "target_mean": 65.11093393961589,
+    "batch_size": 24,
+    "critic_1_gradient_norm": 57.201236724853516,
+    "critic_2_gradient_norm": 151.96315002441406,
+    "actor_gradient_norm": 0.0017935816431418061,
+    "alpha_loss": 6.195498943328857,
+    "alpha": 0.010148471221327782,
+    "nonforced_count": 24,
+    "update_step": 180,
+    "update_seconds": 0.07896469999104738,
+    "actor_lr": 0.003,
+    "critic_lr": 0.003,
+    "alpha_lr": 0.0001
+  },
+  "checkpoint_next_action_reproduced": true,
+  "checkpoint_next_update_reproduced": true,
+  "elapsed_seconds": 26.76862469999469,
+  "passed": true
+}

@@ -1,0 +1,350 @@
+{
+  "files": [
+    {
+      "file": "01-HorizonT-SAC-η0.2-seed42-训练收敛曲线.png",
+      "sha256": "ec239a8ba0f6f6e834635cb18cd6d95cefc159abed1d37656128e6dcb1a22598",
+      "run_ids": [
+        "20260920T175318_d20568cffeaa"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "已完成"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "02-HorizonT-SAC-η0.5-seed42-训练收敛曲线.png",
+      "sha256": "ae835b367db4354138c83835c972ecd80f1bef29ce787cb2dda50f25f8c6132f",
+      "run_ids": [
+        "20260920T175318_b8b9d93a0d79"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "已完成"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "03-HorizonT-SAC-η0.8-seed42-训练收敛曲线.png",
+      "sha256": "6579d7f3e1863dd273af0118a66592e353eb728ddcb51442a6fc4eb6af0f504a",
+      "run_ids": [
+        "20260920T175318_d20baa2bfb80"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "已完成"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "04-CNN-SAC-seed42-训练收敛曲线.png",
+      "sha256": "8dba14a7159f0469cf84fa96574dd4fce17ebd6c679cf7c5f6c4b0e4e05c70f8",
+      "run_ids": [
+        "20260920T201733_2c40a6bf449e"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "已完成"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "05-MLP-SAC-seed42-训练收敛曲线.png",
+      "sha256": "31677c9cc3925c1239087e8eebab612a570ed9559c07a147290c86c6280672a2",
+      "run_ids": [
+        "20260920T201733_b5d92d21adf3"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "已完成"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "06-MLP-DQN-seed42-训练收敛曲线.png",
+      "sha256": "e1651be4cab8dd96f5812a84cad6257b19ed767997a442f4518e31827c9b3b22",
+      "run_ids": [
+        "20260920T201733_b691167ad121"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "已完成"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "07-MLP-PPO-seed42-训练收敛曲线.png",
+      "sha256": "63dd5ae4b26199e32bfba484e1877f8cbfcdb9860dddebe1033bb3876f905ecc",
+      "run_ids": [
+        "20260920T203641_73d4515809fe"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "已完成"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "08-T-SAC-局部205控制组-seed42-训练收敛曲线.png",
+      "sha256": "7cd674e04bde19b8533fc9ea89e71088c93bb1af3e9354d8b7ab67be98225662",
+      "run_ids": [
+        "20260920T204415_3ff6b2c902ef"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "已完成"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "09-CNN-SAC-继续训练对照-seed42-训练收敛曲线.png",
+      "sha256": "291964fd05f63f3caeba6a4e46d83df2a8c55357c94a4db3bf35fc0ac0c0970d",
+      "run_ids": [
+        "20260921T004424_cf74dbeb8d38"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "已完成"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "10-CNN-SAC-继续训练对照-seed43-训练收敛曲线.png",
+      "sha256": "1cbab7f505f14d1da90b53699fb2b6f4c3ff4642817d67dfc6d5319529f90fff",
+      "run_ids": [
+        "20260921T004424_09fde58b812f"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "已完成"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "11-SpectrumT-SAC-全局注意力残差-seed42-训练收敛曲线.png",
+      "sha256": "f8aec035d3118f60e5a0c7cb46354b24b43f3902a6f2f79e5ee5f1b44e7a567a",
+      "run_ids": [
+        "20260921T004424_7256a95e074e"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "墙钟预算结束（271回合）"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "12-SpectrumT-SAC-全局注意力残差-seed43-训练收敛曲线.png",
+      "sha256": "aab73e665a58b3d34cbb68944294e52c7f2e18446277de4397c31ffec8d4cd4a",
+      "run_ids": [
+        "20260921T031515_931ec8ab244a",
+        "20260921T053400_b66b2ea983ba"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "raw_visible": true,
+        "metric": [
+          "train_U",
+          "train_episode_return"
+        ],
+        "status": "阶段快照（至244回合）"
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "13-Horizon不同熵目标-训练收敛对比.png",
+      "sha256": "356e3a2b357782b7a53a4b2c941b5726f48e3a2f1de6609d86b1ab7fb72b656e",
+      "run_ids": [
+        "20260920T175318_d20568cffeaa",
+        "20260920T175318_b8b9d93a0d79",
+        "20260920T175318_d20baa2bfb80"
+      ],
+      "notes": {
+        "smoothing": "trailing10",
+        "raw_visible": false,
+        "training_only": true
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "14-论文学习基线-训练收敛对比.png",
+      "sha256": "7e9f239472d8ef2029b68d7075fb38db6ae34b4ee5f5a62a6ab5dc9dbf1a1c8e",
+      "run_ids": [
+        "20260920T201733_2c40a6bf449e",
+        "20260920T201733_b5d92d21adf3",
+        "20260920T201733_b691167ad121",
+        "20260920T203641_73d4515809fe",
+        "20260920T204415_3ff6b2c902ef"
+      ],
+      "notes": {
+        "smoothing": "trailing10",
+        "raw_visible": false,
+        "training_only": true
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ]
+    },
+    {
+      "file": "15-Spectrum同源续训配对-训练收敛对比.png",
+      "sha256": "ce859ad518ef33e10e5eba1b87301e1c81dfe6db0e8aab8eaec1181f096a471e",
+      "run_ids": [
+        "20260921T004424_cf74dbeb8d38",
+        "20260921T004424_09fde58b812f",
+        "20260921T004424_7256a95e074e",
+        "20260921T031515_931ec8ab244a",
+        "20260921T053400_b66b2ea983ba"
+      ],
+      "notes": {
+        "smoothing": "trailing10_per_segment",
+        "seeds_not_pooled": true
+      },
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2208
+      ]
+    }
+  ],
+  "run_count": 12,
+  "png_count": 15,
+  "checks": [
+    "每回合编号连续且不重复",
+    "环境步递增，更新步非递减",
+    "U有限且属于[0,1]",
+    "每回合R=100U",
+    "配置与运行清单一致",
+    "150回合恢复边界核实，丢失分支单列",
+    "图面文字边界检查",
+    "全部PNG可解码"
+  ],
+  "record_counts": {
+    "01-HorizonT-SAC-η0.2-seed42-训练收敛曲线.png": 100,
+    "02-HorizonT-SAC-η0.5-seed42-训练收敛曲线.png": 100,
+    "03-HorizonT-SAC-η0.8-seed42-训练收敛曲线.png": 100,
+    "04-CNN-SAC-seed42-训练收敛曲线.png": 100,
+    "05-MLP-SAC-seed42-训练收敛曲线.png": 100,
+    "06-MLP-DQN-seed42-训练收敛曲线.png": 100,
+    "07-MLP-PPO-seed42-训练收敛曲线.png": 100,
+    "08-T-SAC-局部205控制组-seed42-训练收敛曲线.png": 100,
+    "09-CNN-SAC-继续训练对照-seed42-训练收敛曲线.png": 300,
+    "10-CNN-SAC-继续训练对照-seed43-训练收敛曲线.png": 300,
+    "11-SpectrumT-SAC-全局注意力残差-seed42-训练收敛曲线.png": 271,
+    "12-SpectrumT-SAC-全局注意力残差-seed43-训练收敛曲线.png": 244
+  },
+  "limitations": [
+    "不是独立验证收敛曲线",
+    "不含loss/alpha：本次仅导出逐回合结果中的U及实测return",
+    "静态基线无训练曲线",
+    "运行中seed43快照不冒充最终结果",
+    "旧分支151–160仅保留原件不混入恢复主线"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "synced_at_utc": "2026-09-20T20:07:55.663118+00:00",
+  "remote_directory": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/交付文档/20260921-0400",
+  "files_sha256": {
+    "论文基线本地验收与代码审查报告.md": "80e79072d2a23c57c12f56431c96ffd797e67df632f4e555497c62f76411746f",
+    "论文基线复现协议.md": "2f69e021fe89e211770e0f354996fcc9337dbfe78b6a9676d379720426e2677a",
+    "第二阶段重构验收报告.md": "ffc8189d31b915f3d38b18c88bf4e88b3dc9dde8036d8cd31906f5d189472b4e",
+    "第二阶段重构代码审查报告.md": "504576ecf15e5c8c551e8507d7b7d553bf10036e27dc65e388f6e7c80319641d",
+    "实施进度.md": "cf8454bb460172cedd260ca2cc91921fac29845f3cdf3724e8cccfcbe883696f",
+    "暂停与恢复记录.md": "b31ea439fd7f4f3b6475a353b69fba43642a7c808cf677e4b4cc925fb82a6930",
+    "gpu4论文基线后续部署记录.md": "6b503859f93fb6e3232912eeca38132ac43412ddd8273defb5c8f13ddee1bf2b",
+    "论文PPO独立代码审查.md": "3d5f415540743aef0b4da9bbb3f26325c1f1457469e47985cbc6913fcdfc39bd",
+    "论文基线范围与MLP-DQN实现验收.md": "f22f1060827b87fbda55aefe07a8e9b47098bc677aa2dd6cd5901c5c11df9a3c",
+    "论文基线后续状态.json": "677b6841a9fb1dacdd31b7bc2a3ecdb62445b95d27ea9edc2b74534e8c6d5bca",
+    "论文基线实验计划.json": "6df13976a6ed9ed93fa6f9534907b790e71ba0a59f20a6ab9b55bcd62fb5518d",
+    "远程长训练状态.json": "352e075bd55080f912429e182369e955922ad852b683327ad17e830560484549",
+    "论文基线本地测试记录.xml": "55c8fcb7bb5dcdb4c8a0a8fcb721e2f9b787de0cd0d613d4c5e2d004689a3ca6"
+  },
+  "local_changed_during_sync": [],
+  "runtime_code_modified": false
+}

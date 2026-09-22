@@ -1,0 +1,302 @@
+{
+  "results": [
+    {
+      "mode": "sampling",
+      "sampling_seed": 0,
+      "scenario_id": "cover_output_0",
+      "n_demand": 145,
+      "U": 0.6851651187566165,
+      "skip_count": 3,
+      "skip_fraction": 0.020689655172413793,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 51
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 1,
+      "scenario_id": "cover_output_0",
+      "n_demand": 145,
+      "U": 0.7105422788856397,
+      "skip_count": 2,
+      "skip_fraction": 0.013793103448275862,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 48
+    },
+    {
+      "mode": "hierarchical_map_diagnostic",
+      "sampling_seed": null,
+      "scenario_id": "cover_output_0",
+      "n_demand": 145,
+      "U": 0.6199080740620282,
+      "skip_count": 0,
+      "skip_fraction": 0.0,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 39
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 0,
+      "scenario_id": "cover_output_29",
+      "n_demand": 138,
+      "U": 0.7152754578745103,
+      "skip_count": 1,
+      "skip_fraction": 0.007246376811594203,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 49
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 1,
+      "scenario_id": "cover_output_29",
+      "n_demand": 138,
+      "U": 0.7190856313279117,
+      "skip_count": 2,
+      "skip_fraction": 0.014492753623188406,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 42
+    },
+    {
+      "mode": "joint_map",
+      "sampling_seed": null,
+      "scenario_id": "cover_output_0",
+      "n_demand": 145,
+      "U": 0.0,
+      "skip_count": 145,
+      "skip_fraction": 1.0,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 145
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 2,
+      "scenario_id": "cover_output_0",
+      "n_demand": 145,
+      "U": 0.7009234994369113,
+      "skip_count": 3,
+      "skip_fraction": 0.020689655172413793,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 53
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 0,
+      "scenario_id": "cover_output_31",
+      "n_demand": 157,
+      "U": 0.7180244360068518,
+      "skip_count": 0,
+      "skip_fraction": 0.0,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 50
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 1,
+      "scenario_id": "cover_output_31",
+      "n_demand": 157,
+      "U": 0.7411949497761022,
+      "skip_count": 2,
+      "skip_fraction": 0.012738853503184714,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 43
+    },
+    {
+      "mode": "hierarchical_map_diagnostic",
+      "sampling_seed": null,
+      "scenario_id": "cover_output_29",
+      "n_demand": 138,
+      "U": 0.6497515483750288,
+      "skip_count": 0,
+      "skip_fraction": 0.0,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 33
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 0,
+      "scenario_id": "cover_output_33",
+      "n_demand": 139,
+      "U": 0.7240118466464145,
+      "skip_count": 1,
+      "skip_fraction": 0.007194244604316547,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 48
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 1,
+      "scenario_id": "cover_output_33",
+      "n_demand": 139,
+      "U": 0.7367794946223075,
+      "skip_count": 2,
+      "skip_fraction": 0.014388489208633094,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 32
+    },
+    {
+      "mode": "joint_map",
+      "sampling_seed": null,
+      "scenario_id": "cover_output_29",
+      "n_demand": 138,
+      "U": 0.0,
+      "skip_count": 138,
+      "skip_fraction": 1.0,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 138
+    },
+    {
+      "mode": "hierarchical_map_diagnostic",
+      "sampling_seed": null,
+      "scenario_id": "cover_output_31",
+      "n_demand": 157,
+      "U": 0.6526086250644924,
+      "skip_count": 0,
+      "skip_fraction": 0.0,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 28
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 2,
+      "scenario_id": "cover_output_29",
+      "n_demand": 138,
+      "U": 0.7221211017944293,
+      "skip_count": 2,
+      "skip_fraction": 0.014492753623188406,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 36
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 0,
+      "scenario_id": "cover_output_34",
+      "n_demand": 138,
+      "U": 0.7103981348977413,
+      "skip_count": 1,
+      "skip_fraction": 0.007246376811594203,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 56
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 1,
+      "scenario_id": "cover_output_34",
+      "n_demand": 138,
+      "U": 0.7085979026163116,
+      "skip_count": 2,
+      "skip_fraction": 0.014492753623188406,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 36
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 0,
+      "scenario_id": "cover_output_35",
+      "n_demand": 136,
+      "U": 0.7245916210575521,
+      "skip_count": 0,
+      "skip_fraction": 0.0,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 44
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 1,
+      "scenario_id": "cover_output_35",
+      "n_demand": 136,
+      "U": 0.7363169783328071,
+      "skip_count": 2,
+      "skip_fraction": 0.014705882352941176,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 37
+    },
+    {
+      "mode": "hierarchical_map_diagnostic",
+      "sampling_seed": null,
+      "scenario_id": "cover_output_33",
+      "n_demand": 139,
+      "U": 0.7056013148981526,
+      "skip_count": 0,
+      "skip_fraction": 0.0,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 30
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 0,
+      "scenario_id": "cover_output_54",
+      "n_demand": 151,
+      "U": 0.7128501511991823,
+      "skip_count": 0,
+      "skip_fraction": 0.0,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 61
+    },
+    {
+      "mode": "joint_map",
+      "sampling_seed": null,
+      "scenario_id": "cover_output_31",
+      "n_demand": 157,
+      "U": 0.0,
+      "skip_count": 157,
+      "skip_fraction": 1.0,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 157
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 1,
+      "scenario_id": "cover_output_54",
+      "n_demand": 151,
+      "U": 0.716008309131127,
+      "skip_count": 2,
+      "skip_fraction": 0.013245033112582781,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 40
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 2,
+      "scenario_id": "cover_output_31",
+      "n_demand": 157,
+      "U": 0.7143582015208348,
+      "skip_count": 3,
+      "skip_fraction": 0.01910828025477707,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 49
+    },
+    {
+      "mode": "hierarchical_map_diagnostic",
+      "sampling_seed": null,
+      "scenario_id": "cover_output_34",
+      "n_demand": 138,
+      "U": 0.6421638000593298,
+      "skip_count": 0,
+      "skip_fraction": 0.0,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 31
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 0,
+      "scenario_id": "cover_output_56",
+      "n_demand": 140,
+      "U": 0.7453016073992256,
+      "skip_count": 1,
+      "skip_fraction": 0.007142857142857143,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 52
+    },
+    {
+      "mode": "sampling",
+      "sampling_seed": 1,
+      "scenario_id": "cover_output_56",
+      "n_demand": 140,
+      "U": 0.7464429656742935,
+      "skip_count": 2,
+      "skip_fraction": 0.014285714285714285,
+      "constraint_violations": 0,
+      "skip_despite_alloc_majority_states": 40
+    }
+  ],
+  "elapsed_seconds": 424.49683849996654
+}

@@ -1,0 +1,117 @@
+{
+  "scope": "all_15_validation_joint_map_reproduction",
+  "provenance": "由本任务串行复核两次执行的实际stdout逐景保存；完整逐步概率没有在中止扩展对照前落盘",
+  "checkpoint_id": "960331c1325a4d8b83fedf46fbc3a610",
+  "results": [
+    {
+      "scenario_id": "cover_output_0",
+      "n_demand": 145,
+      "U": 0,
+      "skipped": 145,
+      "skip_despite_alloc_majority_states": 145
+    },
+    {
+      "scenario_id": "cover_output_29",
+      "n_demand": 138,
+      "U": 0,
+      "skipped": 138,
+      "skip_despite_alloc_majority_states": 138
+    },
+    {
+      "scenario_id": "cover_output_31",
+      "n_demand": 157,
+      "U": 0,
+      "skipped": 157,
+      "skip_despite_alloc_majority_states": 157
+    },
+    {
+      "scenario_id": "cover_output_33",
+      "n_demand": 139,
+      "U": 0,
+      "skipped": 139,
+      "skip_despite_alloc_majority_states": 139
+    },
+    {
+      "scenario_id": "cover_output_34",
+      "n_demand": 138,
+      "U": 0,
+      "skipped": 138,
+      "skip_despite_alloc_majority_states": 138
+    },
+    {
+      "scenario_id": "cover_output_35",
+      "n_demand": 136,
+      "U": 0,
+      "skipped": 136,
+      "skip_despite_alloc_majority_states": 136
+    },
+    {
+      "scenario_id": "cover_output_54",
+      "n_demand": 151,
+      "U": 0,
+      "skipped": 151,
+      "skip_despite_alloc_majority_states": 151
+    },
+    {
+      "scenario_id": "cover_output_56",
+      "n_demand": 140,
+      "U": 0.015444109212005702,
+      "skipped": 137,
+      "skip_despite_alloc_majority_states": 137
+    },
+    {
+      "scenario_id": "cover_output_6",
+      "n_demand": 129,
+      "U": 0,
+      "skipped": 129,
+      "skip_despite_alloc_majority_states": 129
+    },
+    {
+      "scenario_id": "cover_output_62",
+      "n_demand": 152,
+      "U": 0,
+      "skipped": 152,
+      "skip_despite_alloc_majority_states": 152
+    },
+    {
+      "scenario_id": "cover_output_76",
+      "n_demand": 134,
+      "U": 0,
+      "skipped": 134,
+      "skip_despite_alloc_majority_states": 134
+    },
+    {
+      "scenario_id": "cover_output_79",
+      "n_demand": 138,
+      "U": 0.008111327986504095,
+      "skipped": 136,
+      "skip_despite_alloc_majority_states": 136
+    },
+    {
+      "scenario_id": "cover_output_81",
+      "n_demand": 126,
+      "U": 0.043429418369608466,
+      "skipped": 115,
+      "skip_despite_alloc_majority_states": 115
+    },
+    {
+      "scenario_id": "cover_output_87",
+      "n_demand": 146,
+      "U": 0,
+      "skipped": 146,
+      "skip_despite_alloc_majority_states": 146
+    },
+    {
+      "scenario_id": "cover_output_99",
+      "n_demand": 52,
+      "U": 0,
+      "skipped": 52,
+      "skip_despite_alloc_majority_states": 52
+    }
+  ],
+  "mean_U": 0.00446565703787455,
+  "total_demand": 2021.0,
+  "total_skipped": 2005.0,
+  "all_scene_U_match_original": true,
+  "altered_frozen_code_or_weights": false
+}

@@ -1,0 +1,7 @@
+{
+  "file": "horizon_primary.pt.gz",
+  "sha256": "00bfdf7105fb471f52b61c316e1b86318749cad341ccc505136683ebc6ecee72",
+  "source_checkpoint_id": "9f5e288408cb478994c9f549db7d90ef",
+  "source_sha256": "29fc5d91cf62735f42269cfa63fb79d4609aa9e994bef04c4ecd28ac3da68c48",
+  "scope": "diagnostic_model_only_no_optimizer_replay_rng"
+}

@@ -1,0 +1,35 @@
+# 可再生的本地环境与依赖
+.venv*/
+**/.venv*/
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+*.py[cod]
+*.pyd
+
+# 构建与临时目录
+**/dist/
+**/build/
+**/.tmp-*/
+.tmp-*/
+*.log
+*.tmp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# 训练与运行日志（保留代码、报告、模型和汇总结果）
+**/*.log
+**/*.jsonl
+**/*.sqlite
+**/*.sqlite-shm
+**/*.sqlite-wal
+**/*日志*
+**/*运行记录*
+**/*训练日志*
+**/*.xml

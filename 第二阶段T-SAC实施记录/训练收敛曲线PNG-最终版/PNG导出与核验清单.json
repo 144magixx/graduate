@@ -1,0 +1,262 @@
+{
+  "schema_version": "training_curve_final_validation.v1",
+  "files": [
+    {
+      "file": "01-HorizonT-SAC-η0.2-seed42-训练收敛曲线.png",
+      "sha256": "ec239a8ba0f6f6e834635cb18cd6d95cefc159abed1d37656128e6dcb1a22598",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "02-HorizonT-SAC-η0.5-seed42-训练收敛曲线.png",
+      "sha256": "ae835b367db4354138c83835c972ecd80f1bef29ce787cb2dda50f25f8c6132f",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "03-HorizonT-SAC-η0.8-seed42-训练收敛曲线.png",
+      "sha256": "6579d7f3e1863dd273af0118a66592e353eb728ddcb51442a6fc4eb6af0f504a",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "04-CNN-SAC-seed42-训练收敛曲线.png",
+      "sha256": "8dba14a7159f0469cf84fa96574dd4fce17ebd6c679cf7c5f6c4b0e4e05c70f8",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "05-MLP-SAC-seed42-训练收敛曲线.png",
+      "sha256": "31677c9cc3925c1239087e8eebab612a570ed9559c07a147290c86c6280672a2",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "06-MLP-DQN-seed42-训练收敛曲线.png",
+      "sha256": "e1651be4cab8dd96f5812a84cad6257b19ed767997a442f4518e31827c9b3b22",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "07-MLP-PPO-seed42-训练收敛曲线.png",
+      "sha256": "63dd5ae4b26199e32bfba484e1877f8cbfcdb9860dddebe1033bb3876f905ecc",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "08-T-SAC-局部205控制组-seed42-训练收敛曲线.png",
+      "sha256": "7cd674e04bde19b8533fc9ea89e71088c93bb1af3e9354d8b7ab67be98225662",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "09-CNN-SAC-继续训练对照-seed42-训练收敛曲线.png",
+      "sha256": "291964fd05f63f3caeba6a4e46d83df2a8c55357c94a4db3bf35fc0ac0c0970d",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "10-CNN-SAC-继续训练对照-seed43-训练收敛曲线.png",
+      "sha256": "1cbab7f505f14d1da90b53699fb2b6f4c3ff4642817d67dfc6d5319529f90fff",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "11-SpectrumT-SAC-全局注意力残差-seed42-训练收敛曲线.png",
+      "sha256": "f8aec035d3118f60e5a0c7cb46354b24b43f3902a6f2f79e5ee5f1b44e7a567a",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "12-SpectrumT-SAC-全局注意力残差-seed43-训练收敛曲线.png",
+      "sha256": "a8a2fa18470e38c88f41108d840a11406cd8fc6ac4678e1ad55fe19240d6a81a",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": false
+    },
+    {
+      "file": "13-Horizon不同熵目标-训练收敛对比.png",
+      "sha256": "356e3a2b357782b7a53a4b2c941b5726f48e3a2f1de6609d86b1ab7fb72b656e",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "14-论文学习基线-训练收敛对比.png",
+      "sha256": "7e9f239472d8ef2029b68d7075fb38db6ae34b4ee5f5a62a6ab5dc9dbf1a1c8e",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2112
+      ],
+      "frozen_unchanged": true
+    },
+    {
+      "file": "15-Spectrum同源续训配对-训练收敛对比.png",
+      "sha256": "32dc3fd94057df37496e11966224c66cc524dabae6c6b9eb5790a8281549340d",
+      "dpi": 240,
+      "pixels": [
+        3648,
+        2208
+      ],
+      "frozen_unchanged": false
+    }
+  ],
+  "run_count": 12,
+  "png_count": 15,
+  "record_count": 1971,
+  "previous_record_count": 1915,
+  "added_record_count": 56,
+  "fixed_png_hash_matches": {
+    "01-HorizonT-SAC-η0.2-seed42-训练收敛曲线.png": true,
+    "02-HorizonT-SAC-η0.5-seed42-训练收敛曲线.png": true,
+    "03-HorizonT-SAC-η0.8-seed42-训练收敛曲线.png": true,
+    "04-CNN-SAC-seed42-训练收敛曲线.png": true,
+    "05-MLP-SAC-seed42-训练收敛曲线.png": true,
+    "06-MLP-DQN-seed42-训练收敛曲线.png": true,
+    "07-MLP-PPO-seed42-训练收敛曲线.png": true,
+    "08-T-SAC-局部205控制组-seed42-训练收敛曲线.png": true,
+    "09-CNN-SAC-继续训练对照-seed42-训练收敛曲线.png": true,
+    "10-CNN-SAC-继续训练对照-seed43-训练收敛曲线.png": true,
+    "11-SpectrumT-SAC-全局注意力残差-seed42-训练收敛曲线.png": true,
+    "13-Horizon不同熵目标-训练收敛对比.png": true,
+    "14-论文学习基线-训练收敛对比.png": true
+  },
+  "record_counts": {
+    "01-HorizonT-SAC-η0.2-seed42-训练收敛曲线.png": 100,
+    "02-HorizonT-SAC-η0.5-seed42-训练收敛曲线.png": 100,
+    "03-HorizonT-SAC-η0.8-seed42-训练收敛曲线.png": 100,
+    "04-CNN-SAC-seed42-训练收敛曲线.png": 100,
+    "05-MLP-SAC-seed42-训练收敛曲线.png": 100,
+    "06-MLP-DQN-seed42-训练收敛曲线.png": 100,
+    "07-MLP-PPO-seed42-训练收敛曲线.png": 100,
+    "08-T-SAC-局部205控制组-seed42-训练收敛曲线.png": 100,
+    "09-CNN-SAC-继续训练对照-seed42-训练收敛曲线.png": 300,
+    "10-CNN-SAC-继续训练对照-seed43-训练收敛曲线.png": 300,
+    "11-SpectrumT-SAC-全局注意力残差-seed42-训练收敛曲线.png": 271,
+    "12-SpectrumT-SAC-全局注意力残差-seed43-训练收敛曲线.png": 300
+  },
+  "recovery": {
+    "retained_old_episode_range": [
+      1,
+      150
+    ],
+    "actual_new_episode_range": [
+      151,
+      300
+    ],
+    "excluded_old_episode_range": [
+      151,
+      160
+    ],
+    "cumulative_counters": {
+      "env_step": 42632,
+      "update_step": 41633,
+      "episodes": 300
+    },
+    "new_result_episode_array_length": 150
+  },
+  "artifacts": {
+    "训练曲线数据与配置.json": "59e38787514edde7e3f64ed3071e474452fa627b50e25a185ec2f458a4196d9c",
+    "绘制训练收敛曲线.py": "2db668e2eea11b949b54c0ad3c9862d0eac78cf67b6e3eef609b2364fcc9c3db",
+    "gpu2完成状态初查原件.json": "51d0b520cd1e87dd904bd5ee6a87dc678c503d9986460e7593bedbfea50b0ecc",
+    "Spectrum-seed43-gpu4训练日志.txt": "92729d798969aba289454923bd8da8fbc89460e874f8c8ff3746dc4d36b8d444"
+  },
+  "checks": [
+    "12条流共1971个真实训练点",
+    "其余11流记录与配置完全冻结",
+    "13张固定PNG哈希不变",
+    "150恢复边界与谱系一致",
+    "旧151–160单列排除",
+    "新增150条与最终结果逐点精确相等",
+    "编号连续无重复且环境步递增",
+    "每回合R=100U",
+    "分段后向10回合均值，不跨恢复边界",
+    "重绘文字不超出画布",
+    "15张PNG可解码"
+  ],
+  "limitations": [
+    "仅训练轨迹，不是独立验证收敛证明",
+    "共同CNN父训练100回合另计",
+    "seed42残差实际结束于271回合，未补齐或外推",
+    "未使用终局validation或test分数作为训练点"
+  ],
+  "original_artifacts_preservation": {
+    "old_directory_files": 28,
+    "all_file_sha256_equal": true,
+    "old_zip_path": "训练收敛曲线PNG与数据.zip",
+    "old_zip_sha256": "9e5d56a97cd761bd34fb523cb28979a6cab4200d1a53e6eff7342ef42aba21a4",
+    "old_zip_unchanged": true
+  },
+  "visual_review": {
+    "reviewed_png_numbers": [
+      12,
+      15
+    ],
+    "result": "passed",
+    "observations": [
+      "完成300回合标签、42632环境步及41633更新清晰",
+      "横轴覆盖实际300回合，保留150恢复竖线与分段平滑",
+      "旧151–160排除、父训练预算另计可读",
+      "标题、图例、右侧参数与脚注无截断重叠",
+      "其余13图SHA与此前已验收图完全相同"
+    ]
+  },
+  "reproduction": {
+    "command": "D:/graduate/PPO4090/.venv-horizon/Scripts/python.exe -X utf8 绘制训练收敛曲线.py --all",
+    "actually_executed": true,
+    "exit_code": 0,
+    "all_15_regenerated": true,
+    "fixed_13_png_hashes_equal": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "completed",
+  "closed_at_utc": "2026-09-20T22:16:30.564266+00:00",
+  "scope": "原三组η探索、论文七基线方法适配和额外局部控制组、冻结验证/测试、验收与code review、结果回传与远端文档同步",
+  "automation": {
+    "id": "gpu4-t-sac",
+    "status": "PAUSED",
+    "tool_confirmed": true
+  },
+  "current_task_retained": true,
+  "remote_training_processes_remaining": 0,
+  "other_jobs_cancelled": false,
+  "artifacts_deleted": false,
+  "main_report": "D:/graduate/第二阶段T-SAC实施记录/论文七基线最终对比与夜间训练验收报告.md",
+  "acceptance": "D:/graduate/第二阶段T-SAC实施记录/第二阶段重构验收报告.md",
+  "code_review": "D:/graduate/第二阶段T-SAC实施记录/第二阶段重构代码审查报告.md",
+  "independent_review": "D:/graduate/第二阶段T-SAC实施记录/最终比较独立验收核查.md",
+  "local_raw_files": 1196,
+  "allocation_npz_files": 300,
+  "remote_selected_checkpoints_verified": 7,
+  "bulk_package": "D:\\graduate\\第二阶段T-SAC实施记录\\夜间训练与论文基线最终交付包20260921.tar.gz",
+  "bulk_package_sha256": "4c3b3eea9004c513a882af368dfd2149a567dd9fa747016e94faef6f82b5e447",
+  "remote_delivery_directory": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/交付文档/20260921-最终交付",
+  "durable_projects": {
+    "远程长训练状态.json": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/HorizonT-SAC-20260921-v1/PPO4090",
+    "论文基线后续状态.json": "/home/u2024110224/PPO4090/implementations/graduate_horizon_20260920/Horizon-Baselines-20260921-v1/PPO4090"
+  },
+  "research_limits": [
+    "单seed42、100回合，不是原论文4000回合数值复刻",
+    "严格广覆盖/root与assignment来源仍未知",
+    "既有5%日志开销目标未达",
+    "PPO为冻结联合MAP结果；替代解码须单独实验",
+    "本批test已使用，不将其继续作为选参依据"
+  ],
+  "resume_note": "本批已完成，不重复启动。新增研究应新建有谱系的run和冻结协议，使用原机器状态文件定位持久结果；保留现有结论。",
+  "receipt_note": "交付包为暂停自动化前的已核验快照；本收尾索引及同目录机器状态补充最终PAUSED/同步完成状态。"
+}
